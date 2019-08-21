@@ -313,6 +313,17 @@ ul.navmenu:after {
     font-family: 'Upgrade-Regular', sans-serif;
     color: #%(banner.textFill)s;
 }
+.banner .textbox h1 a { 
+    font-size: 0.7em;
+    line-height: 1.3em;
+    background-color: #%(banner.textFill)s;
+    font-family: 'Upgrade-Medium', sans-serif;
+    color: white;
+    padding: 0.2em;
+}
+.banner .textbox h1 a:hover { 
+    color: #DDD;
+}
 
 /* Collection */
 

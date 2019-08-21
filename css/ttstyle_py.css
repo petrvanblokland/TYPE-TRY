@@ -286,6 +286,17 @@ ul.navmenu:after {
     font-family: 'Upgrade-Regular', sans-serif;
     color: #FF0000;
 }
+.banner .textbox h1 a { 
+    font-size: 0.7em;
+    line-height: 1.3em;
+    background-color: #FF0000;
+    font-family: 'Upgrade-Medium', sans-serif;
+    color: white;
+    padding: 0.2em;
+}
+.banner .textbox h1 a:hover { 
+    color: #DDD;
+}
 
 /* Collection */
 

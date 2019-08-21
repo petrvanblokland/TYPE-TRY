@@ -112,7 +112,68 @@ FONT_DATA_LIST = {
             adobe='https://fonts.adobe.com/fonts/powerlift',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/powerlift',
         )),
-    ]
+    ],
+    'Bitcount Outline Round': [
+        ('Bitcount_Try_Mono_Double_Outline-Black_Round', dict(
+            sample='Bitcount Black Round',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Round', dict(
+            sample='Bitcount X-Bold Round',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Bold_Round', dict(
+            sample='Bitcount Bold Round',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Medium_Round', dict(
+            sample='Bitcount Medium Round',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Round', dict(
+            sample='Bitcount (Regular) Round',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Book_Round', dict(
+            sample='Bitcount Book Round',
+        )),
+    ],
+    'Bitcount Outline Square': [
+        ('Bitcount_Try_Mono_Double_Outline-Black_Square', dict(
+            sample='Bitcount Black Square',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Square', dict(
+            sample='Bitcount X-Bold Square',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Bold_Square', dict(
+            sample='Bitcount Bold Square',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Medium_Square', dict(
+            sample='Bitcount Medium Square',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Square', dict(
+            sample='Bitcount (Regular) Square',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Book_Square', dict(
+            sample='Bitcount Book Square',
+        )),
+    ],
+    'Bitcount Outline Square Italic': [
+        ('Bitcount_Try_Mono_Double_Outline-Black_Square_Italic', dict(
+            sample='Bitcount Black Sq.Italic',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Square_Italic', dict(
+            sample='Bitcount X-Bold Sq.Italic',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Bold_Square_Italic', dict(
+            sample='Bitcount Bold Sq.Italic',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Medium_Square_Italic', dict(
+            sample='Bitcount Medium Sq.Italic',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Square_Italic', dict(
+            sample='Bitcount (Regular) Sq.Italic',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Book_Square_Italic', dict(
+            sample='Bitcount Book Sq.Italic',
+        )),
+    ],
+
 }
 
 VERBOSE = False
@@ -184,7 +245,7 @@ def makeTemplate(doc):
 
 def makeSite(styles, viewId):
     site = Site(styles=styles)
-    doc = site.newDocument(viewId=viewId, name='WorldFonts', autoPages=1, defaultImageWidth=MAX_IMAGE_WIDTH)
+    doc = site.newDocument(viewId=viewId, name='TYPE-TRY', autoPages=1, defaultImageWidth=MAX_IMAGE_WIDTH)
     
     doc.docLib['fontDataList'] = FONT_DATA_LIST
 

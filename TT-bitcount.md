@@ -10,37 +10,55 @@ page.url = 'bitcount.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# World Font Specifications
+# Bitcount Outline Round [TRY](downloads/Bitcount_Try_Outline-Round.zip)
 
-~~~ 
-from pagebot.constants import *
-slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)
-box = slideshow.side
-
+Try the pre-release of **Bitcount Outline Round** weights. Download the TYPE TRY font package [here.](downloads/Bitcount_Try_Outline-Round.zip)
 ~~~
-### Lorem ipsum dolor sit amet
+# The Bitcount fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Round'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 
-## Donec euismod ex in mauris feugiat.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc magna, blandit et venenatis sit amet, congue in sapien. Donec euismod ex in mauris feugiat, quis commodo massa vestibulum. Sed non laoreet tortor.  
-
-# Contact us
-
+box = content.newBanner()
 ~~~
-box = slideshow.slides
+
+# Bitcount Outline Square [TRY](downloads/Bitcount_Try_Outline-Square.zip)
+
+Try the pre-release of **Bitcount Outline Square** weights. Download the TYPE TRY font package [here.](downloads/Bitcount_Try_Outline-Square.zip)
+~~~
+# The Bitcount fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+
+box = content.newBanner()
+~~~
+
+# Bitcount Outline Square Italic [TRY](downloads/Bitcount_Try_Outline-Square_Italic.zip)
+
+Try the pre-release of **Bitcount Outline Square Italic** weights. Download the TYPE TRY font package [here.](downloads/Bitcount_Try_Outline-Square_Italic.zip)
+~~~
+# The Bitcount fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square Italic'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+
 ~~~
 
 ~~~
 section = content.newSection()
 box = section.newMain()
 ~~~
-## Supported scripts
+## Compatible with Bitcount Mono
 
-Aliquam at dapibus lacus. Phasellus molestie ante in tempus vehicula. Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
+The **Bitcount Outline** series is compatible with the **TYPETR Bitcount Mono**, published by Type Network and available in the Adobe Fonts Library. 
 
-![](images/GlyphSets-InPractice.png)
+Since the glyphset and the spacing are identical, the **Bitcount Mono** can be mixed with the **Bitcount Outline** in multiple different layers. 
 
-[See more about the support scripts.](scripts.html)
+~~~
+box = section.newSide()
+~~~
+
+Try live examples of **Bitcount Mono** layering <a href="https://bitcount.typenetwork.com" target="external">here.</a>
+
+![](images/bitcountHome.png)
+![](images/bitcountLayers1.png)
+![](images/bitcountLayers2.png)
+![](images/bitcountLayers4.png)
 
 ~~~
 section = content.newSection()
@@ -50,15 +68,11 @@ box = section.newMain()
 
 Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
 
-![Features](images/UpgradeFeatures.png)
-
 ~~~
 box = section.newInfo()
 ~~~
 
 Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
-
-![](images/TYPETR-Upgrade-Screen.png)
 
 ~~~
 section = content.newSection()
@@ -68,18 +82,18 @@ box = section.newMain()
 
 Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. 
 
-### Download the World Font glyph set as PDF
+### Download the Bitcount Try Outline TTF files.
 
-* [Regular](downloads/WorldFontFullGlyphSet-Regular.pdf)
-* [Medium](downloads/WorldFontFullGlyphSet-Medium.pdf)
-* [Semi-Bold](downloads/WorldFontFullGlyphSet-SemiBold.pdf)
-* [Bold](downloads/WorldFontFullGlyphSet-Bold.pdf)
+Note that the TYPE TRY fonts are for review only. Therefor a limited glyphset is implemented as sneak preview. Refer to the Type Network store for a full license, as soon as Bitcount Outline published.
+
+* [Bitcount Try Outline Round](downloads/Bitcount_Try_Outline_Round.zip)
+* [Bitcount Try Outline Square](downloads/Bitcount_Try_Outline_Square.zip)
 
 ~~~
 box = section.newSide()
 ~~~
 
-![Regular](images/WorldFontFullGlyphSet-Regular_1.png)
+ZZZ
 
 ~~~
 section = content.newSection()
@@ -88,14 +102,6 @@ box = section.newMain()
 ## Supported weights
 
 Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
-
-### World Font Sans
-
-![Weights Sans](images/WF-Image40_1.png)
-
-### World Font Slab
-
-![Weights Slab](images/WF-Image30_1.png)
 
 ~~~
 section = content.newSection()
@@ -113,4 +119,4 @@ Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempu
 box = section.newCropped()
 ~~~
 
-![w=800 y=top](images/Upgrade-BoldOutline-FontWindow.png)
+
