@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <document><pre><code># ----------------------------------------
-# Studies/2019-studies.html
+# upgrade.html
 # ----------------------------------------
 page = page.next
 page.applyTemplate(template)  
-page.name = 'Scripts'
-page.url = 'scripts.html'
+page.name = 'Upgrade'
+page.url = 'upgrade.html'
 
 content = page.select('Content')
 box = content.newBanner()

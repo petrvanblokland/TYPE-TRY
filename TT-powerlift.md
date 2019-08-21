@@ -5,8 +5,8 @@
 # ----------------------------------------
 page = page.next
 page.applyTemplate(template)  
-page.name = 'Portfolio'
-page.url = 'portfolio.html'
+page.name = 'PowerLift'
+page.url = 'powerlift.html'
 
 content = page.select('Content')
 box = content.newBanner()
@@ -33,6 +33,8 @@ box = content.newBanner()
 # What designers did with the font
 
 ~~~
+box = content.newTypeList(doc.docLib['fontDataList']['PowerLift'], fontSize=44, labelFont='Upgrade-Regular', labelFontSize=18)
+
 box = content.newIntroduction()
 ~~~
 # Nam leo orci, condimentum vel nunc et, euismod varius nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut id imperdiet elit. 
@@ -78,4 +80,6 @@ Aliquam at ex aliquet, lacinia risus vel, rhoncus velit. Etiam id arcu mi. Nulla
 box = section.newSide()
 ~~~ 
 
-![](images/fashionCoverPages1-Latin_1.png)![](images/fashionCoverPages1-Hangul_1.png)![](images/fashionCoverPages1-Kanji_1.png)
+![](images/fashionCoverPages1-Latin_1.png)
+![](images/fashionCoverPages1-Hangul_1.png)
+![](images/fashionCoverPages1-Kanji_1.png)

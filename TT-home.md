@@ -41,7 +41,7 @@ box = content.newCropped()
 
 # Hi Honey, I’ll buy you a lunch: Fish’n Chips
 ~~~
-box = content.newTypeList(doc.docLib['fontDataList'], fontSize=40, labelFont='Upgrade-Regular', labelFontSize=18)
+box = content.newTypeList(doc.docLib['fontDataList']['Upgrade'], fontSize=44, labelFont='Upgrade-Regular', labelFontSize=18)
 ~~~
 
 ~~~

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <document><pre><code># ----------------------------------------
-# Studies/2019-studies.html
+# bitcount.html
 # ----------------------------------------
 page = page.next
 page.applyTemplate(template)  
-page.name = 'Specs'
-page.url = 'specs.html'
+page.name = 'Bitcount'
+page.url = 'bitcount.html'
 
 content = page.select('Content')
 box = content.newBanner()

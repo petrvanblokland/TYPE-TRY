@@ -4,8 +4,8 @@
 # ----------------------------------------
 page = page.next
 page.applyTemplate(template)  
-page.name = 'Specs'
-page.url = 'specs.html'
+page.name = 'Prominence'
+page.url = 'prominence.html'
 
 content = page.select('Content')
 box = content.newBanner()

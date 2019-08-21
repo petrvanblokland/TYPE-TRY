@@ -39,7 +39,7 @@ box = content.newBanner()
 
 <p><img alt="y=top contain noscale" src="images/IMG_4539.JPG" /></p>
 <h1>Hi Honey, I’ll buy you a lunch: Fish’n Chips</h1>
-<pre><code>box = content.newTypeList(doc.docLib['fontDataList'], fontSize=40, labelFont='Upgrade-Regular', labelFontSize=18)
+<pre><code>box = content.newTypeList(doc.docLib['fontDataList']['Upgrade'], fontSize=44, labelFont='Upgrade-Regular', labelFontSize=18)
 </code></pre>
 
 <pre><code>box = content.newIntroduction()

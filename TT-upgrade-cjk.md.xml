@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document><pre><code># ----------------------------------------
+# upgrade-cjk.html
+# ----------------------------------------
+page = page.next
+page.applyTemplate(template)  
+page.name = 'Upgrade CJK'
+page.url = 'upgrade-cjk.html'
+
+content = page.select('Content')
+box = content.newBanner()
+</code></pre>
+
+<h1>Type in the making. Try it now.</h1>
+<pre><code>box = content.newCropped()
+</code></pre>
+
+<p><img alt="y=top h=100% noScale" src="images/IMG_4664.JPG" /></p>
+<h1>You &amp; me will have a romantic diner night.</h1>
+<pre><code>box = content.newCropped()
+</code></pre>
+
+<p><img alt="y=top h=100% noScale" src="images/IMG_4609.JPG" /></p>
+<h1>Sweetheart, it’s hotdog time.</h1>
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>TYPE-TRY gives an updated overview of running TYPETR projects. Download sample fonts to test yourself. Use the type already, while they are still in the making. Send wishes and suggestions. Find example templates that show we would use them. Copy code snippets to help you implement TYPETR type.</h1>
+<pre><code>box = content.newBanner()
+</code></pre>
+
+<h1>Check out the available scripts</h1>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Order the script combinations that you need.</h2>
+<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor. </p>
+<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
+<ul>
+<li>Mauris sagittis, dui at tristique elementum, sapien tortor accumsan nisi, et blandit eros magna nec arcu. Nulla pharetra rutrum dictum. </li>
+<li>Vivamus congue turpis nunc, non vestibulum odio aliquet in. </li>
+<li>Aliquam ut dapibus metus, quis vehicula nulla. </li>
+<li>Nullam semper erat vel turpis dictum, eget hendrerit mauris convallis.</li>
+</ul>
+<pre><code>box = section.newSide()
+</code></pre>
+
+<p><img alt="" src="images/bierCoverPages2-Chinese_1.gif" /></p>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Chinese (Simplified)</h2>
+<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
+<p><img alt="" src="images/WF-Image10_1.png" /></p>
+<pre><code>box = box.newInfo()
+</code></pre>
+
+<h3>World Font Sans</h3>
+<p><img alt="" src="images/WF-Image10_7.png" /><br />
+<img alt="" src="images/WF-Image10_13.png" /><br />
+<img alt="" src="images/WF-Image10_19.png" /></p>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
+<h3>Word Font Slab</h3>
+<p><img alt="" src="images/WF-Image10_25.png" /><br />
+<img alt="" src="images/WF-Image10_31.png" /><br />
+<img alt="" src="images/WF-Image10_37.png" /><br />
+<img alt="" src="images/WF-Image10_43.png" /></p>
+<p><img alt="" src="images/WF-Chinese-Detail2.png" /></p>
+<pre><code>box = section.newSide()
+</code></pre>
+
+<h3>Reading from screen and print</h3>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
+<p><img alt="" src="images/PublishingVariables-Chinese_7.png" /></p>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Chinese (Traditional)</h2>
+<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
+<p><img alt="" src="images/WF-Image10_2.png" /></p>
+<pre><code>box = box.newInfo()
+</code></pre>
+
+<h3>World Font Sans</h3>
+<p><img alt="" src="images/WF-Image10_8.png" /><br />
+<img alt="" src="images/WF-Image10_14.png" /><br />
+<img alt="" src="images/WF-Image10_20.png" /></p>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
+<h3>Word Font Slab</h3>
+<p><img alt="" src="images/WF-Image10_26.png" /><br />
+<img alt="" src="images/WF-Image10_32.png" /><br />
+<img alt="" src="images/WF-Image10_38.png" /><br />
+<img alt="" src="images/WF-Image10_44.png" /></p>
+<p><img alt="" src="images/WF-Chinese-Detail1.png" /></p>
+<pre><code>box = section.newSide()
+</code></pre>
+
+<h3>Reading from screen and print</h3>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
+<p><img alt="" src="images/PublishingVariables-Chinese_7.png" /></p>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Japanese</h2>
+<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
+<p><img alt="" src="images/WF-Image10_3.png" /></p>
+<pre><code>box = box.newInfo()
+</code></pre>
+
+<h3>World Font Sans</h3>
+<p><img alt="" src="images/WF-Image10_9.png" /><br />
+<img alt="" src="images/WF-Image10_15.png" /><br />
+<img alt="" src="images/WF-Image10_21.png" /></p>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
+<h3>Word Font Slab</h3>
+<p><img alt="" src="images/WF-Image10_27.png" /><br />
+<img alt="" src="images/WF-Image10_33.png" /><br />
+<img alt="" src="images/WF-Image10_39.png" /><br />
+<img alt="" src="images/WF-Image10_45.png" /></p>
+<pre><code>box = section.newSide()
+</code></pre>
+
+<h3>Reading from screen and print</h3>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
+<p><img alt="" src="PublishingVariables-Kanji_7.png" /></p>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Korean</h2>
+<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
+<p><img alt="" src="images/WF-Image10_4.png" /></p>
+<pre><code>box = box.newInfo()
+</code></pre>
+
+<h3>World Font Sans</h3>
+<p><img alt="" src="images/WF-Image10_10.png" /><br />
+<img alt="" src="images/WF-Image10_16.png" /><br />
+<img alt="" src="images/WF-Image10_22.png" /></p>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
+<h3>Word Font Slab</h3>
+<p><img alt="" src="images/WF-Image10_28.png" /><br />
+<img alt="" src="images/WF-Image10_34.png" /><br />
+<img alt="" src="images/WF-Image10_40.png" /><br />
+<img alt="" src="images/WF-Image10_46.png" /></p>
+<p><img alt="" src="images/WF-Hangul-Detail2.png" /></p>
+<pre><code>box = section.newSide()
+</code></pre>
+
+<h3>Reading from screen</h3>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
+<p><img alt="" src="images/PublishingVariables-Hangul_7.png" /></p>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Russian</h2>
+<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
+<p><img alt="" src="images/WF-Image10_5.png" /></p>
+<pre><code>box = box.newInfo()
+</code></pre>
+
+<h3>World Font Sans</h3>
+<p><img alt="" src="images/WF-Image10_11.png" /><br />
+<img alt="" src="images/WF-Image10_17.png" /><br />
+<img alt="" src="images/WF-Image10_23.png" /></p>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
+<h3>Word Font Slab</h3>
+<p><img alt="" src="images/WF-Image10_29.png" /><br />
+<img alt="" src="images/WF-Image10_35.png" /><br />
+<img alt="" src="images/WF-Image10_41.png" /><br />
+<img alt="" src="images/WF-Image10_47.png" /></p>
+<pre><code>box = section.newSide()
+</code></pre>
+
+<h3>Reading from screen</h3>
+<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Pricing</h2>
+<p>Aliquam at dapibus lacus. Phasellus molestie ante in tempus vehicula. Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
+<p><a href="pricing.html">See more about pricing here.</a></p></document>

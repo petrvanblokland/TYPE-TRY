@@ -1,11 +1,11 @@
 ~~~
 # ----------------------------------------
-# Studies/2019-studies.html
+# upgrade-cjk.html
 # ----------------------------------------
 page = page.next
 page.applyTemplate(template)  
-page.name = 'Scripts'
-page.url = 'scripts.html'
+page.name = 'Upgrade CJK'
+page.url = 'upgrade-cjk.html'
 
 content = page.select('Content')
 box = content.newBanner()

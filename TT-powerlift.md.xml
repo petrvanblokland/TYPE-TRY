@@ -4,8 +4,8 @@
 # ----------------------------------------
 page = page.next
 page.applyTemplate(template)  
-page.name = 'Portfolio'
-page.url = 'portfolio.html'
+page.name = 'PowerLift'
+page.url = 'powerlift.html'
 
 content = page.select('Content')
 box = content.newBanner()
@@ -26,7 +26,9 @@ box = content.newBanner()
 </code></pre>
 
 <h1>What designers did with the font</h1>
-<pre><code>box = content.newIntroduction()
+<pre><code>box = content.newTypeList(doc.docLib['fontDataList']['PowerLift'], fontSize=44, labelFont='Upgrade-Regular', labelFontSize=18)
+
+box = content.newIntroduction()
 </code></pre>
 
 <h1>Nam leo orci, condimentum vel nunc et, euismod varius nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut id imperdiet elit.</h1>
