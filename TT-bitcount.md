@@ -55,10 +55,10 @@ box = section.newSide()
 
 Try live examples of **Bitcount Mono** layering <a href="https://bitcount.typenetwork.com" target="external">here.</a>
 
-![](images/bitcountHome.png)
-![](images/bitcountLayers1.png)
-![](images/bitcountLayers2.png)
-![](images/bitcountLayers4.png)
+![noscale](images/bitcountHome.png)
+![noscale](images/bitcountLayers1.png)
+![noscale](images/bitcountLayers2.png)
+![noscale](images/bitcountLayers4.png)
 
 ~~~
 section = content.newSection()
