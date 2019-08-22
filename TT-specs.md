@@ -4,13 +4,13 @@
 # ----------------------------------------
 page = page.next
 page.applyTemplate(template)  
-page.name = 'Promise'
-page.url = 'promise.html'
+page.name = 'Specs'
+page.url = 'specs.html'
 
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Upgrade CJK Specifications
+# World Font Specifications
 
 ~~~ 
 from pagebot.constants import *
@@ -68,7 +68,7 @@ box = section.newMain()
 
 Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. 
 
-### Download the Upgrade CJK glyph set as PDF
+### Download the World Font glyph set as PDF
 
 * [Regular](downloads/UpgradeCJKFullGlyphSet-Regular.pdf)
 * [Medium](downloads/UpgradeCJKFullGlyphSet-Medium.pdf)
@@ -89,11 +89,11 @@ box = section.newMain()
 
 Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
 
-### Upgrade CJK Sans
+### World Font Sans
 
 ![Weights Sans](images/WF-Image40_1.png)
 
-### Upgrade CJK Slab
+### World Font Slab
 
 ![Weights Slab](images/WF-Image30_1.png)
 

@@ -79,13 +79,13 @@ box = section.newMain()
 <pre><code>box = section.newSide()
 </code></pre>
 
-<h3>Download the World Font glyph set as PDF</h3>
+<h3>Download the Upgrade CJK glyph set as PDF</h3>
 <ul>
-<li><a href="downloads/WorldFontFullGlyphSet-Regular.pdf">Regular</a></li>
-<li><a href="downloads/WorldFontFullGlyphSet-Medium.pdf">Medium</a></li>
-<li><a href="downloads/WorldFontFullGlyphSet-SemiBold.pdf">Semi-Bold</a></li>
-<li><a href="downloads/WorldFontFullGlyphSet-Bold.pdf">Bold</a></li>
+<li><a href="downloads/UpgradeCJKFullGlyphSet-Regular.pdf">Regular</a></li>
+<li><a href="downloads/UpgradeCJKFullGlyphSet-Medium.pdf">Medium</a></li>
+<li><a href="downloads/UpgradeCJKFullGlyphSet-SemiBold.pdf">Semi-Bold</a></li>
+<li><a href="downloads/UpgradeCJKFullGlyphSet-Bold.pdf">Bold</a></li>
 </ul>
 <h2>Licensing</h2>
 <p>Aliquam accumsan, velit mollis pellentesque accumsan, orci nulla ullamcorper ligula, imperdiet facilisis quam massa a ipsum. Aliquam vitae aliquet odio. Nulla facilisi. Proin pulvinar nisl quis ipsum vehicula pharetra. Praesent ullamcorper in elit sit amet maximus. </p>
-<p><img alt="w=800 y=top" src="images/WorldFontFullGlyphSet-Bold_1.png" /></p></document>
+<p><img alt="w=800 y=top" src="images/UpgradeCJKFullGlyphSet-Bold_1.png" /></p></document>

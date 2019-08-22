@@ -92,17 +92,17 @@ Donec euismod ex in mauris feugiat, quis commodo massa vestibulum. Sed non laore
 ~~~
 box = section.newSide()
 ~~~
-### Download the World Font glyph set as PDF
+### Download the Upgrade CJK glyph set as PDF
 
-* [Regular](downloads/WorldFontFullGlyphSet-Regular.pdf)
-* [Medium](downloads/WorldFontFullGlyphSet-Medium.pdf)
-* [Semi-Bold](downloads/WorldFontFullGlyphSet-SemiBold.pdf)
-* [Bold](downloads/WorldFontFullGlyphSet-Bold.pdf)
+* [Regular](downloads/UpgradeCJKFullGlyphSet-Regular.pdf)
+* [Medium](downloads/UpgradeCJKFullGlyphSet-Medium.pdf)
+* [Semi-Bold](downloads/UpgradeCJKFullGlyphSet-SemiBold.pdf)
+* [Bold](downloads/UpgradeCJKFullGlyphSet-Bold.pdf)
 
 ## Licensing
 
 Aliquam accumsan, velit mollis pellentesque accumsan, orci nulla ullamcorper ligula, imperdiet facilisis quam massa a ipsum. Aliquam vitae aliquet odio. Nulla facilisi. Proin pulvinar nisl quis ipsum vehicula pharetra. Praesent ullamcorper in elit sit amet maximus. 
 
-![w=800 y=top](images/WorldFontFullGlyphSet-Bold_1.png)
+![w=800 y=top](images/UpgradeCJKFullGlyphSet-Bold_1.png)
 
 

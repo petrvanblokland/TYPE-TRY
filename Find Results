@@ -1,0 +1,1241 @@
+Searching 258 files for "textFill" (case sensitive)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TYPE-TRY-flashneon-logo.py:
+   50              color3 = c2
+   51          
+   52:     style1 = dict(font=f, fontSize=FONTSIZE, textFill=color1, tracking=TRACK)
+   53:     style2 = dict(font=f, fontSize=FONTSIZE, textFill=color2, tracking=TRACK)
+   54:     style3 = dict(font=f, fontSize=FONTSIZE, textFill=color3, tracking=0)
+   55      bs = context.newString('TYPE', style=style1)
+   56      bs += context.newString('TR', style=style2)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TYPE-TRY-sinus-logo.py:
+   33      color2 = color(c1.r*a + c2.r*(1-a), c1.g*a + c2.g*(1-a), c1.b*a + c2.b*(1-a),)
+   34      color3 = color(c2.r, c2.g, c2.b, a=(1-a))
+   35:     style1 = dict(font=f, fontSize=FONTSIZE, textFill=color1, tracking=TRACK)
+   36:     style2 = dict(font=f, fontSize=FONTSIZE, textFill=color2, tracking=TRACK)
+   37:     style3 = dict(font=f, fontSize=FONTSIZE, textFill=color3, tracking=0)
+   38      bs = context.newString('TYPE', style=style1)
+   39      bs += context.newString('TR', style=style2)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/css/ttstyle_css.py:
+   29  body {
+   30      background-color: #%(body.fill)s;
+   31:     color: #%(body.textFill)s;
+   32      font-family: 'Upgrade-Regular', sans-serif;
+   33      font-size: 17px;
+   ..
+   84      font-family: 'Upgrade-Semibold', sans-serif;
+   85      margin: 0;
+   86:     color: #%(h1.textFill)s;
+   87  }
+   88  h1 a {
+   ..
+  166      font-family: 'Upgrade-Medium';
+  167      letter-spacing: 0.015em;
+  168:     color: #%(logo.textFill)s;
+  169  }
+  170  
+  ...
+  312      line-height: 1.3em;
+  313      font-family: 'Upgrade-Regular', sans-serif;
+  314:     color: #%(banner.textFill)s;
+  315  }
+  316  .banner .textbox h1 a { 
+  317      font-size: 0.5em;
+  318      line-height: 1.3em;
+  319:     background-color: #%(banner.textFill)s;
+  320      font-family: 'Upgrade-Medium', sans-serif;
+  321:     color: #%(banner.textFillDiap)s;
+  322  }
+  323  
+  ...
+  341      line-height: 1.2em;
+  342      font-family: 'Upgrade-Light', sans-serif;
+  343:     color: #%(intro.textFill)s;
+  344  }
+  345  .introduction .textbox h1 a {
+  ...
+  368  }
+  369  .slideside .textbox h1 {
+  370:     color: #%(h2.textFillDiap)s;
+  371      letter-spacing: 0.025em;
+  372      font-size: 1.4em;
+  ...
+  381  }
+  382  .slideside .textbox h2 {
+  383:     color: #%(h2.textFillDiap)s;
+  384      letter-spacing: 0.025em;
+  385      font-size: 1.4em;
+  ...
+  388  }
+  389  .slideside .textbox h3 {
+  390:     color: #%(h3.textFillDiap)s;
+  391      letter-spacing: 0.025em;
+  392      font-size: 1.1em;
+  ...
+  395  }
+  396  .slideside .textbox p {
+  397:     color: #%(p.textFillDiap)s;
+  398      letter-spacing: 0.025em;
+  399      font-size: 1em;
+  ...
+  408  sup { /* Superior number <sup> by Upgrade OT-feature */
+  409      top: 0em;
+  410:     color: #%(p.textFill)s;
+  411      font-size: inherit;
+  412      vertical-align: inherit;
+  ...
+  418  }
+  419  h1 sup { /* Superior Scale number in h1 */
+  420:     color: #%(h1.textFill)s;
+  421  }
+  422  li sup { /* Superior Scale number in Menu */
+  423:     color: #%(li.textFill)s;
+  424  }
+  425  
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/docs/css/ttstyle_css.py:
+   29  body {
+   30      background-color: #%(body.fill)s;
+   31:     color: #%(body.textFill)s;
+   32      font-family: 'Upgrade-Regular', sans-serif;
+   33      font-size: 17px;
+   ..
+   84      font-family: 'Upgrade-Semibold', sans-serif;
+   85      margin: 0;
+   86:     color: #%(h1.textFill)s;
+   87  }
+   88  h1 a {
+   ..
+  166      font-family: 'Upgrade-Medium';
+  167      letter-spacing: 0.015em;
+  168:     color: #%(logo.textFill)s;
+  169  }
+  170  
+  ...
+  312      line-height: 1.3em;
+  313      font-family: 'Upgrade-Regular', sans-serif;
+  314:     color: #%(banner.textFill)s;
+  315  }
+  316  
+  ...
+  334      line-height: 1.2em;
+  335      font-family: 'Upgrade-Light', sans-serif;
+  336:     color: #%(intro.textFill)s;
+  337  }
+  338  .introduction .textbox h1 a {
+  ...
+  361  }
+  362  .slideside .textbox h1 {
+  363:     color: #%(h2.textFillDiap)s;
+  364      letter-spacing: 0.025em;
+  365      font-size: 1.4em;
+  ...
+  374  }
+  375  .slideside .textbox h2 {
+  376:     color: #%(h2.textFillDiap)s;
+  377      letter-spacing: 0.025em;
+  378      font-size: 1.4em;
+  ...
+  381  }
+  382  .slideside .textbox h3 {
+  383:     color: #%(h3.textFillDiap)s;
+  384      letter-spacing: 0.025em;
+  385      font-size: 1.1em;
+  ...
+  388  }
+  389  .slideside .textbox p {
+  390:     color: #%(p.textFillDiap)s;
+  391      letter-spacing: 0.025em;
+  392      font-size: 1em;
+  ...
+  401  sup { /* Superior number <sup> by Upgrade OT-feature */
+  402      top: 0em;
+  403:     color: #%(p.textFill)s;
+  404      font-size: inherit;
+  405      vertical-align: inherit;
+  ...
+  411  }
+  412  h1 sup { /* Superior Scale number in h1 */
+  413:     color: #%(h1.textFill)s;
+  414  }
+  415  li sup { /* Superior Scale number in Menu */
+  416:     color: #%(li.textFill)s;
+  417  }
+  418  
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/scripts/bierMagCovers.py:
+   51      )
+   52      
+   53:     priceStyle1 = dict(font='Upgrade-Book', fontSize=15, textFill=1, rTracking=0.02)
+   54:     priceStyle2 = dict(font='Upgrade-Book', textFill=1, fontSize=15, openTypeFeatures=dict(sups=True))
+   55      bs = context.newString(t[page], style=priceStyle1)
+   56      bs +=  context.newString('95',style=priceStyle2)
+   ..
+   64      )
+   65      # Title of cover, make it fit in with and add shadow
+   66:     style = dict(font='Upgrade-Light', fontSize=15.5, textFill=c[page], openTypeFeatures=dict(smcp=True, c2sc=True, ss08=True), rLeading=0.9, rTracking=0.02)
+   67      #bs = context.newString('onafhankelijk smaakmakend\rmagazine over speciaal bier', style=style)  
+   68      bs = context.newString('onafhankelijk smaakmakend\r'.upper(), style=style)  
+   ..
+   73  
+   74      # Title of cover, make it fit in with and add shadow
+   75:     coverTitleStyle = dict(font='Upgrade-Black', fontSize=100, textFill=1, rTracking=-0.025)
+   76      bs = context.newString(magazineTitle, style=coverTitleStyle, w=w)  
+   77      bx, by, bw, bh = bs.bounds()
+   ..
+   88          (u'Bierreis grensstreek', w*2/3.2)
+   89      )
+   90:     style = dict(font='Upgrade-Italic', fontSize=64, textFill=(1, 1, 1, 0.8), rLeading=1)
+   91      bs = context.newString(t[page][0], style=style, w=t[page][1])  
+   92      bx, by, bw, bh = bs.bounds()
+   ..
+  101          (u'Droomweekend bier', w/2),
+  102      )
+  103:     style = dict(font='Upgrade-Semibold', fontSize=50, textFill=(0xd4/255, 0x89/255, 0x5a/255, 0.8), rTracking=0.02, rLeading=0.7)
+  104      bs = context.newString(t[page][0], style=style, w=t[page][1])  
+  105      bx, by, bw, bh = bs.bounds()
+  ...
+  116          (u'Italiaans abdijbier', w-2*M, (0xd4/255, 0x89/255, 0x5a/255, 0.1)),   
+  117      )
+  118:     style = dict(font='Upgrade-Black', fontSize=60, textFill=t[page][2], textStroke=(1, 1, 1, 0.5), textStrokeWidth=3, rTracking=0.03, rLeading=0.9)
+  119      bs = context.newString(t[page][0], style=style, w=t[page][1])  
+  120      bx, by, bw, bh = bs.bounds()
+  ...
+  129          u'Brouwerij in distilleerderij in Weesper kerk',  
+  130      )
+  131:     style = dict(font='Upgrade-Regular', fontSize=100, textFill=(1, 1, 1, 0.95), rTracking=0.02)
+  132      bs = context.newString(t[page], style=style, w=w-3*M)  
+  133      bx, by, bw, bh = bs.bounds()
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/scripts/bookCovers.py:
+   40      
+   41      # Title of cover, make it fit in with and add shadow
+   42:     coverTitleStyle = dict(font='Upgrade-Hairline', fontSize=100, textFill=c1)
+   43      bs = context.newString('THE', style=coverTitleStyle, w=w-M)  
+   44      bx, by, bw, bh = bs.bounds()
+   ..
+   47      y -= bh-by+M/2
+   48  
+   49:     coverTitleStyle = dict(font='Upgrade-Thin', fontSize=100, textFill=c1)
+   50      bs = context.newString('LONGEST', style=coverTitleStyle, w=w-1.5*M)  
+   51      bx, by, bw, bh = bs.bounds()
+   ..
+   55  
+   56      # Title of cover, make it fit in with and add shadow
+   57:     coverTitleStyle = dict(font='Upgrade-ExtraLight', fontSize=100, textFill=c1, rTracking=0.05)
+   58      bs = context.newString('MELLIFLUOUSLY', style=coverTitleStyle, w=w-1.5*M)  
+   59      bx, by, bw, bh = bs.bounds()
+   ..
+   62      y -= bh-by+M/2
+   63  
+   64:     coverTitleStyle = dict(font='Upgrade-Light', fontSize=100, textFill=c1, rTracking=0.07)
+   65      bs = context.newString('supercalifragilisticexpialidociously'.upper(), style=coverTitleStyle, w=w-2*M)  
+   66      bx, by, bw, bh = bs.bounds()
+   ..
+   69      y -= bh-by+M/2
+   70  
+   71:     coverTitleStyle = dict(font='Upgrade-Book', fontSize=100, textFill=c1, rTracking=0.07)
+   72      bs = context.newString('pneumonoultramicroscopicsilicovolcanoconiosis'.upper(), style=coverTitleStyle, w=w-2*M)  
+   73      bx, by, bw, bh = bs.bounds()
+   ..
+   76      y -= bh-by+M/2
+   77      
+   78:     coverTitleStyle = dict(font='Upgrade-Light', fontSize=100, textFill=c1)
+   79      bs = context.newString('INTERMIXED', style=coverTitleStyle, w=w-1.5*M)  
+   80      bx, by, bw, bh = bs.bounds()
+   ..
+   84  
+   85      # Title of cover, make it fit in with and add shadow
+   86:     coverTitleStyle = dict(font='Upgrade-Light', fontSize=100, textFill=c2)
+   87      bs = context.newString('MATTHEW', style=coverTitleStyle, w=w-1.5*M)  
+   88      bx, by, bw, bh = bs.bounds()
+   ..
+   92      
+   93      # Title of cover, make it fit in with and add shadow
+   94:     coverTitleStyle = dict(font='Upgrade-Light', fontSize=100, textFill=c2)
+   95      bs = context.newString('DOW', style=coverTitleStyle, w=w-M)  
+   96      bx, by, bw, bh = bs.bounds()
+   ..
+  114      
+  115          # Title of cover, make it fit in with and add shadow
+  116:         coverTitleStyle = dict(font='Upgrade-Book', fontSize=100, textFill=1, rTracking=0.2, openTypeFeatures=dict(smcp=True) )
+  117          bs = context.newString('One Lightyear Equals', style=coverTitleStyle, w=w-2*M)  
+  118          bx, by, bw, bh = bs.bounds()
+  ...
+  128              R = math.sin(math.radians(pn*360/v))*16    
+  129          for index, name in enumerate(styleColors):
+  130:             coverTitleStyle = dict(font=name, fontSize=100, textFill=list(c1)+[index/len(styleColors)], rTracking=0.2, rLeading=0.9, openTypeFeatures=dict(tnum=True) )
+  131              bs = context.newString('9460\n7304\n7258\n0800\n512', style=coverTitleStyle, w=w-M/2)  
+  132              bx, by, bw, bh = bs.bounds()
+  133              context.text(bs, (w/2-(bw+bx)/2+(random()*R-R/2), -by+1.5*M+(random()*R-R/2)))
+  134      
+  135:         coverTitleStyle = dict(font='Upgrade-ExtraLight', fontSize=100, textFill=c1, rTracking=0.05, rLeading=0.9)
+  136          bs = context.newString('mm', style=coverTitleStyle, w=w/5)    
+  137          bx, by, bw, bh = bs.bounds()
+  138          context.text(bs, (w*4/6+M, -by+3.2*M))
+  139      
+  140:         coverTitleStyle = dict(font='Upgrade-Regular', fontSize=100, textFill=c2, rTracking=0.2, rLeading=1.2, openTypeFeatures=dict(smcp=True) )
+  141          bs = context.newString('Design\nDesign\nSpace', style=coverTitleStyle, w=w/5)    
+  142          bx, by, bw, bh = bs.bounds()
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/scripts/businessCards.py:
+   35      
+   36      # Title of cover, make it fit in with and add shadow
+   37:     style = dict(font='Upgrade-Regular', fontSize=14, textFill=1, xTextAlign=CENTER)
+   38:     styleTitle = dict(font='Upgrade-Italic', fontSize=10, textFill=1, xTextAlign=CENTER)
+   39:     styleEmail = dict(font='Upgrade-Light', fontSize=8, textFill=1, xTextAlign=CENTER, leading=10, rTracking=0.02)
+   40      bs = context.newString('Petr van Blokland\n', style=style)  
+   41      bs += context.newString('Designer | Educator | Founder\n', style=styleTitle)  
+   ..
+   44      context.text(bs, (w/2-tw/2, h*0.55))
+   45  
+   46:     logoStyle = dict(font='Upgrade-Black', fontSize=22, textFill=1, rTracking=1.4)
+   47      bs = context.newString(u'.TYPETR', style=logoStyle)
+   48      tw, th = bs.size()
+   ..
+   62      
+   63      # Title of cover, make it fit in with and add shadow
+   64:     style = dict(font='Upgrade-Regular', fontSize=14, textFill=1, xTextAlign=CENTER)
+   65:     styleTitle = dict(font='Upgrade-Italic', fontSize=10, textFill=(0xEC/255, 0x3E/255, 0x2B/255), xTextAlign=CENTER)
+   66:     styleEmail = dict(font='Upgrade-Light', fontSize=8, textFill=1, xTextAlign=CENTER, leading=10, rTracking=0.02)
+   67      bs = context.newString('Claudia Mens\n', style=style)  
+   68      bs += context.newString('Designer | Educator | Founder\n', style=styleTitle)
+   ..
+   71      context.textBox(bs, (w/2-tw/2, h/2-th/2, tw, th))
+   72   
+   73:     styleLogo = dict(font='Upgrade-Thin', fontSize=14, textFill=1, openTypeFeatures=dict(case=True))
+   74      bs = context.newString('PEPPER+TOM', style=styleLogo, w=w)
+   75      context.text(bs, (0, M))  
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/scripts/fashionMagCovers.py:
+   42      context.image('docs/images/IMG_2000-50.jpg', (0, 0), h=h)
+   43      
+   44:     priceStyle1 = dict(font='Upgrade-Book', fontSize=15, textFill=1, rTracking=0.02)
+   45:     priceStyle2 = dict(font='Upgrade-Book', textFill=1, fontSize=15, openTypeFeatures=dict(sups=True))
+   46      bs = context.newString(u'$3', style=priceStyle1)
+   47      bs +=  context.newString('50',style=priceStyle2)
+   ..
+   52      
+   53      # Title of cover, make it fit in with and add shadow
+   54:     style = dict(font='Upgrade-SemiboldItalic', fontSize=18, textFill=TYPETR_COLOR+[0.5])
+   55      bs = context.newString('Summer %d' % (now().year+1), style=style)  
+   56      tw, th = bs.size()  
+   ..
+   58  
+   59      # Title of cover, make it fit in with and add shadow
+   60:     coverTitleStyle = dict(font='Upgrade-UltraBlack', fontSize=100, textFill=1)
+   61      bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-2*M)  
+   62      tw, th = bs.size()  
+   ..
+   67      y = h*5/6
+   68  
+   69:     style = dict(font='Upgrade-HairlineItalic', fontSize=64, textFill=0, rLeading=1)
+   70      bs = context.newString('Upgrade\nHairlines', style=style)  
+   71      tw, th = bs.size()  
+   ..
+   73      
+   74      y -= th*1.1
+   75:     style = dict(font='Upgrade-Semibold', fontSize=40, textFill=TYPETR_COLOR+[0.8], rTracking=0.01, rLeading=0.7, openTypeFeatures=dict(smcp=True))
+   76      bs = context.newString(u'counters\n& curves', style=style, w=w/2)  
+   77      tw, th = bs.size()  
+   ..
+   82  
+   83      y -= th*1.3
+   84:     style = dict(font='Upgrade-Black', fontSize=60, textFill=None, textStroke=(0, 0, 0, 0.5), textStrokeWidth=1, rTracking=-0.01)
+   85      bs = context.newString('BLACK', style=style)  
+   86      tw, th = bs.size()  
+   ..
+   88  
+   89      y -= th*0.7
+   90:     style = dict(font='Upgrade-Thin', fontSize=100, textFill=0, rTracking=-0.01)
+   91      bs = context.newString('Regular weights', style=style, w=w/2)  
+   92      tw, th = bs.size()  
+   ..
+   94      
+   95      y -= th*0.85
+   96:     style = dict(font='Upgrade-Regular', fontSize=100, textFill=(1, 1, 1, 0.95), rTracking=0.02)
+   97      bs = context.newString('Typographic Solutions', style=style, w=w-9*M)  
+   98      tw, th = bs.size()  
+   ..
+  101      context.resetShadow()
+  102      
+  103:     style = dict(font='Upgrade-Black', fontSize=100, textFill=(1, 1, 1, 0.95), rTracking=0.2)
+  104      bs = context.newString(u'HOW TO LICENSE THE TYPE FROM TYPETR•COM', style=style, w=w-10*M)  
+  105      tw, th = bs.size()  
+  ...
+  129      
+  130      # Title of cover, make it fit in with and add shadow
+  131:     style = dict(font='Upgrade-SemiboldItalic', fontSize=100, textFill=1)
+  132      bs = context.newString(now().fullmonthname, style=style, w=w/4)  
+  133      tw, th = bs.size()  
+  ...
+  137  
+  138      # Title of cover, make it fit in with and add shadow
+  139:     coverTitleStyle = dict(font='Upgrade-UltraBlack', fontSize=100, textFill=1)
+  140      bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-2*M)  
+  141      tw, th = bs.size()  
+  ...
+  159      y = h - MT
+  160      
+  161:     monthStyle = dict(font='Upgrade-Regular', fontSize=15, textFill=(1, 1, 1, 0.95), rTracking=0.05)
+  162      bs = context.newString(u'%s %d' % (now().fullmonthname, now().year), style=monthStyle)
+  163      bx, by, bw, bh = bs.bounds()
+  164      context.text(bs, (w-7*M-bw, 8*M))
+  165  
+  166:     priceStyle1 = dict(font='Upgrade-Light', fontSize=15, textFill=0, rTracking=0.02)
+  167:     priceStyle2 = dict(font='Upgrade-Light', textFill=0, fontSize=15, openTypeFeatures=dict(sups=True))
+  168      bs = context.newString(u'$4', style=priceStyle1)
+  169      bs +=  context.newString('95',style=priceStyle2)
+  ...
+  173  
+  174      # Title of cover, make it fit in with and add shadow
+  175:     coverTitleStyle = dict(font='Upgrade-UltraBlack', fontSize=100, textFill=1)
+  176      bs = context.newString(u'U', style=coverTitleStyle, w=w/2)  
+  177      bx, by, bw, bh = bs.bounds()
+  ...
+  182      y -= (bh-by)+L+6*M
+  183  
+  184:     style = dict(font='Upgrade-Thin', fontSize=100, textFill=1)
+  185      bs = context.newString('UPGRADE', style=style, w=w/2.2)  
+  186      bx, by, bw, bh = bs.bounds()
+  ...
+  191      y -= bh+4*M
+  192  
+  193:     style = dict(font='Upgrade-Book', fontSize=100, textFill=1)
+  194      bs = context.newString('STYLES', style=style, w=w/2.1)  
+  195      bx, by, bw, bh = bs.bounds()
+  ...
+  201      y -= bh+4*M
+  202      
+  203:     style = dict(font='Upgrade-Light', fontSize=30, textFill=1, xTextAlign=CENTER, rLeading=0.95)
+  204:     style_sc = dict(font='Upgrade-Light', fontSize=30, textFill=1, xTextAlign=CENTER, rLeading=0.95, rTracking=0.2, openTypeFeatures=dict(smcp=True))
+  205      bs = context.newString('Magazine\nTypography\n', style=style)  
+  206      bs += context.newString('Sketching\n', style=style_sc)  
+  ...
+  213      
+  214      y -= th+4+M
+  215:     style = dict(font='Upgrade-Black', fontSize=40, textFill=(1, 0.5, 0.7, 0.8), rTracking=0.01)
+  216      bs = context.newString(u'PAGEBOT PAGINA’S', style=style)  
+  217      bx, by, bw, bh = bs.bounds()
+  ...
+  221      
+  222      y -= bh+6*M
+  223:     style = dict(font='Upgrade-Medium', fontSize=100, textFill=(0xE5/255, 0xE5/255, 0xDe/255, 0.7), rTracking=-0.01)
+  224      bs = context.newString('MediumLight', style=style, w=w-20*M)  
+  225      bx, by, bw, bh = bs.bounds()
+  ...
+  229      
+  230      y -= bh-by+3*M
+  231:     style = dict(font='Upgrade-Semibold', fontSize=100, textFill=(1, 1, 1, 0.95), rTracking=0.2)
+  232      bs = context.newString(u'HOW TO LICENSE THE TYPE FROM TYPETR•COM', style=style, w=w-12*M)  
+  233      bx, by, bw, bh = bs.bounds()
+  ...
+  257      """
+  258      # Title of cover, make it fit in with and add shadow
+  259:     style = dict(font='Upgrade-SemiboldItalic', fontSize=100, textFill=1)
+  260      bs = context.newString(now().fullmonthname, style=style, w=w/4)  
+  261      tw, th = bs.size()  
+  ...
+  265      """
+  266      # Title of cover, make it fit in with and add shadow
+  267:     coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1)
+  268      bs = context.newString('M', style=coverTitleStyle, w=w/2)  
+  269      bx, by, bw, bh = bs.bounds()
+  ...
+  274      y -= bh+L
+  275  
+  276:     monthStyle = dict(font='Upgrade-Book', fontSize=16, textFill=0, rTracking=0.02)
+  277      bs = context.newString(u'December %d' % now().year, style=monthStyle, w=w/3-26*M)
+  278      bx, by, bw, bh = bs.bounds()
+  ...
+  281      y = h/2
+  282  
+  283:     priceStyle1 = dict(font='Upgrade-Book', fontSize=20, textFill=0.7, rTracking=0.02)
+  284:     priceStyle2 = dict(font='Upgrade-Book', textFill=0.7, fontSize=20, openTypeFeatures=dict(sups=True))
+  285      bs = context.newString(u'$4', style=priceStyle1)
+  286      bs +=  context.newString('99',style=priceStyle2)
+  ...
+  290  
+  291      y = h/2-L
+  292:     style = dict(font='Upgrade-Thin', fontSize=100, textFill=1)
+  293      bs = context.newString('THE MATH ISSUE', style=style, w=w-10*M)  
+  294      bx, by, bw, bh = bs.bounds()
+  ...
+  298  
+  299      y -= bh+L
+  300:     style = dict(font='Upgrade-Book', fontSize=100, textFill=1)
+  301      bs = context.newString('FESTIVAL STYLES', style=style, w=w-10*M)  
+  302      bx, by, bw, bh = bs.bounds()
+  ...
+  306      
+  307      y -= bh+L
+  308:     style = dict(font='Upgrade-Book', fontSize=100, textFill=1, rTracking=0.2)
+  309      bs = context.newString('UPGRADED MAGAZINE TYPOGRAPHY', style=style, w=w-10*M)  
+  310      bx, by, bw, bh = bs.bounds()
+  ...
+  314      
+  315      y -= bh+L
+  316:     style = dict(font='Upgrade-Light', fontSize=100, textFill=1, rTracking=0.1)
+  317      bs = context.newString('PAGEBOT FASHION', style=style, w=w-9*M)  
+  318      bx, by, bw, bh = bs.bounds()
+  ...
+  322      
+  323      y -= bh+L
+  324:     style = dict(font='Upgrade-Book', fontSize=100, textFill=1, rTracking=0.02)
+  325      bs = context.newString('HEAD & BODY CURVES', style=style, w=w-9*M)  
+  326      bx, by, bw, bh = bs.bounds()
+  ...
+  330      
+  331      y -= bh+L
+  332:     style = dict(font='Upgrade-ExtraLight', fontSize=100, textFill=1, rTracking=0.02)
+  333      bs = context.newString('LOVE LETTERS', style=style, w=w-8*M)  
+  334      bx, by, bw, bh = bs.bounds()
+  ...
+  338      
+  339      y -= bh+L
+  340:     style = dict(font='Upgrade-Book', fontSize=100, textFill=1, rTracking=0.2)
+  341      bs = context.newString('HOW TO BUY TYPE FROM TYPENETWORK/TYPETR', style=style, w=w-12*M)  
+  342      bx, by, bw, bh = bs.bounds()
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/scripts/fashionMagCoversOld.py:
+   45      
+   46      # Title of cover, make it fit in with and add shadow
+   47:     style = dict(font='Upgrade-SemiboldItalic', fontSize=100, textFill=1)
+   48      bs = context.newString(now().fullmonthname, style=style, w=w/4)  
+   49      tw, th = bs.size()  
+   ..
+   53  
+   54      # Title of cover, make it fit in with and add shadow
+   55:     coverTitleStyle = dict(font='Upgrade-UltraBlack', fontSize=100, textFill=1)
+   56      bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-2*M)  
+   57      tw, th = bs.size()  
+   ..
+   62      y -= th
+   63      # Title of cover, make it fit in with and add shadow
+   64:     style = dict(font='Upgrade-Regular', fontSize=100, textFill=(0.2, 0.2, 0.7))
+   65      bs = context.newString('Pepper+Tom', style=style, w=w*0.75-12*M)  
+   66      tw, th = bs.size()  
+   ..
+   71      y -= th*0.9
+   72      # Title of cover, make it fit in with and add shadow
+   73:     coverTitleStyle = dict(font='Upgrade-MediumItalic', fontSize=100, textFill=(0.2, 0.25, 0.7))
+   74      bs = context.newString('Upgrade Fashion', style=coverTitleStyle, w=w*0.75-18*M)  
+   75      tw, th = bs.size()  
+   ..
+   80      y -= th
+   81      # Title of cover, make it fit in with and add shadow
+   82:     coverTitleStyle = dict(font='Upgrade-Book', fontSize=100, textFill=(0.95, 0.95, 1, 0.7))
+   83      bs = context.newString('&', style=coverTitleStyle, w=w*0.75-30*M)  
+   84      tw, th = bs.size()  
+   ..
+   88      
+   89      # Title of cover, make it fit in with and add shadow
+   90:     coverTitleStyle = dict(font='Upgrade-Bold', fontSize=100, textFill=(0.1, 0.15, 0.7, 0.8))
+   91      bs = context.newString('Models', style=coverTitleStyle, w=w*0.75-24*M)  
+   92      tw, th = bs.size()  
+   ..
+   98      
+   99      # Title of cover, make it fit in with and add shadow
+  100:     coverTitleStyle = dict(font='Upgrade-Black', fontSize=100, textStroke=(0.2, 0.2, 0.2, 0.5), textStrokeWidth=4, textFill=None)
+  101      bs = context.newString('Boots', style=coverTitleStyle, w=w-ML*20)  
+  102      tw, th = bs.size()  
+  103      context.text(bs, (ML*10, 12*MB))
+  104:     coverTitleStyle = dict(font='Upgrade-Black', fontSize=100, textStroke=(1, 0, 0.3, 0.9), textStrokeWidth=1, textFill=None)
+  105      bs = context.newString('Boots', style=coverTitleStyle, w=w-ML*20)  
+  106      tw, th = bs.size()  
+  ...
+  156      
+  157      # Title of cover, make it fit in with and add shadow
+  158:     style = dict(font='Upgrade-SemiboldItalic', fontSize=100, textFill=1)
+  159      bs = context.newString(now().fullmonthname, style=style, w=w/4)  
+  160      tw, th = bs.size()  
+  ...
+  164  
+  165      # Title of cover, make it fit in with and add shadow
+  166:     coverTitleStyle = dict(font='Upgrade-UltraBlack', fontSize=100, textFill=1)
+  167      bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-2*M)  
+  168      tw, th = bs.size()  
+  ...
+  191      
+  192      # Title of cover, make it fit in with and add shadow
+  193:     style = dict(font='Upgrade-SemiboldItalic', fontSize=100, textFill=1)
+  194      bs = context.newString(now().fullmonthname, style=style, w=w/4)  
+  195      tw, th = bs.size()  
+  ...
+  199  
+  200      # Title of cover, make it fit in with and add shadow
+  201:     coverTitleStyle = dict(font='Upgrade-UltraBlack', fontSize=100, textFill=1)
+  202      bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-2*M)  
+  203      tw, th = bs.size()  
+  ...
+  226      """
+  227      # Title of cover, make it fit in with and add shadow
+  228:     style = dict(font='Upgrade-SemiboldItalic', fontSize=100, textFill=1)
+  229      bs = context.newString(now().fullmonthname, style=style, w=w/4)  
+  230      tw, th = bs.size()  
+  ...
+  234      """
+  235      # Title of cover, make it fit in with and add shadow
+  236:     coverTitleStyle = dict(font='Upgrade-UltraBlack', fontSize=100, textFill=1)
+  237      bs = context.newString('M', style=coverTitleStyle, w=w/2)  
+  238      tw, th = bs.size()  
+  ...
+  261      """
+  262      # Title of cover, make it fit in with and add shadow
+  263:     style = dict(font='Upgrade-SemiboldItalic', fontSize=100, textFill=1)
+  264      bs = context.newString(now().fullmonthname, style=style, w=w/4)  
+  265      tw, th = bs.size()  
+  ...
+  269      """
+  270      # Title of cover, make it fit in with and add shadow
+  271:     coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1)
+  272      bs = context.newString('M', style=coverTitleStyle, w=w/2)  
+  273      tw, th = bs.size()  
+  ...
+  279      y -= th
+  280      # Title of cover, make it fit in with and add shadow
+  281:     style = dict(font='Upgrade-Regular', fontSize=100, textFill=(0.2, 0.2, 0.7))
+  282      bs = context.newString('Pepper+Tom', style=style, w=w*0.75-12*M)  
+  283      tw, th = bs.size()  
+  ...
+  288      y -= th*0.9
+  289      # Title of cover, make it fit in with and add shadow
+  290:     coverTitleStyle = dict(font='Upgrade-MediumItalic', fontSize=100, textFill=(0.2, 0.25, 0.7))
+  291      bs = context.newString('Upgrade Fashion', style=coverTitleStyle, w=w*0.75-18*M)  
+  292      tw, th = bs.size()  
+  ...
+  297      y -= th
+  298      # Title of cover, make it fit in with and add shadow
+  299:     coverTitleStyle = dict(font='Upgrade-Book', fontSize=100, textFill=(0.95, 0.95, 1, 0.7))
+  300      bs = context.newString('&', style=coverTitleStyle, w=w*0.75-30*M)  
+  301      tw, th = bs.size()  
+  ...
+  305      
+  306      # Title of cover, make it fit in with and add shadow
+  307:     coverTitleStyle = dict(font='Upgrade-Bold', fontSize=100, textFill=(0.1, 0.15, 0.7, 0.8))
+  308      bs = context.newString('Models', style=coverTitleStyle, w=w*0.75-24*M)  
+  309      tw, th = bs.size()  
+  ...
+  315      
+  316      # Title of cover, make it fit in with and add shadow
+  317:     coverTitleStyle = dict(font='Upgrade-Black', fontSize=100, textStroke=(0.2, 0.2, 0.2, 0.5), textStrokeWidth=4, textFill=None)
+  318      bs = context.newString('Boots', style=coverTitleStyle, w=w-ML*20)  
+  319      tw, th = bs.size()  
+  320      context.text(bs, (ML*10, 12*MB))
+  321:     coverTitleStyle = dict(font='Upgrade-Black', fontSize=100, textStroke=(1, 0, 0.3, 0.9), textStrokeWidth=1, textFill=None)
+  322      bs = context.newString('Boots', style=coverTitleStyle, w=w-ML*20)  
+  323      tw, th = bs.size()  
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/scripts/habitMagCovers.py:
+   43      
+   44      # Title of cover, make it fit in with and add shadow
+   45:     coverTitleStyle = dict(font='Upgrade-Bold', fontSize=100, textFill=1, rTracking=-0.02)
+   46      bs = context.newString(magazineTitle, style=coverTitleStyle, w=cw)  
+   47      bx, by, bw, bh = bs.bounds() # by is negative amount under baseline. bh is amount above baseline.
+   ..
+   52      y = y - bh + by - LM
+   53      # Title of cover, make it fit in with and add shadow
+   54:     style = dict(font='Upgrade-Light', fontSize=100, textFill=0.1)
+   55      bs = context.newString('Upgrade loveables', style=style, w=w*0.75-18*M)  
+   56      bx, by, bw, bh = bs.bounds() # by is negative amount under baseline. bh is amount above baseline.
+   ..
+   58   
+   59       # Title of cover, make it fit in with and add shadow
+   60:     yearStyle = dict(font='Upgrade-BlackItalic', fontSize=100, textStroke=1, textStrokeWidth=2, textFill=None)
+   61      bs = context.newString(year, style=yearStyle, w=w/2.5-12*M)  
+   62      tw, th = bs.size()  
+   ..
+   74      
+   75      # Title of cover, make it fit in with and add shadow
+   76:     coverTitleStyle = dict(font='Upgrade-Bold', fontSize=100, textFill=(0.85, 0.85, 1, 0.95), rTracking=-0.02)
+   77      bs = context.newString(magazineTitle, style=coverTitleStyle, w=cw)  
+   78      bx, by, bw, bh = bs.bounds() # by is negative amount under baseline. bh is amount above baseline.
+   ..
+   84  
+   85      # Title of cover, make it fit in with and add shadow
+   86:     style = dict(font='Upgrade-Light', fontSize=100, textFill=1, rLeading=1)
+   87      bs = context.newString('Upgrade\nServices', style=style, w=w/4)  
+   88      bx, by, bw, bh = bs.bounds() # by is negative amount under baseline. bh is amount above baseline.
+   ..
+   90  
+   91     # Title of cover, make it fit in with and add shadow
+   92:     yearStyle = dict(font='Upgrade-BlackItalic', fontSize=100, textStroke=(1, 1, 1, 0.6), textStrokeWidth=2.5, textFill=None)
+   93      bs = context.newString(year, style=yearStyle, w=w/2.5-12*M)  
+   94      context.text(bs, (M*3, MB+4*M))
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/scripts/Image001.py:
+  102          ww25 = w*0.25
+  103          bs = context.newString('Type@Cooper\nTypographics', 
+  104:             style=dict(font=fontRegular.path, fontSize=w/30, xTextAlign=CENTER, textFill=1, rLeading=1.05, rTracking=0.02))
+  105          tw, th = bs.textSize()
+  106          newRect(fill=(0.15,0.17,0.15,0.7), w=ww75, conditions=(Fit2HeightSides(), Right2RightSide()), parent=page)        
+  ...
+  152          
+  153          if type == 'Small':    
+  154:             bs = context.newString(title1+'\n', style=dict(font=fontMedium.path, textFill=C0, fontSize=w/20, rTracking=0.015, rLeading=1.25))
+  155:             bs += context.newString(title2+'\n', style=dict(font=fontBook.path, textFill=C1, fontSize=w/20, rLeading=1.2, rTracking=0.03))
+  156              if title3 is not None:
+  157:                 bs += context.newString(title3+'\n', style=dict(font=fontRegular.path, textFill=1, fontSize=w/30, rLeading=1.2, rTracking=0.03))
+  158:             bs += context.newString('By DrawBot + PageBot + Petr van Blokland, June 17th', style=dict(font=fontRegular.path, textFill=C2, fontSize=w/33, rTracking=0.030, rLeading=1.8))
+  159              newTextBox(bs, parent=page, x=ww25, y=0, padding=(w/30,0,0,w/30), w=ww75+w/100, conditions=[Fit2HeightSides()])
+  160          else:
+  161:             bs = context.newString(title1+'\n', style=dict(font=fontMedium.path, textFill=C0, fontSize=w/20, rTracking=0.015, rLeading=1.25))
+  162:             bs += context.newString(title2+'\n', style=dict(font=fontBook.path, textFill=C1, fontSize=w/20, rLeading=1.2, rTracking=0.03))
+  163              if title3 is not None:
+  164:                 bs += context.newString(title3+'\n', style=dict(font=fontRegular.path, textFill=1, fontSize=w/27, rLeading=1.2, rTracking=0.03))
+  165:             bs += context.newString('By DrawBot + PageBot + Petr van Blokland, June 17th', style=dict(font=fontRegular.path, textFill=C2, fontSize=w/33, rTracking=0.030, rLeading=1.8))
+  166              newTextBox(bs, parent=page, x=ww25, y=0, padding=(w/30,0,0,w/30), w=ww75+w/100, conditions=[Fit2HeightSides()])
+  167              
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/scripts/naturMagCovers.py:
+   52      # Title of cover, make it fit in with and add shadow
+   53      # PageBot bug: automatic sizing with tracking does not work now
+   54:     #coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1, rTracking=-0.5)
+   55      #bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-4*M)  
+   56:     coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1)
+   57      bs = context.newString(magazineTitle, style=coverTitleStyle)  
+   58:     bs += context.newString('2', style=dict(font='Upgrade-Medium', textFill=1, fontSize=100, openTypeFeatures=dict(sinf=True)))
+   59      tw, th = bs.size()  
+   60      context.setShadow(shadow)
+   ..
+   64      y -= th
+   65      # Title of cover, make it fit in with and add shadow
+   66:     style = dict(font='Upgrade-Book', fontSize=h/21, textFill=1, rLeading=1.1)
+   67      bs = context.newString('Upgraded\nBranches', style=style)  
+   68      tw, th = bs.size()  
+   ..
+   70  
+   71     # Title of cover, make it fit in with and add shadow
+   72:     coverTitleStyle = dict(font='Upgrade-LightItalic', fontSize=28, textFill=1)
+   73      bs = context.newString('February', style=coverTitleStyle)  
+   74      context.text(bs, (M*6, MB+16))
+   ..
+   99      # Title of cover, make it fit in with and add shadow
+  100      # PageBot bug: automatic sizing with tracking does not work now
+  101:     #coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1, rTracking=-0.5)
+  102      #bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-4*M)  
+  103:     coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1)
+  104      bs = context.newString(magazineTitle, style=coverTitleStyle)  
+  105:     bs += context.newString('3', style=dict(font='Upgrade-Medium', textFill=1, fontSize=100, openTypeFeatures=dict(sups=True)))
+  106      tw, th = bs.size()  
+  107      context.setShadow(shadow)
+  ...
+  111      y -= th
+  112      # Title of cover, make it fit in with and add shadow
+  113:     style = dict(font='Upgrade-Book', fontSize=h/21, textFill=1, rLeading=1.1)
+  114      bs = context.newString('Upgraded\nBrass & Blue', style=style)  
+  115      tw, th = bs.size()  
+  ...
+  117  
+  118     # Title of cover, make it fit in with and add shadow
+  119:     coverTitleStyle = dict(font='Upgrade-LightItalic', fontSize=28, textFill=1)
+  120      bs = context.newString('March', style=coverTitleStyle)  
+  121      context.text(bs, (M*6, MB+16))
+  ...
+  146      # Title of cover, make it fit in with and add shadow
+  147      # PageBot bug: automatic sizing with tracking does not work now
+  148:     #coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1, rTracking=-0.5)
+  149      #bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-4*M)  
+  150:     coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1)
+  151      bs = context.newString(magazineTitle, style=coverTitleStyle)  
+  152:     bs += context.newString('8', style=dict(font='Upgrade-Medium', textFill=1, fontSize=100, openTypeFeatures=dict(sinf=True)))
+  153      tw, th = bs.size()  
+  154      context.setShadow(shadow)
+  ...
+  158      y -= th
+  159      # Title of cover, make it fit in with and add shadow
+  160:     style = dict(font='Upgrade-Book', fontSize=h/21, textFill=1, rLeading=1.1)
+  161      bs = context.newString('Upgraded\nGingers', style=style)  
+  162      tw, th = bs.size()  
+  ...
+  164  
+  165     # Title of cover, make it fit in with and add shadow
+  166:     coverTitleStyle = dict(font='Upgrade-LightItalic', fontSize=28, textFill=1)
+  167      bs = context.newString('August', style=coverTitleStyle)  
+  168      context.text(bs, (w*2/3, MB+12))
+  ...
+  194      # Title of cover, make it fit in with and add shadow
+  195      # PageBot bug: automatic sizing with tracking does not work now
+  196:     #coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1, rTracking=-0.5)
+  197      #bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-4*M)  
+  198:     coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1)
+  199      bs = context.newString(magazineTitle, style=coverTitleStyle) 
+  200:     bs += context.newString('9', style=dict(font='Upgrade-Medium', textFill=1, fontSize=100, openTypeFeatures=dict(sups=True)))
+  201      tw, th = bs.size()  
+  202      context.setShadow(shadow)
+  ...
+  206      y -= th
+  207      # Title of cover, make it fit in with and add shadow
+  208:     style = dict(font='Upgrade-Book', fontSize=h/21, textFill=1, rLeading=1.1)
+  209      bs = context.newString('Upgraded\nExperience', style=style)  
+  210      tw, th = bs.size()  
+  ...
+  212  
+  213     # Title of cover, make it fit in with and add shadow
+  214:     coverTitleStyle = dict(font='Upgrade-LightItalic', fontSize=28, textFill=1)
+  215      bs = context.newString('September', style=coverTitleStyle)  
+  216      context.text(bs, (w*2/3, MB+12))
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/scripts/travelCovers.py:
+   29  def buildCoverPages(w, h, year):
+   30  	
+   31:     bodyStyle = dict(font='Upgrade-Book', fontSize=26, textFill=1, rTracking=0.03)
+   32:     bodyItalicStyle = dict(font='Upgrade-BookItalic', fontSize=26, textFill=1, rTracking=0.03)
+   33  
+   34      magazineTitle2 = u'OSAKA'
+   ..
+   60      # Title of cover, make it fit in with and add shadow
+   61      # PageBot bug: automatic sizing with tracking does not work now
+   62:     #coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1, rTracking=-0.5)
+   63      #bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-4*M)  
+   64:     coverTitleStyle = dict(font='Upgrade-Semibold', fontSize=130, textFill=(1, 1, 1, 0.3), rLeading=0.8)
+   65      bs = context.newString(magazineTitle2, style=coverTitleStyle, w=w-M)  
+   66      tw, th = bs.size()  
+   ..
+   68  
+   69      y -= th*1/3
+   70:     coverTitleStyle = dict(font='Upgrade-Light', fontSize=52, textFill=1, rLeading=0.8)
+   71      bs = context.newString(magazineTitle1, style=coverTitleStyle, w=w/3-4*M)  
+   72      tw, th = bs.size()  
+   ..
+   74        
+   75      y -= th*1.7
+   76:     coverTitleStyle = dict(font='Upgrade-LightItalic', fontSize=52, textFill=1, rLeading=0.8, rTracking=0.03)
+   77      bs = context.newString('Upgrade destinations', style=coverTitleStyle, w=w/2)  
+   78      tw, th = bs.size()  
+   ..
+   80        
+   81      y -= th*1.8
+   82:     coverTitleStyle = dict(font='Upgrade-Book', fontSize=22, textFill=1, rLeading=0.8, rTracking=0.08, openTypeFeatures=dict(smcp=True))
+   83      bs = context.newString('Enjoying size & weight', style=coverTitleStyle)  
+   84      tw, th = bs.size()  
+   ..
+  101  def buildCoverPages1(w, h, year):
+  102      BODY_SIZE = 35
+  103:     bodyStyle = dict(font='Upgrade-Light', fontSize=BODY_SIZE, textFill=1, rTracking=0.01)
+  104:     bodyItalicStyle = dict(font='Upgrade-LightItalic', fontSize=BODY_SIZE, textFill=1, rTracking=0.01)
+  105  
+  106      mvText = (
+  ...
+  134      # Title of cover, make it fit in with and add shadow
+  135      # PageBot bug: automatic sizing with tracking does not work now
+  136:     #coverTitleStyle = dict(font='Upgrade-Medium', fontSize=100, textFill=1, rTracking=-0.5)
+  137      #bs = context.newString(magazineTitle, style=coverTitleStyle, w=w-4*M)  
+  138:     coverTitleStyle = dict(font='Upgrade-Semibold', fontSize=130, textFill=(0x38/255, 0x75/255, 0xCF/255, 0.6), rLeading=0.8)
+  139      bs = context.newString(u'Martha’s\n', style=coverTitleStyle, w=w-M)  
+  140:     coverTitleStyle = dict(font='Upgrade-Semibold', fontSize=130, textFill=(0x5E/255, 0x9D/255, 0xEE/255, 0.4), rLeading=0.8)
+  141      bs += context.newString(u'Vineyard', style=coverTitleStyle, w=w-2*M)  
+  142      tw, th = bs.size()  
+  143      context.text(bs, (0, y-th/2))
+  144  
+  145:     coverTitleStyle = dict(font='Upgrade-Thin', fontSize=52, textFill=1, rLeading=0.8)
+  146      bs = context.newString(magazineTitle1, style=coverTitleStyle, w=w/3-4*M)  
+  147      tw, th = bs.size()  
+
+165 matches across 13 files
+
+
+Searching 221 files for "Upgrade CJK " (case sensitive)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-home.md:
+   93  box = section.newSide()
+   94  ~~~
+   95: ### Download the Upgrade CJK glyph set as PDF
+   96  
+   97  * [Regular](downloads/UpgradeCJKFullGlyphSet-Regular.pdf)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-home.md.xml:
+   80  </code></pre>
+   81  
+   82: <h3>Download the Upgrade CJK glyph set as PDF</h3>
+   83  <ul>
+   84  <li><a href="downloads/UpgradeCJKFullGlyphSet-Regular.pdf">Regular</a></li>
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-prominence.md:
+   11  box = content.newBanner()
+   12  ~~~
+   13: # Upgrade CJK Specifications
+   14  
+   15  ~~~ 
+   ..
+   69  Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. 
+   70  
+   71: ### Download the Upgrade CJK glyph set as PDF
+   72  
+   73  * [Regular](downloads/UpgradeCJKFullGlyphSet-Regular.pdf)
+   ..
+   90  Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
+   91  
+   92: ### Upgrade CJK Sans
+   93  
+   94  ![Weights Sans](images/WF-Image40_1.png)
+   95  
+   96: ### Upgrade CJK Slab
+   97  
+   98  ![Weights Slab](images/WF-Image30_1.png)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-prominence.md.xml:
+   12  </code></pre>
+   13  
+   14: <h1>Upgrade CJK Specifications</h1>
+   15  <pre><code>from pagebot.constants import *
+   16  slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)
+   ..
+   52  <h2>Supported glyphs</h2>
+   53  <p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
+   54: <h3>Download the Upgrade CJK glyph set as PDF</h3>
+   55  <ul>
+   56  <li><a href="downloads/UpgradeCJKFullGlyphSet-Regular.pdf">Regular</a></li>
+   ..
+   69  <h2>Supported weights</h2>
+   70  <p>Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
+   71: <h3>Upgrade CJK</h3>
+   72  <p><img alt="Weights Sans" src="images/WF-Image40_1.png" /></p>
+   73: <h3>Upgrade CJK Slab</h3>
+   74  <p><img alt="Weights Slab" src="images/WF-Image30_1.png" /></p>
+   75  <pre><code>section = content.newSection()
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-promise.md:
+   11  box = content.newBanner()
+   12  ~~~
+   13: # Upgrade CJK Specifications
+   14  
+   15  ~~~ 
+   ..
+   69  Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. 
+   70  
+   71: ### Download the Upgrade CJK glyph set as PDF
+   72  
+   73  * [Regular](downloads/UpgradeCJKFullGlyphSet-Regular.pdf)
+   ..
+   90  Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
+   91  
+   92: ### Upgrade CJK
+   93  
+   94  ![Weights Sans](images/WF-Image40_1.png)
+   95  
+   96: ### Upgrade CJK Slab
+   97  
+   98  ![Weights Slab](images/WF-Image30_1.png)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-promise.md.xml:
+   12  </code></pre>
+   13  
+   14: <h1>Upgrade CJK Specifications</h1>
+   15  <pre><code>from pagebot.constants import *
+   16  slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)
+   ..
+   52  <h2>Supported glyphs</h2>
+   53  <p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
+   54: <h3>Download the Upgrade CJK glyph set as PDF</h3>
+   55  <ul>
+   56  <li><a href="downloads/UpgradeCJKFullGlyphSet-Regular.pdf">Regular</a></li>
+   ..
+   69  <h2>Supported weights</h2>
+   70  <p>Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
+   71: <h3>Upgrade CJK Sans</h3>
+   72  <p><img alt="Weights Sans" src="images/WF-Image40_1.png" /></p>
+   73: <h3>Upgrade CJK Slab</h3>
+   74  <p><img alt="Weights Slab" src="images/WF-Image30_1.png" /></p>
+   75  <pre><code>section = content.newSection()
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-upgrade-cjk.md:
+   74  ~~~
+   75  
+   76: ### Upgrade CJK Sans
+   77  
+   78  ![](images/WF-Image10_7.png)
+   ..
+  116  ~~~
+  117  
+  118: ### Upgrade CJK Sans
+  119  
+  120  ![](images/WF-Image10_8.png)
+  ...
+  158  ~~~
+  159  
+  160: ### Upgrade CJK Sans
+  161  
+  162  ![](images/WF-Image10_9.png)
+  ...
+  198  ~~~
+  199  
+  200: ### Upgrade CJK Sans
+  201  
+  202  ![](images/WF-Image10_10.png)
+  ...
+  240  ~~~
+  241  
+  242: ### Upgrade CJK Sans
+  243  
+  244  ![](images/WF-Image10_11.png)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-upgrade-cjk.md.xml:
+   58  </code></pre>
+   59  
+   60: <h3>Upgrade CJK Sans</h3>
+   61  <p><img alt="" src="images/WF-Image10_7.png" /><br />
+   62  <img alt="" src="images/WF-Image10_13.png" /><br />
+   ..
+   85  </code></pre>
+   86  
+   87: <h3>Upgrade CJK Sans</h3>
+   88  <p><img alt="" src="images/WF-Image10_8.png" /><br />
+   89  <img alt="" src="images/WF-Image10_14.png" /><br />
+   ..
+  112  </code></pre>
+  113  
+  114: <h3>Upgrade CJK Sans</h3>
+  115  <p><img alt="" src="images/WF-Image10_9.png" /><br />
+  116  <img alt="" src="images/WF-Image10_15.png" /><br />
+  ...
+  138  </code></pre>
+  139  
+  140: <h3>Upgrade CJK Sans</h3>
+  141  <p><img alt="" src="images/WF-Image10_10.png" /><br />
+  142  <img alt="" src="images/WF-Image10_16.png" /><br />
+  ...
+  165  </code></pre>
+  166  
+  167: <h3>Upgrade CJK Sans</h3>
+  168  <p><img alt="" src="images/WF-Image10_11.png" /><br />
+  169  <img alt="" src="images/WF-Image10_17.png" /><br />
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-upgrade.md:
+   74  ~~~
+   75  
+   76: ### Upgrade CJK Sans
+   77  
+   78  ![](images/WF-Image10_7.png)
+   ..
+  116  ~~~
+  117  
+  118: ### Upgrade CJK Sans
+  119  
+  120  ![](images/WF-Image10_8.png)
+  ...
+  158  ~~~
+  159  
+  160: ### Upgrade CJK Sans
+  161  
+  162  ![](images/WF-Image10_9.png)
+  ...
+  198  ~~~
+  199  
+  200: ### Upgrade CJK Sans
+  201  
+  202  ![](images/WF-Image10_10.png)
+  ...
+  240  ~~~
+  241  
+  242: ### Upgrade CJK Sans
+  243  
+  244  ![](images/WF-Image10_11.png)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-upgrade.md.xml:
+   58  </code></pre>
+   59  
+   60: <h3>Upgrade CJK Sans</h3>
+   61  <p><img alt="" src="images/WF-Image10_7.png" /><br />
+   62  <img alt="" src="images/WF-Image10_13.png" /><br />
+   ..
+   85  </code></pre>
+   86  
+   87: <h3>Upgrade CJK Sans</h3>
+   88  <p><img alt="" src="images/WF-Image10_8.png" /><br />
+   89  <img alt="" src="images/WF-Image10_14.png" /><br />
+   ..
+  112  </code></pre>
+  113  
+  114: <h3>Upgrade CJK Sans</h3>
+  115  <p><img alt="" src="images/WF-Image10_9.png" /><br />
+  116  <img alt="" src="images/WF-Image10_15.png" /><br />
+  ...
+  138  </code></pre>
+  139  
+  140: <h3>Upgrade CJK Sans</h3>
+  141  <p><img alt="" src="images/WF-Image10_10.png" /><br />
+  142  <img alt="" src="images/WF-Image10_16.png" /><br />
+  ...
+  165  </code></pre>
+  166  
+  167: <h3>Upgrade CJK Sans</h3>
+  168  <p><img alt="" src="images/WF-Image10_11.png" /><br />
+  169  <img alt="" src="images/WF-Image10_17.png" /><br />
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/docs/index.html:
+  289   --><div id="24787A8CC010AEEA0B8" class="side clearfix">
+  290  <div class="textbox">
+  291: <h3>Download the Upgrade CJK glyph set as PDF</h3>
+  292  <ul>
+  293  <li><a href="downloads/UpgradeCJKFullGlyphSet-Regular.pdf">Regular</a></li>
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/docs/prominence.html:
+  115   --><div id="24787A8D2410CAFD3C8" class="banner clearfix">
+  116  <div class="textbox">
+  117: <h1>Upgrade CJK Specifications</h1>
+  118  </div>
+  119  </div>
+  ...
+  209  <h2>Supported glyphs</h2>
+  210  <p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
+  211: <h3>Download the Upgrade CJK glyph set as PDF</h3>
+  212  <ul>
+  213  <li><a href="downloads/UpgradeCJKFullGlyphSet-Regular.pdf">Regular</a></li>
+  ...
+  243  <h2>Supported weights</h2>
+  244  <p>Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
+  245: <h3>Upgrade CJK Sans</h3>
+  246  <p></div>
+  247  <div class="image">
+  ...
+  253  <div class="textbox">
+  254  </p>
+  255: <h3>Upgrade CJK Slab</h3>
+  256  <p></div>
+  257  <div class="image">
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/docs/scripts.html:
+  210  ×</div>
+  211  <div class="textbox">
+  212: <h3>Upgrade CJK Sans</h3>
+  213  <p></div>
+  214  <div class="image">
+  ...
+  322  ×</div>
+  323  <div class="textbox">
+  324: <h3>Upgrade CJK Sans</h3>
+  325  <p></div>
+  326  <div class="image">
+  ...
+  434  ×</div>
+  435  <div class="textbox">
+  436: <h3>Upgrade CJK Sans</h3>
+  437  <p></div>
+  438  <div class="image">
+  ...
+  537  ×</div>
+  538  <div class="textbox">
+  539: <h3>Upgrade CJK Sans</h3>
+  540  <p></div>
+  541  <div class="image">
+  ...
+  649  ×</div>
+  650  <div class="textbox">
+  651: <h3>Upgrade CJK Sans</h3>
+  652  <p></div>
+  653  <div class="image">
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/docs/specs.html:
+  115   --><div id="24781EB0BC10C939B38" class="banner clearfix">
+  116  <div class="textbox">
+  117: <h1>Upgrade CJK Specifications</h1>
+  118  </div>
+  119  </div>
+  ...
+  209  <h2>Supported glyphs</h2>
+  210  <p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
+  211: <h3>Download the Upgrade CJK glyph set as PDF</h3>
+  212  <ul>
+  213  <li><a href="downloads/UpgradeCJKFullGlyphSet-Regular.pdf">Regular</a></li>
+  ...
+  243  <h2>Supported weights</h2>
+  244  <p>Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
+  245: <h3>Upgrade CJK Sans</h3>
+  246  <p></div>
+  247  <div class="image">
+  ...
+  253  <div class="textbox">
+  254  </p>
+  255: <h3>Upgrade CJK Slab</h3>
+  256  <p></div>
+  257  <div class="image">
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/docs/upgrade.html:
+  210  ×</div>
+  211  <div class="textbox">
+  212: <h3>Upgrade CJK Sans</h3>
+  213  <p></div>
+  214  <div class="image">
+  ...
+  322  ×</div>
+  323  <div class="textbox">
+  324: <h3>Upgrade CJK Sans</h3>
+  325  <p></div>
+  326  <div class="image">
+  ...
+  434  ×</div>
+  435  <div class="textbox">
+  436: <h3>Upgrade CJK Sans</h3>
+  437  <p></div>
+  438  <div class="image">
+  ...
+  537  ×</div>
+  538  <div class="textbox">
+  539: <h3>Upgrade CJK Sans</h3>
+  540  <p></div>
+  541  <div class="image">
+  ...
+  649  ×</div>
+  650  <div class="textbox">
+  651: <h3>Upgrade CJK Sans</h3>
+  652  <p></div>
+  653  <div class="image">
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-scripts.md:
+   74  ~~~
+   75  
+   76: ### Upgrade CJK Sans
+   77  
+   78  ![](images/WF-Image10_7.png)
+   ..
+  116  ~~~
+  117  
+  118: ### Upgrade CJK Sans
+  119  
+  120  ![](images/WF-Image10_8.png)
+  ...
+  158  ~~~
+  159  
+  160: ### Upgrade CJK Sans
+  161  
+  162  ![](images/WF-Image10_9.png)
+  ...
+  198  ~~~
+  199  
+  200: ### Upgrade CJK Sans
+  201  
+  202  ![](images/WF-Image10_10.png)
+  ...
+  240  ~~~
+  241  
+  242: ### Upgrade CJK Sans
+  243  
+  244  ![](images/WF-Image10_11.png)
+
+/Users/petr/Desktop/DDS-git/TYPE-TRY/TT-specs.md:
+   11  box = content.newBanner()
+   12  ~~~
+   13: # Upgrade CJK Specifications
+   14  
+   15  ~~~ 
+   ..
+   69  Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. 
+   70  
+   71: ### Download the Upgrade CJK glyph set as PDF
+   72  
+   73  * [Regular](downloads/UpgradeCJKFullGlyphSet-Regular.pdf)
+   ..
+   90  Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
+   91  
+   92: ### Upgrade CJK Sans
+   93  
+   94  ![Weights Sans](images/WF-Image40_1.png)
+   95  
+   96: ### Upgrade CJK Slab
+   97  
+   98  ![Weights Slab](images/WF-Image30_1.png)
+
+66 matches across 17 files

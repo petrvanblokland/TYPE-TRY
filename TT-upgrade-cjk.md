@@ -73,7 +73,7 @@ Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, con
 box = box.newInfo()
 ~~~
 
-### World Font Sans
+### Upgrade CJK Sans
 
 ![](images/WF-Image10_7.png)
 ![](images/WF-Image10_13.png)
@@ -115,7 +115,7 @@ Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, con
 box = box.newInfo()
 ~~~
 
-### World Font Sans
+### Upgrade CJK Sans
 
 ![](images/WF-Image10_8.png)
 ![](images/WF-Image10_14.png)
@@ -157,7 +157,7 @@ Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, con
 box = box.newInfo()
 ~~~
 
-### World Font Sans
+### Upgrade CJK Sans
 
 ![](images/WF-Image10_9.png)
 ![](images/WF-Image10_15.png)
@@ -197,7 +197,7 @@ Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, con
 box = box.newInfo()
 ~~~
 
-### World Font Sans
+### Upgrade CJK Sans
 
 ![](images/WF-Image10_10.png)
 ![](images/WF-Image10_16.png)
@@ -239,7 +239,7 @@ Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, con
 box = box.newInfo()
 ~~~
 
-### World Font Sans
+### Upgrade CJK Sans
 
 ![](images/WF-Image10_11.png)
 ![](images/WF-Image10_17.png)

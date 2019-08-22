@@ -3,8 +3,8 @@ for fn in installedFonts():
     if 'Upgrade' in fn:
         print(fn)
         
-fName = 'WorldFont-Regular'
-fSlabName = 'WorldFontSlab-Regular'
+fName = 'UpgradeCJK-Regular'
+fSlabName = 'UpgradeCJKSlab-Regular'
 fbuildName = 'UpgradeCJK-Regular'
 
 latin = 'Travel' #'Hkpx'
