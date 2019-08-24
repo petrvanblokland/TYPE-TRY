@@ -46,9 +46,9 @@ box = section.newMain()
 
 <p>Try live examples of <strong>Bitcount Mono</strong> layering <a href="https://bitcount.typenetwork.com" target="external">here.</a></p>
 <p><img alt="noscale" src="images/bitcountHome.png" /><br />
-<img alt="" src="images/bitcountLayers1.png" /><br />
-<img alt="" src="images/bitcountLayers2.png" /><br />
-<img alt="" src="images/bitcountLayers4.png" /></p>
+<img alt="noscale" src="images/bitcountLayers1.png" /><br />
+<img alt="noscale" src="images/bitcountLayers2.png" /><br />
+<img alt="noscale" src="images/bitcountLayers4.png" /></p>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>

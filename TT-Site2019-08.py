@@ -116,6 +116,8 @@ FONT_DATA_LIST = {
     'Bitcount Outline Round': [
         ('Bitcount_Try_Mono_Double_Outline-Black_Round', dict(
             sample='Bitcount Black Round',
+            seeAlso='https://bitcount.typenetwork.com',
+            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
         )),
         ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Round', dict(
             sample='Bitcount X-Bold Round',
