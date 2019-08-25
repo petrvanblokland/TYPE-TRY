@@ -21,12 +21,6 @@ box = slideshow.slides
 #![w=200 y=top](images/BK-Graphic-Design.png)
 ~~~
 
-![w=450 y=top](images/bierCoverPages2-Dutch_1.png)
-![w=450 y=top](images/IMG_4826.jpeg)
-![w=450 y=top](images/SketchingTypeDesign.png)
-![w=450 y=top](images/travelCoverPages_1.png)
-![w=450 y=top](images/travelCoverPages1x_1.png)
-
 ~~~ 
 box = slideshow.side
 ~~~

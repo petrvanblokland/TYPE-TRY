@@ -70,16 +70,9 @@ Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis,
 
 ### Download the Upgrade CJK glyph set as PDF
 
-* [Regular](downloads/UpgradeCJKFullGlyphSet-Regular.pdf)
-* [Medium](downloads/UpgradeCJKFullGlyphSet-Medium.pdf)
-* [Semi-Bold](downloads/UpgradeCJKFullGlyphSet-SemiBold.pdf)
-* [Bold](downloads/UpgradeCJKFullGlyphSet-Bold.pdf)
-
 ~~~
 box = section.newSide()
 ~~~
-
-![Regular](images/UpgradeCJKFullGlyphSet-Regular_1.png)
 
 ~~~
 section = content.newSection()
@@ -113,4 +106,3 @@ Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempu
 box = section.newCropped()
 ~~~
 
-![w=800 y=top](images/Upgrade-BoldOutline-FontWindow.png)

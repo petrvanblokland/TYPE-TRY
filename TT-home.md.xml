@@ -34,18 +34,19 @@ box = content.newBanner()
 </code></pre>
 
 <h1>Type in the making. Try it now.</h1>
-<pre><code>box = content.newCropped()
+<pre><code>box = content.newCropped(fill=0.3)
 </code></pre>
 
-<p><img alt="y=top contain noscale" src="images/IMG_4539.JPG" /></p>
+<p><img alt="x=center y=top contain noscale no-repeat" src="images/IMG_4539.JPG" /></p>
 <h1>Hi Honey, I’ll buy you a lunch: Fish’n Chips</h1>
 <pre><code>box = content.newTypeList(doc.docLib['fontDataList']['Upgrade'], fontSize=44, labelFont='Upgrade-Regular', labelFontSize=18)
+
 </code></pre>
 
 <pre><code>box = content.newIntroduction()
 </code></pre>
 
-<h1>TYPE TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates, that show how we would use our typefaces. Copy code snippets to help you implement TYPETR type.</h1>
+<h1>TYPE TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates, that show how we would use our own typefaces. Copy code snippets to help you implement TYPETR type.</h1>
 <pre><code>from pagebot.constants import *
 slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)
 box = slideshow.side
@@ -80,12 +81,5 @@ box = section.newMain()
 </code></pre>
 
 <h3>Download the Upgrade CJK glyph set as PDF</h3>
-<ul>
-<li><a href="downloads/UpgradeCJKFullGlyphSet-Regular.pdf">Regular</a></li>
-<li><a href="downloads/UpgradeCJKFullGlyphSet-Medium.pdf">Medium</a></li>
-<li><a href="downloads/UpgradeCJKFullGlyphSet-SemiBold.pdf">Semi-Bold</a></li>
-<li><a href="downloads/UpgradeCJKFullGlyphSet-Bold.pdf">Bold</a></li>
-</ul>
 <h2>Licensing</h2>
-<p>Aliquam accumsan, velit mollis pellentesque accumsan, orci nulla ullamcorper ligula, imperdiet facilisis quam massa a ipsum. Aliquam vitae aliquet odio. Nulla facilisi. Proin pulvinar nisl quis ipsum vehicula pharetra. Praesent ullamcorper in elit sit amet maximus. </p>
-<p><img alt="w=800 y=top" src="images/UpgradeCJKFullGlyphSet-Bold_1.png" /></p></document>
+<p>Aliquam accumsan, velit mollis pellentesque accumsan, orci nulla ullamcorper ligula, imperdiet facilisis quam massa a ipsum. Aliquam vitae aliquet odio. Nulla facilisi. Proin pulvinar nisl quis ipsum vehicula pharetra. Praesent ullamcorper in elit sit amet maximus. </p></document>

@@ -10,7 +10,7 @@ page.url = 'specs.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# World Font Specifications
+# Upgrade CJK Specifications
 
 ~~~ 
 from pagebot.constants import *
@@ -68,18 +68,11 @@ box = section.newMain()
 
 Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. 
 
-### Download the World Font glyph set as PDF
-
-* [Regular](downloads/UpgradeCJKFullGlyphSet-Regular.pdf)
-* [Medium](downloads/UpgradeCJKFullGlyphSet-Medium.pdf)
-* [Semi-Bold](downloads/UpgradeCJKFullGlyphSet-SemiBold.pdf)
-* [Bold](downloads/UpgradeCJKFullGlyphSet-Bold.pdf)
+### Download the Upgrade CJK glyph set as PDF
 
 ~~~
 box = section.newSide()
 ~~~
-
-![Regular](images/UpgradeCJKFullGlyphSet-Regular_1.png)
 
 ~~~
 section = content.newSection()
@@ -89,13 +82,10 @@ box = section.newMain()
 
 Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
 
-### World Font Sans
+### Upgrade CJK Sans
 
-![Weights Sans](images/WF-Image40_1.png)
 
-### World Font Slab
-
-![Weights Slab](images/WF-Image30_1.png)
+### Upgrade CJK Slab
 
 ~~~
 section = content.newSection()
@@ -112,5 +102,3 @@ Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempu
 ~~~
 box = section.newCropped()
 ~~~
-
-![w=800 y=top](images/Upgrade-BoldOutline-FontWindow.png)

@@ -35,20 +35,21 @@ box = content.newBanner()
 # Type in the making. Try it now.
 
 ~~~
-box = content.newCropped()
+box = content.newCropped(fill=0.3)
 ~~~
-![y=top contain noscale](images/IMG_4539.JPG)
+![x=center y=top contain noscale no-repeat](images/IMG_4539.JPG)
 
 # Hi Honey, I’ll buy you a lunch: Fish’n Chips
 ~~~
 box = content.newTypeList(doc.docLib['fontDataList']['Upgrade'], fontSize=44, labelFont='Upgrade-Regular', labelFontSize=18)
+
 ~~~
 
 ~~~
 box = content.newIntroduction()
 ~~~
 
-# TYPE TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates, that show how we would use our typefaces. Copy code snippets to help you implement TYPETR type. 
+# TYPE TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates, that show how we would use our own typefaces. Copy code snippets to help you implement TYPETR type. 
 
 ~~~ 
 from pagebot.constants import *
@@ -94,15 +95,7 @@ box = section.newSide()
 ~~~
 ### Download the Upgrade CJK glyph set as PDF
 
-* [Regular](downloads/UpgradeCJKFullGlyphSet-Regular.pdf)
-* [Medium](downloads/UpgradeCJKFullGlyphSet-Medium.pdf)
-* [Semi-Bold](downloads/UpgradeCJKFullGlyphSet-SemiBold.pdf)
-* [Bold](downloads/UpgradeCJKFullGlyphSet-Bold.pdf)
-
 ## Licensing
 
 Aliquam accumsan, velit mollis pellentesque accumsan, orci nulla ullamcorper ligula, imperdiet facilisis quam massa a ipsum. Aliquam vitae aliquet odio. Nulla facilisi. Proin pulvinar nisl quis ipsum vehicula pharetra. Praesent ullamcorper in elit sit amet maximus. 
-
-![w=800 y=top](images/UpgradeCJKFullGlyphSet-Bold_1.png)
-
 

@@ -60,7 +60,7 @@ MD_PATHS = [
     'TT-home.md',
     'TT-upgrade.md',
     #'TT-upgrade-cjk.md',
-    'TT-bitcount.md',
+    #'TT-bitcount.md',
     'TT-powerlift.md',
     'TT-prominence.md',
     #'TT-promise.md',
@@ -70,29 +70,15 @@ EXPORT_PATH = '_export/' + SITE_NAME # Export path for DO_FILE
 
 FONT_DATA_LIST = {
     'Upgrade': [ 
+        ('Upgrade-Thin', dict(
+        )),
         ('Upgrade-Book', dict(
-            download='font/Upgrade_Try.zip',
-            seeAlso='https://upgrade.typenetwork.com',
-            adobe='https://fonts.adobe.com/fonts/upgrade',
-            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
         )),
         ('Upgrade-Regular', dict(
-            download='font/Upgrade_Try.zip',
-            seeAlso='https://upgrade.typenetwork.com',
-            adobe='https://fonts.adobe.com/fonts/upgrade',
-            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
         )),
         ('Upgrade-Medium', dict(
-            download='font/Upgrade_Try.zip',
-            seeAlso='https://upgrade.typenetwork.com',
-            adobe='https://fonts.adobe.com/fonts/upgrade',
-            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
-        )),
+         )),
         ('Upgrade-Semibold', dict(
-            download='font/Upgrade_Try.zip',
-            seeAlso='https://upgrade.typenetwork.com',
-            adobe='https://fonts.adobe.com/fonts/upgrade',
-            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
         )),
         ('Upgrade-Bold', dict(
             download='font/Upgrade_Try.zip',

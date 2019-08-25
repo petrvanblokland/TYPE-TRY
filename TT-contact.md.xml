@@ -19,11 +19,6 @@ box = slideshow.slides
 #![w=200 y=top](images/BK-Graphic-Design.png)
 </code></pre>
 
-<p><img alt="w=450 y=top" src="images/bierCoverPages2-Dutch_1.png" /><br />
-<img alt="w=450 y=top" src="images/IMG_4826.jpeg" /><br />
-<img alt="w=450 y=top" src="images/SketchingTypeDesign.png" /><br />
-<img alt="w=450 y=top" src="images/travelCoverPages_1.png" /><br />
-<img alt="w=450 y=top" src="images/travelCoverPages1x_1.png" /></p>
 <pre><code>box = slideshow.side
 </code></pre>
 
