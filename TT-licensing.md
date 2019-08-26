@@ -11,7 +11,7 @@ page.url = 'licensing.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# What does a license	 cost?
+# What does a license cost?
 
 ~~~
 box = content.newIntroduction()

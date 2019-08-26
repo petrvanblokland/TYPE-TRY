@@ -81,29 +81,28 @@ FONT_DATA_LIST = {
         ('Upgrade-Semibold', dict(
         )),
         ('Upgrade-Bold', dict(
-            download='font/Upgrade_Try.zip',
+            download='downloads/Upgrade_Try.zip',
             seeAlso='https://upgrade.typenetwork.com',
             adobe='https://fonts.adobe.com/fonts/upgrade',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
         )),
     ],
+    'Upgrade Waterfall': [ 
+        ('Upgrade-Regular', dict(
+        )),
+    ],
     'PowerLift': [
         ('PowerLift-Tight', dict(
-            download='font/PowerLift_Try.zip',
-            adobe='https://fonts.adobe.com/fonts/powerlift',
-            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/powerlift',
         )),
         ('PowerLift-Tight_Outline', dict(
-            download='font/PowerLift_Try.zip',
+            download='downloads/PowerLift_Try.zip',
             adobe='https://fonts.adobe.com/fonts/powerlift',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/powerlift',
         )),
     ],
     'Bitcount Outline Round': [
         ('Bitcount_Try_Mono_Double_Outline-Black_Round', dict(
-            sample='Bitcount Black Round',
-            seeAlso='https://bitcount.typenetwork.com',
-            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
+            sample='Bitcount Book Round',
         )),
         ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Round', dict(
             sample='Bitcount X-Bold Round',
@@ -118,7 +117,9 @@ FONT_DATA_LIST = {
             sample='Bitcount (Regular) Round',
         )),
         ('Bitcount_Try_Mono_Double_Outline-Book_Round', dict(
-            sample='Bitcount Book Round',
+            sample='Bitcount Black Round',
+            seeAlso='https://bitcount.typenetwork.com',
+            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
         )),
     ],
     'Bitcount Outline Square': [

@@ -346,8 +346,8 @@ ul.navmenu:after {
     font-family: 'Upgrade-Regular', sans-serif;
     color: #%(banner.textFill)s;
 }
-.banner .textbox h1 a { 
-    font-size: 0.7em;
+.banner .textbox h1 a { /* TRY Link in headlines */
+    font-size: 0.75em;
     line-height: 1.3em;
     background-color: #%(banner.textFill)s;
     font-family: 'Upgrade-Medium', sans-serif;
@@ -506,7 +506,7 @@ floating elements inside.*/
 }
 .cropped h1 {
     font-size: 6em;
-    line-height: 1.4;
+    line-height: 1.1;
     /*font-family: "PowerLift-TightOutline";*/
     /*font-family: "PowerLift-Tight";*/
     font-family: "Upgrade-Book";
@@ -641,7 +641,7 @@ MEDIAQUERIES
     }
     .cropped h1 {
         font-size: 4em;
-        line-height: 0.9;
+        line-height: 1.1em;
 }
 @media only screen and (min-width: 800px) {
     body {

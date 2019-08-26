@@ -11,63 +11,29 @@ page.url = 'powerlift.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Type in the making. Try it now.
+# More TYPETR PowerLift variants in the making. [TRY](downloads/PowerLift_Try.zip) them now.
 
 ~~~
-box = content.newCropped()
+box = content.newCropped(fill=0.3)
 ~~~
-![y=bottom](images/IMG_4664.JPG)
+![x=center y=top contain noscale no-repeat](images/IMG_4664.JPG)
 
 # Hey Bun, let’s get a Croque Monsieur
 
 ~~~
-box = content.newIntroduction()
+box = content.newIntroduction() # Large color background, white large text
 ~~~
 
-# TYPE-TRY gives an updated overview of running TYPETR projects. Download sample fonts to test yourself. Use the type already, while they are still in the making. Send wishes and suggestions. Find example templates that show we would use them. Copy code snippets to help you implement TYPETR type. 
-
-~~~
-content = page.select('Content')
-box = content.newBanner()
-~~~
-# What designers did with the font
+# [TRY](downloads/PowerLift_Try.zip) the heavy weight PowerLift in your design work. Two variants are released: **PowerLift Tight** and **PowerLift Tight Outline**, matching to be used in layers. A new one is to be released in 2019: **PowerLift Tight Circle**.
 
 ~~~
 box = content.newTypeList(doc.docLib['fontDataList']['PowerLift'], fontSize=44, labelFont='Upgrade-Regular', labelFontSize=18)
 
-box = content.newIntroduction()
-~~~
-# Nam leo orci, condimentum vel nunc et, euismod varius nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut id imperdiet elit. 
-
-~~~
-section = content.newSection()
-box = section.newMain()
+box = content.newBanner()
 ~~~
 
-## What we did…
-
-* Nulla lacus nibh, dignissim ac quam sit amet, vulputate pulvinar nisl. 
-* Mauris viverra finibus interdum. Praesent efficitur arcu id libero vulputate tristique. Suspendisse lectus nisi, bibendum nec mauris at, vestibulum pulvinar sapien. 
-* Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse non libero in ex 
-* Vestibulum bibendum sed sit amet lectus. Nullam aliquam laoreet fringilla. Phasellus ut diam accumsan, bibendum nisi sed, laoreet sem.
+# What designers did with the font.
 
 ~~~
-box = section.newCropped()
+box = content.newWaterfall(doc.docLib['fontDataList']['PowerLift'], fontSizes=[48,54,60,66,72], labelFont='Upgrade-Regular', labelFontSize=18)
 ~~~
-
-~~~ 
-section = content.newSection()
-box = section.newMain()
-~~~
-
-# Best usage
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt neque ac neque iaculis feugiat. Praesent feugiat neque et sem gravida, vel mattis nibh tempus. 
-
-Suspendisse faucibus et lacus id vestibulum. Donec massa lacus, consectetur sit amet enim eu, vehicula vehicula quam. Aliquam erat volutpat. Quisque posuere tempor leo, in rhoncus diam volutpat ut. Nunc vitae sapien et urna ullamcorper maximus porta id urna. 
-
-Aliquam at ex aliquet, lacinia risus vel, rhoncus velit. Etiam id arcu mi. Nulla iaculis mi eu turpis viverra malesuada. Curabitur rhoncus est nec odio volutpat congue. Proin posuere nulla nunc, ac dictum ligula ullamcorper eget. Nullam et tempor lacus, et interdum leo. Nam faucibus sit amet mi sit amet imperdiet. Quisque cursus eros ligula, at laoreet arcu sagittis eget.
-
-~~~
-box = section.newSide()
-~~~ 

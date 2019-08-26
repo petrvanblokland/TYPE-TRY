@@ -10,7 +10,7 @@ page.url = 'promise.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Upgrade CJK Specifications
+# Promise in the making. [TRY](downloads/Promise_Try.zip) it now.
 
 ~~~ 
 from pagebot.constants import *

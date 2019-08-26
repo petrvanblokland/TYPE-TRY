@@ -11,130 +11,18 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>Type in the making. Try it now.</h1>
-<pre><code>box = content.newCropped()
+<h1>More TYPETR Upgrade variants in the making. <a href="downloads/Upgrade_Try.zip">TRY</a> them now.</h1>
+<pre><code>box = content.newCropped(fill=0.3)
 </code></pre>
 
-<p><img alt="y=top h=100% noScale" src="images/IMG_4664.JPG" /></p>
-<h1>You &amp; me will have a romantic diner night.</h1>
-<pre><code>box = content.newCropped()
+<p><img alt="x=center y=top contain noscale no-repeat" src="images/IMG_4664.JPG" /></p>
+<h1>You &amp; me will have a romantic dinner night.</h1>
+<pre><code>box = content.newCropped(fill=0.3)
 </code></pre>
 
-<p><img alt="y=top h=100% noScale" src="images/IMG_4609.JPG" /></p>
+<p><img alt="x=center y=top contain noscale no-repeat" src="images/IMG_4609.JPG" /></p>
 <h1>Sweetheart, it’s hotdog time.</h1>
 <pre><code>box = content.newIntroduction()
 </code></pre>
 
-<h1>TYPE-TRY gives an updated overview of running TYPETR projects. Download sample fonts to test yourself. Use the type already, while they are still in the making. Send wishes and suggestions. Find example templates that show we would use them. Copy code snippets to help you implement TYPETR type.</h1>
-<pre><code>box = content.newBanner()
-</code></pre>
-
-<h1>Check out the available scripts</h1>
-<pre><code>section = content.newSection()
-box = section.newMain()
-</code></pre>
-
-<h2>Order the script combinations that you need.</h2>
-<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor. </p>
-<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
-<ul>
-<li>Mauris sagittis, dui at tristique elementum, sapien tortor accumsan nisi, et blandit eros magna nec arcu. Nulla pharetra rutrum dictum. </li>
-<li>Vivamus congue turpis nunc, non vestibulum odio aliquet in. </li>
-<li>Aliquam ut dapibus metus, quis vehicula nulla. </li>
-<li>Nullam semper erat vel turpis dictum, eget hendrerit mauris convallis.</li>
-</ul>
-<pre><code>box = section.newSide()
-</code></pre>
-
-<pre><code>section = content.newSection()
-box = section.newMain()
-</code></pre>
-
-<h2>Chinese (Simplified)</h2>
-<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
-<pre><code>box = box.newInfo()
-</code></pre>
-
-<h3>Upgrade CJK Sans</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
-<h3>Upgrade CJK Slab</h3>
-<pre><code>box = section.newSide()
-</code></pre>
-
-<h3>Reading from screen and print</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
-<pre><code>section = content.newSection()
-box = section.newMain()
-</code></pre>
-
-<h2>Chinese (Traditional)</h2>
-<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
-<pre><code>box = box.newInfo()
-</code></pre>
-
-<h3>Upgrade CJK Sans</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
-<h3>Upgrade CJK Slab</h3>
-<pre><code>box = section.newSide()
-</code></pre>
-
-<h3>Reading from screen and print</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
-<pre><code>section = content.newSection()
-box = section.newMain()
-</code></pre>
-
-<h2>Japanese</h2>
-<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
-<pre><code>box = box.newInfo()
-</code></pre>
-
-<h3>Upgrade CJK Sans</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
-<h3>Upgrade CJK Slab</h3>
-<pre><code>box = section.newSide()
-</code></pre>
-
-<h3>Reading from screen and print</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
-<pre><code>section = content.newSection()
-box = section.newMain()
-</code></pre>
-
-<h2>Korean</h2>
-<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
-<pre><code>box = box.newInfo()
-</code></pre>
-
-<h3>Upgrade CJK Sans</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
-<h3>Upgrade CJK Slab</h3>
-<pre><code>box = section.newSide()
-</code></pre>
-
-<h3>Reading from screen</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
-<pre><code>section = content.newSection()
-box = section.newMain()
-</code></pre>
-
-<h2>Russian</h2>
-<p>Ut eget massa aliquam, sagittis dolor vel, efficitur ex. Donec velit tellus, convallis vel porttitor nec, aliquet sed odio. Vestibulum quis diam sit amet mauris elementum posuere quis vitae nisl. </p>
-<pre><code>box = box.newInfo()
-</code></pre>
-
-<h3>Upgrade CJK Sans</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, pretium est sit amet, cursus dolor.</p>
-<h3>Upgrade CJK Slab</h3>
-<pre><code>box = section.newSide()
-</code></pre>
-
-<h3>Reading from screen</h3>
-<p>Pellentesque nunc mauris, scelerisque id ipsum nec, ultricies commodo arcu. Proin non libero egestas, </p>
-<pre><code>section = content.newSection()
-box = section.newMain()
-</code></pre>
-
-<h2>Pricing</h2>
-<p>Aliquam at dapibus lacus. Phasellus molestie ante in tempus vehicula. Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
-<p><a href="pricing.html">See more about pricing here.</a></p></document>
+<h1>TYPE-TRY gives an updated overview of running TYPETR projects. Download sample fonts to test yourself. Use the type already, while they are still in the making. Send wishes and suggestions. Find example templates that show we would use them. Copy code snippets to help you implement TYPETR type.</h1></document>
