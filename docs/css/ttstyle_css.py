@@ -40,6 +40,39 @@ body {
 img {
     width: 100%%;
 }
+img.icon {
+    width: 18px;
+    height: 18px;
+}
+span.try-icon {
+    font-family: "Upgrade-Medium";
+    color: white;
+    font-size: 0.9em;
+    background-color: #FF0000;
+    padding: 1px 4px 0px 4px;
+}
+span.tn-icon {
+    font-family: "Upgrade-Medium";
+    color: white;
+    font-size: 0.9em;
+    background-color: black;
+    padding: 1px 2px 0px 2px;
+}
+span.typetr-icon {
+    font-family: "Upgrade-Medium";
+    color: white;
+    font-size: 0.9em;
+    letter-spacing: -0.1em;
+    background-color: #221188;
+    padding: 1px 6px 0px 4px; 
+}
+span.google-icon {
+    font-family: "Upgrade-Medium";
+    color: white;
+    font-size: 0.9em;
+    background-color: #110055;
+    padding: 1px 4px 0px 4px; 
+}
 p {
     font-size: 1em;
     font-family: 'Upgrade-Regular';
@@ -313,8 +346,8 @@ ul.navmenu:after {
     font-family: 'Upgrade-Regular', sans-serif;
     color: #%(banner.textFill)s;
 }
-.banner .textbox h1 a { 
-    font-size: 0.7em;
+.banner .textbox h1 a { /* TRY Link in headlines */
+    font-size: 0.75em;
     line-height: 1.3em;
     background-color: #%(banner.textFill)s;
     font-family: 'Upgrade-Medium', sans-serif;
@@ -343,7 +376,7 @@ ul.navmenu:after {
 .introduction .textbox h1 {
     font-size: 3em;
     line-height: 1.2em;
-    font-family: 'Upgrade-Light', sans-serif;
+    font-family: 'Upgrade-Book', sans-serif;
     color: #%(intro.textFill)s;
 }
 .introduction .textbox h1 a {
@@ -473,9 +506,10 @@ floating elements inside.*/
 }
 .cropped h1 {
     font-size: 6em;
-    line-height: 0.9;
+    line-height: 1.1;
     /*font-family: "PowerLift-TightOutline";*/
-    font-family: "PowerLift-Tight";
+    /*font-family: "PowerLift-Tight";*/
+    font-family: "Upgrade-Book";
     color: white;
     text-shadow: black 4px 6px 4px;
     text-align: center;
@@ -607,7 +641,7 @@ MEDIAQUERIES
     }
     .cropped h1 {
         font-size: 4em;
-        line-height: 0.9;
+        line-height: 1.1em;
 }
 @media only screen and (min-width: 800px) {
     body {

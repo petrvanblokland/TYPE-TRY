@@ -38,8 +38,6 @@ box = section.newMain()
 
 Aliquam at dapibus lacus. Phasellus molestie ante in tempus vehicula. Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
 
-![](images/GlyphSets-InPractice.png)
-
 [See more about the support scripts.](scripts.html)
 
 ~~~
@@ -50,15 +48,11 @@ box = section.newMain()
 
 Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
 
-![Features](images/UpgradeFeatures.png)
-
 ~~~
 box = section.newInfo()
 ~~~
 
 Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
-
-![](images/TYPETR-Upgrade-Screen.png)
 
 ~~~
 section = content.newSection()
@@ -84,11 +78,7 @@ Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus,
 
 ### Upgrade CJK Sans
 
-![Weights Sans](images/WF-Image40_1.png)
-
 ### Upgrade CJK Slab
-
-![Weights Slab](images/WF-Image30_1.png)
 
 ~~~
 section = content.newSection()

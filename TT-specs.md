@@ -38,8 +38,6 @@ box = section.newMain()
 
 Aliquam at dapibus lacus. Phasellus molestie ante in tempus vehicula. Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
 
-![](images/GlyphSets-InPractice.png)
-
 [See more about the support scripts.](scripts.html)
 
 ~~~

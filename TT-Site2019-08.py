@@ -60,10 +60,11 @@ MD_PATHS = [
     'TT-home.md',
     'TT-upgrade.md',
     #'TT-upgrade-cjk.md',
-    #'TT-bitcount.md',
+    'TT-bitcount.md',
     'TT-powerlift.md',
-    'TT-prominence.md',
+    #'TT-prominence.md',
     #'TT-promise.md',
+    'TT-other.md',
     'TT-contact.md',
 ]
 EXPORT_PATH = '_export/' + SITE_NAME # Export path for DO_FILE
@@ -172,7 +173,7 @@ DO_PDF = 'Pdf' # Save as PDF representation of the site.
 DO_FILE = 'File' # Generate website output in _export/SimpleSite and open browser on file index.html
 DO_MAMP = 'Mamp' # Generate website in /Applications/Mamp/htdocs/SimpleSite and open a localhost
 DO_GIT = 'Git' # Generate website and commit to git (so site is published in git docs folder.
-EXPORT_TYPE = DO_MAMP
+EXPORT_TYPE = DO_GIT
 
 CLEAR_MAMP = False # If True, make a clean copy by removing all old files first.
 

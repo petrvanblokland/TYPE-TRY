@@ -30,7 +30,12 @@
 page.name = 'Home'
 page.url = 'index.html'
 content = page.select('Content')
-box = content.newBanner()
+
+box = content.newIntroduction()
+</code></pre>
+
+<h1>This site is currently under construction. Contact <a href="mailto:buro@petr.com">buro@petr.com</a> if you have questions.</h1>
+<pre><code>box = content.newBanner()
 </code></pre>
 
 <h1>Type in the making. Try it now.</h1>
@@ -44,7 +49,7 @@ box = content.newBanner()
 box = content.newIntroduction()
 </code></pre>
 
-<h1>TYPE TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates, that show how we would use our own typefaces. Copy code snippets to help you implement TYPETR type.</h1>
+<h1>TYPE TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates. Get code snippets that best implement TYPETR type.</h1>
 <pre><code>box = content.newWaterfall(doc.docLib['fontDataList']['Upgrade Waterfall'], fontSizes=[12,18,24,30,36,42,48,54,60,66,72], labelFont='Upgrade-Regular', labelFontSize=18)
 
 from pagebot.constants import *

@@ -30,6 +30,4 @@ box = content.newCropped(fill=0.3)
 box = content.newIntroduction()
 ~~~
 
-# TYPE-TRY gives an updated overview of running TYPETR projects. Download sample fonts to test yourself. Use the type already, while they are still in the making. Send wishes and suggestions. Find example templates that show we would use them. Copy code snippets to help you implement TYPETR type. 
-
-
+# TYPE TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates. Get code snippets that best implement TYPETR type.
