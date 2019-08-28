@@ -33,7 +33,7 @@ content = page.select('Content')
 
 box = content.newIntroduction()
 ~~~
-# This site is currently under construction. Contact [buro@petr.com](mailto:buro@petr.com) if you have questions.
+# This site is currently under construction. Contact [buro@petr.com](mailto:buro@petr.com) for additional information.
 
 ~~~
 box = content.newBanner()

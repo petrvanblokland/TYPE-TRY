@@ -34,7 +34,7 @@ content = page.select('Content')
 box = content.newIntroduction()
 </code></pre>
 
-<h1>This site is currently under construction. Contact <a href="mailto:buro@petr.com">buro@petr.com</a> if you have questions.</h1>
+<h1>This site is currently under construction. Contact <a href="mailto:buro@petr.com">buro@petr.com</a> for additional information.</h1>
 <pre><code>box = content.newBanner()
 </code></pre>
 

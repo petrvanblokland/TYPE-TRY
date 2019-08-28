@@ -11,7 +11,7 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>More TYPETR PowerLift variants in the making. <a href="downloads/PowerLift_Try.zip">TRY</a> them now.</h1>
+<h1>More TYPETR PowerLift variants in the making. <a href="downloads/TYPETR-PowerLift_Try.zip">TRY</a> them now.</h1>
 <pre><code>box = content.newCropped(fill=0.3)
 </code></pre>
 
@@ -20,12 +20,11 @@ box = content.newBanner()
 <pre><code>box = content.newIntroduction() # Large color background, white large text
 </code></pre>
 
-<h1><a href="downloads/PowerLift_Try.zip">TRY</a> the heavy weight PowerLift in your design work. Two variants are released: <strong>PowerLift Tight</strong> and <strong>PowerLift Tight Outline</strong>, matching to be used in layers. A new one is to be released in 2019: <strong>PowerLift Tight Circle</strong>.</h1>
-<pre><code>box = content.newTypeList(doc.docLib['fontDataList']['PowerLift'], fontSize=44, labelFont='Upgrade-Regular', labelFontSize=18)
+<h1><a href="downloads/TYPETR-PowerLift_Try.zip">TRY</a> the heavy weight PowerLift in your design work. Two variants are released: <strong>PowerLift Tight</strong> and <strong>PowerLift Tight Outline</strong>, matching to be used in layers. Two new variants will be released in 2019: <strong>Circle</strong> and <strong>Slab</strong>.</h1>
+<pre><code>from pagebot.toolbox.units import em
+box = content.newTypeList(doc.docLib['fontDataList']['PowerLift'], fontSize=120, labelFont='Upgrade-Regular', labelFontSize=18, leading=em(1))
 
 box = content.newBanner()
 </code></pre>
 
-<h1>What designers did with the font.</h1>
-<pre><code>box = content.newWaterfall(doc.docLib['fontDataList']['PowerLift'], fontSizes=[48,54,60,66,72], labelFont='Upgrade-Regular', labelFontSize=18)
-</code></pre></document>
+<h1>What designers did with the font.</h1></document>

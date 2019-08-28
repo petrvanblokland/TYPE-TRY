@@ -11,18 +11,25 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>More TYPETR Upgrade variants in the making. <a href="downloads/Upgrade_Try.zip">TRY</a> them now.</h1>
+<h1>More TYPETR Upgrade variants in the making. <a href="downloads/TYPETR_Upgrade_Try-ttf.zip">TRY</a> them now.</h1>
 <pre><code>box = content.newCropped(fill=0.3)
 </code></pre>
 
 <p><img alt="x=center y=top contain noscale no-repeat" src="images/IMG_4664.JPG" /></p>
 <h1>You &amp; me will have a romantic dinner night.</h1>
-<pre><code>box = content.newCropped(fill=0.3)
+<pre><code>box = content.newIntroduction()
+</code></pre>
+
+<h1>TYPE-TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates. Get code snippets that best implement TYPETR type.</h1>
+<pre><code># The Upgrade-Try fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Upgrade Try'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+
+box = content.newCropped(fill=0.3)
 </code></pre>
 
 <p><img alt="x=center y=top contain noscale no-repeat" src="images/IMG_4609.JPG" /></p>
 <h1>Sweetheart, it’s hotdog time.</h1>
-<pre><code>box = content.newIntroduction()
-</code></pre>
+<pre><code># The Upgrade-Try fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Upgrade Try'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 
-<h1>TYPE TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates. Get code snippets that best implement TYPETR type.</h1></document>
+</code></pre></document>

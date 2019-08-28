@@ -88,17 +88,67 @@ FONT_DATA_LIST = {
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
         )),
     ],
+    'Upgrade Try': [
+        ('Upgrade_Try-Hairline', dict()),
+        ('Upgrade_Try-Thin', dict()),
+        ('Upgrade_Try-ExtraLight', dict()),
+        ('Upgrade_Try-Light', dict()),
+        ('Upgrade_Try-Book', dict()),
+        ('Upgrade_Try-Regular', dict()),
+        ('Upgrade_Try-Medium', dict()),
+        ('Upgrade_Try-Semibold', dict()),
+        ('Upgrade_Try-Bold', dict()),
+        ('Upgrade_Try-Black', dict()),
+        ('Upgrade_Try-ExtraBlack', dict()),
+        ('Upgrade_Try-UltraBlack', dict(
+            download='downloads/TYPETR_Upgrade_Try-ttf.zip',
+            seeAlso='https://upgrade.typenetwork.com',
+            adobe='https://fonts.adobe.com/fonts/upgrade',
+            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
+        )),
+    ],
+    'Upgrade Try Italic': [
+        ('Upgrade_Try-Hairline_Italic', dict()),
+        ('Upgrade_Try-Thin_Italic', dict()),
+        ('Upgrade_Try-ExtraLight_Italic', dict()),
+        ('Upgrade_Try-Light_Italic', dict()),
+        ('Upgrade_Try-Book_Italic', dict()),
+        ('Upgrade_Try-Italic', dict()),
+        ('Upgrade_Try-Medium_Italic', dict()),
+        ('Upgrade_Try-Semibold_Italic', dict()),
+        ('Upgrade_Try-Bold_Italic', dict()),
+        ('Upgrade_Try-Black_Italic', dict()),
+        ('Upgrade_Try-ExtraBlack_Italic', dict()),
+        ('Upgrade_Try-UltraBlack_Italic', dict(
+            download='downloads/TYPETR_Upgrade_Try-italic_ttf.zip',
+            seeAlso='https://upgrade.typenetwork.com',
+            adobe='https://fonts.adobe.com/fonts/upgrade',
+            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
+        )),
+    ],
     'Upgrade Waterfall': [ 
         ('Upgrade-Regular', dict(
         )),
     ],
+
+    # === PowerLift Try === 
     'PowerLift': [
-        ('PowerLift-Tight', dict(
+        ('PowerLift_Try-Tight', dict(
+            sample='PowerLift',
         )),
-        ('PowerLift-Tight_Outline', dict(
+        ('PowerLift_Try-Tight_Outline', dict(
+            sample='Outline',
             download='downloads/PowerLift_Try.zip',
             adobe='https://fonts.adobe.com/fonts/powerlift',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/powerlift',
+        )),
+        ('PowerLift_Try-Tight_Circle36', dict(
+            sample='Circle',
+            download='downloads/PowerLift_Try.zip',
+        )),
+        ('PowerLift_Try-Tight_Slab24', dict(
+            sample='Slab',
+            download='downloads/PowerLift_Try.zip',
         )),
     ],
     'Bitcount Outline Round': [
@@ -119,6 +169,7 @@ FONT_DATA_LIST = {
         )),
         ('Bitcount_Try_Mono_Double_Outline-Book_Round', dict(
             sample='Bitcount Black Round',
+            download='downloads/TYPETR-Bitcount_Try_Outline-Round.zip',
             seeAlso='https://bitcount.typenetwork.com',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
         )),
@@ -141,6 +192,9 @@ FONT_DATA_LIST = {
         )),
         ('Bitcount_Try_Mono_Double_Outline-Book_Square', dict(
             sample='Bitcount Book Square',
+            download='downloads/TYPETR-Bitcount_Try_Outline-Square.zip',
+            seeAlso='https://bitcount.typenetwork.com',
+            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
         )),
     ],
     'Bitcount Outline Square Italic': [
@@ -161,6 +215,9 @@ FONT_DATA_LIST = {
         )),
         ('Bitcount_Try_Mono_Double_Outline-Book_Square_Italic', dict(
             sample='Bitcount Book Sq.Italic',
+            download='downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip',
+            seeAlso='https://bitcount.typenetwork.com',
+            typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
         )),
     ],
 
@@ -173,7 +230,7 @@ DO_PDF = 'Pdf' # Save as PDF representation of the site.
 DO_FILE = 'File' # Generate website output in _export/SimpleSite and open browser on file index.html
 DO_MAMP = 'Mamp' # Generate website in /Applications/Mamp/htdocs/SimpleSite and open a localhost
 DO_GIT = 'Git' # Generate website and commit to git (so site is published in git docs folder.
-EXPORT_TYPE = DO_GIT
+EXPORT_TYPE = DO_MAMP
 
 CLEAR_MAMP = False # If True, make a clean copy by removing all old files first.
 

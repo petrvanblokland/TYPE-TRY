@@ -10,9 +10,9 @@ page.url = 'bitcount.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Bitcount Outline Round [TRY](downloads/Bitcount_Try_Outline-Round.zip)
+# Bitcount Outline Round [TRY](downloads/TYPETR-Bitcount_Try_Outline-Round.zip)
 
-Try the pre-release of **Bitcount Outline Round** weights. Download the TYPE TRY font package [here.](downloads/Bitcount_Try_Outline-Round.zip)
+Try the pre-release of **Bitcount Outline Round** weights. Download the TYPE TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Round.zip)
 ~~~
 # The Bitcount fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Round'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
@@ -20,9 +20,9 @@ box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Round'], 
 box = content.newBanner()
 ~~~
 
-# Bitcount Outline Square [TRY](downloads/Bitcount_Try_Outline-Square.zip)
+# Bitcount Outline Square [TRY](downloads/TYPETR-Bitcount_Try_Outline-Square.zip)
 
-Try the pre-release of **Bitcount Outline Square** weights. Download the TYPE TRY font package [here.](downloads/Bitcount_Try_Outline-Square.zip)
+Try the pre-release of **Bitcount Outline Square** weights. Download the TYPE TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Square.zip)
 ~~~
 # The Bitcount fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
@@ -30,9 +30,9 @@ box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square'],
 box = content.newBanner()
 ~~~
 
-# Bitcount Outline Square Italic [TRY](downloads/Bitcount_Try_Outline-Square_Italic.zip)
+# Bitcount Outline Square Italic [TRY](downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip)
 
-Try the pre-release of **Bitcount Outline Square Italic** weights. Download the TYPE TRY font package [here.](downloads/Bitcount_Try_Outline-Square_Italic.zip)
+Try the pre-release of **Bitcount Outline Square Italic** weights. Download the TYPE TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip)
 ~~~
 # The Bitcount fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square Italic'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
