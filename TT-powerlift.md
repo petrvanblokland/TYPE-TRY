@@ -14,7 +14,7 @@ box = content.newBanner()
 # More TYPETR PowerLift variants in the making. [TRY](downloads/TYPETR-PowerLift_Try.zip) them now.
 
 ~~~
-box = content.newCropped(fill=0.3)
+box = content.newCropped(fill=0.3, cssClass='cropped cropped-second')
 ~~~
 ![x=center y=top contain noscale no-repeat](images/IMG_4664.JPG)
 
@@ -28,11 +28,27 @@ box = content.newIntroduction() # Large color background, white large text
 
 ~~~
 from pagebot.toolbox.units import em
-box = content.newTypeList(doc.docLib['fontDataList']['PowerLift'], fontSize=120, labelFont='Upgrade-Regular', labelFontSize=18, leading=em(1))
+box = content.newTypeList(doc.docLib['fontDataList']['PowerLift'], fontSize=120, labelFont='Upgrade-Regular', labelFontSize=18, leading=em(1), labelLeading=em(1.5))
 
 box = content.newBanner()
 ~~~
 
 # What designers did with the font.
 
+~~~
+box = content.newMain()
+~~~
+![](images/TypeLab2019PowerLift1.jpg)
 
+~~~
+box = content.newSide()
+~~~
+![](images/TypeLab2019PowerLift2.jpg)
+
+
+~~~
+box = content.newCropped(fill=0.3, cssClass='cropped cropped-third')
+~~~
+![x=center y=top contain noscale no-repeat](images/IMG_4609.JPG)
+
+# Hey Bun, let’s get a Croque Monsieur

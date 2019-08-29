@@ -72,3 +72,29 @@
   url("Upgrade-Bold.woff") format("woff");
 }
  
+@font-face {
+  font-family: "PowerLift_Try-Tight";
+  src: url("powerlift_try-tight.eot") format("eot"),
+  url("powerlift_try-tight.woff2") format("woff2"),
+  url("powerlift_try-tight.woff") format("woff");
+}
+@font-face {
+  font-family: "PowerLift_Try-Tight_Outline";
+  src: url("powerlift_try-tight_outline.eot") format("eot"),
+  url("powerlift_try-tight_outline.woff2") format("woff2"),
+  url("powerlift_try-tight_outline.woff") format("woff");
+}
+@font-face {
+  font-family: "PowerLift_Try-Tight_Circle";
+  src: url("powerlift_try-tight_circle.eot") format("eot"),
+  url("powerlift_try-tight_circle.woff2") format("woff2"),
+  url("powerlift_try-tight_circle.woff") format("woff");
+}
+@font-face {
+  font-family: "PowerLift_Try-Tight_Slab";
+  src: url("powerlift_try-tight_slab.eot") format("eot"),
+  url("powerlift_try-tight_slab.woff2") format("woff2"),
+  url("powerlift_try-tight_slab.woff") format("woff");
+}
+ 
+

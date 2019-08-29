@@ -480,12 +480,25 @@ floating elements inside.*/
 .cropped h1 {
     font-size: 6em;
     line-height: 1.1;
-    /*font-family: "PowerLift-TightOutline";*/
-    /*font-family: "PowerLift-Tight";*/
     font-family: "Upgrade-Book";
     color: white;
     text-shadow: black 4px 6px 4px;
     text-align: center;
+}
+.cropped-first h1 {
+    font-family: "PowerLift_Try-Tight_Outline";
+}
+
+.cropped-second h1 {
+    font-family: "PowerLift_Try-Tight";
+}
+
+.cropped-third h1 {
+    font-family: "PowerLift_Try-Tight_Circle";
+}
+
+.cropped-fourth h1 {
+    font-family: "PowerLift_Try-Tight_Slab";
 }
 
 /* Solve Cropped empty <p> first.

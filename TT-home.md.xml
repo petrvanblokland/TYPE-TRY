@@ -39,7 +39,7 @@ box = content.newIntroduction()
 </code></pre>
 
 <h1>Type in the making. Try it now.</h1>
-<pre><code>box = content.newCropped(fill=0.3)
+<pre><code>box = content.newCropped(fill=0.3, cssClass='cropped cropped-first')
 </code></pre>
 
 <p><img alt="x=center y=top contain noscale no-repeat" src="images/IMG_4539.JPG" /></p>

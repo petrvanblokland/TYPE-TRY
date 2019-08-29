@@ -41,7 +41,7 @@ box = content.newBanner()
 # Type in the making. Try it now.
 
 ~~~
-box = content.newCropped(fill=0.3)
+box = content.newCropped(fill=0.3, cssClass='cropped cropped-first')
 ~~~
 ![x=center y=top contain noscale no-repeat](images/IMG_4539.JPG)
 
