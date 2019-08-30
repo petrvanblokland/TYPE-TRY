@@ -37,6 +37,6 @@ box = content.newCropped(fill=0.3)
 
 ~~~
 # The Upgrade-Try fontDataList is defined by the calling application.
-box = content.newTypeList(doc.docLib['fontDataList']['Upgrade Try'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+box = content.newTypeList(doc.docLib['fontDataList']['Upgrade Try Italic'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 
 ~~~

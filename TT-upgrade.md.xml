@@ -30,6 +30,6 @@ box = content.newCropped(fill=0.3)
 <p><img alt="x=center y=top contain noscale no-repeat" src="images/IMG_4609.JPG" /></p>
 <h1>Sweetheart, it’s hotdog time.</h1>
 <pre><code># The Upgrade-Try fontDataList is defined by the calling application.
-box = content.newTypeList(doc.docLib['fontDataList']['Upgrade Try'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+box = content.newTypeList(doc.docLib['fontDataList']['Upgrade Try Italic'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 
 </code></pre></document>
