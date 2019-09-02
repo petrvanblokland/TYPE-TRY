@@ -54,6 +54,12 @@ class MLFTTheme(BaseTheme):
 
 theme = MLFTTheme('light')
 
+# Template for email to by a license direct from TYPETR.
+# Use as BUY_BY_EMAIL % dict(familyName='Family name')
+BUY_SUBJECT = 'License for TYPETR-%(familyName)s'
+BUY_BY_BODY = 'Dear TYPETR, please send info about licensing %(familyName)s styles, intended to be used for ...'
+BUY_BY_EMAIL = 'mailto:info@typetr.com?subject='+BUY_SUBJECT+'&body='+BUY_BY_BODY
+
 SITE_NAME = 'TYPE-TRY' # Also used as logo
 
 MD_PATHS = [
@@ -86,6 +92,8 @@ FONT_DATA_LIST = {
             seeAlso='https://upgrade.typenetwork.com',
             adobe='https://fonts.adobe.com/fonts/upgrade',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
+            #google='https://www.google.com/search?q=typetr+upgrade+usage&oq=typetr+upgrade+usage',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Upgrade'),
         )),
     ],
     'Upgrade Try': [
@@ -108,6 +116,8 @@ FONT_DATA_LIST = {
             seeAlso='https://upgrade.typenetwork.com',
             adobe='https://fonts.adobe.com/fonts/upgrade',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
+            #google='https://www.google.com/search?q=typetr+upgrade+usage&oq=typetr+upgrade+usage',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Upgrade'),
         )),
     ],
     'Upgrade Try Italic': [
@@ -130,6 +140,8 @@ FONT_DATA_LIST = {
             seeAlso='https://upgrade.typenetwork.com',
             adobe='https://fonts.adobe.com/fonts/upgrade',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
+            #google='https://www.google.com/search?q=typetr+upgrade+usage&oq=typetr+upgrade+usage',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Upgrade'),
         )),
     ],
     'Upgrade Waterfall': [ 
@@ -147,6 +159,9 @@ FONT_DATA_LIST = {
             download='downloads/PowerLift_Try.zip',
             adobe='https://fonts.adobe.com/fonts/powerlift',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/powerlift',
+            #google='https://www.google.com/search?q=typetr+powerlift+usage&oq=typetr+powerlift+usage',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='PowerLift'),
+
         )),
         ('PowerLift_Try-Tight_Circle36', dict(
             sample='Circle',
@@ -178,6 +193,7 @@ FONT_DATA_LIST = {
             download='downloads/TYPETR-Bitcount_Try_Outline-Round.zip',
             seeAlso='https://bitcount.typenetwork.com',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Bitcount'),
         )),
     ],
     'Bitcount Outline Square': [
@@ -201,6 +217,7 @@ FONT_DATA_LIST = {
             download='downloads/TYPETR-Bitcount_Try_Outline-Square.zip',
             seeAlso='https://bitcount.typenetwork.com',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Bitcount'),
         )),
     ],
     'Bitcount Outline Square Italic': [
@@ -224,6 +241,7 @@ FONT_DATA_LIST = {
             download='downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip',
             seeAlso='https://bitcount.typenetwork.com',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Bitcount'),
         )),
     ],
 
@@ -236,7 +254,7 @@ DO_PDF = 'Pdf' # Save as PDF representation of the site.
 DO_FILE = 'File' # Generate website output in _export/SimpleSite and open browser on file index.html
 DO_MAMP = 'Mamp' # Generate website in /Applications/Mamp/htdocs/SimpleSite and open a localhost
 DO_GIT = 'Git' # Generate website and commit to git (so site is published in git docs folder.
-EXPORT_TYPE = DO_MAMP
+EXPORT_TYPE = DO_GIT
 
 CLEAR_MAMP = False # If True, make a clean copy by removing all old files first.
 

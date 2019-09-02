@@ -52,7 +52,7 @@ box = content.newTypeList(doc.docLib['fontDataList']['Upgrade'], fontSize=44, la
 box = content.newIntroduction()
 ~~~
 
-# TYPE TRY gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates. Get code snippets that best implement TYPETR type. 
+# <span class="case">TYPE-TRY</span> gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates. Get code snippets that best implement TYPETR type. 
 
 ~~~ 
 box = content.newWaterfall(doc.docLib['fontDataList']['Upgrade Waterfall'], fontSizes=[12,18,24,30,36,42,48,54,60,66,72], labelFont='Upgrade-Regular', labelFontSize=18)
