@@ -17,10 +17,21 @@ img.icon {
     width: 18px;
     height: 18px;
 }
+/* Upgrade supports these OT-features:
+{   'liga': True, 'tnum': True, 'pnum': False, 'sups': False, 'sinf': False, 'frac': False, 
+    'zero': False, 'onum': True, 'lnum': False, 'vpal': True, 'case': False, 'ss08': False, 
+    'ss09': False, 'ss10': False, 'smcp': False, 'c2sc': False
+}
+*/
 span.case {
     -moz-font-feature-settings: 'case';    
     -webkit-font-feature-settings: 'case';
     font-feature-settings: 'case' on;
+}
+span.c2sc {
+    -moz-font-feature-settings: 'c2sc';    
+    -webkit-font-feature-settings: 'c2sc';
+    font-feature-settings: 'c2sc' on;
 }
 span.try-icon {
     font-family: "Upgrade-Medium";
@@ -372,6 +383,12 @@ ul.navmenu:after {
     color: #FF9999;
 }
 
+/* TypeList */
+.typelistline .label {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 /* Slide show */
 
 .slideshowgroup {
@@ -640,6 +657,19 @@ MEDIAQUERIES
     .cropped h1 {
         font-size: 4em;
         line-height: 1.1em;
+    }
+    span.try-icon, span.buy-icon, span.tn-icon, span.typetr-icon, span.google-icon {
+        font-size: 1.5em;
+    }
+    span.icon-label {
+        display: none;
+    }
+    svg.adobe-logo-image {
+        width: 40px;
+        height: 34px;
+        margin-top: 6px;
+        padding-top: 6px;
+    }
 }
 @media only screen and (min-width: 800px) {
     body {

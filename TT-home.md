@@ -1,5 +1,6 @@
 ~~~
 doc.title = 'TYPE TRY'
+from pagebot.toolbox.units import em
 
 # Uncomment to see cssId/cssClass markers in the page
 #doc.view.showIdClass = True
@@ -47,15 +48,15 @@ box = content.newCropped(fill=0.3, cssClass='cropped cropped-first')
 
 # Hi Honey, I’ll buy you a lunch: Fish’n Chips
 ~~~
-box = content.newTypeList(doc.docLib['fontDataList']['Upgrade'], fontSize=44, labelFont='Upgrade-Regular', labelFontSize=18)
+box = content.newTypeList(doc.docLib['fontDataList']['Upgrade'], fontSize=44, leading=em(1.1), labelFont='Upgrade-Regular', labelFontSize=18, labelLeading=em(1.4))
 
 box = content.newIntroduction()
 ~~~
 
-# <span class="case">TYPE-TRY</span> gives an updated overview of running TYPETR projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates. Get code snippets that best implement TYPETR type. 
+# <span class="case">TYPE-TRY</span> gives an updated overview of running <span class="c2sc">TYPETR</span> projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates. Get code snippets that best implement <span class="c2sc">TYPETR</span> type. 
 
 ~~~ 
-box = content.newWaterfall(doc.docLib['fontDataList']['Upgrade Waterfall'], fontSizes=[12,18,24,30,36,42,48,54,60,66,72], labelFont='Upgrade-Regular', labelFontSize=18)
+box = content.newWaterfall(doc.docLib['fontDataList']['Upgrade Waterfall'], fontSizes=[11,12,13,14,15,16,18], labelFont='Upgrade-Regular', labelFontSize=18)
 
 from pagebot.constants import *
 slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)

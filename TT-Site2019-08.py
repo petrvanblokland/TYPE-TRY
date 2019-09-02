@@ -88,7 +88,7 @@ FONT_DATA_LIST = {
         ('Upgrade-Semibold', dict(
         )),
         ('Upgrade-Bold', dict(
-            download='downloads/Upgrade_Try.zip',
+            download='downloads/TYPETR-Upgrade_Try.zip',
             seeAlso='https://upgrade.typenetwork.com',
             adobe='https://fonts.adobe.com/fonts/upgrade',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
@@ -136,7 +136,7 @@ FONT_DATA_LIST = {
         ('Upgrade_Try-Black_Italic', dict()),
         ('Upgrade_Try-ExtraBlack_Italic', dict()),
         ('Upgrade_Try-UltraBlack_Italic', dict(
-            download='downloads/TYPETR_Upgrade_Try-italic_ttf.zip',
+            download='downloads/TYPETR-Upgrade_Try-italic_ttf.zip',
             seeAlso='https://upgrade.typenetwork.com',
             adobe='https://fonts.adobe.com/fonts/upgrade',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/upgrade',
@@ -156,7 +156,7 @@ FONT_DATA_LIST = {
         )),
         ('PowerLift_Try-Tight_Outline', dict(
             sample='Outline',
-            download='downloads/PowerLift_Try.zip',
+            download='downloads/TYPETR-PowerLift_Try.zip',
             adobe='https://fonts.adobe.com/fonts/powerlift',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/powerlift',
             #google='https://www.google.com/search?q=typetr+powerlift+usage&oq=typetr+powerlift+usage',
@@ -165,11 +165,11 @@ FONT_DATA_LIST = {
         )),
         ('PowerLift_Try-Tight_Circle36', dict(
             sample='Circle',
-            download='downloads/PowerLift_Try.zip',
+            download='downloads/TYPEYR-PowerLift_Try.zip',
         )),
         ('PowerLift_Try-Tight_Slab24', dict(
             sample='Slab',
-            download='downloads/PowerLift_Try.zip',
+            download='downloads/TYPETR-PowerLift_Try.zip',
         )),
     ],
     'Bitcount Outline Round': [
@@ -254,7 +254,7 @@ DO_PDF = 'Pdf' # Save as PDF representation of the site.
 DO_FILE = 'File' # Generate website output in _export/SimpleSite and open browser on file index.html
 DO_MAMP = 'Mamp' # Generate website in /Applications/Mamp/htdocs/SimpleSite and open a localhost
 DO_GIT = 'Git' # Generate website and commit to git (so site is published in git docs folder.
-EXPORT_TYPE = DO_GIT
+EXPORT_TYPE = DO_MAMP
 
 CLEAR_MAMP = False # If True, make a clean copy by removing all old files first.
 
