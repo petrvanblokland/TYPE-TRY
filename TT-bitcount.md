@@ -12,7 +12,7 @@ box = content.newBanner()
 ~~~
 # Bitcount Outline Round [TRY](downloads/TYPETR-Bitcount_Try_Outline-Round.zip)
 
-Try the pre-release of **Bitcount Outline Round** weights. Download the TYPE TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Round.zip)
+Try the pre-release of **Bitcount Outline Round** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Round.zip)
 ~~~
 # The Bitcount fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Round'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
@@ -22,7 +22,7 @@ box = content.newBanner()
 
 # Bitcount Outline Square [TRY](downloads/TYPETR-Bitcount_Try_Outline-Square.zip)
 
-Try the pre-release of **Bitcount Outline Square** weights. Download the TYPE TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Square.zip)
+Try the pre-release of **Bitcount Outline Square** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Square.zip)
 ~~~
 # The Bitcount fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
@@ -32,7 +32,7 @@ box = content.newBanner()
 
 # Bitcount Outline Square Italic [TRY](downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip)
 
-Try the pre-release of **Bitcount Outline Square Italic** weights. Download the TYPE TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip)
+Try the pre-release of **Bitcount Outline Square Italic** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip)
 ~~~
 # The Bitcount fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square Italic'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
@@ -84,7 +84,7 @@ Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis,
 
 ### Download the Bitcount Try Outline TTF files.
 
-Note that the TYPE TRY fonts are for review only. Therefor a limited glyphset is implemented as sneak preview. Refer to the Type Network store for a full license, as soon as Bitcount Outline published.
+Note that the TYPE-TRY fonts are for review only. Therefor a limited glyphset is implemented as sneak preview. Refer to the Type Network store for a full license, as soon as Bitcount Outline published.
 
 * [Bitcount Try Outline Round](downloads/Bitcount_Try_Outline_Round.zip)
 * [Bitcount Try Outline Square](downloads/Bitcount_Try_Outline_Square.zip)

@@ -1,6 +1,6 @@
 ~~~
 # ----------------------------------------
-# Studies/2019-studies.html
+# prominence.html
 # ----------------------------------------
 page = page.next
 page.applyTemplate(template)  
@@ -10,7 +10,7 @@ page.url = 'prominence.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# TYPETR Prominence in the making. [TRY](downloads/Prominence_Try.zip) it now.
+# TYPETR Prominence in the making. [TRY](downloads/Prominence_Try_BaseMasters001.zip) it now.
 
 ~~~ 
 from pagebot.constants import *

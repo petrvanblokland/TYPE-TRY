@@ -41,6 +41,17 @@ from pagebot.themes import *
 #   WordlyWise
 #   HappyHolidays
 
+VERBOSE = False
+DO_SPELLCHECK = False
+
+DO_PDF = 'Pdf' # Save as PDF representation of the site.
+DO_FILE = 'File' # Generate website output in _export/SimpleSite and open browser on file index.html
+DO_MAMP = 'Mamp' # Generate website in /Applications/Mamp/htdocs/SimpleSite and open a localhost
+DO_GIT = 'Git' # Generate website and commit to git (so site is published in git docs folder.
+EXPORT_TYPE = DO_MAMP
+
+CLEAR_MAMP = False # If True, make a clean copy by removing all old files first.
+
 MLFT_LOGO = color(0.2, 0.4, 0.1)
 
 class MLFTTheme(BaseTheme):
@@ -67,9 +78,13 @@ MD_PATHS = [
     'TT-upgrade.md',
     #'TT-upgrade-cjk.md',
     'TT-bitcount.md',
+    'TT-opcode.md',
+    'TT-presti.md',
     'TT-powerlift.md',
-    #'TT-prominence.md',
-    #'TT-promise.md',
+    'TT-prominence.md',
+    'TT-promise.md',
+    'TT-responder.md',
+    'TT-stickway.md',
     'TT-other.md',
     'TT-contact.md',
 ]
@@ -78,6 +93,8 @@ EXPORT_PATH = '_export/' + SITE_NAME # Export path for DO_FILE
 FONT_DATA_LIST = {
     'Upgrade': [ 
         ('Upgrade-Thin', dict(
+        )),
+        ('Upgrade-Light', dict(
         )),
         ('Upgrade-Book', dict(
         )),
@@ -101,11 +118,11 @@ FONT_DATA_LIST = {
         ('Upgrade_Try-Thin', dict()),
         ('Upgrade_Try-ExtraLight', dict()),
         ('Upgrade_Try-Light', dict()),
-        ('Upgrade_Try-Semilight', dict()),
+        ('Upgrade_Try-Cover', dict()),
         ('Upgrade_Try-Book', dict()),
-        ('Upgrade_Try-Semibook', dict()),
+        ('Upgrade_Try-Normal', dict()),
         ('Upgrade_Try-Regular', dict()),
-        ('Upgrade_Try-Semimedium', dict()),
+        ('Upgrade_Try-Standard', dict()),
         ('Upgrade_Try-Medium', dict()),
         ('Upgrade_Try-Semibold', dict()),
         ('Upgrade_Try-Bold', dict()),
@@ -125,11 +142,11 @@ FONT_DATA_LIST = {
         ('Upgrade_Try-Thin_Italic', dict()),
         ('Upgrade_Try-ExtraLight_Italic', dict()),
         ('Upgrade_Try-Light_Italic', dict()),
-        ('Upgrade_Try-Semilight_Italic', dict()),
+        ('Upgrade_Try-Cover_Italic', dict()),
         ('Upgrade_Try-Book_Italic', dict()),
-        ('Upgrade_Try-Semibook_Italic', dict()),
+        ('Upgrade_Try-Normal_Italic', dict()),
         ('Upgrade_Try-Italic', dict()),
-        ('Upgrade_Try-Semimedium_Italic', dict()),
+        ('Upgrade_Try-Standard_Italic', dict()),
         ('Upgrade_Try-Medium_Italic', dict()),
         ('Upgrade_Try-Semibold_Italic', dict()),
         ('Upgrade_Try-Bold_Italic', dict()),
@@ -172,98 +189,245 @@ FONT_DATA_LIST = {
             download='downloads/TYPETR-PowerLift_Try.zip',
         )),
     ],
+
+    # === Bitcount Outline Try === 
     'Bitcount Outline Round': [
-        ('Bitcount_Try_Mono_Double_Outline-Black_Round', dict(
+        ('Bitcount_Try_Mono_Double_Outline-Book_Round', dict(
             sample='Bitcount Book Round',
         )),
-        ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Round', dict(
-            sample='Bitcount X-Bold Round',
-        )),
-        ('Bitcount_Try_Mono_Double_Outline-Bold_Round', dict(
-            sample='Bitcount Bold Round',
+        ('Bitcount_Try_Mono_Double_Outline-Round', dict(
+            sample='Bitcount Regular Round',
         )),
         ('Bitcount_Try_Mono_Double_Outline-Medium_Round', dict(
             sample='Bitcount Medium Round',
         )),
-        ('Bitcount_Try_Mono_Double_Outline-Round', dict(
-            sample='Bitcount (Regular) Round',
+        ('Bitcount_Try_Mono_Double_Outline-Bold_Round', dict(
+            sample='Bitcount Bold Round',
         )),
-        ('Bitcount_Try_Mono_Double_Outline-Book_Round', dict(
+        ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Round', dict(
+            sample='Bitcount XBold Round',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Black_Round', dict(
             sample='Bitcount Black Round',
             download='downloads/TYPETR-Bitcount_Try_Outline-Round.zip',
             seeAlso='https://bitcount.typenetwork.com',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
-            buybyemail=BUY_BY_EMAIL % dict(familyName='Bitcount'),
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Bitcount Outline Round'),
         )),
     ],
+
+    # === Bitcount Outline Square Try === 
     'Bitcount Outline Square': [
-        ('Bitcount_Try_Mono_Double_Outline-Black_Square', dict(
-            sample='Bitcount Black Square',
+        ('Bitcount_Try_Mono_Double_Outline-Book_Square', dict(
+            sample='Bitcount Book Square',
         )),
-        ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Square', dict(
-            sample='Bitcount X-Bold Square',
-        )),
-        ('Bitcount_Try_Mono_Double_Outline-Bold_Square', dict(
-            sample='Bitcount Bold Square',
+        ('Bitcount_Try_Mono_Double_Outline-Square', dict(
+            sample='Bitcount Regular Square',
         )),
         ('Bitcount_Try_Mono_Double_Outline-Medium_Square', dict(
             sample='Bitcount Medium Square',
         )),
-        ('Bitcount_Try_Mono_Double_Outline-Square', dict(
-            sample='Bitcount (Regular) Square',
+        ('Bitcount_Try_Mono_Double_Outline-Bold_Square', dict(
+            sample='Bitcount Bold Square',
         )),
-        ('Bitcount_Try_Mono_Double_Outline-Book_Square', dict(
-            sample='Bitcount Book Square',
+        ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Square', dict(
+            sample='Bitcount XBold Square',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Black_Square', dict(
+            sample='Bitcount Black Square',
             download='downloads/TYPETR-Bitcount_Try_Outline-Square.zip',
             seeAlso='https://bitcount.typenetwork.com',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
-            buybyemail=BUY_BY_EMAIL % dict(familyName='Bitcount'),
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Bitcount Outline Square'),
         )),
     ],
+
+    # === Bitcount Outline Square Italic Try === 
     'Bitcount Outline Square Italic': [
-        ('Bitcount_Try_Mono_Double_Outline-Black_Square_Italic', dict(
-            sample='Bitcount Black Sq.Italic',
+        ('Bitcount_Try_Mono_Double_Outline-Book_Square_Italic', dict(
+            sample='Bitcount Book Sq.Italic',
         )),
-        ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Square_Italic', dict(
-            sample='Bitcount X-Bold Sq.Italic',
-        )),
-        ('Bitcount_Try_Mono_Double_Outline-Bold_Square_Italic', dict(
-            sample='Bitcount Bold Sq.Italic',
+        ('Bitcount_Try_Mono_Double_Outline-Square_Italic', dict(
+            sample='Bitcount Regular Sq.Italic',
         )),
         ('Bitcount_Try_Mono_Double_Outline-Medium_Square_Italic', dict(
             sample='Bitcount Medium Sq.Italic',
         )),
-        ('Bitcount_Try_Mono_Double_Outline-Square_Italic', dict(
-            sample='Bitcount (Regular) Sq.Italic',
+        ('Bitcount_Try_Mono_Double_Outline-Bold_Square_Italic', dict(
+            sample='Bitcount Bold Sq.Italic',
         )),
-        ('Bitcount_Try_Mono_Double_Outline-Book_Square_Italic', dict(
-            sample='Bitcount Book Sq.Italic',
+        ('Bitcount_Try_Mono_Double_Outline-ExtraBold_Square_Italic', dict(
+            sample='Bitcount XBold Sq.Italic',
+        )),
+        ('Bitcount_Try_Mono_Double_Outline-Black_Square_Italic', dict(
+            sample='Bitcount Black Sq.Italic',
             download='downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip',
             seeAlso='https://bitcount.typenetwork.com',
             typenetwork='https://store.typenetwork.com/foundry/typetr/fonts/bitcount',
-            buybyemail=BUY_BY_EMAIL % dict(familyName='Bitcount'),
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Bitcount Outline Square Italic'),
+        )),
+    ],
+
+    # === Stickway Try === 
+    'Stickway': [
+        ('Stickway_Try-Thin', dict(
+            sample='Stickway Thin',
+        )),
+        ('Stickway_Try-Regular', dict(
+            sample='Stickway Regular',
+        )),
+        ('Stickway_Try-Bold', dict(
+            sample='Stickway Bold',
+        )),
+        ('Stickway_Try-Black', dict(
+            sample='Stickway Black',
+            download='downloads/TYPETR-Stickway_Try_BaseMasters.zip',
+            #variablefont='downloads/TYPETR-Stickway_Try_VF.zip',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Stickway'),
+        )),
+    ],
+
+    # === Opcode === 
+    'Opcode': [
+        ('Opcode_Try-Hairline', dict(
+            sample='Opcode Hairline',
+        )),
+        ('Opcode_Try-Hairline_Italic', dict(
+            sample='Opcode Hairline Italic',
+        )),
+        ('Opcode_Try-Light', dict(
+            sample='Opcode Light',
+        )),
+        ('Opcode_Try-Light_Italic', dict(
+            sample='Opcode Light Italic',
+        )),
+        ('Opcode_Try-Regular', dict(
+            sample='Opcode Regular',
+        )),
+        ('Opcode_Try-Regular_Italic', dict(
+            sample='Opcode Regular Italic',
+        )),
+        ('Opcode_Try-Bold', dict(
+            sample='Opcode Bold',
+        )),
+        ('Opcode_Try-Bold_Italic', dict(
+            sample='Opcode Bold Italic',
+            download='downloads/TYPETR-Opcode_Try_BaseMasters.zip',
+            #variablefont='downloads/TYPETR-Opcode_Try_VF.zip',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Opcode'),
+        )),
+    ],
+
+    # === Responder P === 
+    'Responder P': [
+        ('Responder_P_Try-Hairline', dict(
+            sample='Responder Hairline',
+        )),
+        ('Responder_P_Try-Regular', dict(
+            sample='Responder Regular',
+        )),
+        ('Responder_P_Try-Black', dict(
+            sample='Responder Bold',
+        )),
+        ('Responder_P_Try-Black', dict(
+            sample='Responder Black',
+            download='downloads/TYPETR-Responder_P_Try_BaseMasters.zip',
+            #variablefont='downloads/TYPETR-Responder_P_Try_VF.zip',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Responder P'),
+        )),
+    ],
+
+    # === Presti === 
+    'Presti': [
+        ('Presti_Try-Hairline', dict(
+            sample='Presti Hairline',
+        )),
+        ('Presti_Try-Light', dict(
+            sample='Presti Light',
+        )),
+        ('Presti_Try-Semibold', dict(
+            sample='Presti Semibold',
+        )),
+        ('Presti_Try-Black', dict(
+            sample='Presti Black',
+        )),
+        ('Presti_Try-UltraBlack', dict(
+            sample='Presti UltraBlack',
+            download='downloads/TYPETR-Presti_Try_BaseMasters.zip',
+            #variablefont='downloads/TYPETR-Presti_Try_VF.zip',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Presti'),
+        )),
+    ],
+
+    # === Promise === 
+    'Promise': [
+        ('Promise_Try-Medium', dict(
+            sample='Presti Medium',
+        )),
+        ('Promise_Try-Medium_Italic', dict(
+            sample='Promise Medium Italic)',
+        )),
+        ('Promise_Try-Bold', dict(
+            sample='Promise Bold',
+        )),
+        ('Promise_Try-Bold_Italic', dict(
+            sample='Promise Bold Italic',
+            download='downloads/TYPETR-Promise_Try_BaseMasters001.zip',
+            #variablefont='downloads/TYPETR-Promise_Try_VF.zip',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Promise'),
+        )),
+    ],
+
+    # === Prominence === 
+    'Prominence': [
+        ('Prominence_Try-ExtraLight', dict(
+            sample='Presti Extra Light',
+        )),
+        ('Prominence_Try-ExtraLight_Italic', dict(
+            sample='Presti Extra Light Italic',
+        )),
+        ('Prominence_Try-Regular', dict(
+            sample='Prominence Regular',
+        )),
+        ('Prominence_Try-Regular_Italic', dict(
+            sample='Prominence Italic',
+        )),
+        ('Prominence_Try-Semibold', dict(
+            sample='Prominence Semibold',
+        )),
+        ('Prominence_Try-Semibold_Italic', dict(
+            sample='Prominence Semibold Italic',
+        )),
+        ('Prominence_Try-Bold', dict(
+            sample='Prominence Bold',
+        )),
+        ('Prominence_Try-Bold_Italic', dict(
+            sample='Prominence Bold Italic',
+        )),
+        ('Prominence_Try-ExtraBold', dict(
+            sample='Prominence Extra Bold',
+        )),
+        ('Prominence_Try-ExtraBold_Italic', dict(
+            sample='Prominence Extra Bold Italic',
+        )),
+        ('Prominence_Try-Black', dict(
+            sample='Prominence Black',
+        )),
+        ('Prominence_Try-Black_Italic', dict(
+            sample='Prominence Black Italic',
+            download='downloads/TYPETR-Prominence_Try_BaseMasters.zip',
+            #variablefont='downloads/TYPETR-Prominence_Try_VF.zip',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Prominence'),
         )),
     ],
 
 }
-
-VERBOSE = False
-DO_SPELLCHECK = False
-
-DO_PDF = 'Pdf' # Save as PDF representation of the site.
-DO_FILE = 'File' # Generate website output in _export/SimpleSite and open browser on file index.html
-DO_MAMP = 'Mamp' # Generate website in /Applications/Mamp/htdocs/SimpleSite and open a localhost
-DO_GIT = 'Git' # Generate website and commit to git (so site is published in git docs folder.
-EXPORT_TYPE = DO_MAMP
-
-CLEAR_MAMP = False # If True, make a clean copy by removing all old files first.
 
 NUM_CONTENT = 2 # Number of content elements on a page.
 NUM_SIDES = 1 # Number of side elements next to a main content element,
 
 # Max image size of scaled cache (used mulitplied by resolution per image type DEFAULT_RESOLUTION_FACTORS
 MAX_IMAGE_WIDTH = 800 
-
 
 styles = dict(
     body=dict(

@@ -1,5 +1,5 @@
 ~~~
-doc.title = 'TYPE TRY'
+doc.title = 'TYPE-TRY'
 from pagebot.toolbox.units import em
 
 # Uncomment to see cssId/cssClass markers in the page
@@ -42,9 +42,9 @@ box = content.newBanner()
 # Type in the making. Try it now.
 
 ~~~
-box = content.newCropped(fill=0.3, cssClass='cropped cropped-first')
+box = content.newCropped(fill=0x561F0C, cssClass='cropped upgrade-try-light-italic')
 ~~~
-![x=center y=top contain noscale no-repeat](images/IMG_4539.JPG)
+![x=center y=top contain noscale no-repeat](images/IMG_4609.JPG)
 
 # Hi Honey, I’ll buy you a lunch: Fish’n Chips
 ~~~
@@ -53,31 +53,48 @@ box = content.newTypeList(doc.docLib['fontDataList']['Upgrade'], fontSize=44, le
 box = content.newIntroduction()
 ~~~
 
-# <span class="case">TYPE-TRY</span> gives an updated overview of running <span class="c2sc">TYPETR</span> projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Express wishes and suggestions. Find example templates. Get code snippets that best implement <span class="c2sc">TYPETR</span> type. 
+# <span class="case">TYPE-TRY</span> gives an updated overview of running <span class="c2sc">TYPETR</span> projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Let us know your wishes and suggestions. Find example templates. Get code snippets, that best implement <span class="c2sc">TYPETR</span> type. 
 
 ~~~ 
-box = content.newWaterfall(doc.docLib['fontDataList']['Upgrade Waterfall'], fontSizes=[11,12,13,14,15,16,18], labelFont='Upgrade-Regular', labelFontSize=18)
-
-from pagebot.constants import *
-slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)
-box = slideshow.side
+box = content.newCropped()
+~~~
+![cover noscale x=center y=middle w=100%](images/bitcountHome.png)
 
 ~~~
-### One typeface family for all scripts
+box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Round'], sampleText='Bitcount Outline Round', fontSize=44, leading=em(1.1), labelFont='Upgrade-Regular', labelFontSize=18, labelLeading=em(1.4))
 
-## Compatible and complete.
+box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square'], sampleText='Bitcount Outline Square', fontSize=44, leading=em(1.1), labelFont='Upgrade-Regular', labelFontSize=18, labelLeading=em(1.4))
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc magna, blandit et venenatis sit amet, congue in sapien. Donec euismod ex in mauris feugiat, quis commodo massa vestibulum. Sed non laoreet tortor.  
+from pagebot.constants import *
+slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=1, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)
 
-# Contact us
+box = slideshow.slides
+~~~
+
+![cover](images/TheEndOfCss015M1.050.jpeg)
+![cover](images/DesignModels2.038.png)
+![cover](images/DSGNWK_0468BWLow.jpg)
+![cover](images/F5.034.jpeg)
+![cover](images/IMG_1520BWLow.jpg)
+
+~~~
+box = slideshow.side
+~~~
+### The Three T’s
+
+## Type, Templates & Teaching
+
+TYPETR provides designers a combination of typographic tools: **Typefaces** that live up to the latest technical standards, **Templates** that show how we think those typefaces should be used and **Teaching** to train and program the process of design.
+
+# [Contact us](contact.html)
 
 ~~~
 section = content.newSection()
 box = section.newMain()
 ~~~
-## Combine the scripts that you need.
+## Use the Open Type features that you need.
 
-Donec vulputate enim ac condimentum aliquam. Donec commodo mattis nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque a diam a dolor vestibulum placerat. Aenean ornare efficitur justo a efficitur. Aliquam accumsan, velit mollis pellentesque accumsan, orci nulla ullamcorper ligula, imperdiet facilisis quam massa a ipsum. Aliquam vitae aliquet odio. Nulla facilisi. Proin pulvinar nisl quis ipsum vehicula pharetra. Praesent ullamcorper in elit sit amet maximus. 
+Open Type features are not commonly understood. Let’s assume that as typographer you want to use Applications such as InDesign offer a menu for some of the features that are included in fonts. 
 
 ---
 # One family to fit all usage.

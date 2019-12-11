@@ -60,42 +60,67 @@ span.c2sc {
     -webkit-font-feature-settings: 'c2sc';
     font-feature-settings: 'c2sc' on;
 }
+
+/* Cropped texts */
+div.upgrade-try-light-italic div h1 { /* H1 overlay on cropped photo */
+    font-family: "Upgrade-LightItalic";
+    font-size: 6em;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+}
+/* Cropped texts */
+div.upgrade-try-light div h1 { /* H1 overlay on cropped photo */
+    font-family: "Upgrade-Light";
+    font-size: 6em;
+    line-height: 1.1;
+    color: white;
+    text-align: center;
+}
+
+/* Icons */
 span.try-icon {
     font-family: "Upgrade-Medium";
     color: white;
     font-size: 0.9em;
     background-color: #FF0000;
-    padding: 1px 4px 0px 4px;
+    padding: 0.07em 0.2em 0 0.2em;
 }
 span.buy-icon {
     font-family: "Upgrade-Medium";
     color: white;
     font-size: 0.9em;
     background-color: #080833;
-    padding: 1px 4px 0px 4px;
+    padding: 0.07em 0.2em 0 0.2em;
 }
 span.tn-icon {
     font-family: "Upgrade-Medium";
     color: white;
     font-size: 0.9em;
     background-color: black;
-    padding: 1px 2px 0px 2px;
+    padding: 0.07em 0.2em 0 0.2em;
 }
 span.typetr-icon {
     font-family: "Upgrade-Medium";
     color: white;
     font-size: 0.9em;
-    letter-spacing: -0.1em;
+    letter-spacing: -0.125em;
     background-color: #221188;
-    padding: 1px 6px 0px 4px; 
+    padding: 0.07em 0.3em 0 0.18em;
 }
 span.google-icon {
     font-family: "Upgrade-Medium";
     color: white;
     font-size: 0.9em;
     background-color: #110055;
-    padding: 1px 4px 0px 4px; 
+    padding: 0.07em 0.2em 0 0.2em;
 }
+img.adobe-icon {
+    vertical-align: middle;
+    height: 1.1em; /* 123px x 109px */
+    width: 1.3em;
+}
+
 p {
     font-size: 1em;
     font-family: 'Upgrade-Regular';
@@ -533,36 +558,6 @@ floating elements inside.*/
     padding: 0 2em 20em 2em;
     border-top: 15px solid #%(hr.stroke)s;
 }
-.cropped h1 {
-    font-size: 6em;
-    line-height: 1.1;
-    font-family: "Upgrade-Book";
-    color: white;
-    text-shadow: black 4px 6px 4px;
-    text-align: center;
-}
-.cropped-first h1 {
-    font-family: "PowerLift_Try-Tight_Outline";
-}
-
-.cropped-second h1 {
-    font-family: "PowerLift_Try-Tight";
-}
-
-.cropped-third h1 {
-    font-family: "PowerLift_Try-Tight_Circle";
-}
-
-.cropped-fourth h1 {
-    font-family: "PowerLift_Try-Tight_Slab";
-}
-
-/* Solve Cropped empty <p> first.
-.cropped .textbox {
-    padding: 0.5em 1em;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-*/
 
 /* Info area, open/clode by button */
 .info {
@@ -664,8 +659,8 @@ MEDIAQUERIES
         line-height: 1.3em;
     }
     .introduction .textbox h1 {
-        font-size: 2.25em;
-        line-height: 1.2em;
+        font-size: 2em;
+        line-height: 1.15em;
     }
     .caption .textbox {
         font-family: 'Upgrade-RegularItalic';
@@ -676,26 +671,32 @@ MEDIAQUERIES
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    /* Cropped texts */
     .cropped {
         /*height: 60vw; /* 60%% of view-port width. */
         border-top: none;
+    }
+    div.cropped div h1 { 
+        font-size: 3.5em;
+    }
 
-    }
-    .cropped h1 {
-        font-size: 4em;
-        line-height: 1.1em;
-    }
     span.try-icon, span.buy-icon, span.tn-icon, span.typetr-icon, span.google-icon {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
     span.icon-label {
         display: none;
     }
-    svg.adobe-logo-image {
-        width: 40px;
-        height: 34px;
-        margin-top: 6px;
-        padding-top: 6px;
+    img.adobe-icon {
+        vertical-align: bottom;
+        height: 2.8em; /* 2.5em --> 123px x 109px */
+        width: 3.6em;
+    }
+
+    /* TypeList */
+    div.typelistline div.sample {
+        font-size: 4em;
+        color: red;
     }
 }
 @media only screen and (min-width: 800px) {

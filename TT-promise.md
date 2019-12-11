@@ -1,6 +1,6 @@
 ~~~
 # ----------------------------------------
-# Studies/2019-studies.html
+# promise.html
 # ----------------------------------------
 page = page.next
 page.applyTemplate(template)  
@@ -10,7 +10,7 @@ page.url = 'promise.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Promise in the making. [TRY](downloads/Promise_Try.zip) it now.
+# Promise in the making. [TRY](downloads/Promise_Try_BaseMasters001.zip) it now.
 
 ~~~ 
 from pagebot.constants import *

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta charset="utf-8"/>
+
+	<title>Responder</title>
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<!-- Mobile viewport -->
+		<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+
+		<style>
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Book_Round";
+            src: url("fonts/bitcount_try_mono_double_outline-book_round.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-book_round.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-book_round.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Round";
+            src: url("fonts/bitcount_try_mono_double_outline-round.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-round.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-round.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Medium_Round";
+            src: url("fonts/bitcount_try_mono_double_outline-medium_round.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-medium_round.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-medium_round.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Bold_Round";
+            src: url("fonts/bitcount_try_mono_double_outline-bold_round.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-bold_round.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-bold_round.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-ExtraBold_Round";
+            src: url("fonts/bitcount_try_mono_double_outline-extrabold_round.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-extrabold_round.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-extrabold_round.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Black_Round";
+            src: url("fonts/bitcount_try_mono_double_outline-black_round.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-black_round.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-black_round.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Book_Square";
+            src: url("fonts/bitcount_try_mono_double_outline-book_square.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-book_square.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-book_square.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Square";
+            src: url("fonts/bitcount_try_mono_double_outline-square.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-square.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-square.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Medium_Square";
+            src: url("fonts/bitcount_try_mono_double_outline-medium_square.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-medium_square.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-medium_square.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Bold_Square";
+            src: url("fonts/bitcount_try_mono_double_outline-bold_square.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-bold_square.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-bold_square.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-ExtraBold_Square";
+            src: url("fonts/bitcount_try_mono_double_outline-extrabold_square.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-extrabold_square.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-extrabold_square.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Black_Square";
+            src: url("fonts/bitcount_try_mono_double_outline-black_square.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-black_square.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-black_square.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Book_Square_Italic";
+            src: url("fonts/bitcount_try_mono_double_outline-book_square_italic.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-book_square_italic.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-book_square_italic.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Square_Italic";
+            src: url("fonts/bitcount_try_mono_double_outline-square_italic.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-square_italic.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-square_italic.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Medium_Square_Italic";
+            src: url("fonts/bitcount_try_mono_double_outline-medium_square_italic.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-medium_square_italic.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-medium_square_italic.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Bold_Square_Italic";
+            src: url("fonts/bitcount_try_mono_double_outline-bold_square_italic.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-bold_square_italic.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-bold_square_italic.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-ExtraBold_Square_Italic";
+            src: url("fonts/bitcount_try_mono_double_outline-extrabold_square_italic.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-extrabold_square_italic.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-extrabold_square_italic.woff") format("woff");
+        }
+
+@font-face {
+            font-family: "Bitcount_Try_Mono_Double_Outline-Black_Square_Italic";
+            src: url("fonts/bitcount_try_mono_double_outline-black_square_italic.eot") format("eot"),
+            url("fonts/bitcount_try_mono_double_outline-black_square_italic.woff2") format("woff2"),
+            url("fonts/bitcount_try_mono_double_outline-black_square_italic.woff") format("woff");
+        }
+
+		</style>
+
+		<link href="css/jquery.bbslider.css" media="all" rel="stylesheet" type="text/css"/>
+
+
+		<link href="fonts/trywebfonts.css" media="all" rel="stylesheet" type="text/css"/>
+
+
+		<link href="css/normalized.css" media="all" rel="stylesheet" type="text/css"/>
+
+
+		<link href="css/ttstyle_py.css" media="all" rel="stylesheet" type="text/css"/>
+
+
+		<link href="images/favicon.ico" rel="icon" type="image/ico"/>
+
+
+	</head>
+
+	<body>
+<!-- Start Wrapper.wrapper
+ --><div class="wrapper clearfix" id="Wrapper">
+<!-- Start 8f5776226e63.header
+ -->
+		<header class="header" id="8f5776226e63">
+<!-- Start 8f577621e57d.logo
+ --><div class="logo clearfix" id="8f577621e57d">
+<a href="index.html">
+
+			<img src="images/TYPE-TRY-logo.gif"/>
+</a>
+</div>
+<!-- End 8f577621e57d.logo
+ --><!-- Start 8f5776223508.burgerbutton
+ --><div class="burgerbutton clearfix" id="8f5776223508">
+<h1 onclick="toggleMobileMenu('MobileMenu')">
+☰</h1>
+
+</div>
+<!-- End 8f5776223508.burgerbutton
+ --><!-- Start Navigation.navigation --><nav class="navigation" id="Navigation" role="navigation">
+<div class="navigation-menu">
+
+			<ul class="main-navigation  navmenu">
+<li>
+<a href="index.html">
+Home</a>
+</li>
+<li>
+<a href="upgrade.html">
+Upgrade</a>
+</li>
+<li>
+<a href="bitcount.html">
+Bitcount</a>
+</li>
+<li>
+<a href="opcode.html">
+Opcode</a>
+</li>
+<li>
+<a href="presti.html">
+Presti</a>
+</li>
+<li>
+<a href="powerlift.html">
+PowerLift</a>
+</li>
+<li>
+<a href="prominence.html">
+Prominence</a>
+</li>
+<li>
+<a href="promise.html">
+Promise</a>
+</li>
+<li class="current">
+<a class="current" href="responder.html">
+Responder</a>
+</li>
+<li>
+<a href="stickway.html">
+Stickway</a>
+</li>
+<li>
+<a href="other.html">
+Other</a>
+</li>
+<li>
+<a href="contact.html">
+Contact</a>
+</li>
+
+			</ul>
+</div>
+</nav>
+<!-- End Navigation.navigation --><!-- Start MobileMenu.mobilemenu
+ --><div class="mobilemenu clearfix" id="MobileMenu">
+
+			<button class="button" onclick="location.href='index.html';" type="button">
+Home
+			</button>
+
+			<button class="button" onclick="location.href='upgrade.html';" type="button">
+Upgrade
+			</button>
+
+			<button class="button" onclick="location.href='bitcount.html';" type="button">
+Bitcount
+			</button>
+
+			<button class="button" onclick="location.href='opcode.html';" type="button">
+Opcode
+			</button>
+
+			<button class="button" onclick="location.href='presti.html';" type="button">
+Presti
+			</button>
+
+			<button class="button" onclick="location.href='powerlift.html';" type="button">
+PowerLift
+			</button>
+
+			<button class="button" onclick="location.href='prominence.html';" type="button">
+Prominence
+			</button>
+
+			<button class="button" onclick="location.href='promise.html';" type="button">
+Promise
+			</button>
+
+			<button class="button" onclick="location.href='responder.html';" type="button">
+Responder
+			</button>
+
+			<button class="button" onclick="location.href='stickway.html';" type="button">
+Stickway
+			</button>
+
+			<button class="button" onclick="location.href='other.html';" type="button">
+Other
+			</button>
+
+			<button class="button" onclick="location.href='contact.html';" type="button">
+Contact
+			</button>
+</div>
+<!-- End MobileMenu.mobilemenu
+ -->
+		</header>
+<!-- End 8f5776226e63.header
+ --><!-- Start 8f57762190b0.content
+ --><div class="content clearfix" id="8f57762190b0">
+<!-- Start 24B209C2D010B499EB8.banner
+ --><div class="banner clearfix" id="24B209C2D010B499EB8">
+<div class="textbox">
+<h1>Responder <a href="downloads/TYPETR-Bitcount_Try_Outline-Round.zip">TRY</a></h1>
+<p>Try the pre-release of <strong>Bitcount Outline Round</strong> weights. Download the TYPE-TRY font package <a href="downloads/TYPETR-Bitcount_Try_Outline-Round.zip">here.</a></p>
+</div>
+</div>
+<!-- End 24B209C2D010B499EB8.banner
+ --><!-- Start None.None
+ --><div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Book_Round';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Book Round</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Round';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Regular Round</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Medium_Round';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Medium Round</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Bold_Round';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Bold Round</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-ExtraBold_Round';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount XBold Round</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Black_Round';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Black Round</div>
+<div class="label" style="font-family:'Upgrade-Regular';font-size:18px;line-height:1em;letter-spacing:0px">
+<a href="downloads/TYPETR-Bitcount_Try_Outline-Round.zip" target="external">
+<span class="try-icon">TRY</span> <span class=icon-label>Download</span></a>
+&nbsp;&nbsp;<a href="mailto:info@typetr.com?subject=License for TYPETR-Bitcount Outline Round&body=Dear TYPETR, please send info about licensing Bitcount Outline Round styles, intended to be used for ..." target="external">
+<span class="buy-icon">$€</span> <span class=icon-label>Buy direct</span></a>
+&nbsp;&nbsp;<a href="https://bitcount.typenetwork.com" target="external">
+<span class="typetr-icon">TP</span> <span class=icon-label>TYPETR</span></a>
+&nbsp;&nbsp;<a href="https://store.typenetwork.com/foundry/typetr/fonts/bitcount" target="external">
+<span class="tn-icon">TN</span> <span class=icon-label>Type Network</span></a>
+</div>
+</div>
+</div>
+<!-- End None.None
+ --><!-- Start 24B209C2D010B5E2BA8.banner
+ --><div class="banner clearfix" id="24B209C2D010B5E2BA8">
+<div class="textbox">
+<h1>Bitcount Outline Square <a href="downloads/TYPETR-Bitcount_Try_Outline-Square.zip">TRY</a></h1>
+<p>Try the pre-release of <strong>Bitcount Outline Square</strong> weights. Download the TYPE-TRY font package <a href="downloads/TYPETR-Bitcount_Try_Outline-Square.zip">here.</a></p>
+</div>
+</div>
+<!-- End 24B209C2D010B5E2BA8.banner
+ --><!-- Start None.None
+ --><div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Book_Square';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Book Square</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Square';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Regular Square</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Medium_Square';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Medium Square</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Bold_Square';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Bold Square</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-ExtraBold_Square';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount XBold Square</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Black_Square';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Black Square</div>
+<div class="label" style="font-family:'Upgrade-Regular';font-size:18px;line-height:1em;letter-spacing:0px">
+<a href="downloads/TYPETR-Bitcount_Try_Outline-Square.zip" target="external">
+<span class="try-icon">TRY</span> <span class=icon-label>Download</span></a>
+&nbsp;&nbsp;<a href="mailto:info@typetr.com?subject=License for TYPETR-Bitcount Outline Square&body=Dear TYPETR, please send info about licensing Bitcount Outline Square styles, intended to be used for ..." target="external">
+<span class="buy-icon">$€</span> <span class=icon-label>Buy direct</span></a>
+&nbsp;&nbsp;<a href="https://bitcount.typenetwork.com" target="external">
+<span class="typetr-icon">TP</span> <span class=icon-label>TYPETR</span></a>
+&nbsp;&nbsp;<a href="https://store.typenetwork.com/foundry/typetr/fonts/bitcount" target="external">
+<span class="tn-icon">TN</span> <span class=icon-label>Type Network</span></a>
+</div>
+</div>
+</div>
+<!-- End None.None
+ --><!-- Start 24B209C2D010B608D68.banner
+ --><div class="banner clearfix" id="24B209C2D010B608D68">
+<div class="textbox">
+<h1>Bitcount Outline Square Italic <a href="downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip">TRY</a></h1>
+<p>Try the pre-release of <strong>Bitcount Outline Square Italic</strong> weights. Download the TYPE-TRY font package <a href="downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip">here.</a></p>
+</div>
+</div>
+<!-- End 24B209C2D010B608D68.banner
+ --><!-- Start None.None
+ --><div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Book_Square_Italic';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Book Sq.Italic</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Square_Italic';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Regular Sq.Italic</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Medium_Square_Italic';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Medium Sq.Italic</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Bold_Square_Italic';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Bold Sq.Italic</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-ExtraBold_Square_Italic';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount XBold Sq.Italic</div>
+</div>
+<div class="typelistline" style="width:100%">
+<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Black_Square_Italic';font-size:44px;line-height:1em;letter-spacing:0px">
+Bitcount Black Sq.Italic</div>
+<div class="label" style="font-family:'Upgrade-Regular';font-size:18px;line-height:1em;letter-spacing:0px">
+<a href="downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip" target="external">
+<span class="try-icon">TRY</span> <span class=icon-label>Download</span></a>
+&nbsp;&nbsp;<a href="mailto:info@typetr.com?subject=License for TYPETR-Bitcount Outline Square Italic&body=Dear TYPETR, please send info about licensing Bitcount Outline Square Italic styles, intended to be used for ..." target="external">
+<span class="buy-icon">$€</span> <span class=icon-label>Buy direct</span></a>
+&nbsp;&nbsp;<a href="https://bitcount.typenetwork.com" target="external">
+<span class="typetr-icon">TP</span> <span class=icon-label>TYPETR</span></a>
+&nbsp;&nbsp;<a href="https://store.typenetwork.com/foundry/typetr/fonts/bitcount" target="external">
+<span class="tn-icon">TN</span> <span class=icon-label>Type Network</span></a>
+</div>
+</div>
+</div>
+<!-- End None.None
+ --><!-- Start 24B209C2D010B634EF0.section
+ --><div class="section clearfix" id="24B209C2D010B634EF0">
+<!-- Start 24B209C2D010B639F60.main
+ --><div class="main clearfix" id="24B209C2D010B639F60">
+<div class="textbox">
+<h2>Compatible with Bitcount Mono</h2>
+<p>The <strong>Bitcount Outline</strong> series is compatible with the <strong>TYPETR Bitcount Mono</strong>, published by Type Network and available in the Adobe Fonts Library. </p>
+<p>Since the glyphset and the spacing are identical, the <strong>Bitcount Mono</strong> can be mixed with the <strong>Bitcount Outline</strong> in multiple different layers. </p>
+</div>
+</div>
+<!-- End 24B209C2D010B639F60.main
+ --><!-- Start 24B209C2D010B612550.side
+ --><div class="side clearfix" id="24B209C2D010B612550">
+<div class="textbox">
+<p>Try live examples of <strong>Bitcount Mono</strong> layering <a href="https://bitcount.typenetwork.com" target="external">here.</a></p>
+<p></div>
+<div class="image">
+
+		<img alt="noscale" src="images/bitcountHome.png"/>
+<div class="caption">
+</div>
+</div>
+<div class="image">
+
+		<img alt="noscale" src="images/bitcountLayers1.png"/>
+<div class="caption">
+</div>
+</div>
+<div class="image">
+
+		<img alt="noscale" src="images/bitcountLayers2.png"/>
+<div class="caption">
+</div>
+</div>
+<div class="image">
+
+		<img alt="noscale" src="images/bitcountLayers4.png"/>
+<div class="caption">
+</div>
+</div>
+<div class="textbox">
+</p>
+</div>
+</div>
+<!-- End 24B209C2D010B612550.side
+ --></div>
+<!-- End 24B209C2D010B634EF0.section
+ --><!-- Start 24B209C2D010B643128.section
+ --><div class="section clearfix" id="24B209C2D010B643128">
+<!-- Start 24B209C2D010B643A20.main
+ --><div class="main clearfix" id="24B209C2D010B643A20">
+<div class="textbox">
+<h2>Supported features</h2>
+<p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
+</div>
+</div>
+<!-- End 24B209C2D010B643A20.main
+ --><!-- Start 24B209C2D010B6430F0.info
+ --><div class="info clearfix" id="24B209C2D010B6430F0">
+<div class="info-closed clearfix" id="24B209C2D010B6430F0-closed">
+<div class="info-doopen" onclick="toggleInfo('24B209C2D010B6430F0-closed', '24B209C2D010B6430F0-opened');">
+▾</div>
+</div>
+<div class="info-opened clearfix" id="24B209C2D010B6430F0-opened">
+<div class="info-doclose" onclick="toggleInfo('24B209C2D010B6430F0-opened', '24B209C2D010B6430F0-closed');">
+×</div>
+<div class="textbox">
+<p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
+</div>
+</div>
+</div>
+<!-- End 24B209C2D010B6430F0.info
+ --></div>
+<!-- End 24B209C2D010B643128.section
+ --><!-- Start 24B209C2D010B649BA8.section
+ --><div class="section clearfix" id="24B209C2D010B649BA8">
+<!-- Start 24B209C2D010B6504E0.main
+ --><div class="main clearfix" id="24B209C2D010B6504E0">
+<div class="textbox">
+<h2>Supported glyphs</h2>
+<p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
+<h3>Download the Bitcount Try Outline TTF files.</h3>
+<p>Note that the TYPE-TRY fonts are for review only. Therefor a limited glyphset is implemented as sneak preview. Refer to the Type Network store for a full license, as soon as Bitcount Outline published.</p>
+<ul>
+<li><a href="downloads/Bitcount_Try_Outline_Round.zip">Bitcount Try Outline Round</a></li>
+<li><a href="downloads/Bitcount_Try_Outline_Square.zip">Bitcount Try Outline Square</a></li>
+</ul>
+</div>
+</div>
+<!-- End 24B209C2D010B6504E0.main
+ --><!-- Start 24B209C2D010B649B70.side
+ --><div class="side clearfix" id="24B209C2D010B649B70">
+<div class="textbox">
+<p>ZZZ</p>
+</div>
+</div>
+<!-- End 24B209C2D010B649B70.side
+ --></div>
+<!-- End 24B209C2D010B649BA8.section
+ --><!-- Start 24B209C2D010B653668.section
+ --><div class="section clearfix" id="24B209C2D010B653668">
+<!-- Start 24B209C2D010B653F60.main
+ --><div class="main clearfix" id="24B209C2D010B653F60">
+<div class="textbox">
+<h2>Supported weights</h2>
+<p>Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
+</div>
+</div>
+<!-- End 24B209C2D010B653F60.main
+ --></div>
+<!-- End 24B209C2D010B653668.section
+ --><!-- Start 24B209C2D010B653630.section
+ --><div class="section clearfix" id="24B209C2D010B653630">
+<!-- Start 24B209C2D010B65F160.main
+ --><div class="main clearfix" id="24B209C2D010B65F160">
+<div class="textbox">
+<h2>Pricing</h2>
+<p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
+<p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
+<p><a href="pricing.html">See more about pricing here.</a></p>
+</div>
+</div>
+<!-- End 24B209C2D010B65F160.main
+ --><!-- Start 24B209C2D010B65A860.cropped --><div class="cropped clearfix" id="24B209C2D010B65A860">
+</div>
+<!-- End 24B209C2D010B65A860.cropped --></div>
+<!-- End 24B209C2D010B653630.section
+ --></div>
+<!-- End 8f57762190b0.content
+ --><!-- Start 8f5776213199.footer
+ --><div class="footer clearfix" id="8f5776213199">
+</div>
+<!-- End 8f5776213199.footer
+ --></div>
+<!-- End Wrapper.wrapper
+ --><script charset="UTF-8" type="text/javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script charset="UTF-8" type="text/javascript" type="text/javascript" src="js/jquery.bbslider.min.js"></script>
+<script charset="UTF-8" type="text/javascript" type="text/javascript">
+function toggleMobileMenu(eId){
+            var x = document.getElementById(eId);  
+            if (x.style.display != "block") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+$('.slideshow').bbslider({autoHeight: true, dynamicHeight: false, start: 3, easing: 'ease', carousel: 1, duration: 700, auto: true, timer: 4000, loop: true, transition: 'slide'});
+
+function toggleInfo(eId1, eId2){
+            var e1 = document.getElementById(eId2).style.display = "block";  
+            var e2 = document.getElementById(eId1).style.display = "none"; 
+        }
+
+
+
+	</script>
+
+<script charset="UTF-8" type="text/javascript" type="text/javascript">
+
+    function setBaseFontSize(){
+        /*document.getElementsByTagName('body')[0].style['font-size'] = 16 * window.devicePixelRatio + 'px';*/
+    }
+    window.onload = setBaseFontSize;
+    
+
+</script>
+
+
+</body>
+
+</html>
