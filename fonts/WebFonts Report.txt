@@ -1,0 +1,58 @@
+Web Fonts:
+**********
+
+Opcode-Regular_MA.ufo
+---------------------
+source: /Users/petr/Desktop/TYPETR-git/TYPETR-Opcode/ufoMasters/Opcode-Regular_MA.ufo
+
+Build TTF
+'''''''''
+    path: /Users/petr/Desktop/DDS-git/TYPE-TRY/fonts/Opcode-Regular_MA.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotfexe [FATAL] <Opcode-Regular> cmap{plat=3,script=1,lang=0}: multiple glyphs (abreve,agrave) mapped to code <E0>
+        makeotf [Error] Failed to build output font file 'tmp3g1bjywc.ttf'.
+        None
+        
+        Traceback (most recent call last):
+          File "/private/var/folders/00/k9gk6wpn5tl5jlpl66k4s76h0000gn/T/AppTranslocation/8616C17A-D8AA-4B12-9D3B-516A0696678A/d/RoboFont.app/Contents/Resources/lib/python3.7/fontCompiler/tools/compileTools.py", line 281, in _executeCommand
+          File "/private/var/folders/00/k9gk6wpn5tl5jlpl66k4s76h0000gn/T/AppTranslocation/8616C17A-D8AA-4B12-9D3B-516A0696678A/d/RoboFont.app/Contents/Resources/lib/python3.7/fontCompiler/tools/compileTools.py", line 322, in embedded_makeotf
+          File "makeotf.py", line 2604, in runMakeOTF
+        externalFrameworks.fdkTools.makeotf.MakeOTFRunError
+        
+        --------------------
+        Failed:
+        Traceback (most recent call last):
+          File "/Users/petr/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 562, in run
+          File "/Users/petr/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 425, in _convertPath
+          File "/Users/petr/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 335, in _getTempTTF
+          File "/Users/petr/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 139, in generateTTF
+          File "/Users/petr/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/autohint.py", line 94, in TTFAutohint
+          File "/private/var/folders/00/k9gk6wpn5tl5jlpl66k4s76h0000gn/T/AppTranslocation/8616C17A-D8AA-4B12-9D3B-516A0696678A/d/RoboFont.app/Contents/Resources/lib/python3.7/fontTools/ttLib/ttFont.py", line 139, in __init__
+          File "/private/var/folders/00/k9gk6wpn5tl5jlpl66k4s76h0000gn/T/AppTranslocation/8616C17A-D8AA-4B12-9D3B-516A0696678A/d/RoboFont.app/Contents/Resources/lib/python3.7/fontTools/ttLib/sfnt.py", line 75, in __init__
+        fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (not enough data)
+        
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14

@@ -10,9 +10,9 @@ page.url = 'opcode.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Opcode [TRY](downloads/TYPETR-Opcode_Try_BaseMasters001.zip)
+# TYPETR Opcode [TRY](downloads/TYPETR-Opcode_Try_BaseMasters001.zip)
 
-Try the **Opcode** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Opcode_Try_BaseMasters001.zip)
+Try the **TYPETR Opcode** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Opcode_Try_BaseMasters001.zip)
 ~~~
 # The Opcode fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Opcode'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)

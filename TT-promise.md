@@ -18,6 +18,14 @@ slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3,
 box = slideshow.side
 
 ~~~
+# Promise [TRY](downloads/TYPETR-Promise_Try_BaseMasters001.zip)
+
+Try **Promise** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Promise_Trye_BaseMasters001.zip)
+~~~
+# The Promise fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Promise'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+~~~
+
 ### Lorem ipsum dolor sit amet
 
 ## Donec euismod ex in mauris feugiat.

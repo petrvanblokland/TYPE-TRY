@@ -10,57 +10,13 @@ page.url = 'responder.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Responder [TRY](downloads/TYPETR-Bitcount_Try_Outline-Round.zip)
+# TYPETR Responder P [TRY](downloads/TYPETR-Responder_Try_BaseMasters001.zip)
 
-Try the pre-release of **Bitcount Outline Round** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Round.zip)
+Try the **TYPETR Responder P** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Responder_Try_BaseMasters001.zip)
 ~~~
-# The Bitcount fontDataList is defined by the calling application.
-box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Round'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+# The Responder fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Responder P'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 
-box = content.newBanner()
-~~~
-
-# Bitcount Outline Square [TRY](downloads/TYPETR-Bitcount_Try_Outline-Square.zip)
-
-Try the pre-release of **Bitcount Outline Square** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Square.zip)
-~~~
-# The Bitcount fontDataList is defined by the calling application.
-box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
-
-box = content.newBanner()
-~~~
-
-# Bitcount Outline Square Italic [TRY](downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip)
-
-Try the pre-release of **Bitcount Outline Square Italic** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Square_Italic.zip)
-~~~
-# The Bitcount fontDataList is defined by the calling application.
-box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Square Italic'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
-
-~~~
-
-~~~
-section = content.newSection()
-box = section.newMain()
-~~~
-## Compatible with Bitcount Mono
-
-The **Bitcount Outline** series is compatible with the **TYPETR Bitcount Mono**, published by Type Network and available in the Adobe Fonts Library. 
-
-Since the glyphset and the spacing are identical, the **Bitcount Mono** can be mixed with the **Bitcount Outline** in multiple different layers. 
-
-~~~
-box = section.newSide()
-~~~
-
-Try live examples of **Bitcount Mono** layering <a href="https://bitcount.typenetwork.com" target="external">here.</a>
-
-![noscale](images/bitcountHome.png)
-![noscale](images/bitcountLayers1.png)
-![noscale](images/bitcountLayers2.png)
-![noscale](images/bitcountLayers4.png)
-
-~~~
 section = content.newSection()
 box = section.newMain()
 ~~~

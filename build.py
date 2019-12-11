@@ -12,7 +12,7 @@
 #     Supporting Flat, xxyxyz.org/flat
 # -----------------------------------------------------------------------------
 #
-#     TT-Site2019-08.py
+#     build.py
 #
 import os
 import shutil
@@ -75,8 +75,6 @@ SITE_NAME = 'TYPE-TRY' # Also used as logo
 
 MD_PATHS = [
     'TT-home.md',
-    'TT-upgrade.md',
-    #'TT-upgrade-cjk.md',
     'TT-bitcount.md',
     'TT-opcode.md',
     'TT-presti.md',
@@ -85,6 +83,8 @@ MD_PATHS = [
     'TT-promise.md',
     'TT-responder.md',
     'TT-stickway.md',
+    'TT-upgrade.md',
+    #'TT-upgrade-cjk.md',
     'TT-other.md',
     'TT-contact.md',
 ]
@@ -289,29 +289,8 @@ FONT_DATA_LIST = {
 
     # === Opcode === 
     'Opcode': [
-        ('Opcode_Try-Hairline', dict(
-            sample='Opcode Hairline',
-        )),
-        ('Opcode_Try-Hairline_Italic', dict(
-            sample='Opcode Hairline Italic',
-        )),
-        ('Opcode_Try-Light', dict(
-            sample='Opcode Light',
-        )),
-        ('Opcode_Try-Light_Italic', dict(
-            sample='Opcode Light Italic',
-        )),
         ('Opcode_Try-Regular', dict(
             sample='Opcode Regular',
-        )),
-        ('Opcode_Try-Regular_Italic', dict(
-            sample='Opcode Regular Italic',
-        )),
-        ('Opcode_Try-Bold', dict(
-            sample='Opcode Bold',
-        )),
-        ('Opcode_Try-Bold_Italic', dict(
-            sample='Opcode Bold Italic',
             download='downloads/TYPETR-Opcode_Try_BaseMasters.zip',
             #variablefont='downloads/TYPETR-Opcode_Try_VF.zip',
             buybyemail=BUY_BY_EMAIL % dict(familyName='Opcode'),

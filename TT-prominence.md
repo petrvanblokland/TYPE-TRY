@@ -10,7 +10,7 @@ page.url = 'prominence.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# TYPETR Prominence in the making. [TRY](downloads/Prominence_Try_BaseMasters001.zip) it now.
+# TYPETR Prominence: [TRY](downloads/Prominence_Try_BaseMasters001.zip) it now.
 
 ~~~ 
 from pagebot.constants import *
@@ -18,6 +18,14 @@ slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3,
 box = slideshow.side
 
 ~~~
+# Prominence [TRY](downloads/TYPETR-Prominence_Try_BaseMasters001.zip)
+
+Try **Prominence** weights and opitical sizes. Download the TYPE-TRY font package [here.](downloads/TYPETR-Prominence_Try_BaseMasters001.zip)
+~~~
+# The Prominence fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Prominence'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+~~~
+
 ### Lorem ipsum dolor sit amet
 
 ## Donec euismod ex in mauris feugiat.

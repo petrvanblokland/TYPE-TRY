@@ -10,9 +10,9 @@ page.url = 'presti.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Presti [TRY](downloads/TYPETR-Presti_Try_BaseMasters001.zip)
+# TYPETR Presti [TRY](downloads/TYPETR-Presti_Try_BaseMasters001.zip)
 
-Try the **Presti** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Presti_Try_BaseMasters001.zip)
+Try the **TYPETR Presti** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Presti_Try_BaseMasters001.zip)
 
 ~~~
 # The Presti fontDataList is defined by the calling application.
@@ -39,7 +39,7 @@ box = section.newMain()
 
 Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. 
 
-### Download the Preti-Try TTF files.
+### Download the Presti-Try TTF files.
 
 Note that the TYPE-TRY fonts are for review only. Therefor a limited glyphset is implemented as sneak preview. Refer to the Type Network store for a full license or email directly to order.
 

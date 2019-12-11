@@ -11,11 +11,17 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>TYPETR Prominence in the making. <a href="downloads/Prominence_Try_BaseMasters001.zip">TRY</a> it now.</h1>
+<h1>TYPETR Prominence: <a href="downloads/Prominence_Try_BaseMasters001.zip">TRY</a> it now.</h1>
 <pre><code>from pagebot.constants import *
 slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)
 box = slideshow.side
 
+</code></pre>
+
+<h1>Prominence <a href="downloads/TYPETR-Prominence_Try_BaseMasters001.zip">TRY</a></h1>
+<p>Try <strong>Prominence</strong> weights and opitical sizes. Download the TYPE-TRY font package <a href="downloads/TYPETR-Prominence_Try_BaseMasters001.zip">here.</a></p>
+<pre><code># The Prominence fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Prominence'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 </code></pre>
 
 <h3>Lorem ipsum dolor sit amet</h3>

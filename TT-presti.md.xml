@@ -11,8 +11,8 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>Presti <a href="downloads/TYPETR-Presti_Try_BaseMasters001.zip">TRY</a></h1>
-<p>Try the <strong>Presti</strong> weights. Download the TYPE-TRY font package <a href="downloads/TYPETR-Presti_Try_BaseMasters001.zip">here.</a></p>
+<h1>TYPETR Presti <a href="downloads/TYPETR-Presti_Try_BaseMasters001.zip">TRY</a></h1>
+<p>Try the <strong>TYPETR Presti</strong> weights. Download the TYPE-TRY font package <a href="downloads/TYPETR-Presti_Try_BaseMasters001.zip">here.</a></p>
 <pre><code># The Presti fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Presti'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 
@@ -32,7 +32,7 @@ box = section.newMain()
 
 <h2>Supported glyphs</h2>
 <p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
-<h3>Download the Preti-Try TTF files.</h3>
+<h3>Download the Presti-Try TTF files.</h3>
 <p>Note that the TYPE-TRY fonts are for review only. Therefor a limited glyphset is implemented as sneak preview. Refer to the Type Network store for a full license or email directly to order.</p>
 <ul>
 <li><a href="downloads/Presti_Try_BaseMasters001.zip">Presti-Try</a></li>
