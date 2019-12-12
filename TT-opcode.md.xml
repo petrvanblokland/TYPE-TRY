@@ -12,17 +12,20 @@ box = content.newBanner()
 </code></pre>
 
 <h1>TYPETR Opcode <a href="downloads/TYPETR-Opcode_Try_BaseMasters001.zip">TRY</a></h1>
-<p>Try the <strong>TYPETR Opcode</strong> weights and widths. Download the TYPE-TRY font package <a href="downloads/TYPETR-Opcode_Try_BaseMasters001.zip">here.</a></p>
+<p>Try the <strong>Opcode</strong> weights and widths. Download the TYPE-TRY font package <a href="downloads/TYPETR-Opcode_Try_BaseMasters001.zip">here.</a></p>
 <pre><code># The Opcode fontDataList is defined by the calling application.
-box = content.newTypeList(doc.docLib['fontDataList']['Opcode'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+fonts = doc.docLib['fontDataList']['Opcode'] # [(fontName, font), ...]
+box = content.newTypeList(fonts, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 
 section = content.newSection()
 box = section.newMain()
 </code></pre>
 
 <h2>Supported features</h2>
-<p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
-<pre><code>box = section.newInfo()
+<pre><code># fonts is defined above.
+box.newTypeFeatures(fonts, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+
+#box = section.newInfo()
 </code></pre>
 
 <p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
@@ -31,22 +34,65 @@ box = section.newMain()
 </code></pre>
 
 <h2>Supported glyphs</h2>
-<p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
-<h3>Download the Opcode-Try TTF files.</h3>
-<p>Note that the TYPE-TRY fonts are for review only. Therefor a limited glyphset is implemented as sneak preview. Refer to the Type Network store for a full license or email directly.</p>
-<ul>
-<li><a href="downloads/Opcode_Try_BaseMasters001.zip">Opcode-Try</a></li>
-</ul>
-<pre><code>box = section.newSide()
+<pre><code># fonts is defined above.
+box.newTypeGlyphSet(fonts, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+
+#box = section.newInfo()
 </code></pre>
 
-<p>ZZZ</p>
+<p>The <strong>Opcode</strong> glyph set includes Latin1, Cyrillic and Greek. </p>
+<p>Note that the TYPE-TRY fonts are for review only. Therefor a limited glyphset is implemented, to get an idea how the fonts work in your design. Refer to the Type Network store for a full license or email TYPETR directly.</p>
+<pre><code>box = section.newSide()
+# Side image with supported glyphs here.
+</code></pre>
+
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
 
 <h2>Supported weights</h2>
-<p>Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
+<p>Weight values are respectively OS/2 and H-stem width.</p>
+<ul>
+<li>Hairline (260, 16)</li>
+<li>Thin (270, 22)</li>
+<li>Light (300, 32)</li>
+<li>Book (390, 52)</li>
+<li>Regular (400, 72)</li>
+<li>Semibold (600, 112)</li>
+<li>Bold (700, 142)</li>
+<li>Black (800, 182)</li>
+</ul>
+<p>All weights are available as Roman and Italic.</p>
+<pre><code>box = section.newSide()
+# Side image with supported glyphs here.
+</code></pre>
+
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Supported axes as Variable Font</h2>
+<ul>
+<li>wght (16, 90, 256) Weight Hairline:16, Light:32, Regular:90 Bold:150 Black:256</li>
+<li>wdth (70, 100, 130) Width in percentage to Regular</li>
+<li>CATL (0, 0, 500) Catalog of incompatible designs</li>
+<li>opsz (8, 24, 24) Optical size, optimized for small sizes </li>
+<li>RNDS (0, 0, 48) Maximum size of rounding corners for Regular. Serif roundings are smaller, limited to half of any stem.</li>
+<li>GRAD (-8, 0, 8) Relative grade correction of stems </li>
+</ul>
+<h3>Catalog axes</h3>
+<ul>
+<li>SANS (0-99)  Sans </li>
+<li>mono (100-199) Sans mono spaced</li>
+<li>SLAB (200-299) Slab serif</li>
+<li>FLRS (300-399)  Sans with expanding flourishes</li>
+<li>LAMP (400-499) Cabaret-like lamps</li>
+<li>SCRP (500-600) Script (italic) with connecting latin glyphs.</li>
+</ul>
+<pre><code>box = section.newSide()
+# Side image with supported glyphs here.
+</code></pre>
+
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>

@@ -10,12 +10,12 @@ page.url = 'responder.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# TYPETR Responder P [TRY](downloads/TYPETR-Responder_Try_BaseMasters001.zip)
+# TYPETR Responder-P [TRY](downloads/TYPETR-Responder_Try_BaseMasters001.zip) it now.
 
-Try the **TYPETR Responder P** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Responder_Try_BaseMasters001.zip)
+Try the **TYPETR Responder-P** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Responder_Try_BaseMasters001.zip)
 ~~~
 # The Responder fontDataList is defined by the calling application.
-box = content.newTypeList(doc.docLib['fontDataList']['Responder P'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+box = content.newTypeList(doc.docLib['fontDataList']['Responder-P'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 
 section = content.newSection()
 box = section.newMain()

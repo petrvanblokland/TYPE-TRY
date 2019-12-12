@@ -53,7 +53,7 @@ box = content.newTypeList(doc.docLib['fontDataList']['Upgrade'], fontSize=44, le
 box = content.newIntroduction()
 ~~~
 
-# <span class="case">TYPE-TRY</span> gives an updated overview of running <span class="c2sc">TYPETR</span> projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Let us know your wishes and suggestions. Find example templates. Get code snippets, that best implement <span class="c2sc">TYPETR</span> type. 
+# <span class="case">TYPE-TRY</span> gives an updated overview of running <span class="c2sc">TYPETR</span> projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Let us know your wishes and suggestions. Find example templates. Get code snippets, that best implement <span class="c2sc">TYPETR</span> type. Or simply order a license by email.
 
 ~~~ 
 box = content.newCropped()

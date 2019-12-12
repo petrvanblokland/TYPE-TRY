@@ -10,7 +10,7 @@ page.url = 'promise.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Promise in the making. [TRY](downloads/Promise_Try_BaseMasters001.zip) it now.
+# TYPETR Promise in the making. [TRY](downloads/Promise_Try_BaseMasters001.zip) it now.
 
 ~~~ 
 from pagebot.constants import *
@@ -70,8 +70,6 @@ box = section.newMain()
 
 Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. 
 
-### Download the Upgrade CJK glyph set as PDF
-
 ~~~
 box = section.newSide()
 ~~~
@@ -83,10 +81,6 @@ box = section.newMain()
 ## Supported weights
 
 Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
-
-### Upgrade CJK Sans
-
-### Upgrade CJK Slab
 
 ~~~
 section = content.newSection()

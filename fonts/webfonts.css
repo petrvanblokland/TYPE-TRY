@@ -1,4 +1,7 @@
 
+/* TYPE-TRY web fonts */
+
+/* Upgrade */
 @font-face {
   font-family: "Upgrade-Thin";
   src: url("Upgrade-Thin.eot") format("eot"),
@@ -79,6 +82,15 @@
   url("upgrade_try-italic.woff") format("woff");
 }
 
+/* Opcode */
+@font-face {
+  font-family: "Opcode_Try-Regular";
+  src: url("fonts/opcode-regular_ma.eot") format("eot"),
+  url("fonts/opcode-regular_ma.woff2") format("woff2"),
+  url("fonts/opcode-regular_ma.woff") format("woff");
+}
+
+/* PowerLift */
 @font-face {
   font-family: "PowerLift_Try-Tight";
   src: url("fonts/powerlift_try-tight.eot") format("eot"),

@@ -289,7 +289,7 @@ FONT_DATA_LIST = {
 
     # === Opcode === 
     'Opcode': [
-        ('Opcode_Try-Regular', dict(
+        ('Opcode-Regular_MA', dict(
             sample='Opcode Regular',
             download='downloads/TYPETR-Opcode_Try_BaseMasters.zip',
             #variablefont='downloads/TYPETR-Opcode_Try_VF.zip',
@@ -298,7 +298,7 @@ FONT_DATA_LIST = {
     ],
 
     # === Responder P === 
-    'Responder P': [
+    'Responder-P': [
         ('Responder_P_Try-Hairline', dict(
             sample='Responder Hairline',
         )),
@@ -360,10 +360,10 @@ FONT_DATA_LIST = {
     # === Prominence === 
     'Prominence': [
         ('Prominence_Try-ExtraLight', dict(
-            sample='Presti Extra Light',
+            sample='Prominence Extra Light',
         )),
         ('Prominence_Try-ExtraLight_Italic', dict(
-            sample='Presti Extra Light Italic',
+            sample='Prominence Extra Light Italic',
         )),
         ('Prominence_Try-Regular', dict(
             sample='Prominence Regular',
