@@ -25,7 +25,9 @@ box = section.newMain()
 
 ~~~
 # fonts is defined above.
-box.newTypeFeatures(fonts, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+# Add intended default tags as long as the font is not complete.
+defaultTags = ('locl', 'frac', 'numr', 'dnom', 'sups', 'sinf', 'onum', 'lnum', 'case', 'smcp', 'c2sc', 'tnum', 'pnum', 'liga', 'ss08', 'ss10', 'zero')
+box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 
 #box = section.newInfo()
 ~~~
@@ -91,7 +93,7 @@ box = section.newMain()
 * RNDS (0, 0, 48) Maximum size of rounding corners for Regular. Serif roundings are smaller, limited to half of any stem.
 * GRAD (-8, 0, 8) Relative grade correction of stems 
 
-### Catalog axes
+### Catalog selectors
 
 * SANS (0-99)  Sans 
 * mono (100-199) Sans mono spaced

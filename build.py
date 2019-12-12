@@ -299,16 +299,13 @@ FONT_DATA_LIST = {
 
     # === Responder P === 
     'Responder-P': [
-        ('Responder_P_Try-Hairline', dict(
-            sample='Responder Hairline',
+        ('Responder_P-Light', dict(
+            sample='Responder Light',
         )),
-        ('Responder_P_Try-Regular', dict(
+        ('Responder_P-Base', dict(
             sample='Responder Regular',
         )),
-        ('Responder_P_Try-Black', dict(
-            sample='Responder Bold',
-        )),
-        ('Responder_P_Try-Black', dict(
+        ('Responder_P-Black', dict(
             sample='Responder Black',
             download='downloads/TYPETR-Responder_P_Try_BaseMasters.zip',
             #variablefont='downloads/TYPETR-Responder_P_Try_VF.zip',
@@ -318,20 +315,29 @@ FONT_DATA_LIST = {
 
     # === Presti === 
     'Presti': [
-        ('Presti_Try-Hairline', dict(
-            sample='Presti Hairline',
-        )),
-        ('Presti_Try-Light', dict(
+        ('Presti-Light_MA32', dict(
             sample='Presti Light',
         )),
-        ('Presti_Try-Semibold', dict(
-            sample='Presti Semibold',
+        ('Presti-Light_Italic_MA32', dict(
+            sample='Presti Light Italic',
         )),
-        ('Presti_Try-Black', dict(
+        ('Presti-Regular_MA84', dict(
+            sample='Presti Regular',
+        )),
+        ('Presti-Italic_MA84', dict(
+            sample='Presti Italic',
+        )),
+        ('Presti-Bold_MA176', dict(
+            sample='Presti Bold',
+        )),
+        ('Presti-Bold_Italic_MA176', dict(
+            sample='Presti Bold Italic',
+        )),
+        ('Presti-Black_MA276', dict(
             sample='Presti Black',
         )),
-        ('Presti_Try-UltraBlack', dict(
-            sample='Presti UltraBlack',
+        ('Presti-Black_Italic_MA276', dict(
+            sample='Presti Black Italic',
             download='downloads/TYPETR-Presti_Try_BaseMasters.zip',
             #variablefont='downloads/TYPETR-Presti_Try_VF.zip',
             buybyemail=BUY_BY_EMAIL % dict(familyName='Presti'),
@@ -356,43 +362,43 @@ FONT_DATA_LIST = {
             buybyemail=BUY_BY_EMAIL % dict(familyName='Promise'),
         )),
     ],
-
+    
     # === Prominence === 
     'Prominence': [
-        ('Prominence_Try-ExtraLight', dict(
+        ('Prominence-ExtraLight_MA', dict(
             sample='Prominence Extra Light',
         )),
-        ('Prominence_Try-ExtraLight_Italic', dict(
+        ('Prominence-ExtraLight_Italic_MA', dict(
             sample='Prominence Extra Light Italic',
         )),
-        ('Prominence_Try-Regular', dict(
+        ('Prominence-Regular_MA', dict(
             sample='Prominence Regular',
         )),
-        ('Prominence_Try-Regular_Italic', dict(
+        ('Prominence-Italic_MA', dict(
             sample='Prominence Italic',
         )),
-        ('Prominence_Try-Semibold', dict(
-            sample='Prominence Semibold',
+        ('Prominence-Middle_MA', dict(
+            sample='Prominence Medium',
         )),
-        ('Prominence_Try-Semibold_Italic', dict(
-            sample='Prominence Semibold Italic',
+        ('Prominence-Middle_Italic_MA', dict(
+            sample='Prominence Medium Italic',
         )),
-        ('Prominence_Try-Bold', dict(
+        ('Prominence-Bold_MA', dict(
             sample='Prominence Bold',
         )),
-        ('Prominence_Try-Bold_Italic', dict(
+        ('Prominence-Bold_Italic_MA', dict(
             sample='Prominence Bold Italic',
         )),
-        ('Prominence_Try-ExtraBold', dict(
+        ('Prominence-ExtraBold_MA', dict(
             sample='Prominence Extra Bold',
         )),
-        ('Prominence_Try-ExtraBold_Italic', dict(
+        ('Prominence-ExtraBold_Italic_MA', dict(
             sample='Prominence Extra Bold Italic',
         )),
-        ('Prominence_Try-Black', dict(
+        ('Prominence-Black_MA', dict(
             sample='Prominence Black',
         )),
-        ('Prominence_Try-Black_Italic', dict(
+        ('Prominence-Black_Italic_MA', dict(
             sample='Prominence Black Italic',
             download='downloads/TYPETR-Prominence_Try_BaseMasters.zip',
             #variablefont='downloads/TYPETR-Prominence_Try_VF.zip',
