@@ -11,7 +11,7 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>TYPETR Opcode <a href="downloads/TYPETR-Opcode_Try_BaseMasters001.zip">TRY</a></h1>
+<h1><span class="c2sc">TYPETR</span> Opcode <a href="downloads/TYPETR-Opcode_Try_BaseMasters001.zip">TRY</a> it now.</h1>
 <p>Try the <strong>Opcode</strong> weights and widths. Download the TYPE-TRY font package <a href="downloads/TYPETR-Opcode_Try_BaseMasters001.zip">here.</a></p>
 <pre><code># The Opcode fontDataList is defined by the calling application.
 fonts = doc.docLib['fontDataList']['Opcode'] # [(fontName, font), ...]

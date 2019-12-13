@@ -10,7 +10,7 @@ page.url = 'upgrade-cjk.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Upgrade CJK in the making. [TRY](downloads/UpgradeCJK_Try.zip) it now.
+# <span class="c2sc">TYPETR</span> Upgrade CJK in the making. [TRY](downloads/UpgradeCJK_Try.zip) it now.
 
 ~~~
 box = content.newCropped()

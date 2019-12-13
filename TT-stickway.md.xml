@@ -11,10 +11,20 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>TYPETR Stickway <a href="downloads/TYPETR-Stickway_Try.zip">TRY</a></h1>
-<p>Try <strong>Stickway</strong> weights and widths. Download the TYPE-TRY font package <a href="downloads/TYPETR-Stickway_Try_BaseMasters.zip">here.</a></p>
+<h1><span class="c2sc">TYPETR</span> Stickway <a href="downloads/TYPETR-Stickway_Try.zip">TRY</a></h1>
+<p>Try <strong>Stickway</strong> weights and widths. Download the TYPE-TRY font package <a href="downloads/TYPETR-Stickway_Try_BaseMasters.zip">here.</a> it now.</p>
 <pre><code># The Stickway fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Stickway'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+</code></pre>
+
+<h2>Stickway Condensed</h2>
+<pre><code># The Stickway fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Stickway Condensed'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+</code></pre>
+
+<h2>Stickway Expanded</h2>
+<pre><code># The Stickway fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Stickway Expanded'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 </code></pre>
 
 <pre><code>section = content.newSection()

@@ -10,9 +10,9 @@ page.url = 'presti.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# TYPETR Presti [TRY](downloads/TYPETR-Presti_Try_BaseMasters001.zip)
+# <span class="c2sc">TYPETR</span> Presti [TRY](downloads/TYPETR-Presti_Try_BaseMasters001.zip)
 
-Try the **TYPETR Presti** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Presti_Try_BaseMasters001.zip)
+Try the **Presti** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Presti_Try_BaseMasters001.zip)
 
 ~~~
 # The Presti fontDataList is defined by the calling application.

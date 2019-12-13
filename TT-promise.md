@@ -10,7 +10,7 @@ page.url = 'promise.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# TYPETR Promise in the making. [TRY](downloads/Promise_Try_BaseMasters001.zip) it now.
+# <span class="c2sc">TYPETR</span> Promise in the making. [TRY](downloads/Promise_Try_BaseMasters001.zip) it now.
 
 ~~~ 
 from pagebot.constants import *

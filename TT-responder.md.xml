@@ -11,7 +11,7 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>TYPETR Responder-P <a href="downloads/TYPETR-Responder_P_Try_BaseMasters001.zip">TRY</a></h1>
+<h1><span class="c2sc">TYPETR</span> Responder-P <a href="downloads/TYPETR-Responder_P_Try_BaseMasters001.zip">TRY</a> it now.</h1>
 <p>Try the <strong>Responder-P</strong> weights and widths. Download the TYPE-TRY font package <a href="downloads/TYPETR-Responder_Try_BaseMasters001.zip">here.</a></p>
 <pre><code># The Responder-P fontDataList is defined by the calling application.
 fonts = doc.docLib['fontDataList']['Responder-P'] # [(fontName, font), ...]

@@ -11,8 +11,8 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>TYPETR Presti <a href="downloads/TYPETR-Presti_Try_BaseMasters001.zip">TRY</a></h1>
-<p>Try the <strong>TYPETR Presti</strong> weights. Download the TYPE-TRY font package <a href="downloads/TYPETR-Presti_Try_BaseMasters001.zip">here.</a></p>
+<h1><span class="c2sc">TYPETR</span> Presti <a href="downloads/TYPETR-Presti_Try_BaseMasters001.zip">TRY</a></h1>
+<p>Try the <strong>Presti</strong> weights. Download the TYPE-TRY font package <a href="downloads/TYPETR-Presti_Try_BaseMasters001.zip">here.</a></p>
 <pre><code># The Presti fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Presti'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 

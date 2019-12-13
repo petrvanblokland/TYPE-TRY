@@ -10,7 +10,7 @@ page.url = 'responder-p.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# TYPETR Responder-P [TRY](downloads/TYPETR-Responder_P_Try_BaseMasters001.zip)
+# <span class="c2sc">TYPETR</span> Responder-P [TRY](downloads/TYPETR-Responder_P_Try_BaseMasters001.zip) it now.
 
 Try the **Responder-P** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Responder_Try_BaseMasters001.zip)
 ~~~

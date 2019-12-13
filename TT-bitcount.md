@@ -10,7 +10,7 @@ page.url = 'bitcount.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# Bitcount Outline Round [TRY](downloads/TYPETR-Bitcount_Try_Outline-Round.zip)
+# <span class="c2sc">TYPETR</span> Bitcount Outline Round [TRY](downloads/TYPETR-Bitcount_Try_Outline-Round.zip) it now.
 
 Try the pre-release of **Bitcount Outline Round** weights. Download the TYPE-TRY font package [here.](downloads/TYPETR-Bitcount_Try_Outline-Round.zip)
 ~~~

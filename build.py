@@ -270,17 +270,48 @@ FONT_DATA_LIST = {
 
     # === Stickway Try === 
     'Stickway': [
-        ('Stickway_Try-Thin', dict(
+        ('Stickway-Thin_MA', dict(
             sample='Stickway Thin',
         )),
-        ('Stickway_Try-Regular', dict(
+        ('Stickway-Regular_MA', dict(
             sample='Stickway Regular',
         )),
-        ('Stickway_Try-Bold', dict(
+        ('Stickway-Bold_MA', dict(
             sample='Stickway Bold',
         )),
-        ('Stickway_Try-Black', dict(
+        ('Stickway-Black_MA', dict(
             sample='Stickway Black',
+            download='downloads/TYPETR-Stickway_Try_BaseMasters.zip',
+            #variablefont='downloads/TYPETR-Stickway_Try_VF.zip',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Stickway'),
+        )),
+    ],
+    'Stickway Condensed': [
+        ('Stickway-Thin_Condensed', dict(
+            sample='Stickway Thin Condensed',
+        )),
+        ('Stickway-Regular_Condensed', dict(
+            sample='Stickway Regular Condensed',
+        )),
+        ('Stickway-Bold_Condensed', dict(
+            sample='Stickway Bold Condensed',
+            download='downloads/TYPETR-Stickway_Try_BaseMasters.zip',
+            #variablefont='downloads/TYPETR-Stickway_Try_VF.zip',
+            buybyemail=BUY_BY_EMAIL % dict(familyName='Stickway'),
+        )),
+    ],
+    'Stickway Expanded': [
+        ('Stickway-Thin_Expanded', dict(
+            sample='Stickway Thin Expanded',
+        )),
+        ('Stickway-Regular_Expanded', dict(
+            sample='Stickway Regular Expanded',
+        )),
+        ('Stickway-Bold_Expanded', dict(
+            sample='Stickway Bold Expanded',
+        )),
+        ('Stickway-Black_Expanded', dict(
+            sample='Stickway Black Expanded',
             download='downloads/TYPETR-Stickway_Try_BaseMasters.zip',
             #variablefont='downloads/TYPETR-Stickway_Try_VF.zip',
             buybyemail=BUY_BY_EMAIL % dict(familyName='Stickway'),
@@ -362,7 +393,7 @@ FONT_DATA_LIST = {
             buybyemail=BUY_BY_EMAIL % dict(familyName='Promise'),
         )),
     ],
-    
+
     # === Prominence === 
     'Prominence': [
         ('Prominence-ExtraLight_MA', dict(
@@ -541,6 +572,13 @@ def makeSite(styles, viewId):
 
     return doc
 
+def fontNames2Lc(path):
+    for fileName in os.listdir(path):
+        if fileName.startswith('.'):
+            continue
+        filePath = path + fileName
+        os.rename(filePath, filePath.lower())
+
 if EXPORT_TYPE == DO_PDF: # PDF representation of the site
     doc = makeSite(styles=styles, viewId='Page')
     doc.solve() # Solve all layout and float conditions for pages and elements.
@@ -565,6 +603,9 @@ elif EXPORT_TYPE == DO_MAMP:
     print('Doc pages: %d' % len(doc))
     doc.export(filePath)
 
+    # Make sure all font file names are lower case.
+    fontNames2Lc('fonts/')
+
     if not os.path.exists(filePath):
         print('The local MAMP server application does not exist. Download and install from %s.' % view.MAMP_SHOP_URL)
         os.system(u'/usr/bin/open %s' % view.MAMP_SHOP_URL)
@@ -577,6 +618,8 @@ elif EXPORT_TYPE == DO_GIT: # Not supported for SimpleSite, only one per reposit
     doc = makeSite(styles=styles, viewId='Git')
     gitView = doc.view
     GIT_PATH = 'docs/' 
+    # Make sure all font file names are lower case.
+    fontNames2Lc('fonts/')
     if VERBOSE:
         print('Site path: %s' % MAMP_PATH)
     #if os.path.exists(filePath):

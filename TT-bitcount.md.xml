@@ -11,7 +11,7 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>Bitcount Outline Round <a href="downloads/TYPETR-Bitcount_Try_Outline-Round.zip">TRY</a></h1>
+<h1><span class="c2sc">TYPETR</span> Bitcount Outline Round <a href="downloads/TYPETR-Bitcount_Try_Outline-Round.zip">TRY</a> it now.</h1>
 <p>Try the pre-release of <strong>Bitcount Outline Round</strong> weights. Download the TYPE-TRY font package <a href="downloads/TYPETR-Bitcount_Try_Outline-Round.zip">here.</a></p>
 <pre><code># The Bitcount fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Bitcount Outline Round'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)

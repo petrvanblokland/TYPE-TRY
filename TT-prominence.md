@@ -10,7 +10,7 @@ page.url = 'prominence.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# TYPETR Prominence: [TRY](downloads/Prominence_Try_BaseMasters001.zip) it now.
+# <span class="c2sc">TYPETR</span> Prominence: [TRY](downloads/Prominence_Try_BaseMasters001.zip) it now.
 
 ~~~ 
 from pagebot.constants import *

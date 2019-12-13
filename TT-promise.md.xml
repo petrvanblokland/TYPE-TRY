@@ -11,7 +11,7 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>TYPETR Promise in the making. <a href="downloads/Promise_Try_BaseMasters001.zip">TRY</a> it now.</h1>
+<h1><span class="c2sc">TYPETR</span> Promise in the making. <a href="downloads/Promise_Try_BaseMasters001.zip">TRY</a> it now.</h1>
 <pre><code>from pagebot.constants import *
 slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)
 box = slideshow.side

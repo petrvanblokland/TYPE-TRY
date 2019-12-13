@@ -10,7 +10,7 @@ page.url = 'opcode.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# TYPETR Opcode [TRY](downloads/TYPETR-Opcode_Try_BaseMasters001.zip)
+# <span class="c2sc">TYPETR</span> Opcode [TRY](downloads/TYPETR-Opcode_Try_BaseMasters001.zip) it now.
 
 Try the **Opcode** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Opcode_Try_BaseMasters001.zip)
 ~~~

@@ -11,7 +11,7 @@ page.url = 'powerlift.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# More TYPETR PowerLift variants in the making. [TRY](downloads/TYPETR-PowerLift_Try.zip) them now.
+# More <span class="c2sc">TYPETR</span> PowerLift variants in the making. [TRY](downloads/TYPETR-PowerLift_Try.zip) them now.
 
 ~~~
 box = content.newCropped(fill=0.3, cssClass='cropped cropped-second')

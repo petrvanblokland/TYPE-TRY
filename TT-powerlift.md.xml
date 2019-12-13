@@ -11,7 +11,7 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1>More TYPETR PowerLift variants in the making. <a href="downloads/TYPETR-PowerLift_Try.zip">TRY</a> them now.</h1>
+<h1>More <span class="c2sc">TYPETR</span> PowerLift variants in the making. <a href="downloads/TYPETR-PowerLift_Try.zip">TRY</a> them now.</h1>
 <pre><code>box = content.newCropped(fill=0.3, cssClass='cropped cropped-second')
 </code></pre>
 

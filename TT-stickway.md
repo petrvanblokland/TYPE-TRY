@@ -10,13 +10,27 @@ page.url = 'stickway.html'
 content = page.select('Content')
 box = content.newBanner()
 ~~~
-# TYPETR Stickway [TRY](downloads/TYPETR-Stickway_Try.zip)
+# <span class="c2sc">TYPETR</span> Stickway [TRY](downloads/TYPETR-Stickway_Try.zip)
 
-Try **Stickway** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Stickway_Try_BaseMasters.zip)
+Try **Stickway** weights and widths. Download the TYPE-TRY font package [here.](downloads/TYPETR-Stickway_Try_BaseMasters.zip) it now.
 
 ~~~
 # The Stickway fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Stickway'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+~~~
+
+## Stickway Condensed
+
+~~~
+# The Stickway fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Stickway Condensed'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+~~~
+
+## Stickway Expanded
+
+~~~
+# The Stickway fontDataList is defined by the calling application.
+box = content.newTypeList(doc.docLib['fontDataList']['Stickway Expanded'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 ~~~
 
 ~~~
