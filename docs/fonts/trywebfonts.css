@@ -80,140 +80,140 @@
 
 @font-face {
   font-family: "Opcode-Regular_MA";
-  src: url("fonts/opcode-regular_ma.eot") format("eot"),
-  url("fonts/opcode-regular_ma.woff2") format("woff2"),
-  url("fonts/opcode-regular_ma.woff") format("woff");
+  src: url("opcode-regular_ma.eot") format("eot"),
+  url("opcode-regular_ma.woff2") format("woff2"),
+  url("opcode-regular_ma.woff") format("woff");
 }
 
 /* Stickway */
 
 @font-face {
   font-family: "Stickway-Thin_MA";
-  src: url("fonts/stickway-thin_ma.eot") format("eot"),
-  url("fonts/stickway-thin_ma.woff2") format("woff2"),
-  url("fonts/stickway-thin_ma.woff") format("woff");
+  src: url("stickway-thin_ma.eot") format("eot"),
+  url("stickway-thin_ma.woff2") format("woff2"),
+  url("stickway-thin_ma.woff") format("woff");
 }
 @font-face {
   font-family: "Stickway-Regular_MA";
-  src: url("fonts/stickway-regular_ma.eot") format("eot"),
-  url("fonts/stickway-regular_ma.woff2") format("woff2"),
-  url("fonts/stickway-regular_ma.woff") format("woff");
+  src: url("stickway-regular_ma.eot") format("eot"),
+  url("stickway-regular_ma.woff2") format("woff2"),
+  url("stickway-regular_ma.woff") format("woff");
 }
 @font-face {
   font-family: "Stickway-Bold_MA";
-  src: url("fonts/stickway-bold_ma.eot") format("eot"),
-  url("fonts/stickway-bold_ma.woff2") format("woff2"),
-  url("fonts/stickway-bold_ma.woff") format("woff");
+  src: url("stickway-bold_ma.eot") format("eot"),
+  url("stickway-bold_ma.woff2") format("woff2"),
+  url("stickway-bold_ma.woff") format("woff");
 }
 @font-face {
   font-family: "Stickway-Black_MA";
-  src: url("fonts/stickway-black_ma.eot") format("eot"),
-  url("fonts/stickway-black_ma.woff2") format("woff2"),
-  url("fonts/stickway-black_ma.woff") format("woff");
+  src: url("stickway-black_ma.eot") format("eot"),
+  url("stickway-black_ma.woff2") format("woff2"),
+  url("stickway-black_ma.woff") format("woff");
 }
 
 @font-face {
   font-family: "Stickway-Thin_Condensed";
-  src: url("fonts/stickway-thin_condensed.eot") format("eot"),
-  url("fonts/stickway-thin_condensed.woff2") format("woff2"),
-  url("fonts/stickway-thin_condensed.woff") format("woff");
+  src: url("stickway-thin_condensed.eot") format("eot"),
+  url("stickway-thin_condensed.woff2") format("woff2"),
+  url("stickway-thin_condensed.woff") format("woff");
 }
 @font-face {
   font-family: "Stickway-Regular_Condensed";
-  src: url("fonts/stickway-regular_condensed.eot") format("eot"),
-  url("fonts/stickway-regular_condensed.woff2") format("woff2"),
-  url("fonts/stickway-regular_condensed.woff") format("woff");
+  src: url("stickway-regular_condensed.eot") format("eot"),
+  url("stickway-regular_condensed.woff2") format("woff2"),
+  url("stickway-regular_condensed.woff") format("woff");
 }
 @font-face {
   font-family: "Stickway-Bold_Condensed";
-  src: url("fonts/stickway-bold_condensed.eot") format("eot"),
-  url("fonts/stickway-bold_condensed.woff2") format("woff2"),
-  url("fonts/stickway-bold_condensed.woff") format("woff");
+  src: url("stickway-bold_condensed.eot") format("eot"),
+  url("stickway-bold_condensed.woff2") format("woff2"),
+  url("stickway-bold_condensed.woff") format("woff");
 }
 @font-face {
   font-family: "Stickway-Black_Condensed";
-  src: url("fonts/stickway-black_condensed.eot") format("eot"),
-  url("fonts/stickway-black_condensed.woff2") format("woff2"),
-  url("fonts/stickway-black_condensed.woff") format("woff");
+  src: url("stickway-black_condensed.eot") format("eot"),
+  url("stickway-black_condensed.woff2") format("woff2"),
+  url("stickway-black_condensed.woff") format("woff");
 }
 
 @font-face {
   font-family: "Stickway-Thin_Expanded";
-  src: url("fonts/stickway-thin_expanded.eot") format("eot"),
-  url("fonts/stickway-thin_expanded.woff2") format("woff2"),
-  url("fonts/stickway-thin_expanded.woff") format("woff");
+  src: url("stickway-thin_expanded.eot") format("eot"),
+  url("stickway-thin_expanded.woff2") format("woff2"),
+  url("stickway-thin_expanded.woff") format("woff");
 }
 @font-face {
   font-family: "Stickway-Regular_Expanded";
-  src: url("fonts/stickway-regular_expanded.eot") format("eot"),
-  url("fonts/stickway-regular_expanded.woff2") format("woff2"),
-  url("fonts/stickway-regular_expanded.woff") format("woff");
+  src: url("stickway-regular_expanded.eot") format("eot"),
+  url("stickway-regular_expanded.woff2") format("woff2"),
+  url("stickway-regular_expanded.woff") format("woff");
 }
 @font-face {
   font-family: "Stickway-Bold_Expanded";
-  src: url("fonts/stickway-bold_expanded.eot") format("eot"),
-  url("fonts/stickway-bold_expanded.woff2") format("woff2"),
-  url("fonts/stickway-bold_expanded.woff") format("woff");
+  src: url("stickway-bold_expanded.eot") format("eot"),
+  url("stickway-bold_expanded.woff2") format("woff2"),
+  url("stickway-bold_expanded.woff") format("woff");
 }
 @font-face {
   font-family: "Stickway-Black_Expanded";
-  src: url("fonts/stickway-black_expanded.eot") format("eot"),
-  url("fonts/stickway-black_expanded.woff2") format("woff2"),
-  url("fonts/stickway-black_expanded.woff") format("woff");
+  src: url("stickway-black_expanded.eot") format("eot"),
+  url("stickway-black_expanded.woff2") format("woff2"),
+  url("stickway-black_expanded.woff") format("woff");
 }
 
 /* Presti */
 
 @font-face {
   font-family: "Presti-Light_MA32";
-  src: url("fonts/presti-light_ma32.eot") format("eot"),
-  url("fonts/presti-light_ma32.woff2") format("woff2"),
-  url("fonts/presti-light_ma32.woff") format("woff");
+  src: url("presti-light_ma32.eot") format("eot"),
+  url("presti-light_ma32.woff2") format("woff2"),
+  url("presti-light_ma32.woff") format("woff");
 }
 @font-face {
   font-family: "Presti-Light_Italic_MA32";
-  src: url("fonts/presti-light_italic_ma84.eot") format("eot"),
-  url("fonts/presti-light_italic_ma84.woff2") format("woff2"),
-  url("fonts/presti-light_italic_ma84.woff") format("woff");
+  src: url("presti-light_italic_ma84.eot") format("eot"),
+  url("presti-light_italic_ma84.woff2") format("woff2"),
+  url("presti-light_italic_ma84.woff") format("woff");
 }
 
 @font-face {
   font-family: "Presti-Regular_MA84";
-  src: url("fonts/presti-regular_ma84.eot") format("eot"),
-  url("fonts/presti-regular_ma84.woff2") format("woff2"),
-  url("fonts/presti-regular_ma84.woff") format("woff");
+  src: url("presti-regular_ma84.eot") format("eot"),
+  url("presti-regular_ma84.woff2") format("woff2"),
+  url("presti-regular_ma84.woff") format("woff");
 }
 @font-face {
   font-family: "Presti-Italic_MA84";
-  src: url("fonts/presti-italic_ma84.eot") format("eot"),
-  url("fonts/presti-italic_ma84.woff2") format("woff2"),
-  url("fonts/presti-italic_ma84.woff") format("woff");
+  src: url("presti-italic_ma84.eot") format("eot"),
+  url("presti-italic_ma84.woff2") format("woff2"),
+  url("presti-italic_ma84.woff") format("woff");
 }
 
 @font-face {
   font-family: "Presti-Bold_MA176";
-  src: url("fonts/presti-bold_ma176.eot") format("eot"),
-  url("fonts/presti-bold_ma176.woff2") format("woff2"),
-  url("fonts/presti-bold_ma176.woff") format("woff");
+  src: url("presti-bold_ma176.eot") format("eot"),
+  url("presti-bold_ma176.woff2") format("woff2"),
+  url("presti-bold_ma176.woff") format("woff");
 }
 @font-face {
   font-family: "Presti-Bold_Italic_MA176";
-  src: url("fonts/presti-bold_italic_ma176.eot") format("eot"),
-  url("fonts/presti-bold_italic_ma176.woff2") format("woff2"),
-  url("fonts/presti-bold_italic_ma176.woff") format("woff");
+  src: url("presti-bold_italic_ma176.eot") format("eot"),
+  url("presti-bold_italic_ma176.woff2") format("woff2"),
+  url("presti-bold_italic_ma176.woff") format("woff");
 }
 
 @font-face {
   font-family: "Presti-Black_MA276";
-  src: url("fonts/presti-black_ma276.eot") format("eot"),
-  url("fonts/presti-black_ma276.woff2") format("woff2"),
-  url("fonts/presti-black_ma276.woff") format("woff");
+  src: url("presti-black_ma276.eot") format("eot"),
+  url("presti-black_ma276.woff2") format("woff2"),
+  url("presti-black_ma276.woff") format("woff");
 }
 @font-face {
   font-family: "Presti-Black_Italic_MA276";
-  src: url("fonts/presti-black_italic_ma276.eot") format("eot"),
-  url("fonts/presti-black_italic_ma276.woff2") format("woff2"),
-  url("fonts/presti-black_italic_ma276.woff") format("woff");
+  src: url("presti-black_italic_ma276.eot") format("eot"),
+  url("presti-black_italic_ma276.woff2") format("woff2"),
+  url("presti-black_italic_ma276.woff") format("woff");
 }
 
 /* PowerLift */
