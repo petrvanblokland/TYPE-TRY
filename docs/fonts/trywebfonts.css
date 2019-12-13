@@ -162,6 +162,65 @@
   url("fonts/stickway-black_expanded.woff") format("woff");
 }
 
+/* Presti */
+
+Presti-Black_Italic_MA276.ttf
+Presti-Black_MA276.ttf
+Presti-Bold_Italic_MA176.ttf
+.ttf
+
+@font-face {
+  font-family: "Presti-Light_MA32";
+  src: url("fonts/presti-light_ma32.eot") format("eot"),
+  url("fonts/presti-light_ma32.woff2") format("woff2"),
+  url("fonts/presti-light_ma32.woff") format("woff");
+}
+@font-face {
+  font-family: "Presti-Light_Italic_MA32";
+  src: url("fonts/presti-light_italic_ma84.eot") format("eot"),
+  url("fonts/presti-light_italic_ma84.woff2") format("woff2"),
+  url("fonts/presti-light_italic_ma84.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Presti-Regular_MA84";
+  src: url("fonts/presti-regular_ma84.eot") format("eot"),
+  url("fonts/presti-regular_ma84.woff2") format("woff2"),
+  url("fonts/presti-regular_ma84.woff") format("woff");
+}
+@font-face {
+  font-family: "Presti-Italic_MA84";
+  src: url("fonts/presti-italic_ma84.eot") format("eot"),
+  url("fonts/presti-italic_ma84.woff2") format("woff2"),
+  url("fonts/presti-italic_ma84.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Presti-Bold_MA176";
+  src: url("fonts/presti-bold_ma176.eot") format("eot"),
+  url("fonts/presti-bold_ma176.woff2") format("woff2"),
+  url("fonts/presti-bold_ma176.woff") format("woff");
+}
+@font-face {
+  font-family: "Presti-Bold_Italic_MA176";
+  src: url("fonts/presti-bold_italic_ma176.eot") format("eot"),
+  url("fonts/presti-bold_italic_ma176.woff2") format("woff2"),
+  url("fonts/presti-bold_italic_ma176.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Presti-Black_MA276";
+  src: url("fonts/presti-black_ma276.eot") format("eot"),
+  url("fonts/presti-black_ma276.woff2") format("woff2"),
+  url("fonts/presti-black_ma276.woff") format("woff");
+}
+@font-face {
+  font-family: "Presti-Black_Italic_MA276";
+  src: url("fonts/presti-black_italic_ma276.eot") format("eot"),
+  url("fonts/presti-black_italic_ma276.woff2") format("woff2"),
+  url("fonts/presti-black_italic_ma276.woff") format("woff");
+}
+
 /* PowerLift */
 
 @font-face {
