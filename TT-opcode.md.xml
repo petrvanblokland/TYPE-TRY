@@ -25,9 +25,13 @@ box = section.newMain()
 <pre><code># fonts is defined above.
 # Add intended default tags as long as the font is not complete.
 defaultTags = ('locl', 'frac', 'numr', 'dnom', 'sups', 'sinf', 'onum', 'lnum', 'case', 'smcp', 'c2sc', 'tnum', 'pnum', 'liga', 'ss08', 'ss10', 'zero')
-box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', layoutType='TagList', labelFontSize=18)
 
-#box = section.newInfo()
+box = section.newInfo()
+</code></pre>
+
+<h3>The Opcode feature set, corresponds with standard names and behavior.</h3>
+<pre><code>box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 </code></pre>
 
 <p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>

@@ -48,7 +48,7 @@ DO_PDF = 'Pdf' # Save as PDF representation of the site.
 DO_FILE = 'File' # Generate website output in _export/SimpleSite and open browser on file index.html
 DO_MAMP = 'Mamp' # Generate website in /Applications/Mamp/htdocs/SimpleSite and open a localhost
 DO_GIT = 'Git' # Generate website and commit to git (so site is published in git docs folder.
-EXPORT_TYPE = DO_MAMP
+EXPORT_TYPE = DO_GIT
 
 CLEAR_MAMP = False # If True, make a clean copy by removing all old files first.
 
@@ -347,7 +347,7 @@ FONT_DATA_LIST = {
     # === Promise === 
     'Promise': [
         ('Promise_Try-Medium', dict(
-            sample='Presti Medium',
+            sample='Promise Medium',
         )),
         ('Promise_Try-Medium_Italic', dict(
             sample='Promise Medium Italic)',
