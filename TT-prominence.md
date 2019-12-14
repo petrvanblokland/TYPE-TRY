@@ -18,21 +18,13 @@ slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3,
 box = slideshow.side
 
 ~~~
-# Prominence [TRY](downloads/TYPETR-Prominence_Try_BaseMasters001.zip)
+# Prominence [TRY](downloads/TYPETR-Prominence_Try_BaseMasters001.zip) classic headliner
 
 Try **Prominence** weights and opitical sizes. Download the TYPE-TRY font package [here.](downloads/TYPETR-Prominence_Try_BaseMasters001.zip)
 ~~~
 # The Prominence fontDataList is defined by the calling application.
 box = content.newTypeList(doc.docLib['fontDataList']['Prominence'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
-~~~
 
-### The classic headliner
-
-## Donec euismod ex in mauris feugiat.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc magna, blandit et venenatis sit amet, congue in sapien. Donec euismod ex in mauris feugiat, quis commodo massa vestibulum. Sed non laoreet tortor.  
-
-~~~
 section = content.newSection()
 box = section.newMain()
 ~~~
@@ -44,15 +36,14 @@ box = section.newMain()
 defaultTags = ('locl', 'frac', 'numr', 'dnom', 'sups', 'sinf', 'onum', 'lnum', 'case', 'smcp', 'c2sc', 'tnum', 'pnum', 'liga', 'ss08', 'ss10', 'zero')
 box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', layoutType='TagList', labelFontSize=18)
 
-box = section.newInfo()
 ~~~
-### The Opcode feature set, corresponds with standard names and behavior.
+### The **Prominence** feature set, corresponds with standard names and behavior.
 
 ~~~
 box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 ~~~
 
-@@#@@@#Phasellus##@@@@@ rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
+Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
 
 ~~~
 section = content.newSection()
@@ -135,7 +126,7 @@ box = section.newMain()
 
 Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. 
 
-$@$@#@Phasellus$$$$$ rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
+Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
 
 [See more about pricing here.](pricing.html)
 
