@@ -8,23 +8,30 @@ page.name = 'Contact'
 page.url = 'contact.html'
 
 content = page.select('Content')
-box = content.newBanner()
+section = content.newSection()
 </code></pre>
 
-<h1>Contact us for a free sample</h1>
-<pre><code>from pagebot.constants import *
-slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=1, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False)
-box = slideshow.slides
-
-#![w=200 y=top](images/BK-Graphic-Design.png)
+<h1>Contact us for free samples</h1>
+<pre><code>box = section.newMain()
 </code></pre>
 
-<pre><code>box = slideshow.side
+<h3>TYPETR | Buro Petr van Blokland + Claudia Mens</h3>
+<p>Rietveld 56 2611 LM Delft The Netherlands</p>
+<p><a href="http://typetr.com">typetr.com</a> | <a href="http://designdesign.space">designdesign.space</a></p>
+<hr/>
+
+<h3>Petr van Blokland | <a href="mailto:tptr@petr.com">tptr@petr.com</a></h3>
+<p>twitter &amp; instagram @petrvanblokland</p>
+<p>Intentionally not on FaceBook since 1998.</p>
+<p>mobile +31 6 24 219 502 | buro +31 15 887 1233 </p>
+<hr/>
+
+<h3>Claudia Mens | <a href="mailto:claudia@petr.com">claudia@petr.com</a></h3>
+<p>mobile +31 6 41 367 689 | buro +31 15 887 1233</p>
+<pre><code>box = section.newSide()
 </code></pre>
 
-<h2>What is your type strategy?</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nibh eget diam suscipit bibendum eu id quam. Aliquam velit odio, vehicula sed lectus non, vulputate feugiat neque. Ut sit amet consequat ex. Praesent malesuada dui mauris, ac tempus purus luctus rutrum. Nullam posuere mattis urna, eget venenatis neque faucibus ac. Praesent vel pharetra urna. </p>
-<h1>Contact us</h1>
+<p><img alt="w=450 y=top nocache" src="images/Typetr1.gif" /></p>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
@@ -38,7 +45,8 @@ box = section.newMain()
 <pre><code>box = section.newSide()
 </code></pre>
 
-<p><img alt="w=450 y=top nocache" src="images/Typetr1.gif" /></p>
+<h2>What is your type strategy?</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nibh eget diam suscipit bibendum eu id quam. Aliquam velit odio, vehicula sed lectus non, vulputate feugiat neque. Ut sit amet consequat ex. Praesent malesuada dui mauris, ac tempus purus luctus rutrum. Nullam posuere mattis urna, eget venenatis neque faucibus ac. Praesent vel pharetra urna. </p>
 <ul>
 <li>Cras vel leo sed turpis</li>
 <li>Bibendum tempus. </li>

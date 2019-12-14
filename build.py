@@ -48,8 +48,10 @@ DO_PDF = 'Pdf' # Save as PDF representation of the site.
 DO_FILE = 'File' # Generate website output in _export/SimpleSite and open browser on file index.html
 DO_MAMP = 'Mamp' # Generate website in /Applications/Mamp/htdocs/SimpleSite and open a localhost
 DO_GIT = 'Git' # Generate website and commit to git (so site is published in git docs folder.
-EXPORT_TYPE = DO_GIT
-
+EXPORT_TYPES = [
+    DO_GIT,
+    DO_MAMP,
+]
 CLEAR_MAMP = False # If True, make a clean copy by removing all old files first.
 
 MLFT_LOGO = color(0.2, 0.4, 0.1)
@@ -281,12 +283,7 @@ FONT_DATA_LIST = {
         )),
         ('Stickway-Black_MA', dict(
             sample='Stickway Black',
-            download='downloads/TYPETR-Stickway_Try_BaseMasters.zip',
-            #variablefont='downloads/TYPETR-Stickway_Try_VF.zip',
-            buybyemail=BUY_BY_EMAIL % dict(familyName='Stickway'),
         )),
-    ],
-    'Stickway Condensed': [
         ('Stickway-Thin_Condensed', dict(
             sample='Stickway Thin Condensed',
         )),
@@ -295,23 +292,18 @@ FONT_DATA_LIST = {
         )),
         ('Stickway-Bold_Condensed', dict(
             sample='Stickway Bold Condensed',
-            download='downloads/TYPETR-Stickway_Try_BaseMasters.zip',
-            #variablefont='downloads/TYPETR-Stickway_Try_VF.zip',
-            buybyemail=BUY_BY_EMAIL % dict(familyName='Stickway'),
         )),
-    ],
-    'Stickway Expanded': [
-        ('Stickway-Thin_Expanded', dict(
-            sample='Stickway Thin Expanded',
+        ('Stickway-Thin_Extended', dict(
+            sample='Stickway Thin Extended',
         )),
-        ('Stickway-Regular_Expanded', dict(
-            sample='Stickway Regular Expanded',
+        ('Stickway-Regular_Extended', dict(
+            sample='Stickway Regular Extended',
         )),
-        ('Stickway-Bold_Expanded', dict(
-            sample='Stickway Bold Expanded',
+        ('Stickway-Bold_Extended', dict(
+            sample='Stickway Bold Extended',
         )),
-        ('Stickway-Black_Expanded', dict(
-            sample='Stickway Black Expanded',
+        ('Stickway-Black_Extended', dict(
+            sample='Stickway Black Extended',
             download='downloads/TYPETR-Stickway_Try_BaseMasters.zip',
             #variablefont='downloads/TYPETR-Stickway_Try_VF.zip',
             buybyemail=BUY_BY_EMAIL % dict(familyName='Stickway'),
@@ -331,13 +323,31 @@ FONT_DATA_LIST = {
     # === Responder P === 
     'Responder-P': [
         ('Responder_P-Light', dict(
-            sample='Responder Light',
+            sample='Responder-P Light',
         )),
         ('Responder_P-Base', dict(
-            sample='Responder Regular',
+            sample='Responder-P Regular',
         )),
         ('Responder_P-Black', dict(
-            sample='Responder Black',
+            sample='Responder-P Black',
+        )),
+        ('Responder_P-Light_Condensed', dict(
+            sample='Responder-P Light Condensed',
+        )),
+        ('Responder_P-Regular_Condensed', dict(
+            sample='Responder-P Regular Condensed',
+        )),
+        ('Responder_P-Black_Condensed', dict(
+            sample='Responder-P Black Condensed',
+        )),
+        ('Responder_P-Light_Extended', dict(
+            sample='Responder-P Light Extended',
+        )),
+        ('Responder_P-Regular_Extended', dict(
+            sample='Responder-P Regular Extended',
+        )),
+        ('Responder_P-Black_Extended', dict(
+            sample='Responder-P Black Extended',
             download='downloads/TYPETR-Responder_P_Try_BaseMasters.zip',
             #variablefont='downloads/TYPETR-Responder_P_Try_VF.zip',
             buybyemail=BUY_BY_EMAIL % dict(familyName='Responder P'),
@@ -349,9 +359,9 @@ FONT_DATA_LIST = {
         ('Presti-Light_MA32', dict(
             sample='Presti Light',
         )),
-        ('Presti-Light_Italic_MA32', dict(
-            sample='Presti Light Italic',
-        )),
+        #('Presti-Light_Italic_MA32', dict(
+        #    sample='Presti Light Italic',
+        #)),
         ('Presti-Regular_MA84', dict(
             sample='Presti Regular',
         )),
@@ -361,14 +371,14 @@ FONT_DATA_LIST = {
         ('Presti-Bold_MA176', dict(
             sample='Presti Bold',
         )),
-        ('Presti-Bold_Italic_MA176', dict(
-            sample='Presti Bold Italic',
-        )),
+        #('Presti-Bold_Italic_MA176', dict(
+        #    sample='Presti Bold Italic',
+        #)),
         ('Presti-Black_MA276', dict(
             sample='Presti Black',
-        )),
-        ('Presti-Black_Italic_MA276', dict(
-            sample='Presti Black Italic',
+        #)),
+        #('Presti-Black_Italic_MA276', dict(
+        #    sample='Presti Black Italic',
             download='downloads/TYPETR-Presti_Try_BaseMasters.zip',
             #variablefont='downloads/TYPETR-Presti_Try_VF.zip',
             buybyemail=BUY_BY_EMAIL % dict(familyName='Presti'),
@@ -377,17 +387,29 @@ FONT_DATA_LIST = {
 
     # === Promise === 
     'Promise': [
-        ('Promise_Try-Medium', dict(
+        ('Promise-Hairline', dict(
+            sample='Promise Hairline',
+        )),
+        ('Promise-Regular', dict(
+            sample='Promise Regular',
+        )),
+        ('Promise-Medium', dict(
             sample='Promise Medium',
         )),
-        ('Promise_Try-Medium_Italic', dict(
-            sample='Promise Medium Italic)',
-        )),
-        ('Promise_Try-Bold', dict(
+        ('Promise-Bold', dict(
             sample='Promise Bold',
         )),
-        ('Promise_Try-Bold_Italic', dict(
-            sample='Promise Bold Italic',
+        #('Promise-Hairline_Compressed', dict(
+        #    sample='Promise Hairline Compressed',
+        #)),
+        ('Promise-Compressed', dict(
+            sample='Promise Compressed',
+        #)),
+        #('Promise-Bold_Compressed', dict(
+        #    sample='Promise Bold Compressed',
+        #)),
+        #('Promise-Extended', dict(
+        #    sample='Promise Regular Extended',
             download='downloads/TYPETR-Promise_Try_BaseMasters001.zip',
             #variablefont='downloads/TYPETR-Promise_Try_VF.zip',
             buybyemail=BUY_BY_EMAIL % dict(familyName='Promise'),
@@ -408,12 +430,12 @@ FONT_DATA_LIST = {
         ('Prominence-Italic_MA', dict(
             sample='Prominence Italic',
         )),
-        ('Prominence-Middle_MA', dict(
-            sample='Prominence Medium',
-        )),
-        ('Prominence-Middle_Italic_MA', dict(
-            sample='Prominence Medium Italic',
-        )),
+        #('Prominence-Middle_MA', dict(
+        #    sample='Prominence Medium',
+        #)),
+        #('Prominence-Middle_Italic_MA', dict(
+        #    sample='Prominence Medium Italic',
+        #)),
         ('Prominence-Bold_MA', dict(
             sample='Prominence Bold',
         )),
@@ -579,18 +601,18 @@ def fontNames2Lc(path):
         filePath = path + fileName
         os.rename(filePath, filePath.lower())
 
-if EXPORT_TYPE == DO_PDF: # PDF representation of the site
+if  DO_PDF in EXPORT_TYPES: # PDF representation of the site
     doc = makeSite(styles=styles, viewId='Page')
     doc.solve() # Solve all layout and float conditions for pages and elements.
     doc.export(EXPORT_PATH + '.pdf')
 
-elif EXPORT_TYPE == DO_FILE:
+if DO_FILE in EXPORT_TYPES:
     doc = makeSite(styles=styles, viewId='Site')
     doc.export(EXPORT_PATH)
     openingPage = 'program-2019.html'
     os.system(u'/usr/bin/open "%s/%s"' % (EXPORT_PATH, openingPage))
 
-elif EXPORT_TYPE == DO_MAMP:
+if DO_MAMP in EXPORT_TYPES:
     # Internal CSS file may be switched off for development.
     doc = makeSite(styles=styles, viewId='Mamp')
     mampView = doc.view
@@ -613,7 +635,7 @@ elif EXPORT_TYPE == DO_MAMP:
         #t.doc.export('_export/%s.pdf' % NAME, multiPages=True)
         os.system(u'/usr/bin/open "%s"' % mampView.getUrl(SITE_NAME))
 
-elif EXPORT_TYPE == DO_GIT: # Not supported for SimpleSite, only one per repository?
+if DO_GIT in EXPORT_TYPES: # Not supported for SimpleSite, only one per repository?
     # Make sure outside always has the right generated CSS
     doc = makeSite(styles=styles, viewId='Git')
     gitView = doc.view

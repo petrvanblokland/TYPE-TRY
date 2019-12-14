@@ -19,20 +19,6 @@ Try **Stickway** weights and widths. Download the TYPE-TRY font package [here.](
 box = content.newTypeList(doc.docLib['fontDataList']['Stickway'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 ~~~
 
-## Stickway Condensed
-
-~~~
-# The Stickway fontDataList is defined by the calling application.
-box = content.newTypeList(doc.docLib['fontDataList']['Stickway Condensed'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
-~~~
-
-## Stickway Expanded
-
-~~~
-# The Stickway fontDataList is defined by the calling application.
-box = content.newTypeList(doc.docLib['fontDataList']['Stickway Expanded'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
-~~~
-
 ~~~
 section = content.newSection()
 box = section.newMain()
@@ -40,10 +26,18 @@ box = section.newMain()
 
 ## Supported features
 
-Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
+~~~
+# fonts is defined above.
+# Add intended default tags as long as the font is not complete.
+defaultTags = ('locl', 'frac', 'numr', 'dnom', 'sups', 'sinf', 'onum', 'lnum', 'case', 'smcp', 'c2sc', 'tnum', 'pnum', 'liga', 'ss08', 'ss10', 'zero')
+box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', layoutType='TagList', labelFontSize=18)
+
+box = box.newInfo()
+~~~
+### The Stickway feature set, corresponds with standard names and behavior.
 
 ~~~
-box = section.newInfo()
+box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 ~~~
 
 Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.
@@ -67,29 +61,18 @@ Note that the TYPE-TRY fonts are for review only. Therefor a limited glyphset is
 
 ~~~
 box = section.newSide()
-# An image of supported glyphs goes here.
+# Side image with supported glyphs here.
 ~~~
 
 ~~~
 section = content.newSection()
 box = section.newMain()
-"""
-(This should work as MarkDown table, but it does not seem to parsing by PageBot)
-|Style name|OS/2|H-stem width|Inc|Master|
-|----|----:|----:|----:|----:|----|
-|Thin|270|22|•|
-|Light|300|32|+10||
-|Book|390|52|+20||
-|Regular|400|72|+30|•|
-|Semibold|600|112|+40||
-|Bold|700|142|+30|•|
-|Black|800|182|+40|•|
-"""
 ~~~
 ## Supported weights
 
 Weight values are respectively OS/2 and H-stem width.
 
+* Hairline (260, 16)
 * Thin (270, 22)
 * Light (300, 32)
 * Book (390, 52)
@@ -100,13 +83,37 @@ Weight values are respectively OS/2 and H-stem width.
 
 All weights are available as Roman and Italic.
 
-## Supported widths
+~~~
+box = section.newSide()
+# Side image with supported glyphs here.
+~~~
 
-* Condensed
-* Normal
-* Expanded
+~~~
+section = content.newSection()
+box = section.newMain()
+~~~
+## Supported axes as Variable Font
 
-Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.
+* wght (16, 90, 256) Weight Hairline:16, Light:32, Regular:90 Bold:150 Black:256
+* wdth (70, 100, 130) Width in percentage to Regular
+* CATL (0, 0, 500) Catalog of incompatible designs
+* opsz (8, 24, 24) Optical size, optimized for small sizes 
+* RNDS (0, 0, 48) Maximum size of rounding corners for Regular. Serif roundings are smaller, limited to half of any stem.
+* GRAD (-8, 0, 8) Relative grade correction of stems 
+
+### Catalog selectors
+
+* SANS (0-99)  Sans 
+* mono (100-199) Sans mono spaced
+* SLAB (200-299) Slab serif
+* FLRS (300-399)  Sans with expanding flourishes
+* LAMP (400-499) Cabaret-like lamps
+* SCRP (500-600) Script (italic) with connecting latin glyphs.
+
+~~~
+box = section.newSide()
+# Side image with supported glyphs here.
+~~~
 
 ~~~
 section = content.newSection()

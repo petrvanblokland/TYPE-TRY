@@ -9,27 +9,39 @@ page.name = 'Contact'
 page.url = 'contact.html'
 
 content = page.select('Content')
-box = content.newBanner()
+section = content.newSection()
 ~~~
-# Contact us for a free sample 
+# Contact us for free samples 
 
 ~~~
-from pagebot.constants import *
-slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=1, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False)
-box = slideshow.slides
-
-#![w=200 y=top](images/BK-Graphic-Design.png)
+box = section.newMain()
 ~~~
+
+### TYPETR | Buro Petr van Blokland + Claudia Mens
+
+Rietveld 56 2611 LM Delft The Netherlands
+
+[typetr.com](http://typetr.com) | [designdesign.space](http://designdesign.space)
+
+<hr/>
+### Petr van Blokland | [tptr@petr.com](mailto:tptr@petr.com)
+
+twitter & instagram @petrvanblokland
+
+Intentionally not on FaceBook since 1998.
+
+mobile +31 6 24 219 502 | buro +31 15 887 1233 
+
+<hr/>
+### Claudia Mens | [claudia@petr.com](mailto:claudia@petr.com) 
+
+mobile +31 6 41 367 689 | buro +31 15 887 1233
 
 ~~~ 
-box = slideshow.side
+box = section.newSide()
 ~~~
 
-## What is your type strategy?
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nibh eget diam suscipit bibendum eu id quam. Aliquam velit odio, vehicula sed lectus non, vulputate feugiat neque. Ut sit amet consequat ex. Praesent malesuada dui mauris, ac tempus purus luctus rutrum. Nullam posuere mattis urna, eget venenatis neque faucibus ac. Praesent vel pharetra urna. 
-
-# Contact us
+![w=450 y=top nocache](images/Typetr1.gif)
 
 ~~~
 section = content.newSection()
@@ -50,7 +62,9 @@ Suspendisse lectus nisi, bibendum nec mauris at, vestibulum pulvinar sapien. Cla
 box = section.newSide()
 ~~~
 
-![w=450 y=top nocache](images/Typetr1.gif)
+## What is your type strategy?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nibh eget diam suscipit bibendum eu id quam. Aliquam velit odio, vehicula sed lectus non, vulputate feugiat neque. Ut sit amet consequat ex. Praesent malesuada dui mauris, ac tempus purus luctus rutrum. Nullam posuere mattis urna, eget venenatis neque faucibus ac. Praesent vel pharetra urna. 
 
 * Cras vel leo sed turpis
 * Bibendum tempus. 

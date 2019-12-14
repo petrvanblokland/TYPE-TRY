@@ -34,7 +34,7 @@ content = page.select('Content')
 
 box = content.newIntroduction()
 ~~~
-# This site is currently under construction. Contact [buro@petr.com](mailto:buro@petr.com) for additional information.
+# This site is currently under construction. Contact [tptr@petr.com](mailto:tptr@petr.com) for additional information.
 
 ~~~
 box = content.newBanner()

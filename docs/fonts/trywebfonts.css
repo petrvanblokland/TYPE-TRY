@@ -85,6 +85,65 @@
   url("opcode-regular_ma.woff") format("woff");
 }
 
+/* Responder */
+
+@font-face {
+  font-family: "Responder_P-Light";
+  src: url("responder_p-light.eot") format("eot"),
+  url("responder_p-light.woff2") format("woff2"),
+  url("responder_p-light.woff") format("woff");
+}
+@font-face {
+  font-family: "Responder_P-Base";
+  src: url("responder_p-base.eot") format("eot"),
+  url("responder_p-base.woff2") format("woff2"),
+  url("responder_p-base.woff") format("woff");
+}
+@font-face {
+  font-family: "Responder_P-Black";
+  src: url("responder_p-black.eot") format("eot"),
+  url("responder_p-black.woff2") format("woff2"),
+  url("responder_p-black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Responder_P-Light_Condensed";
+  src: url("responder_p-light_condensed.eot") format("eot"),
+  url("responder_p-light_condensed.woff2") format("woff2"),
+  url("responder_p-light_condensed.woff") format("woff");
+}
+@font-face {
+  font-family: "Responder_P-Base_Condensed";
+  src: url("responder_p-base_condensed.eot") format("eot"),
+  url("responder_p-base_condensed.woff2") format("woff2"),
+  url("responder_p-base_condensed.woff") format("woff");
+}
+@font-face {
+  font-family: "Responder_P-Black_Condensed";
+  src: url("responder_p-black_condensed.eot") format("eot"),
+  url("responder_p-black_condensed.woff2") format("woff2"),
+  url("responder_p-black_condensed.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Responder_P-Light_Extended";
+  src: url("responder_p-light_extended.eot") format("eot"),
+  url("responder_p-light_extended.woff2") format("woff2"),
+  url("responder_p-light_extended.woff") format("woff");
+}
+@font-face {
+  font-family: "Responder_P-Base_Extended";
+  src: url("responder_p-base_extended.eot") format("eot"),
+  url("responder_p-base_extended.woff2") format("woff2"),
+  url("responder_p-base_extended.woff") format("woff");
+}
+@font-face {
+  font-family: "Responder_P-Black_Extended";
+  src: url("responder_p-black_extended.eot") format("eot"),
+  url("responder_p-black_extended.woff2") format("woff2"),
+  url("responder_p-black_extened.woff") format("woff");
+}
+
 /* Stickway */
 
 @font-face {
@@ -138,28 +197,81 @@
 }
 
 @font-face {
-  font-family: "Stickway-Thin_Expanded";
-  src: url("stickway-thin_expanded.eot") format("eot"),
-  url("stickway-thin_expanded.woff2") format("woff2"),
-  url("stickway-thin_expanded.woff") format("woff");
+  font-family: "Stickway-Thin_Extended";
+  src: url("stickway-thin_extended.eot") format("eot"),
+  url("stickway-thin_extended.woff2") format("woff2"),
+  url("stickway-thin_extended.woff") format("woff");
 }
 @font-face {
-  font-family: "Stickway-Regular_Expanded";
-  src: url("stickway-regular_expanded.eot") format("eot"),
-  url("stickway-regular_expanded.woff2") format("woff2"),
-  url("stickway-regular_expanded.woff") format("woff");
+  font-family: "Stickway-Regular_Extended";
+  src: url("stickway-regular_extended.eot") format("eot"),
+  url("stickway-regular_extended.woff2") format("woff2"),
+  url("stickway-regular_extended.woff") format("woff");
 }
 @font-face {
-  font-family: "Stickway-Bold_Expanded";
-  src: url("stickway-bold_expanded.eot") format("eot"),
-  url("stickway-bold_expanded.woff2") format("woff2"),
-  url("stickway-bold_expanded.woff") format("woff");
+  font-family: "Stickway-Bold_Extended";
+  src: url("stickway-bold_extended.eot") format("eot"),
+  url("stickway-bold_extended.woff2") format("woff2"),
+  url("stickway-bold_extended.woff") format("woff");
 }
 @font-face {
-  font-family: "Stickway-Black_Expanded";
-  src: url("stickway-black_expanded.eot") format("eot"),
-  url("stickway-black_expanded.woff2") format("woff2"),
-  url("stickway-black_expanded.woff") format("woff");
+  font-family: "Stickway-Black_Extended";
+  src: url("stickway-black_extended.eot") format("eot"),
+  url("stickway-black_extended.woff2") format("woff2"),
+  url("stickway-black_extended.woff") format("woff");
+}
+
+/* Promise */
+
+@font-face {
+  font-family: "Promise-Hairline";
+  src: url("promise-hairline.eot") format("eot"),
+  url("promise-hairline.woff2") format("woff2"),
+  url("promise-hairline.woff") format("woff");
+}
+@font-face {
+  font-family: "Promise-Regular";
+  src: url("promise-regular.eot") format("eot"),
+  url("promise-regular.woff2") format("woff2"),
+  url("promise-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Promise-Medium";
+  src: url("promise-medium.eot") format("eot"),
+  url("promise-medium.woff2") format("woff2"),
+  url("promise-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Promise-Bold";
+  src: url("promise-bold.eot") format("eot"),
+  url("promise-bold.woff2") format("woff2"),
+  url("promise-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Promise-Hairline_Compressed";
+  src: url("promise-hairline_compressed.eot") format("eot"),
+  url("promise-hairline_compressed.woff2") format("woff2"),
+  url("promise-hairline_compressed.woff") format("woff");
+}
+@font-face {
+  font-family: "Promise-Regular_Compressed";
+  src: url("promise-regular_compressed.eot") format("eot"),
+  url("promise-regular_compressed.woff2") format("woff2"),
+  url("promise-regular_compressed.woff") format("woff");
+}
+@font-face {
+  font-family: "Promise-Bold_Compressed";
+  src: url("promise-bold_compressed.eot") format("eot"),
+  url("promise-bold_compressed.woff2") format("woff2"),
+  url("promise-bold_compressed.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Promise-Bold_Extended";
+  src: url("promise-bold_extended.eot") format("eot"),
+  url("promise-bold_compressed.woff2") format("woff2"),
+  url("promise-bold_compressed.woff") format("woff");
 }
 
 /* Presti */

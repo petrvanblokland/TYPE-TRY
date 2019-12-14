@@ -11,7 +11,7 @@ content = page.select('Content')
 box = content.newBanner()
 </code></pre>
 
-<h1><span class="c2sc">TYPETR</span> Prominence: <a href="downloads/Prominence_Try_BaseMasters001.zip">TRY</a> it now.</h1>
+<h1><span class="c2sc">TYPETR</span> Prominence <a href="downloads/Prominence_Try_BaseMasters001.zip">TRY</a> it now.</h1>
 <pre><code>from pagebot.constants import *
 slideshow = content.newSlideShow(h=300, slideW='100%', slideH=300, startIndex=3, autoHeight=True, carousel=2, dynamicHeight=False, transition='slide', easing=CSS_EASE, frameDuration=4, duration=0.7, pauseOnHit=True, randomPlay=False, slidesLeft=True)
 box = slideshow.side
@@ -24,38 +24,42 @@ box = slideshow.side
 box = content.newTypeList(doc.docLib['fontDataList']['Prominence'], fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 </code></pre>
 
-<h3>Lorem ipsum dolor sit amet</h3>
+<h3>The classic headliner</h3>
 <h2>Donec euismod ex in mauris feugiat.</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc magna, blandit et venenatis sit amet, congue in sapien. Donec euismod ex in mauris feugiat, quis commodo massa vestibulum. Sed non laoreet tortor.  </p>
-<h1>Contact us</h1>
-<pre><code>box = slideshow.slides
-</code></pre>
-
-<pre><code>section = content.newSection()
-box = section.newMain()
-</code></pre>
-
-<h2>Supported scripts</h2>
-<p>Aliquam at dapibus lacus. Phasellus molestie ante in tempus vehicula. Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
-<p><a href="scripts.html">See more about the support scripts.</a></p>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
 
 <h2>Supported features</h2>
-<p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
-<pre><code>box = section.newInfo()
+<pre><code># fonts is defined above.
+# Add intended default tags as long as the font is not complete.
+defaultTags = ('locl', 'frac', 'numr', 'dnom', 'sups', 'sinf', 'onum', 'lnum', 'case', 'smcp', 'c2sc', 'tnum', 'pnum', 'liga', 'ss08', 'ss10', 'zero')
+box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', layoutType='TagList', labelFontSize=18)
+
+box = section.newInfo()
 </code></pre>
 
-<p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
+<h3>The Opcode feature set, corresponds with standard names and behavior.</h3>
+<pre><code>box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+</code></pre>
+
+<p>@@#@@@#Phasellus##@@@@@ rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
 
 <h2>Supported glyphs</h2>
-<p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
-<h3>Download the Upgrade CJK glyph set as PDF</h3>
+<pre><code># fonts is defined above.
+box.newTypeGlyphSet(fonts, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
+
+#box = section.newInfo()
+</code></pre>
+
+<p>The <strong>Opcode</strong> glyph set includes Latin1, Cyrillic and Greek. </p>
+<p>Note that the TYPE-TRY fonts are for review only. Therefor a limited glyphset is implemented, to get an idea how the fonts work in your design. Refer to the Type Network store for a full license or email TYPETR directly.</p>
 <pre><code>box = section.newSide()
+# Side image with supported glyphs here.
 </code></pre>
 
 <pre><code>section = content.newSection()
@@ -63,16 +67,55 @@ box = section.newMain()
 </code></pre>
 
 <h2>Supported weights</h2>
-<p>Suspendisse eleifend, nisi at imperdiet placerat, eros neque pellentesque metus, vitae interdum odio ante et est. Phasellus tempus consequat est, nec suscipit orci aliquam et. Aenean vitae erat et erat congue gravida. Maecenas fermentum pellentesque tellus, id facilisis neque rutrum et. Vestibulum id nunc nunc.</p>
-<h3>Upgrade CJK Sans</h3>
-<h3>Upgrade CJK Slab</h3>
+<p>Weight values are respectively OS/2 and H-stem width.</p>
+<ul>
+<li>Hairline (260, 16)</li>
+<li>Thin (270, 22)</li>
+<li>Light (300, 32)</li>
+<li>Book (390, 52)</li>
+<li>Regular (400, 72)</li>
+<li>Semibold (600, 112)</li>
+<li>Bold (700, 142)</li>
+<li>Black (800, 182)</li>
+</ul>
+<p>All weights are available as Roman and Italic.</p>
+<pre><code>box = section.newSide()
+# Side image with supported glyphs here.
+</code></pre>
+
+<pre><code>section = content.newSection()
+box = section.newMain()
+</code></pre>
+
+<h2>Supported axes as Variable Font</h2>
+<ul>
+<li>wght (16, 90, 256) Weight Hairline:16, Light:32, Regular:90 Bold:150 Black:256</li>
+<li>wdth (70, 100, 130) Width in percentage to Regular</li>
+<li>CATL (0, 0, 500) Catalog of incompatible designs</li>
+<li>opsz (8, 24, 24) Optical size, optimized for small sizes </li>
+<li>RNDS (0, 0, 48) Maximum size of rounding corners for Regular. Serif roundings are smaller, limited to half of any stem.</li>
+<li>GRAD (-8, 0, 8) Relative grade correction of stems </li>
+</ul>
+<h3>Catalog selectors</h3>
+<ul>
+<li>SANS (0-99)  Sans </li>
+<li>mono (100-199) Sans mono spaced</li>
+<li>SLAB (200-299) Slab serif</li>
+<li>FLRS (300-399)  Sans with expanding flourishes</li>
+<li>LAMP (400-499) Cabaret-like lamps</li>
+<li>SCRP (500-600) Script (italic) with connecting latin glyphs.</li>
+</ul>
+<pre><code>box = section.newSide()
+# Side image with supported glyphs here.
+</code></pre>
+
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
 
 <h2>Pricing</h2>
 <p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
-<p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
+<p>$@$@#@Phasellus$$$$$ rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
 <p><a href="pricing.html">See more about pricing here.</a></p>
 <pre><code>box = section.newCropped()
 </code></pre></document>

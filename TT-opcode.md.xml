@@ -34,7 +34,7 @@ box = section.newInfo()
 <pre><code>box.newTypeFeatures(fontDataList=fonts, defaultTags=defaultTags, fontSize=44, leading=em(1), labelFont='Upgrade-Regular', labelFontSize=18)
 </code></pre>
 
-<p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
+<p>@@@@2222Phasellus22222 rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
@@ -48,10 +48,6 @@ box.newTypeGlyphSet(fonts, fontSize=44, leading=em(1), labelFont='Upgrade-Regula
 
 <p>The <strong>Opcode</strong> glyph set includes Latin1, Cyrillic and Greek. </p>
 <p>Note that the TYPE-TRY fonts are for review only. Therefor a limited glyphset is implemented, to get an idea how the fonts work in your design. Refer to the Type Network store for a full license or email TYPETR directly.</p>
-<pre><code>box = section.newSide()
-# Side image with supported glyphs here.
-</code></pre>
-
 <pre><code>section = content.newSection()
 box = section.newMain()
 </code></pre>
@@ -105,7 +101,7 @@ box = section.newMain()
 
 <h2>Pricing</h2>
 <p>Sed rhoncus pellentesque eros, in commodo sapien suscipit vel. Proin elit felis, pulvinar ac tellus ut, aliquam eleifend libero. Sed id bibendum metus. Pellentesque tincidunt ligula non quam varius, et luctus neque aliquam. Morbi eget cursus orci. Praesent faucibus placerat massa, a condimentum est pretium pulvinar. Maecenas ultricies sapien id ipsum ultrices sollicitudin. </p>
-<p>Phasellus rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
+<p>@@@343443Phasellus343434343 rutrum, quam vitae consequat malesuada, mi urna scelerisque est, tempus pulvinar diam metus ut augue. Nam luctus justo et nunc ornare iaculis. Aliquam sollicitudin rutrum nisl, et dictum sem malesuada non. Donec ut nunc eu nibh rutrum molestie at a nisl. Aenean sit amet nibh sagittis, malesuada nisl a, vehicula libero. Morbi lacinia quam ut enim mattis vulputate. Donec finibus in libero in placerat. Praesent rutrum nunc at ultricies egestas.</p>
 <p><a href="pricing.html">See more about pricing here.</a></p>
 <pre><code>box = section.newCropped()
 </code></pre></document>
