@@ -49,7 +49,7 @@ DO_FILE = 'File' # Generate website output in _export/SimpleSite and open browse
 DO_MAMP = 'Mamp' # Generate website in /Applications/Mamp/htdocs/SimpleSite and open a localhost
 DO_GIT = 'Git' # Generate website and commit to git (so site is published in git docs folder.
 EXPORT_TYPES = [
-    DO_GIT,
+    #DO_GIT,
     DO_MAMP,
 ]
 CLEAR_MAMP = False # If True, make a clean copy by removing all old files first.
@@ -601,7 +601,7 @@ def fontNames2Lc(path):
         filePath = path + fileName
         os.rename(filePath, filePath.lower())
 
-if  DO_PDF in EXPORT_TYPES: # PDF representation of the site
+if DO_PDF in EXPORT_TYPES: # PDF representation of the site
     doc = makeSite(styles=styles, viewId='Page')
     doc.solve() # Solve all layout and float conditions for pages and elements.
     doc.export(EXPORT_PATH + '.pdf')
@@ -657,6 +657,6 @@ if DO_GIT in EXPORT_TYPES: # Not supported for SimpleSite, only one per reposito
         os.system('/usr/bin/git push')
         #os.system(u'/usr/bin/open "%s"' % gitView.getUrl(DOMAIN))
 
-else: # No output view defined
-    print('Set EXPORTTYPE to DO_FILE or DO_MAMP or DO_GIT')
+if not EXPORT_TYPES: # No output view defined
+    print('Set EXPORTTYPE to DO_FILE and/or DO_MAMP and/or DO_GIT')
 
