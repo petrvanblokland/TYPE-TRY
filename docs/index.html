@@ -1,553 +1,1179 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-	<meta charset="utf-8"/>
+<!DOCTYPE HTML>
+<!--
+    Hielo by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+    <head>
+        <title>Pepper+Tom</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body>
 
-	<title>Home</title>
-		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
-<!-- Mobile viewport -->
-		<meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+        <!-- Header -->
+        <header id="header" class="alt">
+            <div class="logo"><a href="index.html"><span style="color:#FF00C1;">|</span><span style="color:#FFFFFF">d</span><span style="color: #EC472C;">|</span></a></div>
+            <a href="#menu">Menu</a>
+        </header>
 
-		<style>
-@font-face {
-            font-family: "Upgrade-Thin";
-            src: url("fonts/upgrade-thin.eot") format("eot"),
-            url("fonts/upgrade-thin.woff2") format("woff2"),
-            url("fonts/upgrade-thin.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Upgrade-Light";
-            src: url("fonts/upgrade-light.eot") format("eot"),
-            url("fonts/upgrade-light.woff2") format("woff2"),
-            url("fonts/upgrade-light.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Upgrade-Book";
-            src: url("fonts/upgrade-book.eot") format("eot"),
-            url("fonts/upgrade-book.woff2") format("woff2"),
-            url("fonts/upgrade-book.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Upgrade-Regular";
-            src: url("fonts/upgrade-regular.eot") format("eot"),
-            url("fonts/upgrade-regular.woff2") format("woff2"),
-            url("fonts/upgrade-regular.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Upgrade-Medium";
-            src: url("fonts/upgrade-medium.eot") format("eot"),
-            url("fonts/upgrade-medium.woff2") format("woff2"),
-            url("fonts/upgrade-medium.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Upgrade-Semibold";
-            src: url("fonts/upgrade-semibold.eot") format("eot"),
-            url("fonts/upgrade-semibold.woff2") format("woff2"),
-            url("fonts/upgrade-semibold.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Upgrade-Bold";
-            src: url("fonts/upgrade-bold.eot") format("eot"),
-            url("fonts/upgrade-bold.woff2") format("woff2"),
-            url("fonts/upgrade-bold.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Book_Round";
-            src: url("fonts/bitcount_try_mono_double_outline-book_round.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-book_round.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-book_round.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Round";
-            src: url("fonts/bitcount_try_mono_double_outline-round.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-round.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-round.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Medium_Round";
-            src: url("fonts/bitcount_try_mono_double_outline-medium_round.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-medium_round.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-medium_round.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Bold_Round";
-            src: url("fonts/bitcount_try_mono_double_outline-bold_round.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-bold_round.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-bold_round.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-ExtraBold_Round";
-            src: url("fonts/bitcount_try_mono_double_outline-extrabold_round.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-extrabold_round.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-extrabold_round.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Black_Round";
-            src: url("fonts/bitcount_try_mono_double_outline-black_round.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-black_round.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-black_round.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Book_Square";
-            src: url("fonts/bitcount_try_mono_double_outline-book_square.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-book_square.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-book_square.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Square";
-            src: url("fonts/bitcount_try_mono_double_outline-square.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-square.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-square.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Medium_Square";
-            src: url("fonts/bitcount_try_mono_double_outline-medium_square.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-medium_square.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-medium_square.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Bold_Square";
-            src: url("fonts/bitcount_try_mono_double_outline-bold_square.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-bold_square.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-bold_square.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-ExtraBold_Square";
-            src: url("fonts/bitcount_try_mono_double_outline-extrabold_square.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-extrabold_square.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-extrabold_square.woff") format("woff");
-        }
-
-@font-face {
-            font-family: "Bitcount_Try_Mono_Double_Outline-Black_Square";
-            src: url("fonts/bitcount_try_mono_double_outline-black_square.eot") format("eot"),
-            url("fonts/bitcount_try_mono_double_outline-black_square.woff2") format("woff2"),
-            url("fonts/bitcount_try_mono_double_outline-black_square.woff") format("woff");
-        }
-
-		</style>
-
-		<link href="css/jquery.bbslider.css" media="all" rel="stylesheet" type="text/css"/>
-
-
-		<link href="fonts/trywebfonts.css" media="all" rel="stylesheet" type="text/css"/>
-
-
-		<link href="css/normalized.css" media="all" rel="stylesheet" type="text/css"/>
-
-
-		<link href="css/ttstyle_py.css" media="all" rel="stylesheet" type="text/css"/>
-
-
-		<link href="images/favicon.ico" rel="icon" type="image/ico"/>
-
-
-	</head>
-
-	<body>
-<!-- Start Wrapper.wrapper
- --><div class="wrapper clearfix" id="Wrapper">
-<!-- Start 8f5e489c78cb.header
- -->
-		<header class="header" id="8f5e489c78cb">
-<!-- Start 8f5e489c925c.logo
- --><div class="logo clearfix" id="8f5e489c925c">
-<a href="index.html">
-
-			<img src="images/TYPE-TRY-logo.gif"/>
-</a>
-</div>
-<!-- End 8f5e489c925c.logo
- --><!-- Start 8f5e489c787a.burgerbutton
- --><div class="burgerbutton clearfix" id="8f5e489c787a">
-<h1 onclick="toggleMobileMenu('MobileMenu')">
-☰</h1>
-
-</div>
-<!-- End 8f5e489c787a.burgerbutton
- --><!-- Start Navigation.navigation --><nav class="navigation" id="Navigation" role="navigation">
-<div class="navigation-menu">
-
-			<ul class="main-navigation  navmenu">
-<li class="current">
-<a class="current" href="index.html">
-Home</a>
-</li>
-<li>
-<a href="bitcount.html">
-Bitcount</a>
-</li>
-<li>
-<a href="opcode.html">
-Opcode</a>
-</li>
-<li>
-<a href="presti.html">
-Presti</a>
-</li>
-<li>
-<a href="powerlift.html">
-PowerLift</a>
-</li>
-<li>
-<a href="prominence.html">
-Prominence</a>
-</li>
-<li>
-<a href="promise.html">
-Promise</a>
-</li>
-<li>
-<a href="responder-p.html">
-Responder-P</a>
-</li>
-<li>
-<a href="stickway.html">
-Stickway</a>
-</li>
-<li>
-<a href="upgrade.html">
-Upgrade</a>
-</li>
-<li>
-<a href="other.html">
-Other</a>
-</li>
-<li>
-<a href="contact.html">
-Contact</a>
-</li>
-
-			</ul>
-</div>
+        <!-- Nav -->
+        
+<nav id="menu">
+	<ul class="links">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="more-about-scarves.html">More about scarves</a></li>
+		<li><a href="more-about-skirts.html">More about skirts</a></li>
+		<li><a href="more-about-studio.html">More about studio + me</a></li>
+	</ul>
 </nav>
-<!-- End Navigation.navigation --><!-- Start MobileMenu.mobilemenu
- --><div class="mobilemenu clearfix" id="MobileMenu">
 
-			<button class="button" onclick="location.href='index.html';" type="button">
-Home
-			</button>
+        
+<section class="banner full">
+	<article>
+		'<img src="images/claar/IMG_7187-1.jpg"/>
+		<div class="inner">
+			<header>
+				<p>Clear out from several editions of small series</p>
+				<h2>Pepper+Tom pop-up!</h2>
+			</header>
+		</div>
+	</article>
 
-			<button class="button" onclick="location.href='bitcount.html';" type="button">
-Bitcount
-			</button>
+	<article>
+		'<img src="images/claar/IMG_6857.jpeg"/>
+		<div class="inner">
+			<header>
+				<p>Call or email for an appointment in the studio</p>
+				<h2>Pepper+Tom pop-up!</h2>
+			</header>
+		</div>
+	</article>
 
-			<button class="button" onclick="location.href='opcode.html';" type="button">
-Opcode
-			</button>
+	<article>
+		'<img src="images/claar/IMG_3295.jpeg"/>
+		<div class="inner">
+			<header>
+				<p>Together we will make an attractive price</p>
+				<h2>P+T invites you!</h2>
+			</header>
+		</div>
+	</article>
 
-			<button class="button" onclick="location.href='presti.html';" type="button">
-Presti
-			</button>
+	<article>
+		'<img src="images/claar/IMG_6978.jpeg"/>
+		<div class="inner">
+			<header>
+				<p>Every piece is unique</p>
+				<h2>P+T invites you!</h2>
+			</header>
+		</div>
+	</article>
 
-			<button class="button" onclick="location.href='powerlift.html';" type="button">
-PowerLift
-			</button>
+</section>
 
-			<button class="button" onclick="location.href='prominence.html';" type="button">
-Prominence
-			</button>
-
-			<button class="button" onclick="location.href='promise.html';" type="button">
-Promise
-			</button>
-
-			<button class="button" onclick="location.href='responder-p.html';" type="button">
-Responder-P
-			</button>
-
-			<button class="button" onclick="location.href='stickway.html';" type="button">
-Stickway
-			</button>
-
-			<button class="button" onclick="location.href='upgrade.html';" type="button">
-Upgrade
-			</button>
-
-			<button class="button" onclick="location.href='other.html';" type="button">
-Other
-			</button>
-
-			<button class="button" onclick="location.href='contact.html';" type="button">
-Contact
-			</button>
-</div>
-<!-- End MobileMenu.mobilemenu
- -->
+        
+	<section class="wrapper style3 deck"  style="background-image: url(images/scarfs/scarf3.png);" >
+		<div class="inner">
+		<header class="align-center">
+			<h1>Last pieces from several editions of small series. Skirts, pants and scarves for high end stores, are waiting for you.</h1>
 		</header>
-<!-- End 8f5e489c78cb.header
- --><!-- Start 8f5e489d4990.content
- --><div class="content clearfix" id="8f5e489d4990">
-<!-- Start 24B3C8DDCC10BADDDD8.introduction
- --><div class="introduction clearfix" id="24B3C8DDCC10BADDDD8">
-<div class="textbox">
-<h1>This site is currently under construction. Contact <a href="mailto:tptr@petr.com">tptr@petr.com</a> for additional information.</h1>
-</div>
-</div>
-<!-- End 24B3C8DDCC10BADDDD8.introduction
- --><!-- Start 24B3C8DDCC10BAA07F0.banner
- --><div class="banner clearfix" id="24B3C8DDCC10BAA07F0">
-<div class="textbox">
-<h1>Type in the making. Try it now.</h1>
-</div>
-</div>
-<!-- End 24B3C8DDCC10BAA07F0.banner
- --><!-- Start 24B3C8DDCC10BB296D8.cropped upgrade-try-light-italic --><div class="cropped upgrade-try-light-italic clearfix" id="24B3C8DDCC10BB296D8" style="background-image:url('images/img_4609.jpg');background-position:center top;background-size:contain;background-color:#561F0C;background-repeat:no-repeat;">
-<div class="textbox">
-<p></div>
-<div class="textbox">
+	</div>
+	</section>
+        
+        
+<section id="one" class="wrapper style2">
+	<div class="inner">
+			<div class="grid-style">
+				<div>
+					<div class="box">
+						<div class="image fit">
+							<img src="images/claar/IMG_7187-1.jpg"/>
+						</div>
+						<div class="content">
+							<header class="align-center">
+								<p>Pepper+Tom pop-up! </p>
+								<h2>Pepper+Tom is inviting you!</h2>
+							</header><p>Last pieces from several editions of small series. Skirts, pants and scarves for high end stores, are waiting for you.<br/>
+<br/>
+I would love to bring all these beautiful handmade or semi- couture garments into the world for attractive prices :)<br/>
+<br/>
+Call +31 6 41 367 689 or <a href="mailto:claudia@petr.com?subject=Studio visit">email</a> me for an appointment in my studio in Delft. Come by yourself or with maximum two others. <br/>
+<br/>
+The skirts and pants are all different, every piece is unique. there’s a variety of sizes from XXS to XL. Which one will be yours?!<br/>
+<br/>
+The scarves will always fit. Either as a gift for yourself or for someone else.<br/>
+<br/>
+Looking forward seeing you!<br/>
+<br/>
 </p>
-<h1>Hi Honey, I’ll buy you a lunch: Fish’n Chips</h1>
-</div>
-</div>
-<!-- End 24B3C8DDCC10BB296D8.cropped upgrade-try-light-italic --><!-- Start None.None
- --><div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Upgrade-Thin';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Upgrade Thin</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Upgrade-Light';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Upgrade Light</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Upgrade-Book';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Upgrade Book</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Upgrade-Regular';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Upgrade Regular</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Upgrade-Medium';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Upgrade Medium</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Upgrade-Semibold';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Upgrade Semibold</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Upgrade-Bold';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Upgrade Bold</div>
-<div class="label" style="font-family:'Upgrade-Regular';font-size:18px;line-height:1.4em;letter-spacing:0px">
-<a href="downloads/TYPETR-Upgrade_Try.zip" target="external">
-<span class="try-icon">TRY</span> <span class=icon-label>Download</span></a>
-&nbsp;&nbsp;<a href="mailto:info@typetr.com?subject=License for TYPETR-Upgrade&body=Dear TYPETR, please send info about licensing Upgrade styles, intended to be used for ..." target="external">
-<span class="buy-icon">$€</span> <span class=icon-label>Buy direct</span></a>
-&nbsp;&nbsp;<a href="https://upgrade.typenetwork.com" target="external">
-<span class="typetr-icon">TP</span> <span class=icon-label>TYPETR</span></a>
-&nbsp;&nbsp;<a href="https://store.typenetwork.com/foundry/typetr/fonts/upgrade" target="external">
-<span class="tn-icon">TN</span> <span class=icon-label>Type Network</span></a>
-&nbsp;&nbsp;<a href="https://fonts.adobe.com/fonts/upgrade" target="external">
-<img class="adobe-icon" src="images/Adobe.png"/> <span class=icon-label>Adobe Fonts</span></a>
-</div>
-</div>
-</div>
-<!-- End None.None
- --><!-- Start 24B3C8DDCC10BB5ABA8.introduction
- --><div class="introduction clearfix" id="24B3C8DDCC10BB5ABA8">
-<div class="textbox">
-<h1><span class="case">TYPE-TRY</span> gives an updated overview of running <span class="c2sc">TYPETR</span> projects. Download sample fonts to test in your designs. Use the type, while it is still in the making. Let us know your wishes and suggestions. Find example templates. Get code snippets, that best implement <span class="c2sc">TYPETR</span> type. Or simply order a license by email.</h1>
-</div>
-</div>
-<!-- End 24B3C8DDCC10BB5ABA8.introduction
- --><!-- Start 24B3C8DDCC10BB29A20.cropped --><div class="cropped clearfix" id="24B3C8DDCC10BB29A20" style="background-image:url('images/bitcounthome.png');background-position:center middle;background-size:cover;background-color:#F8ECC2;">
-<div class="textbox">
-<p></div>
-<div class="textbox">
+					</div><!-- class=content -->
+					</div><!-- class=box -->
+				</div>
+				<div>
+					<div class="box">
+						<div class="image fit">
+							<img src="images/skirts/img_9595.jpeg"/>
+						</div>
+						<div class="content">
+							<header class="align-center">
+								<p>Cool clothes. Designed&nbsp;styles.</p>
+								<h2>Desirable fabrics & fashion</h2>
+							</header><p>Where do clothing and fabrics come from? Who made them and under what circumstances? Often there is no answer to these questions, even when asking them in expensive stores. <br/>
+<br/>
+Wouldn’t it be nice to wear clothes where it is clear who made them? Where the conditions of fabrication are good and the trade is fair? <br/>
+<br/>
+Pepper+Tom wants that sharing experience, collaborating with partners in the clothing chain who think and act the same way. To make the production, resources and materials traceable for every garment. Pepper+Tom supports the idea of ‘true cost’ and ‘slow fashion’, adding to the pleasure of wearing the clothes.
 </p>
-</div>
-</div>
-<!-- End 24B3C8DDCC10BB29A20.cropped --><!-- Start None.None
- --><div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Book_Round';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Round</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Round';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Round</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Medium_Round';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Round</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Bold_Round';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Round</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-ExtraBold_Round';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Round</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Black_Round';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Round</div>
-<div class="label" style="font-family:'Upgrade-Regular';font-size:18px;line-height:1.4em;letter-spacing:0px">
-<a href="downloads/TYPETR-Bitcount_Try_Outline-Round.zip" target="external">
-<span class="try-icon">TRY</span> <span class=icon-label>Download</span></a>
-&nbsp;&nbsp;<a href="mailto:info@typetr.com?subject=License for TYPETR-Bitcount Outline Round&body=Dear TYPETR, please send info about licensing Bitcount Outline Round styles, intended to be used for ..." target="external">
-<span class="buy-icon">$€</span> <span class=icon-label>Buy direct</span></a>
-&nbsp;&nbsp;<a href="https://bitcount.typenetwork.com" target="external">
-<span class="typetr-icon">TP</span> <span class=icon-label>TYPETR</span></a>
-&nbsp;&nbsp;<a href="https://store.typenetwork.com/foundry/typetr/fonts/bitcount" target="external">
-<span class="tn-icon">TN</span> <span class=icon-label>Type Network</span></a>
-</div>
-</div>
-</div>
-<!-- End None.None
- --><!-- Start None.None
- --><div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Book_Square';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Square</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Square';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Square</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Medium_Square';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Square</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Bold_Square';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Square</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-ExtraBold_Square';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Square</div>
-</div>
-<div class="typelistline" style="width:100%">
-<div class="sample" style="font-family:'Bitcount_Try_Mono_Double_Outline-Black_Square';font-size:44px;line-height:1.1em;letter-spacing:0px">
-Bitcount Outline Square</div>
-<div class="label" style="font-family:'Upgrade-Regular';font-size:18px;line-height:1.4em;letter-spacing:0px">
-<a href="downloads/TYPETR-Bitcount_Try_Outline-Square.zip" target="external">
-<span class="try-icon">TRY</span> <span class=icon-label>Download</span></a>
-&nbsp;&nbsp;<a href="mailto:info@typetr.com?subject=License for TYPETR-Bitcount Outline Square&body=Dear TYPETR, please send info about licensing Bitcount Outline Square styles, intended to be used for ..." target="external">
-<span class="buy-icon">$€</span> <span class=icon-label>Buy direct</span></a>
-&nbsp;&nbsp;<a href="https://bitcount.typenetwork.com" target="external">
-<span class="typetr-icon">TP</span> <span class=icon-label>TYPETR</span></a>
-&nbsp;&nbsp;<a href="https://store.typenetwork.com/foundry/typetr/fonts/bitcount" target="external">
-<span class="tn-icon">TN</span> <span class=icon-label>Type Network</span></a>
-</div>
-</div>
-</div>
-<!-- End None.None
- --><!-- Start SlideShowGroup.slideshowgroup
- --><div class="slideshowgroup clearfix" id="SlideShowGroup">
-<!-- Start SlideShow.slideshow --><div class="slideshow clearfix" id="SlideShow">
-<div style="background-image:url('images/theendofcss015m1.050.jpeg');width:100%;height:300pt;background-position:left bottom;background-size:cover;">
-</div>
-<div style="background-image:url('images/designmodels2.038.png');width:100%;height:300pt;background-position:left bottom;background-size:cover;">
-</div>
-<div style="background-image:url('images/dsgnwk_0468bwlow.jpg');width:100%;height:300pt;background-position:left bottom;background-size:cover;">
-</div>
-<div style="background-image:url('images/f5.034.jpeg');width:100%;height:300pt;background-position:left bottom;background-size:cover;">
-</div>
-<div style="background-image:url('images/img_1520bwlow.jpg');width:100%;height:300pt;background-position:left bottom;background-size:cover;">
-</div>
-</div>
-<!-- End SlideShow.slideshow --><!-- Start SlideSide.slideside
- --><div class="slideside clearfix" id="SlideSide">
-<div class="textbox">
-<h3>The Three T’s</h3>
-<h2>Type, Templates & Teaching</h2>
-<p>TYPETR provides designers a combination of typographic tools: <strong>Typefaces</strong> that live up to the latest technical standards, <strong>Templates</strong> that show how we think those typefaces should be used and <strong>Teaching</strong> to train and program the process of design.</p>
-<h1><a href="contact.html">Contact us</a></h1>
-</div>
-</div>
-<!-- End SlideSide.slideside
- --></div>
-<!-- End SlideShowGroup.slideshowgroup
- --><!-- Start 24B3C8DDCC10BB55470.section
- --><div class="section clearfix" id="24B3C8DDCC10BB55470">
-<!-- Start 24B3C8DDCC10BBA8940.main
- --><div class="main clearfix" id="24B3C8DDCC10BBA8940">
-<div class="textbox">
-<h2>Use the Open Type features that you need.</h2>
-<p>Open Type features are not commonly understood. Let’s assume that as typographer you want to use Applications such as InDesign offer a menu for some of the features that are included in fonts. </p>
-<hr></hr>
-<h1>One family to fit all usage.</h1>
-<p>Donec euismod ex in mauris feugiat, quis commodo massa vestibulum. Sed non laoreet tortor. Etiam malesuada sem et odio laoreet, vel accumsan quam auctor. Quisque porta libero nunc, at pellentesque mauris dictum faucibus. Nam nec luctus dolor, a euismod diam. Cras non luctus libero, vitae pharetra mauris. Mauris iaculis laoreet quam eu ullamcorper. Ut et vehicula neque, eget imperdiet diam. Nulla eget vulputate libero. </p>
-<hr></hr>
-<h2>How it works</h2>
-<ul>
-<li>Mauris sagittis, dui at tristique elementum, sapien tortor accumsan nisi, et blandit eros magna nec arcu. Nulla pharetra rutrum dictum. </li>
-<li>Vivamus congue turpis nunc, non vestibulum odio aliquet in. </li>
-<li>Aliquam ut dapibus metus, quis vehicula nulla. </li>
-<li>Nullam semper erat vel turpis dictum, eget hendrerit mauris convallis.</li>
-<li>Nam vehicula eu nisi eget sodales. Vestibulum non finibus est. Mauris auctor ex purus, id bibendum justo ullamcorper nec. Phasellus placerat mollis elit, ac luctus sem pretium non. Mauris iaculis scelerisque iaculis.  </li>
-<li>Nunc dignissim lectus tortor, vel finibus nibh lobortis vitae. Nunc sagittis euismod tortor, ut tempor dui volutpat at.</li>
-</ul>
-<p><a href="pricing.html">More about pricing.</a></p>
-</div>
-</div>
-<!-- End 24B3C8DDCC10BBA8940.main
- --><!-- Start 24B3C8DDCC10BA99A90.side
- --><div class="side clearfix" id="24B3C8DDCC10BA99A90">
-<div class="textbox">
-<h3>Download the Upgrade CJK glyph set as PDF</h3>
-<h2>Licensing</h2>
-<p>Aliquam accumsan, velit mollis pellentesque accumsan, orci nulla ullamcorper ligula, imperdiet facilisis quam massa a ipsum. Aliquam vitae aliquet odio. Nulla facilisi. Proin pulvinar nisl quis ipsum vehicula pharetra. Praesent ullamcorper in elit sit amet maximus. </p></div>
-</div>
-<!-- End 24B3C8DDCC10BA99A90.side
- --></div>
-<!-- End 24B3C8DDCC10BB55470.section
- --></div>
-<!-- End 8f5e489d4990.content
- --><!-- Start 8f5e489cb3ee.footer
- --><div class="footer clearfix" id="8f5e489cb3ee">
-</div>
-<!-- End 8f5e489cb3ee.footer
- --></div>
-<!-- End Wrapper.wrapper
- --><script charset="UTF-8" type="text/javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script charset="UTF-8" type="text/javascript" type="text/javascript" src="js/jquery.bbslider.min.js"></script>
-<script charset="UTF-8" type="text/javascript" type="text/javascript">
-function toggleMobileMenu(eId){
-            var x = document.getElementById(eId);  
-            if (x.style.display != "block") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
+							<footer class="align-center">I would love to bring all these beautiful handmade or semi- couture garments into the world for attractive prices :)</footer>
+					</div><!-- class=content -->
+					</div><!-- class=box -->
+				</div>
+				<div>
+					<div class="box">
+						<div class="image fit">
+							<img src="images/scarfs/scarf_silver_02.jpg"/>
+						</div>
+						<div class="content">
+							<header class="align-center">
+								<p>Sustainable materials. Fair&nbsp;trade.</p>
+								<h2>Scarves</h2>
+							</header><p>The scarves are the result of many peoples’ work and creativity from rural Bangladesh to the cities of the Netherlands and the shores of the United States. <br/>
+<br/>
+Beautiful women of Bangladesh embroider the scarves by using the traditional Nakshi Kantha technique. The silk of the scarves is made of the best quality, Rajshahi Silk. The fabric is embossed in a workplace in Dhaka and embroidered in Dinajpur, a poor region in the northwest of Bangladesh. <br/>
+<br/>
+All under supervision of Kumudini Welfare Trust of Bengal. This NGO is part of the World Fair Trade Forum and Ecota Fair Trade Forum. In 2008 they received the Award of Excellence for Handicrafts South Asia from Unesco. <br/>
+<br/>
+Under the name of Generous Gesture, the scarves have won a Bronze Award for the European Design Award 2010 in the category ‘Self Initiated Projects’ <br/>
+<br/>
+Generous Gesture has been nominated for the German Design Award 2012. <br/>
+<br/>
+Generous Gesture is a people project. Every piece we make is 100% fair trade. The principle of Generous Gesture is creating fair trade with sustainable products. Through an exchange of ideas and skills we create a win-win situation for all concerned parties. 
+</p>
+							<footer class="align-center">Call +31 6 41 367 689 or <a href="mailto:claudia@petr.com?subject=Studio visit">email</a> me for an appointment in my studio in Delft. Come by yourself or with maximum two others. </footer>
+					</div><!-- class=content -->
+					</div><!-- class=box -->
+				</div>
+				<div>
+					<div class="box">
+						<div class="image fit">
+							<img src="images/skirts/rok_lang_geelgroen_08.jpg"/>
+						</div>
+						<div class="content">
+							<header class="align-center">
+								<p>Slow fashion.</p>
+								<h2>Skirts</h2>
+							</header><p>Where do clothing and fabrics come from? Who made them and under what circumstances? Often there is no answer to these questions, even when asking them in expensive stores. <br/>
+<br/>
+Wouldn’t it be nice to wear clothes where it is clear who made them? Where the conditions of fabrication are good and the trade is fair? <br/>
+<br/>
+Pepper+Tom wants that sharing experience, collaborating with partners in the clothing chain who think and act the same way. To make the production, resources and materials traceable for every garment. Pepper+Tom supports the idea of ‘true cost’ and ‘slow fashion’, adding to the pleasure of wearing the clothes.
+</p>
+							<footer class="align-center">The skirts and pants are all different, every piece is unique. there’s a variety of sizes from XXS to XL. Which one will be yours?!</footer>
+					</div><!-- class=content -->
+					</div><!-- class=box -->
+				</div>
+				<div>
+					<div class="box">
+						<div class="image fit">
+							<img src="images/pants/img_7254.jpeg"/>
+						</div>
+						<div class="content">
+							<header class="align-center">
+								<p>Pepper+Tom makes it work.</p>
+								<h2>Pants</h2>
+							</header><p>The fabric of these pants has been produced by the best craftsmen of Kumudini Welfare Trust of Bengal. Beautiful women who live in Dinajpur, a poor region in the northwest of Bangladesh, have mastered the traditional embroidery technique Nakshi Kantha. This is a running stitch technique entirely embroidered by hand. The fabrics of the pants are or cotton double layered, or a combination of cotton and silk. The fabrics are natural dyed. Small inconsistencies are characteristics of the handcrafted process. The pants are feminine and cool. You can wear them chic, classic and casual, They will mix and match with your wardrobe for almost every occasion. We hope you will wear them with joy and happiness.<br/>
+<br/>
+All pants have wide legs, with or without a waistband. All very comfortable to wear. Iconic, centerpiece items:Timeless!<br/>
+<br/>
+The pants are handmade in a Dutch atelier. <br/>
+<br/>
+<h2>Wash instruction </h2>
+Handle with love and care, wash gently only hand-wash, ironing, do not bleach, no tumble-dry, chemical cleaning possible (not necessary).
+</p>
+							<footer class="align-center">The scarves will always fit. Either as a gift for yourself or for someone else.</footer>
+					</div><!-- class=content -->
+					</div><!-- class=box -->
+				</div>
+	</div>
+</section>
 
-$('.slideshow').bbslider({autoHeight: true, dynamicHeight: false, start: 3, easing: 'ease', carousel: 1, duration: 700, auto: true, timer: 4000, loop: true, transition: 'slide'});
+        
+<section id="slideShowSection_0" class="wrapper style2">
+<div class="slideshowgroup clearfix" id="slideShowGroup_0">
+	<div class="inner">
+<h2 class="slideshowtitle">Lookbook</h2>
+	</div>
+	<div class="slideshow clearfix" id="slideShow_0">
+		<div style="background-image:url('images/lookbook1/img_7141.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_2458.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_2361.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/claudia_schaduw.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_86291.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_8857+2.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_8601.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_8437.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_8370.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_8281.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_5351.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_8575.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_8102.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_1578.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7719.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_3338.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7942.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7933.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7862.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/rok_tas_strand_02.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7859.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7768.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/claudia_schaduw_02.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7887.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7737.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7645.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_6090.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_0861.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		</div><div id="slideShowCaption_0_0" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Love the contrast, love the matching | Menemsha MV</div><div id="slideShowCaption_0_1" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Playing with card board, marker and crayons</div><div id="slideShowCaption_0_2" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Leafs and light</div><div id="slideShowCaption_0_3" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Thank you sunlight!</div><div id="slideShowCaption_0_4" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Sure?!</div><div id="slideShowCaption_0_5" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Beach fun, no lifeguards around... | MV</div><div id="slideShowCaption_0_6" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Impressed by Ursula von Rydingsvard and Alexander Calder at Storm King | NYC</div><div id="slideShowCaption_0_7" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Design thru light</div><div id="slideShowCaption_0_8" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Inspired by light, reflection, color | Robert Irwin | DIA Beacon NY</div><div id="slideShowCaption_0_9" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Reflections</div><div id="slideShowCaption_0_10" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Ice design</div><div id="slideShowCaption_0_11" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Calder meets the Hudson Valley | Alexander Calder | Storm King NYC</div><div id="slideShowCaption_0_12" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Lift your head once in a while, you will love it!</div><div id="slideShowCaption_0_13" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Cutting paper letters</div><div id="slideShowCaption_0_14" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Color and character</div><div id="slideShowCaption_0_15" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Generous Gesture | Embroidered Nakshi Kantha | Detail Latin and Bengali type</div><div id="slideShowCaption_0_16" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Doubled</div><div id="slideShowCaption_0_17" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Old meets new | Ceiling Cooper Hewitt Museum | NYC</div><div id="slideShowCaption_0_18" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Grey tones</div><div id="slideShowCaption_0_19" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">A repoussoir for Pepper+Tom | MV US</div><div id="slideShowCaption_0_20" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Black and white, so strong together</div><div id="slideShowCaption_0_21" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">So beautiful to get older</div><div id="slideShowCaption_0_22" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Pepper+Tom skirt having fun at home</div><div id="slideShowCaption_0_23" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Reused fabric | Cooper Hewitt Museum | NYC</div><div id="slideShowCaption_0_24" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Above your head in ABC CARPET & HOME | NYC</div><div id="slideShowCaption_0_25" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Behind the physical object</div><div id="slideShowCaption_0_26" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Rusted TYPETR Promise type in ’s Hertogenbosch | NL</div><div id="slideShowCaption_0_27" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Friendly Guy in the City</div>
+	</div>
+</section>
 
+        
+	<section class="wrapper style3 deck"  style="background-image: url(images/scarfs/scarf3.png);" >
+		<div class="inner">
+		<header class="align-center">
+			<h1>I would love to bring all these beautiful handmade or semi- couture garments into the world for attractive prices :)</h1>
+		</header>
+	</div>
+	</section>
 
+        
 
-	</script>
+        
+<section id="slideShowSection_1" class="wrapper style2">
+<div class="slideshowgroup clearfix" id="slideShowGroup_1">
+	<div class="inner">
+<h2 class="slideshowtitle">Lookbook</h2>
+	</div>
+	<div class="slideshow_1 clearfix" id="slideShow_1">
+		<div style="background-image:url('images/lookbook1/img_0860.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9074.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9071.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9069.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/rok_tas_strand.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9064.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9066.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9075.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9067.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9062.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9059.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9060.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9081.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9061.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9079.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9076.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9068.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9065.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_3327.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_9060.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/rok_tas_bos.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_3336.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_0966.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_0858.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_5140.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7798.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		<div style="background-image:url('images/lookbook1/img_7038.jpg');
+                    width:100%;
+                    height:500pt;background-position:center center;
+                    background-size:cover;"></div>
+		</div><div id="slideShowCaption_1_0" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Grand Old Lady, an Archetype in the City.</div><div id="slideShowCaption_1_1" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Edward Hopper, Hero of light, color, desolation.</div><div id="slideShowCaption_1_2" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Scarlet runner beans’ color palet.</div><div id="slideShowCaption_1_3" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Charlotte Brontë, more than a wonderful writer.</div><div id="slideShowCaption_1_4" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Skirt reaching the beach, always so good to be there | MV US</div><div id="slideShowCaption_1_5" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Surface, light, reflection.</div><div id="slideShowCaption_1_6" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Weathered skin.</div><div id="slideShowCaption_1_7" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Results of planting, nurturing, harvesting. Mannequins at the Agricultural Fair | MV US</div><div id="slideShowCaption_1_8" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Russel Wright’s joy of interior experiments at Manitoga | Garrison NYC</div><div id="slideShowCaption_1_9" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Tactility of Richard Serra’s corten steel bodies.</div><div id="slideShowCaption_1_10" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Sketchbook | Claudia Mens</div><div id="slideShowCaption_1_11" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Spring in Vermont | US</div><div id="slideShowCaption_1_12" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Still life at Putney School | Vermont US</div><div id="slideShowCaption_1_13" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Passing a garbage bin.</div><div id="slideShowCaption_1_14" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Zinnias, the Summer Souls.</div><div id="slideShowCaption_1_15" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Coop creations.</div><div id="slideShowCaption_1_16" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Wall detail at the Russel Wright Foundation, pine needles and concrete | Garrison NYC</div><div id="slideShowCaption_1_17" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Sol LeWitt, achromatic scheme | DIA Beacon NY</div><div id="slideShowCaption_1_18" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Generous Gesture | Who’s the Dandy? | Embroidered Nakshi Kantha</div><div id="slideShowCaption_1_19" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Fall in the dunes | Wassenaar NL</div><div id="slideShowCaption_1_20" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Skirt on her way to the beach | Martha’s Vineyard US</div><div id="slideShowCaption_1_21" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Embroidered type | Generous Gesture</div><div id="slideShowCaption_1_22" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Hanging in the balance | Alexander Calder | Witney Museum | NYC</div><div id="slideShowCaption_1_23" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Knitting Madison Square by Daniella on Design | NYC</div><div id="slideShowCaption_1_24" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Shop window in Antwerp | Belgium</div><div id="slideShowCaption_1_25" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Cut out paper, the background appears</div><div id="slideShowCaption_1_26" 
+                    style="position: absolute; bottom:80px; visibility: hidden;
+                    width:auto; 
+                    padding-top: 10.666666666666666px;
+                    padding-right: 16.0px;
+                    padding-bottom: 10.666666666666666px;
+                    padding-left: 16.0px;
+                    margin-left: 40px; 
+                    margin-right: 40px;  
+                    background-color: rgba(255, 255, 255, 0.80); 
+                    color: Color(r=0, g=0, b=0);
+                    z-index: 10; font-size: 32px; line-height: 1.1em; 
+                    font-family: Upgrade-Book_Italic;">Layers, always intriguing | Edgartown MV</div>
+	</div>
+</section>
 
-<script charset="UTF-8" type="text/javascript" type="text/javascript">
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <ul class="icons">
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                &copy; 2021 <a href="https://peppertom.com" target="external">Pepper+Tom</a> | <a href="https://typetr.typenetwork.com">TYPETR</a> | <a href="https://designdesign.space">DesignDesign.Space</a> | All rights reserved.
+            </div>
+        </footer>
 
-    function setBaseFontSize(){
-        /*document.getElementsByTagName('body')[0].style['font-size'] = 16 * window.devicePixelRatio + 'px';*/
-    }
-    window.onload = setBaseFontSize;
-    
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/jquery.bbslider.min.js"></script>
+        
+<script>$('.slideshow').bbslider({autoHeight: true, dynamicHeight: false, start: 1, easing: 'ease', carousel: 2, touch: true, touchoffset: 50, dragControls: true, dragoffset: 50, callbackBefore: slideShowCaptionUpdate, duration: 700, auto: true, timer: 4000, loop: true, transition: 'slide'});
 
-</script>
+function slideShowCaptionUpdate(d){
+                var caption;
+                var slideShow = $('#slideShow_0');
+                for (var i=0; i < 28; i++){
+                    caption = document.getElementById('slideShowCaption_0_'+(i-1));
+                    if (caption){
+                        /*
+                        caption.innerHTML = 'slideShowCaption_0_'+i + ' $' + i + ' #' + slideShow.data('pIndex') + ' @' + 2 + ' '+ (i == slideShow.data('pIndex') + 2);
+                        */
+                        if (i == slideShow.data('pIndex') + 2){
+                            caption.style.visibility = 'visible';
+                        } else {
+                            caption.style.visibility = 'hidden';
+                        }
+                    }
+                }
+                return 0;}
+$('.slideshow_1').bbslider({autoHeight: true, dynamicHeight: false, start: 1, easing: 'ease', carousel: 2, touch: true, touchoffset: 50, dragControls: true, dragoffset: 50, callbackBefore: slideShowCaptionUpdate_1, duration: 700, auto: true, timer: 4000, loop: true, transition: 'slide'});
 
+function slideShowCaptionUpdate_1(d){
+                var caption;
+                var slideShow = $('#slideShow_1');
+                for (var i=0; i < 27; i++){
+                    caption = document.getElementById('slideShowCaption_1_'+(i-1));
+                    if (caption){
+                        /*
+                        caption.innerHTML = 'slideShowCaption_1_'+i + ' $' + i + ' #' + slideShow.data('pIndex') + ' @' + 2 + ' '+ (i == slideShow.data('pIndex') + 2);
+                        */
+                        if (i == slideShow.data('pIndex') + 2){
+                            caption.style.visibility = 'visible';
+                        } else {
+                            caption.style.visibility = 'hidden';
+                        }
+                    }
+                }
+                return 0;}</script>
 
-</body>
-
+    </body>
 </html>
