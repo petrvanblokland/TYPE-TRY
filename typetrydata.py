@@ -29,29 +29,30 @@ from pagebotnano_060.toolbox.color import color
 TRACKING = '0.025rem'
 TRACKING_WIDE = '0.1rem'
 
-class PepperTomTheme(IntoTheWoods):
+class TypeTryTheme(IntoTheWoods):
 
     logo1 = color(1)
     logo2 = color(0xFF00C1) # Magenta bar of logo
     logo3 = color(0xEC472C) # Orange bar of logo
 
-theme = PepperTomTheme()
+theme = TypeTryTheme()
 
-siteData = sd = SiteData(id='peppertom', title='Pepper+Tom', theme=theme)
+siteData = sd = SiteData(id='TYPE-TRY', title='TYPE-TRY', theme=theme)
 sd.menuName = 'Menu'
 sd.year = now().year
 sd.copyright = ' | '.join((
-    '<a href="https://peppertom.com" target="external">Pepper+Tom</a>',
+    '<a href="https://TYPE-TRY.com" target="external">TYPE-TRY</a>',
     '<a href="https://typetr.typenetwork.com">TYPETR</a>',
     '<a href="https://designdesign.space">DesignDesign.Space</a>'))
 sd.fontFamily = 'Upgrade'
 sd.logo = """<span style="color:#%s;">|</span><span style="color:#%s">d</span><span style="color: #%s;">|</span>""" % (theme.logo2.hex, theme.logo1.hex, theme.logo3.hex)
+sd.logo = """<img src="images/type-try-logo.gif" width="40%"/>"""
 
 sd.fontsCss = True
 sd.fontFamily = 'Upgrade'
 sd.headFont = sd.fontFamily + '-Regular'
 sd.bodyFont = sd.fontFamily + '-Book'
-sd.logoFontFamily = 'PepperTom'
+sd.logoFontFamily = 'TYPE-TRY'
 sd.monoFontFamily = 'Courier New'
 sd.iconFontFamily = 'FontAwesome'
 
@@ -104,8 +105,8 @@ sd.fonts = (
 p = sd.newPage(id='index', title='Home', template='index')
 
 # Page index, banner
-t1 = 'Pepper+Tom pop-up!'
-t2 = 'P+T invites you!'
+t1 = 'TYPE-TRY pop-up!'
+t2 = 'TYPE-TRY invites you!'
 
 dk1 = 'Last pieces from several editions of small series. Skirts, pants and scarves for high end stores, are waiting for you.'
 dk2 = 'I would love to bring all these beautiful handmade or semi- couture garments into the world for attractive prices :)'
@@ -131,7 +132,7 @@ articleFashion = """Where do clothing and fabrics come from? Who made them and u
 
 Wouldn’t it be nice to wear clothes where it is clear who made them? Where the conditions of fabrication are good and the trade is fair? 
 
-Pepper+Tom wants that sharing experience, collaborating with partners in the clothing chain who think and act the same way. To make the production, resources and materials traceable for every garment. Pepper+Tom supports the idea of ‘true cost’ and ‘slow fashion’, adding to the pleasure of wearing the clothes.
+TYPE-TRY wants that sharing experience, collaborating with partners in the clothing chain who think and act the same way. To make the production, resources and materials traceable for every garment. TYPE-TRY supports the idea of ‘true cost’ and ‘slow fashion’, adding to the pleasure of wearing the clothes.
 """
 
 articleScarves = """The scarves are the result of many peoples’ work and creativity from rural Bangladesh to the cities of the Netherlands and the shores of the United States. 
@@ -147,13 +148,13 @@ Generous Gesture has been nominated for the German Design Award 2012.
 Generous Gesture is a people project. Every piece we make is 100% fair trade. The principle of Generous Gesture is creating fair trade with sustainable products. Through an exchange of ideas and skills we create a win-win situation for all concerned parties. 
 """
 
-articleSkirts = """Pepper+Tom skirts are perfect basic items that should not be missing in your wardrobe. They are designed in various sizes, fabrics (cotton, silk and wool) different lengths and delicately fınished with a colored zipper. The skirts are made from sustainable fabrics. Semi couture by a Dutch Atelier. 
+articleSkirts = """TYPE-TRY skirts are perfect basic items that should not be missing in your wardrobe. They are designed in various sizes, fabrics (cotton, silk and wool) different lengths and delicately fınished with a colored zipper. The skirts are made from sustainable fabrics. Semi couture by a Dutch Atelier. 
 
-Confıdent women accentuate their individuality with their outfıt. Tough boots under a fashionable skirt. High heels under a loose dress or pants. They combine stylish and tough. They choose for comfort above catwalk, appreciating beautiful and well-made garments. They opt for Pepper+Tom. 
+Confıdent women accentuate their individuality with their outfıt. Tough boots under a fashionable skirt. High heels under a loose dress or pants. They combine stylish and tough. They choose for comfort above catwalk, appreciating beautiful and well-made garments. They opt for TYPE-TRY. 
 
-Quote’s by Pepper+Tom customers: ‘It’s a simple style, good model, clear!’ ‘I can wear it all day, all night, everywhere’ ‘Very flattering to many fıgure types’ 
+Quote’s by TYPE-TRY customers: ‘It’s a simple style, good model, clear!’ ‘I can wear it all day, all night, everywhere’ ‘Very flattering to many fıgure types’ 
 
-Pepper+Tom would like to say to all women: ‘Just keep dancing!’ 
+TYPE-TRY would like to say to all women: ‘Just keep dancing!’ 
 
 All skirts have a A-line. There are three different lengths. Skirts with and without waistbands. Iconic, centerpiece items: Last for ever!
 """
@@ -222,8 +223,8 @@ sd.articleSubheadColor = sd.articleHeadColor
 # Page index, article invitation
 
 p.articleImage_1 = ('images/claar/IMG_7187-1.jpg', 'center top')
-p.articleSubhead_1 = 'Pepper+Tom pop-up! '
-p.articleHead_1 = 'Pepper+Tom is inviting you!'
+p.articleSubhead_1 = 'TYPE-TRY pop-up! '
+p.articleHead_1 = 'TYPE-TRY is inviting you!'
 p.articleText_1 = articleInvitation
 
 # Page index, article 2
@@ -253,7 +254,7 @@ p.articleFooter_4 = dk4
 # Page index, article 4
 
 p.articleImage_5 = 'images/pants/img_7254.jpeg'
-p.articleSubhead_5 = 'Pepper+Tom makes it work.'
+p.articleSubhead_5 = 'TYPE-TRY makes it work.'
 p.articleHead_5 = 'Pants'
 p.articleText_5 = articlePants
 p.articleFooter_5 = dk5
@@ -302,10 +303,10 @@ p.slideShowImages = (
     ('images/lookbook1/img_7942.jpg', None, 'Doubled'),
     ('images/lookbook1/img_7933.jpg', None, 'Old meets new | Ceiling Cooper Hewitt Museum | NYC'),
     ('images/lookbook1/img_7862.jpg', None, 'Grey tones'),
-    ('images/lookbook1/rok_tas_strand_02.jpg', None, 'A repoussoir for Pepper+Tom | MV US'),
+    ('images/lookbook1/rok_tas_strand_02.jpg', None, 'A repoussoir for TYPE-TRY | MV US'),
     ('images/lookbook1/img_7859.jpg', None, 'Black and white, so strong together'),
     ('images/lookbook1/img_7768.jpg', None, 'So beautiful to get older'),
-    ('images/lookbook1/claudia_schaduw_02.jpg', None, 'Pepper+Tom skirt having fun at home'),
+    ('images/lookbook1/claudia_schaduw_02.jpg', None, 'TYPE-TRY skirt having fun at home'),
     ('images/lookbook1/img_7887.jpg', None, 'Reused fabric | Cooper Hewitt Museum | NYC'),
     ('images/lookbook1/img_7737.jpg', None, 'Above your head in ABC CARPET & HOME | NYC'),
     ('images/lookbook1/img_7645.jpg', None, 'Behind the physical object'),
@@ -471,7 +472,7 @@ In addition to the cottons, Capsicum promotes handwoven silk from Bangkok, Thail
 
 Zippers are sourced from Italian brand Lampo, certifıed by Oeko-Tex Standard 100.
 
-Pepper+Tom source their eco cotton and ink from Ecological Textiles for their hand painted skirts. This fırm offers a wide range in fabrics, yarns and dyes that are manufactured and processed in a sustainable way. Ecological Textiles stands for environmentally sound production, fair trade and top quality. 
+TYPE-TRY source their eco cotton and ink from Ecological Textiles for their hand painted skirts. This fırm offers a wide range in fabrics, yarns and dyes that are manufactured and processed in a sustainable way. Ecological Textiles stands for environmentally sound production, fair trade and top quality. 
 
 <img width="100%" src="images/skirts/IMG_1328-min.jpg">
 
@@ -520,14 +521,14 @@ p.articleSubhead = 'Joy together'
 p.articleHead = 'Focus groups'
 p.articleText = """
 
-Pepper+Tom feels privileged to work with a dedicated group of women. They give feedback, valuable information about what women want. We believe this is the best way to improve the design of the skirts. “The brand is not a product, it’s the relationship that you build with your customer. The product is just the start, a conversational piece.” Buy less, choose well.
+TYPE-TRY feels privileged to work with a dedicated group of women. They give feedback, valuable information about what women want. We believe this is the best way to improve the design of the skirts. “The brand is not a product, it’s the relationship that you build with your customer. The product is just the start, a conversational piece.” Buy less, choose well.
 
 <img width="100%" src="images/focus/damesphotosa3delft2-21x42.jpg">
 <img width="100%" src="images/focus/damesphotosa3delft1-21x42.jpg">
 <img width="100%" src="images/focus/damesphotosa3-21x42.jpg">
 ---
 ## Studio + partners
-Pepper+Tom would never exist without a team of dedicated people:
+TYPE-TRY would never exist without a team of dedicated people:
 
 Petr van Blokland *Typedesigner* 
 
@@ -547,9 +548,9 @@ Suzanne Liem *Photographer*
 
 Pendleton, Boweevil, Capsicum, Ecological Textiles and Bottger *Fabric suppliers*
 
-Claudia Mens (Pepper) *Designer, founder Pepper+Tom*
+Claudia Mens (Pepper) *Designer, founder TYPE-TRY*
 
-Pepper+Tom is initiated by Claudia Mens, located at Rietveld 56, 2611 LM in Delft, The Netherlands.
+TYPE-TRY is initiated by Claudia Mens, located at Rietveld 56, 2611 LM in Delft, The Netherlands.
 ---
 ## About me
 
@@ -561,11 +562,11 @@ Pepper+Tom is initiated by Claudia Mens, located at Rietveld 56, 2611 LM in Delf
 
 After three decades, running a studio from 1980 till 2010, it was time for something else. Claudia went looking and longing for the woods of her childhood. She found that feeling back on Martha's Vineyard in the USA, where she began drawing with childlike pleasure and painting. Arose leafs and fern motifs, inspired by her travels in Africa, South America and Asia. 
 
-She designed a series of scarves with type and motifs of leafs, produced by NGO Kumudini Welfare Trust in Bangladesh. In 2016, she started with a lot of spirit and fun Pepper+Tom. 
+She designed a series of scarves with type and motifs of leafs, produced by NGO Kumudini Welfare Trust in Bangladesh. In 2016, she started with a lot of spirit and fun TYPE-TRY. 
 
-Besides the products of Pepper+Tom, similar to work in all of the photo's on this website, design can be made by Claudia as a special custom assignment. Ask her: <a href="mailto:claudia@petr.com?subject=Contact Pepper+Tom">claudia@petr.com</a> 
+Besides the products of TYPE-TRY, similar to work in all of the photo's on this website, design can be made by Claudia as a special custom assignment. Ask her: <a href="mailto:claudia@petr.com?subject=Contact TYPE-TRY">claudia@petr.com</a> 
 
-<img width="100%" src="images/contact/peppertom.png">
+<img width="100%" src="images/contact/TYPE-TRY.png">
 
 ## Looking forward seeing you... 
 
@@ -577,7 +578,7 @@ Rietveld 56 | 2611 LM Delft | The Netherlands
 
 The company is registered in the Chamber of Commerce (Handelsregister Kamer van Koophandel), by name Buro Petr van Blokland + Claudia Mens, number 27237753 Delft. 
 
-If you have a question not answered in this website, you can send an email (<a href="mailto:claudia@petr.com?subject=Contact Pepper+Tom">claudia@petr.com</a>) and we will respond to you as soon as we can. 
+If you have a question not answered in this website, you can send an email (<a href="mailto:claudia@petr.com?subject=Contact TYPE-TRY">claudia@petr.com</a>) and we will respond to you as soon as we can. 
 
 """
 

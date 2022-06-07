@@ -1,20 +1,20 @@
 
 
-<site peppertom> Pepper+Tom
+<site TYPE-TRY> TYPE-TRY
 
-<logo> ![logo](images/logos/peppertom_magenta_orange.png)
+<logo> ![logo](images/logos/TYPE-TRY_magenta_orange.png)
 
-<copyright> Pepper+Tom
+<copyright> TYPE-TRY
 
 <page index> Home
 
 # Home
 
-## Cool clothes. Designed styles. Sustainable materials. Fair trade. Slow fashion. Pepper+Tom makes it work. 
+## Cool clothes. Designed styles. Sustainable materials. Fair trade. Slow fashion. TYPE-TRY makes it work. 
 
 ![](images/home/static1.squarespace.jpg)
 
-Pepper+Tom clothes are sold by:
+TYPE-TRY clothes are sold by:
 
 ![](images/home/static1.squarespace.png)
 
@@ -31,21 +31,21 @@ Where do clothing and fabrics come from? Who made them and under what circumstan
 
 Wouldn’t it be nice to wear clothes where it is clear who made them? Where the conditions of fabrication are good and the trade is fair?  
 
-Pepper+Tom wants that, sharing experience, collaborating with partners in the clothing chain, who think and act the same way. To make the production, resources and materials traceable for every garment. Pepper+Tom supports the idea of ‘true cost’ and ‘slow fashion’, adding to the pleasure of wearing the clothes.
+TYPE-TRY wants that, sharing experience, collaborating with partners in the clothing chain, who think and act the same way. To make the production, resources and materials traceable for every garment. TYPE-TRY supports the idea of ‘true cost’ and ‘slow fashion’, adding to the pleasure of wearing the clothes.
 
 # Skirts
 
 ![](images/products/IMG_9009-2.jpg)![](images/products/_gentlegent_silver_01.jpg)![](images/products/IMG_0091_1.jpg)![](images/products/IMG_0116-1.JPG)![](images/products/IMG_0116.JPG)![](images/products/IMG_0125.JPG)![](images/products/IMG_0208_1.jpg)![](images/products/IMG_0209-1.JPG)![](images/products/IMG_0209.JPG)![](images/products/IMG_0227.JPG)![](images/products/IMG_0307.jpg)![](images/products/IMG_0321.jpg)![](images/products/IMG_0474.jpg)![](images/products/IMG_0607.jpg)![](images/products/IMG_0668.jpg)![](images/products/IMG_0830_1.jpg)![](images/products/IMG_0838_1.jpg)![](images/products/IMG_0840_1.jpg)![](images/products/IMG_7260+copy.jpg)![](images/products/IMG_8002+kopie.jpg)
-Pepper+Tom skirts are perfect basic items that should not be missing in your wardrobe. They are designed in various sizes, fabrics (cotton, silk and wool) different lengths and delicately finished with a colored zipper. The skirts are made from sustainable fabrics. Semi couture by a Dutch Atelier. 
+TYPE-TRY skirts are perfect basic items that should not be missing in your wardrobe. They are designed in various sizes, fabrics (cotton, silk and wool) different lengths and delicately finished with a colored zipper. The skirts are made from sustainable fabrics. Semi couture by a Dutch Atelier. 
 
-Confident women accentuate their individuality with their outfit. Cowboy boots under a fashionable skirt. High heals under a loose dress or pants. They combine stylish and tough. They choose for comfort above catwalk, appreciating beautiful and well-made garments. They opt for Pepper+Tom.
+Confident women accentuate their individuality with their outfit. Cowboy boots under a fashionable skirt. High heals under a loose dress or pants. They combine stylish and tough. They choose for comfort above catwalk, appreciating beautiful and well-made garments. They opt for TYPE-TRY.
 
-Quote’s by Pepper+Tom customers:
+Quote’s by TYPE-TRY customers:
 ‘It’s a simple style, good model, clear!’
 ‘I can wear it all day, all night, everywhere’
 ‘Very flattering to many figure types’
 
-Pepper+Tom would like to say to all women:
+TYPE-TRY would like to say to all women:
 ‘Just keep dancing!’
 
 # Scarves
@@ -87,7 +87,7 @@ Capsicum natuurstoffen Capsicum natuurstoffen is a Dutch initiative that uses ec
 
 In addition to the cottons, Capsicum promotes handwoven silk from Bangkok, Thailand, cooperating with a family business for over 30 years.
 
-Pepper+Tom source their eco cotton and ink from Ecological Textiles for their hand painted skirts. This firm offers a wide range in fabrics, yarns and dyes that are manufactured and processed in a sustainable way. Ecological Textiles stands for environmentally sound production, fair trade and top quality.
+TYPE-TRY source their eco cotton and ink from Ecological Textiles for their hand painted skirts. This firm offers a wide range in fabrics, yarns and dyes that are manufactured and processed in a sustainable way. Ecological Textiles stands for environmentally sound production, fair trade and top quality.
 
 From threads to fabrics, from moulding to materials our products comply with all European environmental, occupational safety laws and respect for the workers.
 
@@ -99,7 +99,7 @@ Silk Wash gently only by hand, ironing, do not bleach, no tumble-dry. Handle wit
 
 ## Prices
 
-Because every skirt is a unique piece there is a variety of prices. Visit the UNFOLD store in Delft for all the skirts they have in store. Or call/email Pepper+Tom for orders and prices on request.  
+Because every skirt is a unique piece there is a variety of prices. Visit the UNFOLD store in Delft for all the skirts they have in store. Or call/email TYPE-TRY for orders and prices on request.  
 
 # Scarves
 
@@ -132,7 +132,7 @@ The scarf says ‘Gentle Gent’ in Latin (English) and in Bengali. Jo de Baerde
 
 # Notes
 
-Pepper+Tom's Refuge
+TYPE-TRY's Refuge
 May 12, 2017
 Retreat: Rediscover-, Redefine-, Release- and Remodel time, with a sense of humor.
 
@@ -165,13 +165,13 @@ The company is registered in the Chamber of Commerce (Handelsregister Kamer van 
 
 # Studio
 
-Pepper+Tom is initiated by Claudia Mens, located at Rietveld 56, 2611 LM in Delft, The Netherlands. 
+TYPE-TRY is initiated by Claudia Mens, located at Rietveld 56, 2611 LM in Delft, The Netherlands. 
 
 Telephone mobile +31 6 41 367 689 or studio +31 15 887 1233
 
-Pepper+Tom would never exist without a team of dedicated people. 
+TYPE-TRY would never exist without a team of dedicated people. 
 
-Claudia Mens claudia@petr.com  Designer, founder Pepper+Tom 
+Claudia Mens claudia@petr.com  Designer, founder TYPE-TRY 
 
 Petr van Blokland Typedesigner
 
@@ -209,9 +209,9 @@ I drew notebooks. Making atmospheres and environments, little peepshows. Then cr
 
 After three decades, running a studio from 1980 till 2010, it was time for something else. Claudia went looking and longing for the woods of her childhood. She found that feeling back on Martha's Vineyard in the USA, where she began drawing with childlike pleasure and painting. Arose leafs and fern motifs, inspired by her travels in Africa, South America and Asia.
 
-She designed a series of scarves with type and motifs of leafs, produced by NGO Kumudini Welfare Trust in Bangladesh. In 2016, she started with a lot of spirit and fun Pepper+Tom.
+She designed a series of scarves with type and motifs of leafs, produced by NGO Kumudini Welfare Trust in Bangladesh. In 2016, she started with a lot of spirit and fun TYPE-TRY.
 
-Besides the products of Pepper+Tom, similar to work in all of the photo's on this website, design can be made by Claudia as a special custom assignment. Ask her: claudia@petr.com
+Besides the products of TYPE-TRY, similar to work in all of the photo's on this website, design can be made by Claudia as a special custom assignment. Ask her: claudia@petr.com
 
 # Stores
 
@@ -437,7 +437,7 @@ Grey tones
 
 ![](images/lookbook/rok_tas_strand_02.jpg)
 
-A repoussoir for Pepper+Tom | MV
+A repoussoir for TYPE-TRY | MV
 
 ![](images/lookbook/IMG_7859.jpg)
 
@@ -449,7 +449,7 @@ So beautiful to get older
 
 ![](images/lookbook/claudia_schaduw_02.jpg)
 
-Pepper+Tom skirt having fun at home
+TYPE-TRY skirt having fun at home
 
 ![](images/lookbook/IMG_7887.jpg)
 
@@ -473,7 +473,7 @@ Friendly Guy in the City
 
 # Notes + news
 
-### Pepper+Tom's Refuge
+### TYPE-TRY's Refuge
 May 12, 2017
 Retreat: Rediscover-, Redefine-, Release- and Remodel time, with a sense of humor.
 
@@ -544,7 +544,7 @@ https://www.youtube.com/watch?v=BXClZ9Itc3M&feature=emb_logo
 Tags: inspiration, design
  Comment   0 Likes  
 Share
-Pepper+Tom at the Unfold fashion show
+TYPE-TRY at the Unfold fashion show
 March 22, 2017 in skirts
 Our haindpainted skirt at the Unfold Fashion show.
 
@@ -552,7 +552,7 @@ Our haindpainted skirt at the Unfold Fashion show.
 
 Fashion show at Unfold
 March 15, 2017 in skirts, Inspiration
-Sunday March 19th Fashion show at Unfold with a range of Dutch brands included Pepper+Tom. Seats still available for the show at noon, so run to sign up!
+Sunday March 19th Fashion show at Unfold with a range of Dutch brands included TYPE-TRY. Seats still available for the show at noon, so run to sign up!
 
 ![](images/notes/image-asset22.jpeg)
 
@@ -598,7 +598,7 @@ January 17, 2017
 “Buy less. Choose well. Make it last. Quality, not quantity. Everybody’s buying far too many clothes.”
 — Vivienne Westwood
 
-![](images/notes/peppertom_skirt_wool.jpg)![](images/notes/_dark_grey_wool_skirt_01.jpg)![](images/notes/_dark_grey_wool_skirt_02.jpg)![](images/notes/_dark_grey_wool_skirt_03.jpg)![](images/notes/_sand_wool_skirt_02.jpg)![](images/notes/peppertom_darkgrey_skirt.jpg)
+![](images/notes/TYPE-TRY_skirt_wool.jpg)![](images/notes/_dark_grey_wool_skirt_01.jpg)![](images/notes/_dark_grey_wool_skirt_02.jpg)![](images/notes/_dark_grey_wool_skirt_03.jpg)![](images/notes/_sand_wool_skirt_02.jpg)![](images/notes/TYPE-TRY_darkgrey_skirt.jpg)
 
 Learning by looking+listening
 January 10, 2017
@@ -606,7 +606,7 @@ Focus groups
 
 ![](images/notes/DamesPhotosA3+Delft2-21x42.png)![](images/notes/DamesPhotosA3+Delft1-21x42.png)![](images/notes/DamesPhotosA3-21x42.png)
 
-Pepper+Tom feels privileged to work with a dedicated group of women. They give feedback, valuable information about what women want. We believe this is the best way to improve the design of the skirts.
+TYPE-TRY feels privileged to work with a dedicated group of women. They give feedback, valuable information about what women want. We believe this is the best way to improve the design of the skirts.
 “The brand is not a product, it’s the relationship that you build with your customer. The product is just the start, a conversational piece.”
 — Maker’s row
 Tags: design process, design
@@ -663,7 +663,7 @@ Selina Biswas and many other women have mastered the Nakshi Kantha embroidering 
 “Working together with Khumudini Welfare Trust helped me realize how important sustainable products are for our world”
 Tags: sustainability, fair trade, design, production
 
-### Pepper+Tom design process
+### TYPE-TRY design process
 
 October 06, 2016 in design process
 Good design is like a good marriage, always balancing between desired similarities and necessary differences. If it looks simple and easy, it probably did cost a lot of hours fighting. The achievement is great. The dissonant is interesting!
@@ -703,17 +703,17 @@ I drew notebooks. Making atmospheres and environments, little peepshows. Then cr
 
 After three decades, running a studio from 1980 till 2010, it was time for something else. Claudia went looking and longing for the woods of her childhood. She found that feeling back on Martha's Vineyard in the USA, where she began drawing with childlike pleasure and painting. Arose leafs and fern motifs, inspired by her travels in Africa, South America and Asia.
 
-She designed a series of scarves with type and motifs of leafs, produced by NGO Kumudini Welfare Trust in Bangladesh. In 2016, she started with a lot of spirit and fun Pepper+Tom.
+She designed a series of scarves with type and motifs of leafs, produced by NGO Kumudini Welfare Trust in Bangladesh. In 2016, she started with a lot of spirit and fun TYPE-TRY.
 
-Besides the products of Pepper+Tom, similar to work in all of the photo's on this website, design can be made by Claudia as a special custom assignment. Ask her: claudia@petr.com
+Besides the products of TYPE-TRY, similar to work in all of the photo's on this website, design can be made by Claudia as a special custom assignment. Ask her: claudia@petr.com
 
-Pepper+Tom is initiated by Claudia Mens, located at Rietveld 56, 2611 LM in Delft, The Netherlands. 
+TYPE-TRY is initiated by Claudia Mens, located at Rietveld 56, 2611 LM in Delft, The Netherlands. 
 
 Telephone mobile +31 6 41 367 689 or studio +31 15 887 1233
 
-Pepper+Tom would never exist without a team of dedicated people. 
+TYPE-TRY would never exist without a team of dedicated people. 
 
-Claudia Mens claudia@petr.com  Designer, founder Pepper+Tom 
+Claudia Mens claudia@petr.com  Designer, founder TYPE-TRY 
 
 Petr van Blokland Typedesigner
 
@@ -755,10 +755,10 @@ The company is registered in the Chamber of Commerce (Handelsregister Kamer van 
 
            "logoImageUrl": "//static1.squarespace.com/static/55ddaa76e4b07360409f6a16/t/59b7a138f57e1ee38c64894b/1556627210863/",
             "socialLogoImageUrl": "//static1.squarespace.com/static/55ddaa76e4b07360409f6a16/t/57f76014f7e0ab123767d25a/1556627210863/",
-            "authenticUrl": "http://www.peppertom.com",
+            "authenticUrl": "http://www.TYPE-TRY.com",
             "internalUrl": "http://claudia-mens.squarespace.com",
-            "baseUrl": "http://www.peppertom.com",
-            "primaryDomain": "www.peppertom.com",
+            "baseUrl": "http://www.TYPE-TRY.com",
+            "primaryDomain": "www.TYPE-TRY.com",
             "sslSetting": 1,
             "isHstsEnabled": false,
             "socialAccounts": [{
@@ -788,7 +788,7 @@ The company is registered in the Chamber of Commerce (Handelsregister Kamer van 
                 "serviceId": 10,
                 "userId": "4181774922",
                 "userName": "pepperandtom",
-                "screenname": "Pepper+Tom",
+                "screenname": "TYPE-TRY",
                 "addedOn": 1479827559271,
                 "profileUrl": "http://instagram.com/pepperandtom",
                 "iconUrl": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/14582471_330478490667350_7922917520867065856_a.jpg",

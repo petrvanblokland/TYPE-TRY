@@ -1,11 +1,11 @@
 
-.site peppertom.
+.site TYPE-TRY.
 .menuName. Menu
-.copyright. <a href="https://peppertom.com">Pepper+Tom</a>, <a href="https://typetr.typenetwork.com">TYPETR</a>, <a href="https://designdesign.space">DesignDesign.Space</a>
+.copyright. <a href="https://TYPE-TRY.com">TYPE-TRY</a>, <a href="https://typetr.typenetwork.com">TYPETR</a>, <a href="https://designdesign.space">DesignDesign.Space</a>
 .fontFamily. Upgrade
 
 .logo. <span style="color:#ff0000;">|</span>d<span style="color: #EC842C;">|</span> 
-.logoFontFamily. PepperTom
+.logoFontFamily. TYPE-TRY
 
 .page index. Home
 .template index.
@@ -43,14 +43,14 @@
 .articleImage 1. images/scarfs/groen1-1.jpg
 .articleSubhead 1. Last ones in stock
 .articleHead 1. Skirts
-.article 1. Pepper+Tom skirts are perfect basic items that should not be 
+.article 1. TYPE-TRY skirts are perfect basic items that should not be 
 missing in your wardrobe. They are designed in various sizes, fabrics (cotton, silk and wool) different lengths and delicately fınished with a colored zipper. The skirts are made from sustainable fabrics. Semi couture by a Dutch Atelier. 
 
-Confıdent women accentuate their individuality with their outfıt. Tough boots under a fashionable skirt. High heels under a loose dress or pants. They combine stylish and tough. They choose for comfort above catwalk, appreciating beautiful and well-made garments. They opt for Pepper+Tom. 
+Confıdent women accentuate their individuality with their outfıt. Tough boots under a fashionable skirt. High heels under a loose dress or pants. They combine stylish and tough. They choose for comfort above catwalk, appreciating beautiful and well-made garments. They opt for TYPE-TRY. 
 
-Quote’s by Pepper+Tom customers: ‘It’s a simple style, good model, clear!’ ‘I can wear it all day, all night, everywhere’ ‘Very flattering to many fıgure types’ 
+Quote’s by TYPE-TRY customers: ‘It’s a simple style, good model, clear!’ ‘I can wear it all day, all night, everywhere’ ‘Very flattering to many fıgure types’ 
 
-Pepper+Tom would like to say to all women: ‘Just keep dancing!’ 
+TYPE-TRY would like to say to all women: ‘Just keep dancing!’ 
 
 All skirts have a A-line. There are three different lengths. Skirts with and without waistbands. Iconic, centerpiece items: Last for ever!
 

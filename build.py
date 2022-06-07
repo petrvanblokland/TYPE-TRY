@@ -11,13 +11,13 @@
 #   Supporting DrawBot, www.drawbot.com
 # -----------------------------------------------------------------------------
 #
-#   PepperTom.py
+#   TYPE-TRY.py
 #
-#   Source builds the PepperTom.com website using PageBotNano the Website 
+#   Source builds the TYPE-TRY.com website using PageBotNano the Website 
 #   publication class.
 #
 import os
-from PepperTomData import siteData # Content data instances for this site
+from typetrydata import siteData # Content data instances for this site
 from pagebotnano_060.toolbox.loremipsum import loremipsum, randomName, randomTitle
 from pagebotnano_060.templates.templated import * # Import all templates classes.
 from pagebotnano_060.themes import BackToTheCity

@@ -4,11 +4,11 @@
 
 
 @font-face {
-    font-family: 'PepperTom';
-    src: url('../fonts/PepperTom-Regular.eot') format('embedded-opentype'),
-         url('../fonts/PepperTom-Regular.woff2') format('woff2'),
-         url('../fonts/PepperTom-Regular.woff') format('woff'),
-         url('../fonts/PepperTom-Regular.ttf') format('truetype');
+    font-family: 'TYPE-TRY';
+    src: url('../fonts/TYPE-TRY-Regular.eot') format('embedded-opentype'),
+         url('../fonts/TYPE-TRY-Regular.woff2') format('woff2'),
+         url('../fonts/TYPE-TRY-Regular.woff') format('woff'),
+         url('../fonts/TYPE-TRY-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal
  }
@@ -3993,7 +3993,7 @@
 	}
 
 	#header > .logo {
-		font-family: "PepperTom";
+		font-family: "TYPE-TRY";
 		style: normal;
 		display: inline-block;
 		height: inherit;
@@ -4042,7 +4042,7 @@
 	}
 
 	#header > a[href="#menu"]:before {
-		font-family: "PepperTom";
+		font-family: "TYPE-TRY";
 		content: "";
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
