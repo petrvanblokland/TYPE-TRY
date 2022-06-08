@@ -11,9 +11,9 @@
 #   Supporting DrawBot, www.drawbot.com
 # -----------------------------------------------------------------------------
 #
-#   TYPE-TRY.py
+#   build.py
 #
-#   Source builds the TYPE-TRY.com website using PageBotNano the Website 
+#   Source builds the type-try.com website using PageBotNano the Website 
 #   publication class.
 #
 import os
@@ -27,18 +27,22 @@ from pagebotnano_060.publications.website import Website
 PORT = 8888
 PORT = 80
 
+class TypeTryTemplate(TemplatedHielo):
+	pass
+
 # Create a Website publications with this theme and templates
 #templates = TemplatedBinary()
 #templates = TemplatedBroadcast()
 #templates = TemplatedCaminar()    'images/lookbook/
 #templates = TemplatedFullmotion()
-templates = TemplatedHielo()
 #templates = TemplatedInterphase()
 #templates = TemplatedIntrospect()
 #templates = TemplatedRoadtrip()
 #templates = TemplatedTheory()
 #templates = TemplatedSnapshot()
 #templates = TemplatedRadius()
+
+templates = TypeTryTemplate()
 
 website = Website(templates=templates, port=PORT)
 website.templates.read('images')

@@ -1,7 +1,7 @@
 
 .site TYPE-TRY.
 .menuName. Menu
-.copyright. <a href="https://TYPE-TRY.com">TYPE-TRY</a>, <a href="https://typetr.typenetwork.com">TYPETR</a>, <a href="https://designdesign.space">DesignDesign.Space</a>
+.copyright. <a href="https://type-try.com">TYPE-TRY</a>, <a href="https://typetr.typenetwork.com">TYPETR</a>, <a href="https://designdesign.space">DesignDesign.Space</a>
 .fontFamily. Upgrade
 
 .logo. <span style="color:#ff0000;">|</span>d<span style="color: #EC842C;">|</span> 

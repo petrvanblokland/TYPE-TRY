@@ -41,18 +41,18 @@ siteData = sd = SiteData(id='TYPE-TRY', title='TYPE-TRY', theme=theme)
 sd.menuName = 'Menu'
 sd.year = now().year
 sd.copyright = ' | '.join((
-    '<a href="https://TYPE-TRY.com" target="external">TYPE-TRY</a>',
+    '<a href="https://type-try.com" target="external">TYPE-TRY</a>',
     '<a href="https://typetr.typenetwork.com">TYPETR</a>',
     '<a href="https://designdesign.space">DesignDesign.Space</a>'))
 sd.fontFamily = 'Upgrade'
 sd.logo = """<span style="color:#%s;">|</span><span style="color:#%s">d</span><span style="color: #%s;">|</span>""" % (theme.logo2.hex, theme.logo1.hex, theme.logo3.hex)
-sd.logo = """<img src="images/type-try-logo.gif" width="40%"/>"""
+sd.logo = """<img src="images/logos/type-try-logo.gif" width="40%"/>"""
 
 sd.fontsCss = True
 sd.fontFamily = 'Upgrade'
 sd.headFont = sd.fontFamily + '-Regular'
 sd.bodyFont = sd.fontFamily + '-Book'
-sd.logoFontFamily = 'TYPE-TRY'
+sd.logoFontFamily = sd.fontFamily + '-Regular'
 sd.monoFontFamily = 'Courier New'
 sd.iconFontFamily = 'FontAwesome'
 
@@ -548,9 +548,7 @@ Suzanne Liem *Photographer*
 
 Pendleton, Boweevil, Capsicum, Ecological Textiles and Bottger *Fabric suppliers*
 
-Claudia Mens (Pepper) *Designer, founder TYPE-TRY*
-
-TYPE-TRY is initiated by Claudia Mens, located at Rietveld 56, 2611 LM in Delft, The Netherlands.
+TYPE-TRY is initiated by Petr van Blokland, located at Boomsluiterskade 372/367 2511 VH The Hague, The Netherlands.
 ---
 ## About me
 
@@ -572,9 +570,9 @@ Besides the products of TYPE-TRY, similar to work in all of the photo's on this 
 
 Claudia Mens | claudia@petr.com 
 
-mobile +31 6 41 367 689 | studio +31 15 887 1233 
+mobile +31 6 41 367 689
 
-Rietveld 56 | 2611 LM Delft | The Netherlands 
+Boomsluiterskade 372/367 2511 VH The Hague | The Netherlands 
 
 The company is registered in the Chamber of Commerce (Handelsregister Kamer van Koophandel), by name Buro Petr van Blokland + Claudia Mens, number 27237753 Delft. 
 

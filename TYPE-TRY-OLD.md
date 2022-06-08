@@ -755,10 +755,10 @@ The company is registered in the Chamber of Commerce (Handelsregister Kamer van 
 
            "logoImageUrl": "//static1.squarespace.com/static/55ddaa76e4b07360409f6a16/t/59b7a138f57e1ee38c64894b/1556627210863/",
             "socialLogoImageUrl": "//static1.squarespace.com/static/55ddaa76e4b07360409f6a16/t/57f76014f7e0ab123767d25a/1556627210863/",
-            "authenticUrl": "http://www.TYPE-TRY.com",
+            "authenticUrl": "http://www.type-try.com",
             "internalUrl": "http://claudia-mens.squarespace.com",
-            "baseUrl": "http://www.TYPE-TRY.com",
-            "primaryDomain": "www.TYPE-TRY.com",
+            "baseUrl": "http://www.type-try.com",
+            "primaryDomain": "www.type-try.com",
             "sslSetting": 1,
             "isHstsEnabled": false,
             "socialAccounts": [{
