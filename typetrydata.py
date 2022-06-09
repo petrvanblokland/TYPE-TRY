@@ -202,8 +202,8 @@ p.bannerImage_1 = 'images/booklet/Typetr_Typographics_2022_0924.jpg'
 p.bannerTitle_1 = 'Try Proforma Pro'
 p.bannerSubtitle_1 = ''
 
-p.bannerImage_2 = 'images/booklet/Typetr_Typographics_2022_0910.jpg'
-p.bannerTitle_2 = '[html]<span style="font-family:PowerLift_Try-Tight;color:red;">Try Powerlift</span>'
+p.bannerImage_2 = 'images/social/Bitcount_in_use_02.jpg'
+p.bannerTitle_2 = '[html]<span style="font-family:Bitcount_Try_Mono_Double_Outline-Bold_Round;font-size:48">Try Bitcount Outline</span>'
 p.bannerSubtitle_2 = ''
 
 p.bannerImage_3 = 'images/booklet/Typetr_Typographics_2022_0930.jpg'
@@ -211,12 +211,16 @@ p.bannerTitle_3 = 'Try Presti'
 p.bannerSubtitle_3 = ''
 
 p.bannerImage_4 = 'images/booklet/Typetr_Typographics_2022_0928.jpg'
-p.bannerTitle_4 = 'Try Reponder P'
+p.bannerTitle_4 = 'Try Responder P'
 p.bannerSubtitle_4 = ''
 
 p.bannerImage_5 = 'images/social/Upgrade_in_use_08_Keep_calm.jpg'
 p.bannerTitle_5 = 'Try Upgrade'
 p.bannerSubtitle_5 = ''
+
+p.bannerImage_6 = 'images/booklet/Typetr_Typographics_2022_0910.jpg'
+p.bannerTitle_6 = '[html]<span style="font-family:PowerLift_Try-Tight;color:red;">Try Powerlift</span>'
+p.bannerSubtitle_6 = ''
 
 # Page index, subscriptionForm
 
