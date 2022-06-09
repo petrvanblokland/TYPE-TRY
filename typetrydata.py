@@ -45,10 +45,9 @@ sd.copyright = ' | '.join((
     '<a href="https://typetr.typenetwork.com">TYPETR</a>',
     '<a href="https://designdesign.space">DesignDesign.Space</a>'))
 sd.fontFamily = 'Upgrade'
-sd.logo = """<span style="color:#%s;">|</span><span style="color:#%s">d</span><span style="color: #%s;">|</span>""" % (theme.logo2.hex, theme.logo1.hex, theme.logo3.hex)
 sd.logo = """<img src="images/logos/type-try-logo.gif" width="40%"/>"""
 
-sd.fontsCss = True
+sd.fontsCss = False
 sd.fontFamily = 'Upgrade'
 sd.headFont = sd.fontFamily + '-Regular'
 sd.bodyFont = sd.fontFamily + '-Book'
@@ -58,6 +57,11 @@ sd.iconFontFamily = 'FontAwesome'
 
 sd.headerLogoAlign = 'left'
 sd.headerHeight = '4em'
+
+sd.articleHeadPadding = '2em 2em'
+sd.articleHeadBorder = '1'
+sd.articleHeadBackgroundColor = 'white'
+sd.articleHeadOpacity = '0.5'
 
 sd.pTracking = TRACKING
 sd.pTrackingWide = TRACKING_WIDE
@@ -108,8 +112,8 @@ sd.fonts = (
 p = sd.newPage(id='index', title='Home', template='index')
 
 # Page index, banner
-t1 = 'TYPE-TRY pop-up!'
-t2 = 'TYPE-TRY invites you!'
+t1 = '' #'TYPE-TRY pop-up!'
+t2 = '' #'TYPE-TRY invites you!'
 
 dk1 = 'Last pieces from several editions of small series. Skirts, pants and scarves for high end stores, are waiting for you.'
 dk2 = 'I would love to bring all these beautiful handmade or semi- couture garments into the world for attractive prices :)'
@@ -118,16 +122,16 @@ dk4 = 'The skirts and pants are all different, every piece is unique. there’s 
 dk5 = 'The scarves will always fit. Either as a gift for yourself or for someone else.'
 dk6 = 'Looking forward seeing you!'
 
-st1 = 'Clear out from several editions of small series'
-st2 = 'Together we will make an attractive price'
-st3 = 'Call or email for an appointment in the studio'
-st4 = 'Every piece is unique'
-st5 = 'The scarves will always fit'
-st6 = dk6
+st1 = '' #'Clear out from several editions of small series'
+st2 = '' #'Together we will make an attractive price'
+st3 = '' #'Call or email for an appointment in the studio'
+st4 = '' #'Every piece is unique'
+st5 = '' #'The scarves will always fit'
+st6 = '' #dk6
 
 pqImage = 'images/scarfs/scarf3.png'
 pqSubhead = 'Get in touch'
-pqHead = 'Call +31 6 41 367 689 or <a href="mailto:claudia@petr.com?subject=Studio visit">email</a> me'
+pqHead = 'Call +31 6 2421 9502 or <a href="mailto:tptr@petr.com?subject=TYPE-TRY typedesign">email</a> me'
 
 articleInvitation = '%s\n\n%s\n\n%s\n\n%s\n\n%s\n\n%s\n\n' % (dk1, dk2, dk3, dk4, dk5, dk6)
 
@@ -180,9 +184,10 @@ sd.bannerFullHeightMax1280 = '80vh' # Height of banner in media
 sd.bannerHalfHeight = '50vh' # Half height of banner
 sd.bannerSlideShowHeadFont = sd.fontFamily + '-Medium_Italic' 
 sd.bannerSlideShowHeadSize = '5rem' # Set to siteData
-sd.bannerSlideShowHeadSizeColor = sd.theme.getColor('lowest', a=0.85)
-sd.bannerSlideShowHeadBackgroundColor = 'inherit'
-sd.bannerSlideShowHeadShadow = shadow
+sd.bannerSlideShowHeadSizeColor = sd.theme.getColor('main', a=0.85)
+sd.bannerSlideShowHeadBackgroundColor = 'white'
+sd.bannerSlideShowHeadOpacity = '0.75'
+#sd.bannerSlideShowHeadShadow = shadow
 sd.bannerSlideShowHeadPadding = '1rem'
 
 sd.bannerSlideShowSubheadFont = sd.fontFamily + '-Medium' 
@@ -193,21 +198,25 @@ sd.bannerSlideShowSubheadBackgroundColor = 'inherit' #color(0xEC472C, a=0.35).cs
 sd.bannerSlideShowSubheadShadow = shadow
 sd.bannerSlideShowSubheadPadding = '1rem'
 
-p.bannerImage_1 = 'images/typetr/Presti_in_use_02.jpg'
-p.bannerTitle_1 = t1
-p.bannerSubtitle_1 = st1
+p.bannerImage_1 = 'images/booklet/Typetr_Typographics_2022_0924.jpg'
+p.bannerTitle_1 = 'Try Proforma Pro'
+p.bannerSubtitle_1 = ''
 
-p.bannerImage_2 = 'images/typetr/Upgrade_in_use_08_Keep_calm.jpg'
-p.bannerTitle_2 = t1
-p.bannerSubtitle_2 = st3
+p.bannerImage_2 = 'images/booklet/Typetr_Typographics_2022_0910.jpg'
+p.bannerTitle_2 = '[html]<span style="font-family:PowerLift_Try-Tight;color:red;">Try Powerlift</span>'
+p.bannerSubtitle_2 = ''
 
-p.bannerImage_3 = 'images/typetr/Presti_in_use_03.jpg'
-p.bannerTitle_3 = t2
-p.bannerSubtitle_3 = st2
+p.bannerImage_3 = 'images/booklet/Typetr_Typographics_2022_0930.jpg'
+p.bannerTitle_3 = 'Try Presti'
+p.bannerSubtitle_3 = ''
 
-p.bannerImage_4 = 'images/typetr/Upgrade_in_use_02a.jpg'
-p.bannerTitle_4 = t2
-p.bannerSubtitle_4 = st4
+p.bannerImage_4 = 'images/booklet/Typetr_Typographics_2022_0928.jpg'
+p.bannerTitle_4 = 'Try Reponder P'
+p.bannerSubtitle_4 = ''
+
+p.bannerImage_5 = 'images/social/Upgrade_in_use_08_Keep_calm.jpg'
+p.bannerTitle_5 = 'Try Upgrade'
+p.bannerSubtitle_5 = ''
 
 # Page index, subscriptionForm
 
@@ -225,14 +234,14 @@ sd.articleSubheadColor = sd.articleHeadColor
 
 # Page index, article invitation
 
-p.articleImage_1 = ('images/claar/IMG_7187-1.jpg', 'center top')
+p.articleImage_1 = ('images/booklet/Typetr_Typographics_2022_0914.jpg', 'center top')
 p.articleSubhead_1 = 'TYPE-TRY pop-up! '
 p.articleHead_1 = 'TYPE-TRY is inviting you!'
 p.articleText_1 = articleInvitation
 
 # Page index, article 2
 
-p.articleImage_2 = 'images/skirts/img_9595.jpeg'
+p.articleImage_2 = 'images/typetr/Presti_in_use_02.jpg'
 p.articleSubhead_2 = 'Cool clothes. Designed&nbsp;styles.'
 p.articleHead_2 = 'Desirable fabrics & fashion'
 p.articleText_2 = articleFashion
@@ -535,21 +544,11 @@ TYPE-TRY would never exist without a team of dedicated people:
 
 Petr van Blokland *Typedesigner* 
 
+Tilmann Hielscher *Typedesigner*
+
 Kirsten Langmuur *Graphic designer* 
 
-Liesbeth Oltmans *Consultant*
-
-Djoeke Delnooz, Claar van Liemt (+ Lucy dog : ) *Models* 
-
-Libby Ellis (Tom) *Creative director* 
-
-Sep Schaffers *Text writer* 
-
-Petra Dijkgraaf *Tailor*
-
-Suzanne Liem *Photographer* 
-
-Pendleton, Boweevil, Capsicum, Ecological Textiles and Bottger *Fabric suppliers*
+Paul Roos *Graphic designer*
 
 TYPE-TRY is initiated by Petr van Blokland, located at Boomsluiterskade 372/367 2511 VH The Hague, The Netherlands.
 ---
@@ -571,9 +570,9 @@ Besides the products of TYPE-TRY, similar to work in all of the photo's on this 
 
 ## Looking forward seeing you... 
 
-Claudia Mens | claudia@petr.com 
+Petr van Blokland | tptr@petr.com 
 
-mobile +31 6 41 367 689
+mobile +31 6 2421 9502
 
 Boomsluiterskade 372/367 2511 VH The Hague | The Netherlands 
 

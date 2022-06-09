@@ -68,6 +68,8 @@ sys.path.insert(0, "../..") # So we can import pagebotnano without installing.
 from pagebotnano_060.templates.templated.templatedbase import TemplatedBase
 from pagebotnano_060.toolbox.markdown import parseMarkdown
 
+HTML_MARKER = '[html]' # If a string starts with this, then don’t parse by markdown.
+
 class TemplatedHielo(TemplatedBase):
     """    
     The TemplatedHielo reads all templates sources, ending with .css,
@@ -93,7 +95,10 @@ class TemplatedHielo(TemplatedBase):
         return html
 
     def _bannerSlideShow(self, siteData, pageData, index):
-        """Answer a list of <article> html chunks, as slides in the slide show
+        """Answer a list of <article> html chunks, as slides in the slide show.
+        If title or subtitle start with [html] then don’t parse by markdown.
+        This way plain HTML can be added to the string.
+
         <section class="banner full">
             <article>
                 <img src="{{bannerImage_1}}"/>
@@ -122,10 +127,20 @@ class TemplatedHielo(TemplatedBase):
                     html += """\n\t\t'<img src="%s"/>""" % url
                 html += """\n\t\t<div class="inner">\n\t\t\t<header>"""
                 if hasattr(pageData, bannerSubtitle):
-                    parsed = parseMarkdown(getattr(pageData, bannerSubtitle))
+                    bannerSubtitleString = getattr(pageData, bannerSubtitle)
+                    if bannerSubtitleString.startswith(HTML_MARKER): 
+                        # Do not parse as markdown, use plain string "[html]<span>...</span>"
+                        parsed = bannerSubtitleString[len(HTML_MARKER):]
+                    else:
+                        parsed = parseMarkdown(bannerSubtitleString)
                     html += """\n\t\t\t\t<p>%s</p>""" % parsed
                 if hasattr(pageData, bannerTitle):
-                    parsed = parseMarkdown(getattr(pageData, bannerTitle))
+                    bannerTitleString = getattr(pageData, bannerTitle)
+                    if bannerTitleString.startswith(HTML_MARKER): 
+                        # Do not parse as markdown, use plain string "[html]<span>...</span>"
+                        parsed = bannerTitleString[len(HTML_MARKER):]
+                    else:
+                        parsed = parseMarkdown(bannerTitleString)
                     html += """\n\t\t\t\t<h2>%s</h2>""" % parsed
                 html += """\n\t\t\t</header>\n\t\t</div>\n\t</article>\n"""
         html += '\n</section>'

@@ -46,7 +46,7 @@ class SiteData(BaseData):
         self.headerTextAlign = 'right'
         self.headerLogoAlign = 'right'
         self.headerHeight = '3em'
-        
+      
         # Initialize defaults that always should be filled for CSS
         # Default values as used in templates Hielo
         self.footerFont = 'Verdana'
@@ -57,6 +57,9 @@ class SiteData(BaseData):
         self.bannerFullHeightMax980 = '50vh' # Height of banner in media
         self.bannerFullHeightMax1280 = '75vh' # Height of banner in media
         self.bannerHalfHeight = '50vh' # Half height of banner
+
+        self.bannerSlideShowHeadBackgroundColor = 'inherit'
+        self.bannerSlideShowHeadOpacity = '0'
 
     def __repr__(self):
         s = '<%s' % self.__class__.__name__

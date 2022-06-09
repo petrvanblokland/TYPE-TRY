@@ -186,7 +186,7 @@ class BaseTemplates:
     font-style: normal
  }""" % dict(ff=getattr(siteData, logoFontFamily))
 
-        # Build the @font-face for every font that is used in the side,
+        # Build the @font-face for every font that is used in the site,
         # as defined by the siteData.fonts list.
         if hasattr(siteData, 'fontFamily') and hasattr(siteData, 'fonts'):
             for weightName in siteData.fonts:
