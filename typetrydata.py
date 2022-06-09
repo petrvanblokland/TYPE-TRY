@@ -56,6 +56,9 @@ sd.logoFontFamily = sd.fontFamily + '-Regular'
 sd.monoFontFamily = 'Courier New'
 sd.iconFontFamily = 'FontAwesome'
 
+sd.headerLogoAlign = 'left'
+sd.headerHeight = '4em'
+
 sd.pTracking = TRACKING
 sd.pTrackingWide = TRACKING_WIDE
 sd.pLeading = '1.8rem'
@@ -190,19 +193,19 @@ sd.bannerSlideShowSubheadBackgroundColor = 'inherit' #color(0xEC472C, a=0.35).cs
 sd.bannerSlideShowSubheadShadow = shadow
 sd.bannerSlideShowSubheadPadding = '1rem'
 
-p.bannerImage_1 = 'images/claar/IMG_7187-1.jpg'
+p.bannerImage_1 = 'images/typetr/Presti_in_use_02.jpg'
 p.bannerTitle_1 = t1
 p.bannerSubtitle_1 = st1
 
-p.bannerImage_2 = 'images/claar/IMG_6857.jpeg'
+p.bannerImage_2 = 'images/typetr/Upgrade_in_use_08_Keep_calm.jpg'
 p.bannerTitle_2 = t1
 p.bannerSubtitle_2 = st3
 
-p.bannerImage_3 = 'images/claar/IMG_3295.jpeg'
+p.bannerImage_3 = 'images/typetr/Presti_in_use_03.jpg'
 p.bannerTitle_3 = t2
 p.bannerSubtitle_3 = st2
 
-p.bannerImage_4 = 'images/claar/IMG_6978.jpeg'
+p.bannerImage_4 = 'images/typetr/Upgrade_in_use_02a.jpg'
 p.bannerTitle_4 = t2
 p.bannerSubtitle_4 = st4
 

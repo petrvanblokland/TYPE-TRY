@@ -43,6 +43,10 @@ class SiteData(BaseData):
         self.theme = theme or DefaultTheme()
         self.pages = [] # As list, to keep the order in menu and navigation
 
+        self.headerTextAlign = 'right'
+        self.headerLogoAlign = 'right'
+        self.headerHeight = '3em'
+        
         # Initialize defaults that always should be filled for CSS
         # Default values as used in templates Hielo
         self.footerFont = 'Verdana'

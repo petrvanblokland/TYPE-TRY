@@ -33,6 +33,9 @@
 #   siteData.monoFontFamily = 'Courier New'
 #   siteData.iconFontFamily = 'FontAwesome'
 #   siteData.menuLinks = True # Force call to templates._menuLinks()
+#   siteData.headerTextAlign = 'right'
+#   siteData.headerLogoAlign = 'right'
+#   siteData.headerHeight = '3em'
 #
 #   p = siteData.newPage(id='index', title='Home', template='index')
 #

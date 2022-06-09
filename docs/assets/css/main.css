@@ -3982,7 +3982,7 @@
 		background: rgba(0, 0, 0, 0.975);
 		color: #a6a6a6;
 		cursor: default;
-		height: 3em;
+		height: 4em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -4003,6 +4003,7 @@
 		padding: 0;
 		position: absolute;
 		top: 0;
+		text-align: left;*/
 	}
 	#header > .logo a {
 		-moz-osx-font-smoothing: grayscale;
@@ -4042,8 +4043,8 @@
 	}
 
 	#header > a[href="#menu"]:before {
-		font-family: "Upgrade-Regular";
-		content: "";
+		font-family: "FontAwesome";
+		content: ""; /* 3 horizontal lines, uF0C9 */
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 		font-style: normal;

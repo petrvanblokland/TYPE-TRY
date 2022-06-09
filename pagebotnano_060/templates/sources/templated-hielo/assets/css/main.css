@@ -3775,11 +3775,11 @@
 		background: rgba(0, 0, 0, 0.975);
 		color: #a6a6a6;
 		cursor: default;
-		height: 3em;
+		height: {{headerHeight}};
 		left: 0;
 		line-height: 3em;
 		position: fixed;
-		text-align: right;
+		text-align: {{headerTextAlign}};
 		top: 0;
 		width: 100%;
 		z-index: 10001;
@@ -3796,6 +3796,7 @@
 		padding: 0;
 		position: absolute;
 		top: 0;
+		text-align: {{headerLogoAlign}};*/
 	}
 	#header > .logo a {
 		-moz-osx-font-smoothing: grayscale;
@@ -3835,8 +3836,8 @@
 	}
 
 	#header > a[href="#menu"]:before {
-		font-family: "{{logoFontFamily}}";
-		content: "";
+		font-family: "{{iconFontFamily}}";
+		content: ""; /* 3 horizontal lines, uF0C9 */
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 		font-style: normal;
