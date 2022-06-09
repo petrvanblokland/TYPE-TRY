@@ -203,7 +203,7 @@ p.bannerTitle_1 = 'Try Proforma Pro'
 p.bannerSubtitle_1 = ''
 
 p.bannerImage_2 = 'images/social/Bitcount_in_use_02.jpg'
-p.bannerTitle_2 = '[html]<span style="font-family:Bitcount_Try_Mono_Double_Outline-Bold_Round;font-size:48">Try Bitcount Outline</span>'
+p.bannerTitle_2 = '[html]<span style="font-family:Bitcount_Try_Mono_Double_Outline-ExtraBold_Round;font-size:48">Try Bitcount Outline</span>'
 p.bannerSubtitle_2 = ''
 
 p.bannerImage_3 = 'images/booklet/Typetr_Typographics_2022_0930.jpg'
@@ -211,7 +211,7 @@ p.bannerTitle_3 = 'Try Presti'
 p.bannerSubtitle_3 = ''
 
 p.bannerImage_4 = 'images/booklet/Typetr_Typographics_2022_0928.jpg'
-p.bannerTitle_4 = 'Try Responder P'
+p.bannerTitle_4 = '[html]<span style="font-family:Responder_P-Black;font-size:48">Try Responder</span>'
 p.bannerSubtitle_4 = ''
 
 p.bannerImage_5 = 'images/social/Upgrade_in_use_08_Keep_calm.jpg'

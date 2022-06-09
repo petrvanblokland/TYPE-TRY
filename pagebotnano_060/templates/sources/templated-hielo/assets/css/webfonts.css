@@ -108,13 +108,27 @@
   font-family: "Bitcount_Try_Mono_Double_Outline-Book_Round";
   src: url("../fonts/Bitcount_Try_Mono_Double_Outline-Book_Round.eot") format("eot"),
   url("../fonts/Bitcount_Try_Mono_Double_Outline-Book_Round.woff2") format("woff2"),
-  url("../fonts/Bitcount_Try_Mono_Double_Outline-Book_Round.woffa") format("woff");
+  url("../fonts/Bitcount_Try_Mono_Double_Outline-Book_Round.woff") format("woff");
 }
 @font-face {
   font-family: "Bitcount_Try_Mono_Double_Outline-Bold_Round";
   src: url("../fonts/Bitcount_Try_Mono_Double_Outline-Bold_Round.eot") format("eot"),
   url("../fonts/Bitcount_Try_Mono_Double_Outline-Bold_Round.woff2") format("woff2"),
-  url("../fonts/Bitcount_Try_Mono_Double_Outline-Bold_Round.woffa") format("woff");
+  url("../fonts/Bitcount_Try_Mono_Double_Outline-Bold_Round.woff") format("woff");
+}
+@font-face {
+  font-family: "Bitcount_Try_Mono_Double_Outline-ExtraBold_Round";
+  src: url("../fonts/Bitcount_Try_Mono_Double_Outline-ExtraBold_Round.eot") format("eot"),
+  url("../fonts/Bitcount_Try_Mono_Double_Outline-ExtraBold_Round.woff2") format("woff2"),
+  url("../fonts/Bitcount_Try_Mono_Double_Outline-ExtraBold_Round.woff") format("woff");
+}
+
+/* Responder P */
+@font-face {
+  font-family: "Responder_P-Black";
+  src: url("../fonts/Responder_P-Black.eot") format("eot"),
+  url("../fonts/Responder_P-Black.woff2") format("woff2"),
+  url("../fonts/BResponder_P-Black.woff") format("woff");
 }
 
 /* PowerLift */
