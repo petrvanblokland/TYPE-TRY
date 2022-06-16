@@ -115,8 +115,8 @@ p = sd.newPage(id='index', title='Home', template='index')
 t1 = '' #'TYPE-TRY pop-up!'
 t2 = '' #'TYPE-TRY invites you!'
 
-dk1 = 'Last pieces from several editions of small series. Skirts, pants and scarves for high end stores, are waiting for you.'
-dk2 = 'I would love to bring all these beautiful handmade or semi- couture garments into the world for attractive prices :)'
+dk1 = 'Try TYPETR fonts for free, with a limited set of characters. Enough to get the idea, and to see how they work in your designs.'
+dk2 = 'Not all fonts in this TYPE-TRY website are yet released. Please, check their expected release dates.'
 dk3 = 'Call +31 6 41 367 689 or <a href="mailto:claudia@petr.com?subject=Studio visit">email</a> me for an appointment in my studio in Delft. Come by yourself or with maximum two others. '
 dk4 = 'The skirts and pants are all different, every piece is unique. there’s a variety of sizes from XXS to XL. Which one will be yours?!'
 dk5 = 'The scarves will always fit. Either as a gift for yourself or for someone else.'
@@ -198,29 +198,30 @@ sd.bannerSlideShowSubheadBackgroundColor = 'inherit' #color(0xEC472C, a=0.35).cs
 sd.bannerSlideShowSubheadShadow = shadow
 sd.bannerSlideShowSubheadPadding = '1rem'
 
-p.bannerImage_1 = 'images/booklet/Typetr_Typographics_2022_0924.jpg'
-p.bannerTitle_1 = 'Try Proforma Pro'
-p.bannerSubtitle_1 = ''
-
-p.bannerImage_2 = 'images/social/Bitcount_in_use_02.jpg'
-p.bannerTitle_2 = '[html]<span style="font-family:Bitcount_Try_Mono_Double_Outline-ExtraBold_Round;font-size:48">Try Bitcount Outline</span>'
-p.bannerSubtitle_2 = ''
-
-p.bannerImage_3 = 'images/booklet/Typetr_Typographics_2022_0930.jpg'
-p.bannerTitle_3 = 'Try Presti'
-p.bannerSubtitle_3 = ''
-
-p.bannerImage_4 = 'images/booklet/Typetr_Typographics_2022_0928.jpg'
-p.bannerTitle_4 = '[html]<span style="font-family:Responder_P-Black;font-size:48">Try Responder</span>'
-p.bannerSubtitle_4 = ''
-
-p.bannerImage_5 = 'images/social/Upgrade_in_use_08_Keep_calm.jpg'
-p.bannerTitle_5 = 'Try Upgrade'
-p.bannerSubtitle_5 = ''
-
-p.bannerImage_6 = 'images/booklet/Typetr_Typographics_2022_0910.jpg'
-p.bannerTitle_6 = '[html]<span style="font-family:PowerLift_Try-Tight;color:red;">Try Powerlift</span>'
-p.bannerSubtitle_6 = ''
+# Title slide show
+for n, (image, title, subTitle) in enumerate((
+    (   'images/booklet/Typetr_Typographics_2022_0930.jpg',
+        """[html]<span style="font-family:Presti_Display-Normal;font-size:48;color:red;font-feature-settings:'liga';">T~tlu1~mld2~bld4~brd3r~tru1y~tru1 P~blu3~bld2~brd3~tlu3~tld1r~blu1e~mld1s~tlu5t~bld4i~trd3~brd4</span>""", 
+        ''),
+    (   'images/booklet/Typetr_Typographics_2022_0928.jpg',
+        """[html]<span style="font-family:Responder_P-Black;font-size:48;font-feature-settings:'clig';">Try Responder</span>""",
+        ''),
+    (   'images/social/Upgrade_in_use_08_Keep_calm.jpg',
+        '[html]<span style="font-family:Upgrade-Medium;font-size:48">Try Upgrade</span>', 
+        ''),
+    (   'images/social/Bitcount_in_use_02.jpg',
+        '[html]<span style="font-family:Bitcount_Mono_Outline_Double_Round-ExtraBold;font-size:48">Try Bitcount Outline</span>', 
+        ''),
+    (   'images/booklet/Typetr_Typographics_2022_0910.jpg',
+        '[html]<span style="font-family:PowerLift-Tight;color:red;">Try Powerlift</span>', 
+        ''),
+    (   'images/booklet/Typetr_Typographics_2022_0924.jpg',
+        'Try Proforma Pro, soon...', 
+        ''),
+    )):
+    setattr(p, 'bannerImage_%d' % (n+1), image)
+    setattr(p, 'bannerTitle_%d' % (n+1), title)
+    setattr(p, 'bannerSubtitle_%d' % (n+1), subTitle)
 
 # Page index, subscriptionForm
 
@@ -240,7 +241,7 @@ sd.articleSubheadColor = sd.articleHeadColor
 
 p.articleImage_1 = ('images/booklet/Typetr_Typographics_2022_0914.jpg', 'center top')
 p.articleSubhead_1 = 'TYPE-TRY pop-up! '
-p.articleHead_1 = 'TYPE-TRY is inviting you!'
+p.articleHead_1 = 'TYPETR upcoming releases'
 p.articleText_1 = articleInvitation
 
 # Page index, article 2
@@ -251,34 +252,10 @@ p.articleHead_2 = 'Desirable fabrics & fashion'
 p.articleText_2 = articleFashion
 p.articleFooter_2 = dk2
 
-# Page index, article 2
-
-p.articleImage_3 = 'images/scarfs/scarf_silver_02.jpg'
-p.articleSubhead_3 = 'Sustainable materials. Fair&nbsp;trade.'
-p.articleHead_3 = 'Scarves'
-p.articleText_3 = articleScarves
-p.articleFooter_3 = dk3
-
-# Page index, article 3
-
-p.articleImage_4 = 'images/skirts/rok_lang_geelgroen_08.jpg'
-p.articleSubhead_4 = 'Slow fashion.'
-p.articleHead_4 = 'Skirts'
-p.articleText_4 = articleFashion
-p.articleFooter_4 = dk4
-
-# Page index, article 4
-
-p.articleImage_5 = 'images/pants/img_7254.jpeg'
-p.articleSubhead_5 = 'TYPE-TRY makes it work.'
-p.articleHead_5 = 'Pants'
-p.articleText_5 = articlePants
-p.articleFooter_5 = dk5
-
 # Page index, slideShow
 
 p.slideShow = True # Turn it on
-p.slideShowTitle = 'Lookbook'
+p.slideShowTitle = 'TYPETR fonts in use'
 # Works for all slide shows in CSS, does not need an item index
 sd.slideShowTitleFont = 'Upgrade-Light'
 sd.slideShowTitleFontSize = '5rem';
@@ -300,34 +277,20 @@ p.slideShowCaptionFontSize = 32
 p.slideShowCaptionFont = 'Upgrade-Book_Italic'
 p.slideShowImages = (
     # Name, position (e.g. 'center top'), caption
-    ('images/lookbook1/img_7141.jpg', None, 'Love the contrast, love the matching | Menemsha MV'),
-    ('images/lookbook1/img_2458.jpg', None, 'Playing with card board, marker and crayons'),
-    ('images/lookbook1/img_2361.jpg', None, 'Leafs and light'),
-    ('images/lookbook1/claudia_schaduw.jpg', None, 'Thank you sunlight!'),
-    ('images/lookbook1/img_86291.jpg', None, 'Sure?!'),
-    ('images/lookbook1/img_8857+2.jpg', None, 'Beach fun, no lifeguards around... | MV'),
-    ('images/lookbook1/img_8601.jpg', None, 'Impressed by Ursula von Rydingsvard and Alexander Calder at Storm King | NYC'),
-    ('images/lookbook1/img_8437.jpg', None, 'Design thru light'),
-    ('images/lookbook1/img_8370.jpg', None, 'Inspired by light, reflection, color | Robert Irwin | DIA Beacon NY'),
-    ('images/lookbook1/img_8281.jpg', None, 'Reflections'),
-    ('images/lookbook1/img_5351.jpg', None, 'Ice design'),
-    ('images/lookbook1/img_8575.jpg', None, 'Calder meets the Hudson Valley | Alexander Calder | Storm King NYC'),
-    ('images/lookbook1/img_8102.jpg', None, 'Lift your head once in a while, you will love it!'),
-    ('images/lookbook1/img_1578.jpg', None, 'Cutting paper letters'),
-    ('images/lookbook1/img_7719.jpg', None, 'Color and character'),
-    ('images/lookbook1/img_3338.jpg', None, 'Generous Gesture | Embroidered Nakshi Kantha | Detail Latin and Bengali type'),
-    ('images/lookbook1/img_7942.jpg', None, 'Doubled'),
-    ('images/lookbook1/img_7933.jpg', None, 'Old meets new | Ceiling Cooper Hewitt Museum | NYC'),
-    ('images/lookbook1/img_7862.jpg', None, 'Grey tones'),
-    ('images/lookbook1/rok_tas_strand_02.jpg', None, 'A repoussoir for TYPE-TRY | MV US'),
-    ('images/lookbook1/img_7859.jpg', None, 'Black and white, so strong together'),
-    ('images/lookbook1/img_7768.jpg', None, 'So beautiful to get older'),
-    ('images/lookbook1/claudia_schaduw_02.jpg', None, 'TYPE-TRY skirt having fun at home'),
-    ('images/lookbook1/img_7887.jpg', None, 'Reused fabric | Cooper Hewitt Museum | NYC'),
-    ('images/lookbook1/img_7737.jpg', None, 'Above your head in ABC CARPET & HOME | NYC'),
-    ('images/lookbook1/img_7645.jpg', None, 'Behind the physical object'),
-    ('images/lookbook1/img_6090.jpg', None, 'Rusted TYPETR Promise type in ’s Hertogenbosch | NL'),
-    ('images/lookbook1/img_0861.jpg', None, 'Friendly Guy in the City'),
+    ('Typetr_Typographics_2022_098.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_099.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0910.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0911.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0912.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0913.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0914.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0915.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0920.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0924.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0925.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0930.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0931.jpg', None, 'a'),
+    ('Typetr_Typographics_2022_0928.jpg', None, 'a'),
 )
 
 p.slideShow_1 = True # Turn it on
@@ -344,33 +307,11 @@ p.slideShowCaptionMarginBottom_1 = 80
 p.slideShowCaptionFontSize_1 = 32
 p.slideShowCaptionFont_1 = 'Upgrade-Book_Italic'
 p.slideShowImages_1 = (
-    ('images/lookbook1/img_0860.jpg', None, 'Grand Old Lady, an Archetype in the City.'),
-    ('images/lookbook1/img_9074.jpg', None, 'Edward Hopper, Hero of light, color, desolation.'),
-    ('images/lookbook1/img_9071.jpg', None, 'Scarlet runner beans’ color palet.'),
-    ('images/lookbook1/img_9069.jpg', None, 'Charlotte Brontë, more than a wonderful writer.'),
-    ('images/lookbook1/rok_tas_strand.jpg', None, 'Skirt reaching the beach, always so good to be there | MV US'),
-    ('images/lookbook1/img_9064.jpg', None, 'Surface, light, reflection.'),
-    ('images/lookbook1/img_9066.jpg', None, 'Weathered skin.'),
-    ('images/lookbook1/img_9075.jpg', None, 'Results of planting, nurturing, harvesting. Mannequins at the Agricultural Fair | MV US'),
-    ('images/lookbook1/img_9067.jpg', None, 'Russel Wright’s joy of interior experiments at Manitoga | Garrison NYC'),
-    ('images/lookbook1/img_9062.jpg', None, 'Tactility of Richard Serra’s corten steel bodies.'),
-    ('images/lookbook1/img_9059.jpg', None, 'Sketchbook | Claudia Mens'),
-    ('images/lookbook1/img_9060.jpg', None, 'Spring in Vermont | US'),
-    ('images/lookbook1/img_9081.jpg', None, 'Still life at Putney School | Vermont US'),
-    ('images/lookbook1/img_9061.jpg', None, 'Passing a garbage bin.'),
-    ('images/lookbook1/img_9079.jpg', None, 'Zinnias, the Summer Souls.'),
-    ('images/lookbook1/img_9076.jpg', None, 'Coop creations.'),
-    ('images/lookbook1/img_9068.jpg', None, 'Wall detail at the Russel Wright Foundation, pine needles and concrete | Garrison NYC'),
-    ('images/lookbook1/img_9065.jpg', None, 'Sol LeWitt, achromatic scheme | DIA Beacon NY'),
-    ('images/lookbook1/img_3327.jpg', None, 'Generous Gesture | Who’s the Dandy? | Embroidered Nakshi Kantha'),
-    ('images/lookbook1/img_9060.jpg', None, 'Fall in the dunes | Wassenaar NL'),
-    ('images/lookbook1/rok_tas_bos.jpg', None, 'Skirt on her way to the beach | Martha’s Vineyard US'),
-    ('images/lookbook1/img_3336.jpg', None, 'Embroidered type | Generous Gesture'),
-    ('images/lookbook1/img_0966.jpg', None, 'Hanging in the balance | Alexander Calder | Witney Museum | NYC'),
-    ('images/lookbook1/img_0858.jpg', None, 'Knitting Madison Square by Daniella on Design | NYC'),
-    ('images/lookbook1/img_5140.jpg', None, 'Shop window in Antwerp | Belgium'),
-    ('images/lookbook1/img_7798.jpg', None, 'Cut out paper, the background appears'),
-    ('images/lookbook1/img_7038.jpg', None, 'Layers, always intriguing | Edgartown MV'),
+    ('images/booklet/Typetr_Typographics_2022_095.jpg', None, 'A'),
+    ('images/booklet/Typetr_Typographics_2022_094.jpg', None, 'B'),
+    ('images/booklet/Typetr_Typographics_2022_093.jpg', None, 'C'),
+    ('images/booklet/Typetr_Typographics_2022_092.jpg', None, 'D'),
+    ('images/booklet/Typetr_Typographics_2022_091.jpg', None, 'E'),
 )
 # Page index, deck
 
@@ -410,114 +351,7 @@ p.galleryImage_6 = 'images/notes/IMG_0936.jpeg'
 '''
 
 #----------------------------------------------------------------------------- 
-p = sd.newPage(id='more-about-scarves', title='More about scarves', template='article')
-
-# Options in generic templates
-#   {{articlePageHeader}}
-#   {{article1}}
-#   {{pullQuote2}}
-#   {{article2}}
-#   {{pullQuote3}}
-#   {{article3}}
-#   {{gallery}}
-
-p.articlePageHeader = True # Make the call to website._articlePageHeader(siteData, pageData) available.
-p.articlePageHeaderSubhead = 'Kumudini Welfare Trust'
-p.articlePageHeaderTitle = 'Women of Bangladesh'
-
-p.article = True 
-p.articleSubhead = 'Fruitful collaboration'
-p.articleHead = 'More about scarves '
-p.articleText = """The shawl is a gift. By giving it, the giver wants to tell something to someone, “I give this unique shawl to my...”. For the receiver it is a way of expression. Depending on how the shawl is folded, emphasis is on either the alliterating typography or the decorative leaves. A new image every time as personal gift. To someone. Or to yourself. The scarves are hand made in a limited edition.
-
-Scarf: ‘Wonderful Woman’, ‘Lovely Lover’, ‘Marvelous Mother’ and ‘Fabulous Friend’ 
-
-<img width="100%" src="images/scarfs/orange_big.jpg">
-
-The scarves of Generous Gesture are always a gift; either to yourself or to someone else. A vibrant combination of color, ornaments and/or typography, they can be worn in many different ways.The shawls are produced in block-print, provided with an embroidered frame, the material is silk,  or a combination of silk and eco cotton. The shawls are made of Rajshahi Bengali silk, woven by the shot or changeant technique. If the fabric moves the color changes and is continuously different. The clarity of the colors is extraordinary! 
-
-<iframe width="100%" height="300px" src="https://www.youtube.com/embed/jSs3vJGHpRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Scarf ’Gentle Gent’  These scarves are embroidered by hand. Double layered fabrics of silk and cotton. They measure 12 x 65 inch (30 x165 cm). The silver colored silk is made of the best Rajshahi Bengali silk. The off-white cotton is eco friendly produced. 
-
-The scarf says ‘Gentle Gent’ in Latin (English) and in Bengali. Jo de Baerdemaker a typedesigner from Belgium was very helpful with the Bengali type. Visit <a href="http://www.typojo.com" target="external">www.typojo.com</a> to learn more about his work. 
-
-<img width="100%" src="images/scarfs/scarf-silver-03.jpg">
-
-## Wash instructions
-<p>Handle with love and care. Wash gently by hand in hand-warm water with detergent for silk. Ironing. Do not bleach, no tumble-dry.</p>
-
-"""
-
-p.pullQuote = True # Trigger the template method
-p.pullQuoteImage = pqImage
-p.pullQuoteSubhead = pqSubhead
-p.pullQuoteHead = pqHead 
-
-p.article_1 = False 
-p.pullQuote_1 = False
-p.article_2 = False
-p.pullQuote_2 = False
-p.gallery = False # Ignore the template._gallery method call
-
-
-#----------------------------------------------------------------------------- 
-p = sd.newPage(id='more-about-skirts', title='More about skirts', template='article')
-
-# Options in generic templates
-#   {{articlePageHeader}}
-#   {{article1}}
-#   {{pullQuote2}}
-#   {{article2}}
-#   {{pullQuote3}}
-#   {{article3}}
-#   {{gallery}}
-
-p.articlePageHeader = True # Make the call to website._articlePageHeader(siteData, pageData) available.
-p.articlePageHeaderSubhead = 'Slow fashion'
-p.articlePageHeaderTitle = 'To all women: “Just keep dancing!”'
-
-p.article = True 
-p.articleSubhead = 'Supply chain collaboration'
-p.articleHead = 'Fabrics of the skirts'
-p.articleText = """Capsicum natuurstoffen is a Dutch initiative that uses eco cotton, handwoven in Kerala, India. This handwoven fabric contains small inconsistencies, a characteristic of the handcrafted process. Capsicum has developed an environmentally friendly production process, they encourage their producers to improve working conditions and strive to pay their workers a fair wage. 
-
-In addition to the cottons, Capsicum promotes handwoven silk from Bangkok, Thailand, cooperating with a family business for over 30 years. 
-
-![](images/skirts/IMG_0347-1.jpg)
-
-Zippers are sourced from Italian brand Lampo, certifıed by Oeko-Tex Standard 100.
-
-TYPE-TRY source their eco cotton and ink from Ecological Textiles for their hand painted skirts. This fırm offers a wide range in fabrics, yarns and dyes that are manufactured and processed in a sustainable way. Ecological Textiles stands for environmentally sound production, fair trade and top quality. 
-
-<img width="100%" src="images/skirts/IMG_1328-min.jpg">
-
-From threads to fabrics, from moulding to materials our products comply with all European environmental, occupational safety laws and respect for the workers. 
-
-## Wash instructions 
-Eco cotton Machine wash 40°C, ironing, do not bleach, no tumble-dry. Handle with love and care. 
-
-Silk Wash gently only by hand, ironing, do not bleach, no tumble- dry. Handle with love and care. 
-"""
-
-p.pullQuote = True # Trigger the template method
-p.pullQuoteImage = pqImage
-p.pullQuoteSubhead = pqSubhead
-p.pullQuoteHead = pqHead 
-
-p.article_1 = False 
-
-p.pullQuote_1 = True # Trigger the template method
-p.pullQuoteImage = pqImage
-p.pullQuoteSubhead = pqSubhead
-p.pullQuoteHead = pqHead 
-
-p.article_2 = False
-p.pullQuote_2 = False
-p.gallery = False # Ignore the template._gallery method call
-   
-#----------------------------------------------------------------------------- 
-p = sd.newPage(id='more-about-studio', title='More about studio + me', template='article')
+p = sd.newPage(id='more-about-typetr', title='More about TYPETR foundry', template='article')
 
 # Options in generic templates
 #   {{articlePageHeader}}
@@ -533,18 +367,18 @@ p.articlePageHeaderSubhead = 'People project'
 p.articlePageHeaderTitle = 'Studio + me'
 
 p.article = True 
-p.articleSubhead = 'Joy together'
+p.articleSubhead = 'Work together'
 p.articleHead = 'Focus groups'
 p.articleText = """
 
-TYPE-TRY feels privileged to work with a dedicated group of women. They give feedback, valuable information about what women want. We believe this is the best way to improve the design of the skirts. “The brand is not a product, it’s the relationship that you build with your customer. The product is just the start, a conversational piece.” Buy less, choose well.
+TYPETR feels privileged to work with a dedicated group of women. They give feedback, valuable information about what women want. We believe this is the best way to improve the design of the skirts. “The brand is not a product, it’s the relationship that you build with your customer. The product is just the start, a conversational piece.” Buy less, choose well.
 
 <img width="100%" src="images/focus/damesphotosa3delft2-21x42.jpg">
 <img width="100%" src="images/focus/damesphotosa3delft1-21x42.jpg">
 <img width="100%" src="images/focus/damesphotosa3-21x42.jpg">
 ---
-## Studio + partners
-TYPE-TRY would never exist without a team of dedicated people:
+## Foundry + partners
+TYPETR would never exist without a team of dedicated people:
 
 Petr van Blokland *Typedesigner* 
 
@@ -554,7 +388,7 @@ Kirsten Langmuur *Graphic designer* 
 
 Paul Roos *Graphic designer*
 
-TYPE-TRY is initiated by Petr van Blokland, located at Boomsluiterskade 372/367 2511 VH The Hague, The Netherlands.
+TYPETR is initiated by Petr van Blokland, located at Boomsluiterskade 372/367 2511 VH The Hague, The Netherlands.
 ---
 ## About me
 

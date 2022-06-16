@@ -43,6 +43,8 @@ class SiteData(BaseData):
         self.theme = theme or DefaultTheme()
         self.pages = [] # As list, to keep the order in menu and navigation
 
+        self.cssLinks = """<link rel="stylesheet" href="assets/css/main.css" />"""
+
         self.headerTextAlign = 'right'
         self.headerLogoAlign = 'right'
         self.headerHeight = '3em'
