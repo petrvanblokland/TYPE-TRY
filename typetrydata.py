@@ -115,12 +115,12 @@ p = sd.newPage(id='index', title='Home', template='index')
 t1 = '' #'TYPE-TRY pop-up!'
 t2 = '' #'TYPE-TRY invites you!'
 
-dk1 = 'Try TYPETR fonts for free, with a limited set of characters. Enough to get the idea, and to see how they work in your designs.'
+dk1 = 'Try TYPETR fonts for free, with a limited set of characters. Enough to get the idea, and to test them in your designs.'
 dk2 = 'Not all fonts in this TYPE-TRY website are yet released. Please, check their expected release dates.'
-dk3 = 'Call +31 6 41 367 689 or <a href="mailto:claudia@petr.com?subject=Studio visit">email</a> me for an appointment in my studio in Delft. Come by yourself or with maximum two others. '
-dk4 = 'The skirts and pants are all different, every piece is unique. there’s a variety of sizes from XXS to XL. Which one will be yours?!'
-dk5 = 'The scarves will always fit. Either as a gift for yourself or for someone else.'
-dk6 = 'Looking forward seeing you!'
+dk3 = 'Check on the release date for type families that are still in progress.'
+dk4 = 'TYPETR typedesigns are all originals.'
+dk5 = 'Let us know what you think. What do you like? What styles and features do you  miss? Let us know what you think: <a href="mailto:info@petr.com">info@petr.com</a>'
+dk6 = 'We are looking forward to see them used in your designs.'
 
 st1 = '' #'Clear out from several editions of small series'
 st2 = '' #'Together we will make an attractive price'
@@ -188,7 +188,7 @@ sd.bannerSlideShowHeadSizeColor = sd.theme.getColor('main', a=0.85)
 sd.bannerSlideShowHeadBackgroundColor = 'white'
 sd.bannerSlideShowHeadOpacity = '0.75'
 #sd.bannerSlideShowHeadShadow = shadow
-sd.bannerSlideShowHeadPadding = '1rem'
+sd.bannerSlideShowHeadPadding = '2rem'
 
 sd.bannerSlideShowSubheadFont = sd.fontFamily + '-Medium' 
 sd.bannerSlideShowSubheadSize = '1.5rem' # Set to siteData
@@ -202,22 +202,22 @@ sd.bannerSlideShowSubheadPadding = '1rem'
 for n, (image, title, subTitle) in enumerate((
     (   'images/booklet/Typetr_Typographics_2022_0930.jpg',
         """[html]<span style="font-family:Presti_Display-Normal;font-size:48;color:red;font-feature-settings:'liga';">T~tlu1~mld2~bld4~brd3r~tru1y~tru1 P~blu3~bld2~brd3~tlu3~tld1r~blu1e~mld1s~tlu5t~bld4i~trd3~brd4</span>""", 
-        ''),
+        'Expected release 2022/08'),
     (   'images/booklet/Typetr_Typographics_2022_0928.jpg',
         """[html]<span style="font-family:Responder_P-Black;font-size:48;font-feature-settings:'clig';">Try Responder</span>""",
-        ''),
+        'Expected release 2022/10'),
     (   'images/social/Upgrade_in_use_08_Keep_calm.jpg',
         '[html]<span style="font-family:Upgrade-Medium;font-size:48">Try Upgrade</span>', 
-        ''),
+        'Available at Type Network and Adobe Fonts'),
     (   'images/social/Bitcount_in_use_02.jpg',
         '[html]<span style="font-family:Bitcount_Mono_Outline_Double_Round-ExtraBold;font-size:48">Try Bitcount Outline</span>', 
-        ''),
+        'Expected release 2022/09 as Open Source, supported by Google Fonts'),
     (   'images/booklet/Typetr_Typographics_2022_0910.jpg',
         '[html]<span style="font-family:PowerLift-Tight;color:red;">Try Powerlift</span>', 
-        ''),
+        'Available at Type Network and Adobe Fonts'),
     (   'images/booklet/Typetr_Typographics_2022_0924.jpg',
         'Try Proforma Pro, soon...', 
-        ''),
+        'Expected release 2022/12'),
     )):
     setattr(p, 'bannerImage_%d' % (n+1), image)
     setattr(p, 'bannerTitle_%d' % (n+1), title)
@@ -240,22 +240,22 @@ sd.articleSubheadColor = sd.articleHeadColor
 # Page index, article invitation
 
 p.articleImage_1 = ('images/booklet/Typetr_Typographics_2022_0914.jpg', 'center top')
-p.articleSubhead_1 = 'TYPE-TRY pop-up! '
+p.articleSubhead_1 = 'TYPE-TRY them free'
 p.articleHead_1 = 'TYPETR upcoming releases'
 p.articleText_1 = articleInvitation
 
 # Page index, article 2
 
 p.articleImage_2 = 'images/typetr/Presti_in_use_02.jpg'
-p.articleSubhead_2 = 'Cool clothes. Designed&nbsp;styles.'
-p.articleHead_2 = 'Desirable fabrics & fashion'
+p.articleSubhead_2 = 'Cool OpenType features'
+p.articleHead_2 = 'You just need to find them'
 p.articleText_2 = articleFashion
 p.articleFooter_2 = dk2
 
 # Page index, slideShow
 
 p.slideShow = True # Turn it on
-p.slideShowTitle = 'TYPETR fonts in use'
+p.slideShowTitle = 'Usage'
 # Works for all slide shows in CSS, does not need an item index
 sd.slideShowTitleFont = 'Upgrade-Light'
 sd.slideShowTitleFontSize = '5rem';
@@ -277,24 +277,24 @@ p.slideShowCaptionFontSize = 32
 p.slideShowCaptionFont = 'Upgrade-Book_Italic'
 p.slideShowImages = (
     # Name, position (e.g. 'center top'), caption
-    ('Typetr_Typographics_2022_098.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_099.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0910.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0911.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0912.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0913.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0914.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0915.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0920.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0924.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0925.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0930.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0931.jpg', None, 'a'),
-    ('Typetr_Typographics_2022_0928.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_098.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_099.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0910.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0911.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0912.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0913.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0914.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0915.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0920.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0924.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0925.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0930.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0931.jpg', None, 'a'),
+    ('images/booklet/Typetr_Typographics_2022_0928.jpg', None, 'a'),
 )
 
 p.slideShow_1 = True # Turn it on
-p.slideShowTitle_1 = 'Lookbook'
+p.slideShowTitle_1 = 'Projects'
 p.slideShowHeight_1 = 500
 p.slideShowDynamicHeight_1 = False
 p.slideShowCarousel_1 = 2 # Number of slides
@@ -364,18 +364,13 @@ p = sd.newPage(id='more-about-typetr', title='More about TYPETR foundry', templa
 
 p.articlePageHeader = True # Make the call to website._articlePageHeader(siteData, pageData) available.
 p.articlePageHeaderSubhead = 'People project'
-p.articlePageHeaderTitle = 'Studio + me'
+p.articlePageHeaderTitle = 'Studio + partners'
 
 p.article = True 
 p.articleSubhead = 'Work together'
-p.articleHead = 'Focus groups'
-p.articleText = """
+p.articleHead = 'Combining skills and experience'
+p.articleText = """TYPETR feels privileged to work with a dedicated group of designers. We give feedback on eachothers ideas, works and process. By definition any design process cannot be good without intrinsic challenges and struggles. Working together is the best way to exchange exprience and skills.
 
-TYPETR feels privileged to work with a dedicated group of women. They give feedback, valuable information about what women want. We believe this is the best way to improve the design of the skirts. “The brand is not a product, it’s the relationship that you build with your customer. The product is just the start, a conversational piece.” Buy less, choose well.
-
-<img width="100%" src="images/focus/damesphotosa3delft2-21x42.jpg">
-<img width="100%" src="images/focus/damesphotosa3delft1-21x42.jpg">
-<img width="100%" src="images/focus/damesphotosa3-21x42.jpg">
 ---
 ## Foundry + partners
 TYPETR would never exist without a team of dedicated people:
@@ -384,31 +379,30 @@ Petr van Blokland *Typedesigner* 
 
 Tilmann Hielscher *Typedesigner*
 
+Edward Dzulaj *Typedesigner*
+
+Sander Pedersen *Typedesigner*
+
+Léna Pommelet *Typedesigner*
+
 Kirsten Langmuur *Graphic designer* 
 
 Paul Roos *Graphic designer*
 
+## Type Network staff
+
+Dyana Weissman *Custom Typefaces*
+
+Guido Ferreyra *Font engineering & tools*
+
+Glenda Bellarosa *Library Manager*
+
 TYPETR is initiated by Petr van Blokland, located at Boomsluiterskade 372/367 2511 VH The Hague, The Netherlands.
 ---
-## About me
-
-<img width="100%" src="images/contact/image-asset66.jpeg">
-
-“I am the child of the woods. We lived in a wooden house, at a dirt road. Endlessly tinkering with acorns. Myself hiding under the ferns. Preferably in a sweater and pants. Wow, what a freedom, what a space. Always together with other kids.”
-
-“Watching is a verb,” my mother would say “look at the world. Look how beautiful that portrait has been painted.” I drew notebooks. Making atmospheres and environments, little peepshows. Then crept behind my mom’s Husqvarna sewing machine and sewed a wide comfy skirt. To climb into trees. 
-
-After three decades, running a studio from 1980 till 2010, it was time for something else. Claudia went looking and longing for the woods of her childhood. She found that feeling back on Martha's Vineyard in the USA, where she began drawing with childlike pleasure and painting. Arose leafs and fern motifs, inspired by her travels in Africa, South America and Asia. 
-
-She designed a series of scarves with type and motifs of leafs, produced by NGO Kumudini Welfare Trust in Bangladesh. In 2016, she started with a lot of spirit and fun TYPE-TRY. 
-
-Besides the products of TYPE-TRY, similar to work in all of the photo's on this website, design can be made by Claudia as a special custom assignment. Ask her: <a href="mailto:claudia@petr.com?subject=Contact TYPE-TRY">claudia@petr.com</a> 
-
-<img width="100%" src="images/contact/TYPE-TRY.png">
 
 ## Looking forward seeing you... 
 
-Petr van Blokland | tptr@petr.com 
+Petr van Blokland | <a href="mailto:tptr@petr.com?subject=Contact TYPE-TRY">tptr@petr.com</a> 
 
 mobile +31 6 2421 9502
 
@@ -416,7 +410,7 @@ Boomsluiterskade 372/367 2511 VH The Hague | The Netherlands
 
 The company is registered in the Chamber of Commerce (Handelsregister Kamer van Koophandel), by name Buro Petr van Blokland + Claudia Mens, number 27237753 Delft. 
 
-If you have a question not answered in this website, you can send an email (<a href="mailto:claudia@petr.com?subject=Contact TYPE-TRY">claudia@petr.com</a>) and we will respond to you as soon as we can. 
+For more information, send an email (<a href="mailto:tptr@petr.com?subject=Contact TYPE-TRY">tptr@petr.com</a>) and we will respond to you as soon as we can. 
 
 """
 

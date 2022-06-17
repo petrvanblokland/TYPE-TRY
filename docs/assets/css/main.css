@@ -3427,7 +3427,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.wrapper > .inner {
-				width: 75rem;
+				width: 90%;
 			}
 
 		}
@@ -3789,6 +3789,7 @@
 		style: normal;
 		display: inline-block;
 		height: inherit;
+		width: 50%;
 		left: 3em;
 		line-height: inherit;
 		margin: 0;
@@ -4226,7 +4227,7 @@
 				opacity: 0.75;
 				text-shadow: {{bannerSlideShowHeadShadow}};
 				line-height: 1em;
-				padding: 1rem;
+				padding: 2rem;
 			}
 
 				.banner > article h2:after {
