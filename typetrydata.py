@@ -141,6 +141,7 @@ Wouldn’t it be nice to wear clothes where it is clear who made them? Where the
 
 TYPE-TRY wants that sharing experience, collaborating with partners in the clothing chain who think and act the same way. To make the production, resources and materials traceable for every garment. TYPE-TRY supports the idea of ‘true cost’ and ‘slow fashion’, adding to the pleasure of wearing the clothes.
 """
+articleFashion = ''
 
 articleScarves = """The scarves are the result of many peoples’ work and creativity from rural Bangladesh to the cities of the Netherlands and the shores of the United States. 
 
@@ -154,6 +155,7 @@ Generous Gesture has been nominated for the German Design Award 2012.
 
 Generous Gesture is a people project. Every piece we make is 100% fair trade. The principle of Generous Gesture is creating fair trade with sustainable products. Through an exchange of ideas and skills we create a win-win situation for all concerned parties. 
 """
+articleScarves = ''
 
 articleSkirts = """TYPE-TRY skirts are perfect basic items that should not be missing in your wardrobe. They are designed in various sizes, fabrics (cotton, silk and wool) different lengths and delicately fınished with a colored zipper. The skirts are made from sustainable fabrics. Semi couture by a Dutch Atelier. 
 
@@ -165,6 +167,7 @@ TYPE-TRY would like to say to all women: ‘Just keep dancing!’
 
 All skirts have a A-line. There are three different lengths. Skirts with and without waistbands. Iconic, centerpiece items: Last for ever!
 """
+articleSkirts = ''
 
 articlePants = """The fabric of these pants has been produced by the best craftsmen of Kumudini Welfare Trust of Bengal. Beautiful women who live in Dinajpur, a poor region in the northwest of Bangladesh, have mastered the traditional embroidery technique Nakshi Kantha. This is a running stitch technique entirely embroidered by hand. The fabrics of the pants are or cotton double layered, or a combination of cotton and silk. The fabrics are natural dyed. Small inconsistencies are characteristics of the handcrafted process. The pants are feminine and cool. You can wear them chic, classic and casual, They will mix and match with your wardrobe for almost every occasion. We hope you will wear them with joy and happiness.
 
@@ -175,6 +178,7 @@ The pants are handmade in a Dutch atelier.
 ## Wash instruction 
 Handle with love and care, wash gently only hand-wash, ironing, do not bleach, no tumble-dry, chemical cleaning possible (not necessary).
 """
+articlePants = ''
 
 p.bannerSlideShow = True
 shadow = '4px 4px 6px rgba(0, 0, 0, 0.65)'
@@ -390,7 +394,6 @@ Kirsten Langmuur *Graphic designer* 
 Paul Roos *Graphic designer*
 
 ## Type Network staff
-
 Dyana Weissman *Custom Typefaces*
 
 Guido Ferreyra *Font engineering & tools*
@@ -398,6 +401,10 @@ Guido Ferreyra *Font engineering & tools*
 Glenda Bellarosa *Library Manager*
 
 TYPETR is initiated by Petr van Blokland, located at Boomsluiterskade 372/367 2511 VH The Hague, The Netherlands.
+
+## Tools by
+Erik van Blokland, Just van Rossom, Frederik Berlaen, Tal Leming, David Jonathan Ross and many others.
+
 ---
 
 ## Looking forward seeing you... 
