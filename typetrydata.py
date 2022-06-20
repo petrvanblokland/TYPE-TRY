@@ -408,7 +408,6 @@ Erik van Blokland, Just van Rossom, Frederik Berlaen, Tal Leming, David Jonathan
 ---
 
 ## Looking forward seeing you... 
-
 Petr van Blokland | <a href="mailto:tptr@petr.com?subject=Contact TYPE-TRY">tptr@petr.com</a> 
 
 mobile +31 6 2421 9502
