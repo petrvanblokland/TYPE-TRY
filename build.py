@@ -14,6 +14,9 @@
 #   https://docs.fontdue.com
 #   https://typetr.fontdue.com/admin/settings/website
 #
+#   http://localhost/typetr/index.html
+#   https://petrvanblokland.github.io/TYPE-TRY/index.html
+#
 #
 import os, shutil, codecs
 
@@ -118,6 +121,7 @@ site.appendPage(Page('Index', 'index'))
 site.appendPage(Page('Presti', 'index', collectionId='Presti Display'))
 site.appendPage(Page('Proforma Pro', 'index'))
 site.appendPage(Page('Powerlift', 'index'))
+site.appendPage(Page('MyNewTYpeface', 'index'))
 site.appendPage(Page('Responder', 'index'))
 site.appendPage(Page('Upgrade', 'index'))
 site.appendPage(Page('Upgrade Neon', 'index'))
