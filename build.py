@@ -31,6 +31,7 @@ IMAGES_PATH = 'images/'
 MAMP_PATH = '/Users/petr/Sites/localhost/typetr'
 TEMPLATE_PATH = 'templated-binary/'
 
+# Key values replace the {{key}} references in the templated-binary/index.html templates. 
 CONTENT = {
     'logo': '<img src="images/type-try-logo.gif", width="50%"/>',
     'menuPageLinks': 'menuPageLinks',
@@ -116,6 +117,7 @@ PORT = 80
 
 site = Site('typetr', 'typetr')
 
+# Pagename, template name
 site.appendPage(Page('Index', 'index'))
 
 site.appendPage(Page('Presti', 'index', collectionId='Presti Display'))
