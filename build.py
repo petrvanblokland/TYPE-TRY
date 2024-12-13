@@ -130,6 +130,7 @@ site.appendPage(Page('Upgrade Neon', 'index'))
 site.appendPage(Page('Upgrade Outline', 'index'))
 site.appendPage(Page('About TYPETR', 'index'))
 site.appendPage(Page('Contact', 'index'))
+site.appendPage(Page('ZZZZZZZ', 'index'))
 
 site.build()
 
